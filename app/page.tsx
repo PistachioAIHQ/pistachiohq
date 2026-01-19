@@ -1,53 +1,216 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, MessageSquare, Sparkles } from "lucide-react"
+import { ArrowRight, Sparkles, Target, TrendingUp, Users, Zap, ExternalLink, Calendar, Briefcase, MessageCircle, Database, Linkedin, FileText, Mail, ThumbsUp, MessageSquare, Clock, Award } from "lucide-react"
 import Image from "next/image"
 import { useEffect, useState, useRef } from "react"
 
-export default function Page() {
-  const [showPrompt, setShowPrompt] = useState(false)
-  const [showBriefing, setShowBriefing] = useState(false)
-  const briefingRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    // Observer for showing the prompt (when section first enters viewport)
-    const promptObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !showBriefing) {
-          setShowPrompt(true)
+// Stakeholder data with source evidence
+const stakeholders = [
+  {
+    id: 1,
+    name: "David Lam",
+    title: "VP Data Science",
+    company: "AstraZeneca",
+    logo: "https://img.logo.dev/astrazeneca.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg",
+    fitScore: 94,
+    signals: [
+      { 
+        icon: "linkedin", 
+        text: "Confirmed attending Bio-IT World", 
+        highlight: true,
+        source: {
+          type: "linkedin",
+          avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+          name: "David Lam",
+          handle: "@davidlam_az",
+          content: "Excited to be heading to Boston next week for #BioITWorld! Looking forward to connecting with others working on ML infrastructure for drug discovery. DMs open 🧬",
+          likes: 847,
+          comments: 92,
+          time: "3 days ago"
         }
       },
       { 
-        threshold: 0.15,
+        icon: "file", 
+        text: "5 publications on ML in drug discovery", 
+        highlight: false,
+        source: {
+          type: "publication",
+          title: "Scaling Molecular Representations for High-Throughput Drug Screening",
+          journal: "Nature Machine Intelligence",
+          date: "Oct 2025",
+          citations: 127,
+          coauthors: "Chen, S., Patel, R., et al."
+        }
+      },
+      { 
+        icon: "trending", 
+        text: "2 posts on AI workflows this month", 
+        highlight: false,
+        source: {
+          type: "linkedin",
+          avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+          name: "David Lam",
+          handle: "@davidlam_az",
+          content: "Our team just hit a wall scaling molecular embeddings past 10M compounds. Anyone else dealing with this? Current infra just can't keep up with the compute demands...",
+          likes: 234,
+          comments: 56,
+          time: "5 days ago"
+        }
+      },
+    ],
+    whyRelevant: "His team is actively scaling ML infrastructure for molecular representations — exactly the problem your platform solves.",
+    opener: "Saw your post on scaling molecular representations — we've been working with teams hitting similar limits. Compare notes at Bio-IT?",
+    action: { type: "connect", label: "Connect on LinkedIn", icon: "linkedin" },
+    timeSaved: {
+      hours: "2.5",
+      freshSignal: "LinkedIn post 3 days ago",
+      manualEffort: "Daily LinkedIn monitoring"
+    },
+  },
+  {
+    id: 2,
+    name: "Sarah Chen",
+    title: "Head of Computational Bio",
+    company: "Roche",
+    logo: "https://img.logo.dev/roche.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg",
+    fitScore: 89,
+    signals: [
+      { 
+        icon: "briefcase", 
+        text: "Team hiring 5 roles in AI/ML", 
+        highlight: true,
+        source: {
+          type: "jobs",
+          roles: [
+            { title: "Senior ML Engineer", location: "Basel, CH", posted: "2 days ago" },
+            { title: "AI Research Scientist", location: "Basel, CH", posted: "1 week ago" },
+            { title: "Data Platform Lead", location: "South SF, CA", posted: "1 week ago" },
+          ],
+          totalOpen: 5
+        }
+      },
+      { 
+        icon: "users", 
+        text: "She leads the team they're building", 
+        highlight: false,
+        source: {
+          type: "org",
+          teamSize: 23,
+          reportsTo: "VP R&D Informatics",
+          directReports: 5,
+          recentHires: 3
+        }
+      },
+      { 
+        icon: "calendar", 
+        text: "Spoke at AACR on target ID", 
+        highlight: false,
+        source: {
+          type: "event",
+          eventName: "AACR Annual Meeting 2025",
+          talkTitle: "ML-Driven Target Identification: Lessons from Oncology",
+          date: "April 2025",
+          attendees: "~21,000"
+        }
+      },
+    ],
+    whyRelevant: "Teams scaling up AI/ML often need external platforms to accelerate — your timing is perfect as she builds.",
+    opener: "Noticed your team is scaling up AI/ML — happy to share what's worked for similar buildouts. Free for coffee at Bio-IT?",
+    action: { type: "email", label: "Send Intro Email", icon: "mail" },
+    timeSaved: {
+      hours: "3",
+      freshSignal: "Job posting 2 days ago",
+      manualEffort: "Weekly careers page checks"
+    },
+  },
+  {
+    id: 3,
+    name: "Michael Torres",
+    title: "Dir. External Innovation",
+    company: "Novartis",
+    logo: "https://img.logo.dev/novartis.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg",
+    fitScore: 91,
+    signals: [
+      { 
+        icon: "calendar", 
+        text: "Hosting AI in Pharma Partnerships panel", 
+        highlight: true,
+        source: {
+          type: "event",
+          eventName: "Bio-IT World Conference",
+          talkTitle: "AI in Pharma Partnerships: What's Working",
+          date: "Jan 14, 2:00 PM",
+          venue: "Marriott Marquis, Grand Ballroom",
+          role: "Moderator"
+        }
+      },
+      { 
+        icon: "trending", 
+        text: "3 deals closed in 2025 with AI biotechs", 
+        highlight: false,
+        source: {
+          type: "deals",
+          deals: [
+            { company: "Recursion", type: "Partnership", value: "$30M", date: "Sep 2025" },
+            { company: "Insilico Medicine", type: "License", value: "Undisclosed", date: "Jun 2025" },
+            { company: "Exscientia", type: "Collaboration", value: "$25M", date: "Mar 2025" },
+          ]
+        }
+      },
+      { 
+        icon: "database", 
+        text: "Actively scouting AI platforms", 
+        highlight: false,
+        source: {
+          type: "linkedin",
+          avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+          name: "Michael Torres",
+          handle: "@mtorres_nvs",
+          content: "Great conversations at Bio-IT World last week. Always looking to meet early-stage AI/ML companies pushing boundaries in drug discovery. If that's you, let's connect!",
+          likes: 412,
+          comments: 78,
+          time: "2 weeks ago"
+        }
+      },
+    ],
+    whyRelevant: "He's the decision-maker for AI partnerships and has a track record of closing deals with companies like yours.",
+    opener: "Looking forward to your panel — we've helped accelerate a few AI partnerships in this space. Would love to connect after.",
+    action: { type: "event", label: "RSVP to Panel", icon: "calendar" },
+    timeSaved: {
+      hours: "4",
+      freshSignal: "Panel announced last week",
+      manualEffort: "Conference agenda tracking"
+    },
+  },
+]
+
+export default function Page() {
+  const [showCards, setShowCards] = useState(false)
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null)
+  const [hoveredSignal, setHoveredSignal] = useState<string | null>(null)
+  const [hoveredContext, setHoveredContext] = useState(false)
+  const cardsRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShowCards(true)
+        }
+      },
+      { 
+        threshold: 0.1,
         rootMargin: '-50px 0px 0px 0px'
       }
     )
 
-    // Observer for showing the briefing (when user scrolls deeper into section)
-    const briefingObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setShowPrompt(false)
-          setShowBriefing(true)
-        }
-      },
-      { 
-        threshold: 0.4,
-        rootMargin: '-150px 0px 0px 0px'
-      }
-    )
-
-    if (briefingRef.current) {
-      promptObserver.observe(briefingRef.current)
-      briefingObserver.observe(briefingRef.current)
+    if (cardsRef.current) {
+      observer.observe(cardsRef.current)
     }
 
-    return () => {
-      promptObserver.disconnect()
-      briefingObserver.disconnect()
-    }
-  }, [showBriefing])
+    return () => observer.disconnect()
+  }, [])
 
   return (
     <div className="min-h-screen bg-background">
@@ -69,9 +232,11 @@ export default function Page() {
               <div className="h-5 w-5 rounded-sm bg-primary" />
               <span className="font-serif font-medium text-xl">Pistachio AI</span>
             </div>
-            <Button size="sm" className="font-mono bg-foreground text-background hover:bg-foreground/90">
-              Request alpha access
-            </Button>
+            <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer" className="hidden sm:block">
+              <Button size="sm" className="font-mono bg-foreground text-background hover:bg-foreground/90">
+                Request alpha access
+              </Button>
+            </a>
           </div>
         </header>
       </div>
@@ -118,314 +283,390 @@ export default function Page() {
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
-            <Button className="font-mono bg-foreground text-background hover:bg-foreground/90">
-              Request alpha access
-            </Button>
-            <Button variant="outline" className="font-mono gap-2 bg-transparent">
+            <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
+              <Button className="font-mono bg-foreground text-background hover:bg-foreground/90">
+                Request alpha access
+              </Button>
+            </a>
+            <Button 
+              variant="outline" 
+              className="font-mono gap-2 bg-transparent"
+              onClick={() => document.getElementById('workflow')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               See how it works <ArrowRight className="h-4 w-4" />
             </Button>
           </div>
 
-          {/* Hero Image with Briefing */}
-          <div className="relative mt-16 overflow-hidden rounded-xl border border-border/50 min-h-[600px] md:min-h-[800px] flex items-center justify-center">
-            <Image
-              src="/life-sciences-data-visualization.jpg"
-              alt="Life sciences signal intelligence platform"
-              fill
-              className="object-cover opacity-90"
-              priority
-            />
-            
-            <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent z-10" />
-
-            <div 
-              ref={briefingRef}
-              className="relative z-20 w-full flex items-center justify-center p-4 md:p-8 pb-6 md:pb-10 pt-[42px] md:pt-[42px] gap-[50px]"
-            >
-              {/* Initial Prompt Bubble */}
-              <div className={`absolute inset-0 flex items-start justify-center pt-12 md:pt-16 z-50 transition-all duration-700 ${showPrompt ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
-                <div className="bg-white/95 backdrop-blur-md border border-[#5ac53a]/30 rounded-2xl p-6 shadow-2xl flex items-center gap-4 max-w-md mx-4">
-                  <div className="h-10 w-10 rounded-full bg-[#5ac53a] flex items-center justify-center text-white shrink-0 shadow-lg shadow-[#5ac53a]/20">
-                    <MessageSquare className="h-5 w-5" />
-                  </div>
-                  <div>
-                    <p className="text-sm md:text-base font-medium text-foreground leading-snug">"Hey Pistachio — help me prep for JPM26."</p>
-                    <div className="flex items-center gap-1.5 mt-2">
-                      <Sparkles className="h-3 w-3 text-[#5ac53a] animate-pulse" />
-                      <span className="text-[10px] text-[#5ac53a] font-mono uppercase tracking-wider font-semibold">Processing signals...</span>
-                    </div>
-                  </div>
-                </div>
+          {/* Priority Stakeholders Showcase - App Frame */}
+          <div ref={cardsRef} className="mt-16 relative">
+            {/* Background container with image */}
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-neutral-300">
+              {/* Background Image */}
+              <div className="absolute inset-0">
+                <Image
+                  src="/life-sciences-data-visualization.jpg"
+                  alt=""
+                  fill
+                  className="object-cover"
+                />
               </div>
 
-              <div className={`relative w-full max-w-6xl overflow-hidden rounded-lg bg-white/95 backdrop-blur-md shadow-2xl transition-all duration-1000 ${showBriefing ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20 scale-[0.98]'}`}>
-                {/* Browser chrome */}
-                <div className="flex items-center justify-between border-b border-neutral-200 bg-neutral-50 px-3 py-2">
-                  <div className="flex items-center gap-1.5">
-                    <div className="h-2.5 w-2.5 rounded-full bg-red-400" />
-                    <div className="h-2.5 w-2.5 rounded-full bg-amber-400" />
-                    <div className="h-2.5 w-2.5 rounded-full bg-green-400" />
-                  </div>
-                  <span className="font-mono text-[10px] text-neutral-400">pistachio.ai/briefing/jpm-2026</span>
+              {/* Browser Chrome */}
+              <div className="relative">
+                <div className="flex items-center justify-between border-b border-neutral-200/50 bg-white/90 backdrop-blur-md px-3 sm:px-4 py-2 sm:py-2.5">
                   <div className="flex items-center gap-2">
-                    <span className="h-1.5 w-1.5 rounded-full bg-[#5ac53a] animate-pulse" />
-                    <span className="font-mono text-[9px] text-neutral-400">Live</span>
+                    <div className="flex items-center gap-1 sm:gap-1.5">
+                      <div className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-[#ff5f57]" />
+                      <div className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-[#febc2e]" />
+                      <div className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-[#28c840]" />
+                    </div>
+                  </div>
+                  <div className="flex-1 flex justify-center">
+                    <div className="hidden sm:flex items-center gap-2 bg-neutral-100 rounded-lg px-4 py-1.5">
+                      <div className="h-3 w-3 rounded-sm bg-[#5ac53a]" />
+                      <span className="font-mono text-xs text-neutral-600">pistachiohq.ai/dashboard</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-1.5 sm:gap-2">
+                    <span className="h-2 w-2 rounded-full bg-[#5ac53a] animate-pulse" />
+                    <span className="font-mono text-[10px] text-neutral-500">Live</span>
                   </div>
                 </div>
 
-                {/* Briefing content - 2 column layout */}
-                <div className="px-3 md:px-6 pt-6 md:pt-5 pb-3 md:pb-6">
-                  {/* Header with personalization */}
-                  <div className="mb-3 md:mb-4 flex items-start justify-between border-b border-neutral-100 pb-2 md:pb-3">
-                    <div className="flex items-center gap-2 md:gap-3 flex-1 min-w-0">
-                      <div className="flex h-7 w-7 md:h-9 md:w-9 items-center justify-center rounded-full bg-[#5ac53a] text-white text-xs md:text-sm font-medium shrink-0">
-                        M
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <p className="font-serif text-sm md:text-lg text-neutral-900 font-semibold">JPM 2026 Briefing for Mike</p>
-                        <p className="text-[9px] md:text-[11px] text-neutral-400 mt-0.5">Generated Dec 22, 2025</p>
-                        <p className="hidden md:block text-xs md:text-sm text-neutral-600 leading-relaxed mt-3 font-normal">
-                          Based on your focus areas, we've reviewed attendee activity, speaking
-                          schedules, and recent announcements to surface the highest-value meetings for your team.
-                        </p>
-                      </div>
+                {/* App Content */}
+                <div className="relative p-6 md:p-8">
+                  {/* Section Header */}
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="flex items-center justify-center h-10 w-10 rounded-xl bg-[#5ac53a] shadow-lg shadow-[#5ac53a]/30">
+                      <Target className="h-5 w-5 text-white" />
                     </div>
-                    <div className="flex gap-1 shrink-0 ml-2">
-                      <span className="rounded bg-[#d5fd51]/30 px-1.5 py-0.5 text-[8px] md:text-[10px] font-mono text-neutral-600">
-                        PDF
-                      </span>
-                      <span className="rounded bg-neutral-100 px-1.5 py-0.5 text-[8px] md:text-[10px] font-mono text-neutral-600">
-                        Share
+                    <div>
+                      <h3 className="font-serif text-xl md:text-2xl font-semibold text-neutral-900">Priority Stakeholders</h3>
+                      <span className="text-sm text-neutral-600 mt-0.5 block">
+                        Surfaced from 1,200+ signals across{' '}
+                        <span 
+                          className="relative inline-block"
+                          onMouseEnter={() => setHoveredContext(true)}
+                          onMouseLeave={() => setHoveredContext(false)}
+                        >
+                          <span className="inline-flex items-center gap-1 text-neutral-800 cursor-pointer font-semibold hover:text-neutral-900 transition-colors group">
+                            <span className="underline decoration-dotted decoration-neutral-400 underline-offset-2 group-hover:decoration-neutral-600">your target market</span>
+                            <svg className="h-3 w-3 opacity-50 group-hover:opacity-80 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                          </span>
+                          
+                          {/* Context Popover */}
+                          {hoveredContext && (
+                            <span className="absolute left-0 top-full mt-2 z-50 w-72 p-4 bg-white rounded-xl shadow-xl border border-neutral-200 animate-in fade-in slide-in-from-top-2 duration-200 block">
+                              <span className="flex items-center gap-2 mb-3 pb-2 border-b border-neutral-100">
+                                <span className="h-6 w-6 rounded-lg bg-[#d5fd51] flex items-center justify-center">
+                                  <Database className="h-3.5 w-3.5 text-[#5ac53a]" />
+                                </span>
+                                <span className="text-xs font-semibold text-neutral-900">Your Inputs</span>
+                              </span>
+                              
+                              <span className="space-y-2.5 text-[11px] block">
+                                <span className="flex items-start gap-2">
+                                  <span className="text-neutral-400 w-16 shrink-0">Market</span>
+                                  <span className="text-neutral-700 font-medium">Top 50 Pharma & Mid-size Biotech</span>
+                                </span>
+                                <span className="flex items-start gap-2">
+                                  <span className="text-neutral-400 w-16 shrink-0">Product</span>
+                                  <span className="text-neutral-700 font-medium">AI platform for molecular discovery</span>
+                                </span>
+                                <span className="flex items-start gap-2">
+                                  <span className="text-neutral-400 w-16 shrink-0">Focus</span>
+                                  <span className="text-neutral-700 font-medium">Q1 conference outreach</span>
+                                </span>
+                                <span className="flex items-start gap-2">
+                                  <span className="text-neutral-400 w-16 shrink-0">Goal</span>
+                                  <span className="text-neutral-700 font-medium">Book 15 qualified meetings</span>
+                                </span>
+                              </span>
+                              
+                              <span className="mt-3 pt-2 border-t border-neutral-100 flex items-center gap-1.5 text-[10px] text-neutral-400">
+                                <Sparkles className="h-3 w-3 text-[#5ac53a]" />
+                                <span>Pistachio uses these to rank stakeholders</span>
+                              </span>
+                            </span>
+                          )}
+                        </span>
                       </span>
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-[30%_1fr] lg:grid-cols-[28%_1fr] gap-4 md:gap-6">
-                    {/* Column 1: JPM Context & Summary */}
-                    <div className="space-y-3 md:space-y-4">
-                      <div className="rounded-lg border border-[#5ac53a]/20 bg-gradient-to-br from-[#d5fd51]/20 to-[#5ac53a]/5 p-3 md:p-4">
-                        <div className="flex items-center gap-2 mb-2 md:mb-3">
-                          <div className="h-7 w-7 md:h-8 md:w-8 rounded-full bg-[#5ac53a] flex items-center justify-center shrink-0">
-                            <span className="text-white text-[10px] md:text-xs font-bold">JPM</span>
-                          </div>
-                          <div className="min-w-0">
-                            <p className="font-serif text-xs md:text-[14px] text-neutral-900 font-semibold">JP Morgan Healthcare Conference</p>
-                            <p className="text-[9px] md:text-[11px] text-neutral-500 font-medium mt-0.5">Jan 13–16, 2026 · San Francisco</p>
-                          </div>
-                        </div>
+            {/* Stakeholder Cards Grid */}
+            <div className="grid gap-4 md:gap-5 lg:grid-cols-3 items-stretch">
+              {stakeholders.map((person, index) => (
+                <div
+                  key={person.id}
+                  className={`group relative rounded-xl border bg-white overflow-hidden transition-all duration-700 ease-out
+                    ${showCards ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}
+                    ${hoveredCard === person.id ? 'border-[#5ac53a] shadow-lg shadow-[#5ac53a]/10 scale-[1.02]' : 'border-neutral-200 hover:border-[#5ac53a]/40'}
+                  `}
+                  style={{ 
+                    transitionDelay: showCards ? `${index * 150}ms` : '0ms',
+                  }}
+                  onMouseEnter={() => setHoveredCard(person.id)}
+                  onMouseLeave={() => { setHoveredCard(null); setHoveredSignal(null); }}
+                >
+                  {/* Animated gradient border on hover */}
+                  <div className={`absolute inset-0 rounded-xl bg-gradient-to-r from-[#5ac53a] via-[#d5fd51] to-[#5ac53a] opacity-0 transition-opacity duration-300 ${hoveredCard === person.id ? 'opacity-100' : ''}`} style={{ padding: '1px' }}>
+                    <div className="absolute inset-[1px] rounded-[11px] bg-white" />
+                  </div>
 
-                        <div className="hidden md:block mb-4 space-y-2.5">
-                          <p className="text-[11px] md:text-[12px] text-neutral-700 leading-relaxed font-normal">
-                            The largest healthcare investment conference, bringing together 450+ public and private companies, 
-                            institutional investors, and industry leaders. Critical for BD teams to identify partnership opportunities 
-                            and track strategic priorities.
-                          </p>
-                          <p className="text-[11px] md:text-[12px] text-neutral-600 leading-relaxed font-normal">
-                            This year's focus areas include <span className="font-semibold text-neutral-700">AI/ML in drug discovery</span>, <span className="font-semibold text-neutral-700">computational biology platforms</span>, and 
-                            <span className="font-semibold text-neutral-700"> precision medicine partnerships</span> — directly aligned with your target market.
-                          </p>
+                  <div className="relative p-4 md:p-5 flex flex-col h-full">
+                    {/* Header with Avatar & Fit Score */}
+                    <div className="flex items-start justify-between mb-4">
+                      <div className="flex items-center gap-3">
+                        <div className="relative">
+                          <img
+                            src={person.logo}
+                            alt={person.company}
+                            className="h-11 w-11 rounded-lg object-contain bg-neutral-50 p-1.5 border border-neutral-100 transition-transform duration-300 group-hover:scale-110"
+                          />
+                          <div className={`absolute -bottom-1 -right-1 h-3 w-3 rounded-full border-2 border-white transition-all duration-300 ${hoveredCard === person.id ? 'scale-125' : ''} bg-[#5ac53a]`} />
                         </div>
-
-                        {/* Key stats */}
-                        <div className="grid grid-cols-2 gap-1.5 md:gap-2 mb-3 md:mb-4">
-                          <div className="rounded bg-white/80 p-2 md:p-2.5 text-center border border-[#5ac53a]/10">
-                            <span className="block font-serif text-lg md:text-xl text-[#5ac53a] font-semibold">37</span>
-                            <span className="text-[8px] md:text-[10px] text-neutral-500 font-medium">Stakeholders</span>
-                          </div>
-                          <div className="rounded bg-white/80 p-2 md:p-2.5 text-center border border-[#5ac53a]/10">
-                            <span className="block font-serif text-lg md:text-xl text-[#5ac53a] font-semibold">20</span>
-                            <span className="text-[8px] md:text-[10px] text-neutral-500 font-medium">Accounts</span>
-                          </div>
-                        </div>
-
-                        {/* Pharma Logos - Hidden on mobile */}
-                        <div className="hidden md:block mb-3">
-                          <p className="text-[10px] md:text-[11px] font-mono uppercase tracking-wider text-neutral-500 mb-2.5 font-semibold">
-                            Key Attendees
-                          </p>
-                          <div className="grid grid-cols-3 gap-2">
-                            <img
-                              src="https://img.logo.dev/pfizer.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg"
-                              alt="Pfizer"
-                              className="h-8 w-full rounded bg-white p-1.5 object-contain border border-neutral-100"
-                            />
-                            <img
-                              src="https://img.logo.dev/jnj.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg"
-                              alt="Johnson & Johnson"
-                              className="h-8 w-full rounded bg-white p-1.5 object-contain border border-neutral-100"
-                            />
-                            <img
-                              src="https://img.logo.dev/merck.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg"
-                              alt="Merck"
-                              className="h-8 w-full rounded bg-white p-1.5 object-contain border border-neutral-100"
-                            />
-                            <img
-                              src="https://img.logo.dev/abbvie.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg"
-                              alt="AbbVie"
-                              className="h-8 w-full rounded bg-white p-1.5 object-contain border border-neutral-100"
-                            />
-                            <img
-                              src="https://img.logo.dev/bms.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg"
-                              alt="Bristol Myers Squibb"
-                              className="h-8 w-full rounded bg-white p-1.5 object-contain border border-neutral-100"
-                            />
-                            <img
-                              src="https://img.logo.dev/gilead.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg"
-                              alt="Gilead"
-                              className="h-8 w-full rounded bg-white p-1.5 object-contain border border-neutral-100"
-                            />
-                          </div>
+                        <div>
+                          <p className="font-serif text-base md:text-lg text-neutral-900 font-semibold group-hover:text-[#5ac53a] transition-colors">{person.name}</p>
+                          <p className="text-xs md:text-sm text-neutral-500">{person.title} · {person.company}</p>
                         </div>
                       </div>
-
-                      {/* Relevant Events */}
-                      <div>
-                        <div className="flex items-center gap-2 mb-3">
-                          <div className="h-1.5 w-1.5 rounded-full bg-[#f6c86a]" />
-                          <span className="font-mono text-[11px] md:text-[12px] uppercase tracking-wider text-neutral-600 font-semibold">
-                            Events to prioritize
-                          </span>
-                        </div>
-
-                        <div className="space-y-2.5">
-                          <div className="rounded border border-[#5ac53a]/20 bg-[#5ac53a]/5 p-2.5 md:p-3">
-                            <div className="flex items-center justify-between mb-1.5">
-                              <span className="text-[10px] md:text-[11px] font-mono text-[#5ac53a] font-semibold">Jan 13 · 2:00 PM</span>
-                              <span className="text-[8px] md:text-[9px] bg-[#5ac53a] text-white px-1.5 py-0.5 rounded font-semibold">
-                                3 CONTACTS
-                              </span>
-                            </div>
-                            <p className="font-serif text-[13px] md:text-[14px] text-neutral-900 font-semibold mb-1">AI in Pharma Partnerships Panel</p>
-                            <p className="text-[9px] md:text-[10px] text-neutral-500 font-medium">Marriott Marquis · Michael Torres speaking</p>
-                          </div>
-
-                          <div className="rounded border border-[#f6c86a]/30 bg-[#f6c86a]/5 p-2.5 md:p-3">
-                            <div className="flex items-center justify-between mb-1.5">
-                              <span className="text-[10px] md:text-[11px] font-mono text-[#f6c86a] font-semibold">Jan 14 · 6:30 PM</span>
-                              <span className="text-[8px] md:text-[9px] bg-[#f6c86a] text-neutral-800 px-1.5 py-0.5 rounded font-semibold">
-                                RSVP OPEN
-                              </span>
-                            </div>
-                            <p className="font-serif text-[13px] md:text-[14px] text-neutral-900 font-semibold mb-1">AI Drug Discovery Dinner</p>
-                            <p className="text-[9px] md:text-[10px] text-neutral-500 font-medium">Private venue · 2 priority contacts attending</p>
-                          </div>
-                        </div>
+                      <div className={`flex items-center gap-1.5 rounded-full px-2.5 py-1 bg-[#5ac53a]/10 transition-all duration-300 ${hoveredCard === person.id ? 'scale-105' : ''}`}>
+                        <span className="text-lg font-bold text-[#5ac53a] font-mono leading-none">{person.fitScore}</span>
+                        <span className="text-[9px] font-mono uppercase tracking-wider text-[#5ac53a]/70">fit</span>
                       </div>
                     </div>
 
-                    {/* Column 2: Priority Stakeholders */}
-                    <div>
-                      <div className="flex items-center gap-2 mb-3">
-                        <div className="h-1.5 w-1.5 rounded-full bg-[#5ac53a]" />
-                        <span className="font-mono text-[11px] md:text-[12px] uppercase tracking-wider text-neutral-600 font-semibold">
-                          Priority stakeholders
-                        </span>
+                    {/* How We Found Them - Signals with Hover Cards */}
+                    <div className="mb-4">
+                      <div className="flex items-center gap-1.5 mb-2.5">
+                        <Sparkles className="h-3 w-3 text-[#5ac53a]" />
+                        <span className="text-[10px] font-mono uppercase tracking-wider text-neutral-400 font-semibold">Signals detected</span>
                       </div>
-
-                      <div className="space-y-2.5 md:space-y-3">
-                        {/* Contact 1 - David Lam */}
-                        <div className="rounded border border-neutral-100 p-3 md:p-3.5 hover:border-[#5ac53a]/30 transition-colors">
-                          <div className="flex items-start justify-between mb-2.5">
-                            <div className="flex items-center gap-2.5">
-                              <img
-                                src="https://img.logo.dev/astrazeneca.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg"
-                                alt="AstraZeneca"
-                                className="h-7 w-7 md:h-8 md:w-8 rounded object-contain bg-white"
-                              />
-                              <div>
-                                <p className="font-serif text-[14px] md:text-[15px] text-neutral-900 font-semibold">David Lam</p>
-                                <p className="text-[11px] md:text-[12px] text-neutral-500 font-medium mt-0.5">VP Data Science · AstraZeneca</p>
+                      <div className="space-y-1.5">
+                        {person.signals.map((signal, i) => (
+                          <div 
+                            key={i} 
+                            className="relative"
+                            onMouseEnter={() => setHoveredSignal(`${person.id}-${i}`)}
+                            onMouseLeave={() => setHoveredSignal(null)}
+                          >
+                            <div 
+                              className={`flex items-center gap-2 text-xs transition-all duration-300 cursor-pointer rounded-md px-1.5 py-1 -mx-1.5 hover:bg-neutral-50`}
+                            >
+                              <div className={`flex items-center justify-center h-5 w-5 rounded-full shrink-0 transition-colors ${signal.highlight ? 'bg-[#5ac53a]/10' : 'bg-neutral-100'}`}>
+                                {signal.icon === 'linkedin' && <Linkedin className={`h-2.5 w-2.5 ${signal.highlight ? 'text-[#5ac53a]' : 'text-neutral-400'}`} />}
+                                {signal.icon === 'file' && <FileText className={`h-2.5 w-2.5 ${signal.highlight ? 'text-[#5ac53a]' : 'text-neutral-400'}`} />}
+                                {signal.icon === 'trending' && <TrendingUp className={`h-2.5 w-2.5 ${signal.highlight ? 'text-[#5ac53a]' : 'text-neutral-400'}`} />}
+                                {signal.icon === 'briefcase' && <Briefcase className={`h-2.5 w-2.5 ${signal.highlight ? 'text-[#eb5d2a]' : 'text-neutral-400'}`} />}
+                                {signal.icon === 'users' && <Users className={`h-2.5 w-2.5 ${signal.highlight ? 'text-[#5ac53a]' : 'text-neutral-400'}`} />}
+                                {signal.icon === 'calendar' && <Calendar className={`h-2.5 w-2.5 ${signal.highlight ? 'text-[#5ac53a]' : 'text-neutral-400'}`} />}
+                                {signal.icon === 'database' && <Database className={`h-2.5 w-2.5 ${signal.highlight ? 'text-[#5ac53a]' : 'text-neutral-400'}`} />}
                               </div>
+                              <span className={`${signal.highlight ? 'text-neutral-900 font-medium' : 'text-neutral-600'} border-b border-dashed border-neutral-300`}>{signal.text}</span>
                             </div>
-                            <span className="rounded bg-[#5ac53a]/10 px-1.5 py-0.5 text-[9px] md:text-[10px] font-mono text-[#5ac53a] font-semibold">
-                              HIGH FIT
-                            </span>
-                          </div>
-                          <div className="rounded bg-neutral-50 p-2 md:p-2.5 mb-2">
-                            <p className="text-[10px] md:text-[11px] text-neutral-600 leading-relaxed">
-                              <span className="text-[#5ac53a] font-semibold">✓ Confirmed JPM</span> via LinkedIn post ·
-                              <span className="font-semibold"> 5 publications</span> on ML in drug discovery ·
-                              <span className="font-semibold"> 2 posts</span> on AI workflows
-                            </p>
-                          </div>
-                          <div className="rounded bg-[#d5fd51]/20 p-2 md:p-2.5 border-l-2 border-[#5ac53a]">
-                            <p className="text-[9px] md:text-[10px] text-neutral-500 mb-1 font-mono uppercase font-semibold">Suggested opener</p>
-                            <p className="text-[10px] md:text-[11px] text-neutral-700 italic leading-relaxed">
-                              "Saw your post on scaling molecular representations — we've been working with teams
-                              hitting similar limits. Compare notes at JPM?"
-                            </p>
-                          </div>
-                        </div>
 
-                        {/* Contact 2 - Sarah Chen */}
-                        <div className="rounded border border-neutral-100 p-3 md:p-3.5 hover:border-[#5ac53a]/30 transition-colors">
-                          <div className="flex items-start justify-between mb-2.5">
-                            <div className="flex items-center gap-2.5">
-                              <img
-                                src="https://img.logo.dev/roche.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg"
-                                alt="Roche"
-                                className="h-7 w-7 md:h-8 md:w-8 rounded object-contain bg-white"
-                              />
-                              <div>
-                                <p className="font-serif text-[14px] md:text-[15px] text-neutral-900 font-semibold">Sarah Chen</p>
-                                <p className="text-[11px] md:text-[12px] text-neutral-500 font-medium mt-0.5">Head of Computational Bio · Roche</p>
-                              </div>
-                            </div>
-                            <span className="rounded bg-[#f6c86a]/20 px-1.5 py-0.5 text-[9px] md:text-[10px] font-mono text-[#eb5d2a] font-semibold">
-                              HIRING
-                            </span>
-                          </div>
-                          <div className="rounded bg-neutral-50 p-2 md:p-2.5 mb-2">
-                            <p className="text-[10px] md:text-[11px] text-neutral-600 leading-relaxed">
-                              <span className="text-[#eb5d2a] font-semibold">Team hiring 5 roles</span> in AI/ML · She
-                              leads the team they're building ·<span className="font-semibold"> Spoke at AACR</span> on
-                              target ID
-                            </p>
-                          </div>
-                          <div className="rounded bg-[#d5fd51]/20 p-2 md:p-2.5 border-l-2 border-[#5ac53a]">
-                            <p className="text-[9px] md:text-[10px] text-neutral-500 mb-1 font-mono uppercase font-semibold">Suggested opener</p>
-                            <p className="text-[10px] md:text-[11px] text-neutral-700 italic leading-relaxed">
-                              "Noticed your team is scaling up AI/ML — happy to share what's worked for similar
-                              buildouts. Free for coffee at JPM?"
-                            </p>
-                          </div>
-                        </div>
+                            {/* Source Evidence Hover Card */}
+                            {hoveredSignal === `${person.id}-${i}` && signal.source && (() => {
+                              const src = signal.source as Record<string, unknown>;
+                              return (
+                              <div className="absolute left-0 top-full mt-1 z-50 w-72 animate-in fade-in slide-in-from-top-2 duration-200">
+                                <div className="bg-white rounded-lg shadow-xl border border-neutral-200 overflow-hidden">
+                                  {/* LinkedIn Post Source */}
+                                  {src.type === 'linkedin' && (
+                                    <div className="p-3">
+                                      <div className="flex items-center gap-2 mb-2">
+                                        <img src={src.avatar as string} alt="" className="w-8 h-8 rounded-full object-cover" />
+                                        <div className="flex-1 min-w-0">
+                                          <p className="text-xs font-semibold text-neutral-900 truncate">{src.name as string}</p>
+                                          <p className="text-[10px] text-neutral-400">{src.handle as string}</p>
+                                        </div>
+                                        <Linkedin className="h-4 w-4 text-[#0077b5]" />
+                                      </div>
+                                      <p className="text-xs text-neutral-700 leading-relaxed mb-2">{src.content as string}</p>
+                                      <div className="flex items-center gap-4 text-[10px] text-neutral-400">
+                                        <span className="flex items-center gap-1"><ThumbsUp className="h-3 w-3" /> {src.likes as number}</span>
+                                        <span className="flex items-center gap-1"><MessageSquare className="h-3 w-3" /> {src.comments as number}</span>
+                                        <span className="flex items-center gap-1 ml-auto"><Clock className="h-3 w-3" /> {src.time as string}</span>
+                                      </div>
+                                    </div>
+                                  )}
 
-                        {/* Contact 3 - Michael Torres */}
-                        <div className="rounded border border-neutral-100 p-3 md:p-3.5 hover:border-[#5ac53a]/30 transition-colors">
-                          <div className="flex items-start justify-between mb-2.5">
-                            <div className="flex items-center gap-2.5">
-                              <img
-                                src="https://img.logo.dev/novartis.com?token=pk_bUM9Jb7fRFSsD3V1KHoDxg"
-                                alt="Novartis"
-                                className="h-7 w-7 md:h-8 md:w-8 rounded object-contain bg-white"
-                              />
-                              <div>
-                                <p className="font-serif text-[14px] md:text-[15px] text-neutral-900 font-semibold">Michael Torres</p>
-                                <p className="text-[11px] md:text-[12px] text-neutral-500 font-medium mt-0.5">Dir. External Innovation · Novartis</p>
+                                  {/* Publication Source */}
+                                  {src.type === 'publication' && (
+                                    <div className="p-3">
+                                      <div className="flex items-start gap-2 mb-2">
+                                        <FileText className="h-5 w-5 text-[#5ac53a] shrink-0 mt-0.5" />
+                                        <div>
+                                          <p className="text-xs font-semibold text-neutral-900 leading-tight">{src.title as string}</p>
+                                          <p className="text-[10px] text-neutral-500 mt-1">{src.journal as string} · {src.date as string}</p>
+                                        </div>
+                                      </div>
+                                      <div className="flex items-center gap-3 text-[10px] text-neutral-500 bg-neutral-50 rounded px-2 py-1.5">
+                                        <span className="flex items-center gap-1"><Award className="h-3 w-3 text-[#f6c86a]" /> {src.citations as number} citations</span>
+                                        <span className="text-neutral-300">|</span>
+                                        <span className="truncate">{src.coauthors as string}</span>
+                                      </div>
+                                    </div>
+                                  )}
+
+                                  {/* Jobs Source */}
+                                  {src.type === 'jobs' && (
+                                    <div className="p-3">
+                                      <div className="flex items-center gap-2 mb-2">
+                                        <Briefcase className="h-4 w-4 text-[#eb5d2a]" />
+                                        <span className="text-xs font-semibold text-neutral-900">{src.totalOpen as number} Open Roles</span>
+                                      </div>
+                                      <div className="space-y-1.5">
+                                        {(src.roles as { title: string; location: string; posted: string }[]).map((role, j: number) => (
+                                          <div key={j} className="flex items-center justify-between text-[11px] bg-neutral-50 rounded px-2 py-1.5">
+                                            <span className="font-medium text-neutral-800">{role.title}</span>
+                                            <span className="text-neutral-400">{role.posted}</span>
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </div>
+                                  )}
+
+                                  {/* Org Source */}
+                                  {src.type === 'org' && (
+                                    <div className="p-3">
+                                      <div className="flex items-center gap-2 mb-2">
+                                        <Users className="h-4 w-4 text-[#5ac53a]" />
+                                        <span className="text-xs font-semibold text-neutral-900">Team Structure</span>
+                                      </div>
+                                      <div className="grid grid-cols-2 gap-2 text-[11px]">
+                                        <div className="bg-neutral-50 rounded px-2 py-1.5">
+                                          <span className="text-neutral-400">Team Size</span>
+                                          <p className="font-semibold text-neutral-800">{src.teamSize as number} people</p>
+                                        </div>
+                                        <div className="bg-neutral-50 rounded px-2 py-1.5">
+                                          <span className="text-neutral-400">Recent Hires</span>
+                                          <p className="font-semibold text-[#5ac53a]">+{src.recentHires as number} this quarter</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  )}
+
+                                  {/* Event Source */}
+                                  {src.type === 'event' && (
+                                    <div className="p-3">
+                                      <div className="flex items-center gap-2 mb-2">
+                                        <Calendar className="h-4 w-4 text-[#5ac53a]" />
+                                        <span className="text-xs font-semibold text-neutral-900">{src.eventName as string}</span>
+                                      </div>
+                                      <div className="bg-gradient-to-br from-[#5ac53a]/5 to-[#d5fd51]/10 rounded-lg p-2 border border-[#5ac53a]/20">
+                                        <p className="text-xs font-medium text-neutral-800 mb-1">{src.talkTitle as string}</p>
+                                        <div className="flex items-center gap-2 text-[10px] text-neutral-500">
+                                          <span>{src.date as string}</span>
+                                          {typeof src.venue === 'string' && <span>· {src.venue}</span>}
+                                        </div>
+                                        {typeof src.role === 'string' && (
+                                          <span className="inline-block mt-1.5 text-[9px] font-mono uppercase bg-[#5ac53a]/10 text-[#5ac53a] px-1.5 py-0.5 rounded">{src.role}</span>
+                                        )}
+                                      </div>
+                                    </div>
+                                  )}
+
+                                  {/* Deals Source */}
+                                  {src.type === 'deals' && (
+                                    <div className="p-3">
+                                      <div className="flex items-center gap-2 mb-2">
+                                        <TrendingUp className="h-4 w-4 text-[#5ac53a]" />
+                                        <span className="text-xs font-semibold text-neutral-900">Recent Deals</span>
+                                      </div>
+                                      <div className="space-y-1.5">
+                                        {(src.deals as { company: string; type: string; value: string; date: string }[]).map((deal, j: number) => (
+                                          <div key={j} className="flex items-center justify-between text-[11px] bg-neutral-50 rounded px-2 py-1.5">
+                                            <div>
+                                              <span className="font-medium text-neutral-800">{deal.company}</span>
+                                              <span className="text-neutral-400 ml-1">· {deal.type}</span>
+                                            </div>
+                                            <span className="font-mono text-[#5ac53a]">{deal.value}</span>
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </div>
+                                  )}
+                                </div>
                               </div>
-                            </div>
-                            <span className="rounded bg-[#5ac53a]/10 px-1.5 py-0.5 text-[9px] md:text-[10px] font-mono text-[#5ac53a] font-semibold">
-                              PANEL
-                            </span>
+                              );
+                            })()}
                           </div>
-                          <div className="rounded bg-neutral-50 p-2 md:p-2.5 mb-2">
-                            <p className="text-[10px] md:text-[11px] text-neutral-600 leading-relaxed">
-                              <span className="text-[#5ac53a] font-semibold">Hosting panel</span> on AI in Pharma
-                              Partnerships at JPM ·<span className="font-semibold"> 3 deals closed</span> in 2025 with AI
-                              biotechs
-                            </p>
-                          </div>
-                          <div className="rounded bg-[#d5fd51]/20 p-2 md:p-2.5 border-l-2 border-[#5ac53a]">
-                            <p className="text-[9px] md:text-[10px] text-neutral-500 mb-1 font-mono uppercase font-semibold">Suggested opener</p>
-                            <p className="text-[10px] md:text-[11px] text-neutral-700 italic leading-relaxed">
-                              "Looking forward to your panel — we've helped accelerate a few AI partnerships in this
-                              space. Would love to connect after."
-                            </p>
-                          </div>
-                        </div>
+                        ))}
                       </div>
                     </div>
+
+                    {/* Why They're Relevant */}
+                    <div className="mb-4 p-3 rounded-lg bg-gradient-to-br from-neutral-50 to-[#d5fd51]/5 border border-neutral-100">
+                      <div className="flex items-center gap-1.5 mb-1.5">
+                        <Zap className="h-3 w-3 text-[#f6c86a]" />
+                        <span className="text-[10px] font-mono uppercase tracking-wider text-neutral-400 font-semibold">Why now</span>
+                      </div>
+                      <p className="text-xs text-neutral-700 leading-relaxed">{person.whyRelevant}</p>
+                        </div>
+
+                    {/* Suggested Opener */}
+                    <div className="p-3 rounded-lg bg-[#d5fd51]/15 border-l-[3px] border-[#5ac53a] flex-1 flex flex-col">
+                      <div className="flex items-center gap-1.5 mb-1.5">
+                        <MessageCircle className="h-3 w-3 text-[#5ac53a]" />
+                        <span className="text-[10px] font-mono uppercase tracking-wider text-neutral-400 font-semibold">Suggested opener</span>
+                      </div>
+                      <p className="text-xs text-neutral-700 italic leading-relaxed mb-3 flex-1">"{person.opener}"</p>
+                      
+                      {/* Time Saved Indicator */}
+                      <div className="mb-3 py-2 px-2.5 rounded-md bg-neutral-50 border border-neutral-100">
+                        <div className="flex items-center justify-between text-[10px]">
+                          <div className="flex items-center gap-1.5 text-neutral-500">
+                            <Clock className="h-3 w-3" />
+                            <span>{person.timeSaved.freshSignal}</span>
+                          </div>
+                          <div className="flex items-center gap-1">
+                            <span className="text-neutral-400">Saved</span>
+                            <span className="font-bold text-neutral-700">{person.timeSaved.hours}h</span>
+                            <span className="text-neutral-400">of</span>
+                            <span className="text-neutral-500">{person.timeSaved.manualEffort.toLowerCase()}</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Action Button */}
+                      <button className={`w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg text-xs font-semibold transition-all duration-300
+                        ${hoveredCard === person.id 
+                          ? 'bg-[#5ac53a] text-white shadow-md shadow-[#5ac53a]/20' 
+                          : 'bg-neutral-900 text-white hover:bg-[#5ac53a]'
+                        }
+                      `}>
+                        {person.action.icon === 'linkedin' && <Linkedin className="h-3.5 w-3.5" />}
+                        {person.action.icon === 'mail' && <Mail className="h-3.5 w-3.5" />}
+                        {person.action.icon === 'calendar' && <Calendar className="h-3.5 w-3.5" />}
+                        <span>{person.action.label}</span>
+                        <ExternalLink className="h-3 w-3 opacity-60" />
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Hover shimmer effect */}
+                  <div className={`absolute inset-0 pointer-events-none transition-opacity duration-500 ${hoveredCard === person.id ? 'opacity-100' : 'opacity-0'}`}>
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full animate-shimmer" />
+                  </div>
+                </div>
+              ))}
+              </div>
+
+                  {/* Time savings summary */}
+                  <div className="mt-6 mb-3 text-center">
+                    <p className="text-xs text-neutral-500">
+                      <span className="font-semibold text-neutral-700">9.5 hours</span> of research saved on this page alone — 
+                      <span className="text-[#5ac53a] font-medium">signals updated in real-time</span>
+                    </p>
+                  </div>
+
+                  {/* Footer note */}
+                  <div className="flex items-center justify-center gap-2 text-xs text-neutral-600">
+                    <div className="h-1.5 w-1.5 rounded-full bg-[#5ac53a] animate-pulse" />
+                    <span>Updated 2 hours ago · 34 more stakeholders available</span>
+                    <button className="font-medium text-[#5ac53a] hover:underline">View all</button>
                   </div>
                 </div>
               </div>
@@ -445,7 +686,7 @@ export default function Page() {
       </div>
 
       {/* Workflow Section */}
-      <section className="container mx-auto px-4 py-8">
+      <section id="workflow" className="container mx-auto px-4 py-8">
         <div className="relative border border-border bg-transparent">
           {/* Corner brackets */}
           <div className="absolute left-0 top-0 h-3 w-3 border-l-2 border-t-2 border-foreground -translate-x-px -translate-y-px" />
@@ -774,9 +1015,11 @@ export default function Page() {
           <p className="mb-6 max-w-xl mx-auto text-base md:text-lg text-muted-foreground">
             Join the alpha. Only 5 seats remaining.
           </p>
-          <Button size="lg" className="font-mono bg-foreground text-background hover:bg-foreground/90 text-base px-8 py-6">
-            Request Alpha Access
-          </Button>
+          <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="font-mono bg-foreground text-background hover:bg-foreground/90 text-base px-8 py-6">
+              Request Alpha Access
+            </Button>
+          </a>
         </div>
       </section>
 
