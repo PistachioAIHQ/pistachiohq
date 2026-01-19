@@ -1,7 +1,9 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "pistachio-landing",
+  "version": "1.0.0",
+  "description": "Pistachio AI landing page",
+  "author": "Pistachio AI",
+  "license": "MIT",
   "scripts": {
     "build": "next build",
     "dev": "next dev",

@@ -22,9 +22,22 @@ const fontSans = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Pistachio AI - Alpha Access",
-  description: "One platform for all of AI. Limited alpha seats remaining.",
-    generator: 'v0.app'
+  title: "Pistachio AI - Find the Right Life Sciences Accounts",
+  description: "Pistachio helps life sciences BD and commercial teams identify who to target, when to reach out, and why now — using what's actually changing inside companies.",
+  keywords: ["life sciences", "BD", "business development", "pharma", "biotech", "AI", "sales intelligence"],
+  authors: [{ name: "Pistachio AI" }],
+  openGraph: {
+    title: "Pistachio AI - Find the Right Life Sciences Accounts",
+    description: "Pistachio helps life sciences BD and commercial teams identify who to target, when to reach out, and why now.",
+    url: "https://pistachiohq.ai",
+    siteName: "Pistachio AI",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pistachio AI - Find the Right Life Sciences Accounts",
+    description: "Pistachio helps life sciences BD and commercial teams identify who to target, when to reach out, and why now.",
+  },
 }
 
 export default function RootLayout({
