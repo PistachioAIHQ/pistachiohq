@@ -616,12 +616,12 @@ export default function Page() {
                       
                       {/* Time Saved Indicator */}
                       <div className="mb-3 py-2 px-2.5 rounded-md bg-neutral-50 border border-neutral-100">
-                        <div className="flex items-center justify-between text-[10px]">
+                        <div className="flex flex-col gap-1.5 text-[10px]">
                           <div className="flex items-center gap-1.5 text-neutral-500">
-                            <Clock className="h-3 w-3" />
+                            <Clock className="h-3 w-3 shrink-0" />
                             <span>{person.timeSaved.freshSignal}</span>
                           </div>
-                          <div className="flex items-center gap-1">
+                          <div className="flex items-center gap-1 pl-[18px]">
                             <span className="text-neutral-400">Saved</span>
                             <span className="font-bold text-neutral-700">{person.timeSaved.hours}h</span>
                             <span className="text-neutral-400">of</span>
