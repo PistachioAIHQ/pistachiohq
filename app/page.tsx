@@ -185,6 +185,26 @@ const stakeholders = [
   },
 ]
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "Pistachio AI",
+  applicationCategory: "BusinessApplication",
+  description: "Commercial intelligence platform for life sciences BD and commercial teams. Find the right accounts, stakeholders, and timing signals using real-time data from clinical trials, publications, conferences, and hiring activity.",
+  url: "https://pistachiohq.ai",
+  operatingSystem: "Web",
+  offers: {
+    "@type": "Offer",
+    availability: "https://schema.org/LimitedAvailability",
+    description: "Private alpha access",
+  },
+  creator: {
+    "@type": "Organization",
+    name: "Pistachio AI",
+    url: "https://pistachiohq.ai",
+  },
+}
+
 export default function Page() {
   const [showCards, setShowCards] = useState(false)
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
@@ -214,6 +234,10 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="h-1 w-full bg-gradient-to-r from-[#5ac53a] via-[#d5fd51] via-[#f6c86a] to-[#eb5d2a]" />
 
       <div className="container mx-auto px-4 pt-4 pb-0">

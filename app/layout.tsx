@@ -22,21 +22,43 @@ const fontSans = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Pistachio AI - Find the Right Life Sciences Accounts",
-  description: "Pistachio helps life sciences BD and commercial teams identify who to target, when to reach out, and why now — using what's actually changing inside companies.",
-  keywords: ["life sciences", "BD", "business development", "pharma", "biotech", "AI", "sales intelligence"],
+  metadataBase: new URL("https://pistachiohq.ai"),
+  title: {
+    default: "Pistachio AI — Commercial Intelligence for Life Sciences",
+    template: "%s | Pistachio AI",
+  },
+  description: "Pistachio AI helps life sciences BD and commercial teams find the right accounts, stakeholders, and timing signals — using real-time data from clinical trials, publications, conferences, and hiring activity.",
+  keywords: ["Pistachio AI", "life sciences", "business development", "pharma", "biotech", "AI", "sales intelligence", "commercial intelligence", "BD intelligence", "life sciences AI", "pharma sales", "biotech BD"],
   authors: [{ name: "Pistachio AI" }],
+  creator: "Pistachio AI",
+  publisher: "Pistachio AI",
+  alternates: {
+    canonical: "https://pistachiohq.ai",
+  },
   openGraph: {
-    title: "Pistachio AI - Find the Right Life Sciences Accounts",
-    description: "Pistachio helps life sciences BD and commercial teams identify who to target, when to reach out, and why now.",
+    title: "Pistachio AI — Commercial Intelligence for Life Sciences",
+    description: "Find the right accounts, the right stakeholders, and the signal that makes them ready now. Built for life sciences BD teams.",
     url: "https://pistachiohq.ai",
     siteName: "Pistachio AI",
+    locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pistachio AI - Find the Right Life Sciences Accounts",
-    description: "Pistachio helps life sciences BD and commercial teams identify who to target, when to reach out, and why now.",
+    title: "Pistachio AI — Commercial Intelligence for Life Sciences",
+    description: "Find the right accounts, the right stakeholders, and the signal that makes them ready now. Built for life sciences BD teams.",
+    creator: "@DataMadan",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 }
 
