@@ -3,6 +3,15 @@ import { ImageResponse } from "next/og"
 export const runtime = "edge"
 
 export async function GET() {
+  const [instrumentSerifData, interSemiBoldData] = await Promise.all([
+    fetch("https://fonts.gstatic.com/s/instrumentserif/v4/jizBRFtNs2ka5fCnCG0AeW65aVYzR0dRNQ.ttf").then(
+      (res) => res.arrayBuffer()
+    ),
+    fetch("https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYAZ9hiJ-Ek-_EeA.woff").then(
+      (res) => res.arrayBuffer()
+    ),
+  ])
+
   return new ImageResponse(
     (
       <div
@@ -46,7 +55,7 @@ export async function GET() {
                 display: "flex",
               }}
             />
-            <span style={{ fontSize: "28px", fontWeight: 600, color: "#1f2123" }}>
+            <span style={{ fontSize: "28px", fontFamily: "Instrument Serif", color: "#1f2123" }}>
               Pistachio AI
             </span>
           </div>
@@ -55,7 +64,7 @@ export async function GET() {
           <div
             style={{
               fontSize: "52px",
-              fontWeight: 700,
+              fontFamily: "Instrument Serif",
               color: "#1f2123",
               lineHeight: 1.15,
               marginBottom: "24px",
@@ -73,6 +82,7 @@ export async function GET() {
           <div
             style={{
               fontSize: "22px",
+              fontFamily: "Inter",
               color: "#71717a",
               lineHeight: 1.5,
               maxWidth: "800px",
@@ -95,6 +105,7 @@ export async function GET() {
           <div
             style={{
               fontSize: "16px",
+              fontFamily: "Inter",
               color: "#a1a1aa",
               display: "flex",
             }}
@@ -104,6 +115,7 @@ export async function GET() {
           <div
             style={{
               fontSize: "14px",
+              fontFamily: "Inter",
               color: "#5ac53a",
               background: "rgba(90, 197, 58, 0.1)",
               padding: "6px 16px",
@@ -129,6 +141,20 @@ export async function GET() {
     {
       width: 1200,
       height: 630,
+      fonts: [
+        {
+          name: "Instrument Serif",
+          data: instrumentSerifData,
+          style: "normal",
+          weight: 400,
+        },
+        {
+          name: "Inter",
+          data: interSemiBoldData,
+          style: "normal",
+          weight: 600,
+        },
+      ],
     }
   )
 }
