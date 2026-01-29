@@ -279,7 +279,7 @@ export default function Page() {
 
           <p className="mb-5 max-w-3xl text-base leading-relaxed text-muted-foreground">
             Pistachio helps life sciences BD and commercial teams identify who to target, when to reach out, and why now
-            — using what's actually changing inside companies.
+            — using real-time signals from clinical trials, publications, conferences, and hiring activity.
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
