@@ -65,8 +65,7 @@ export async function GET() {
             >
               <span>Find the right life sciences</span>
               <span>
-                accounts and the{" "}
-                <span style={{ color: "#5ac53a" }}>signal</span> that
+                accounts and the <span style={{ color: "#5ac53a" }}>signal</span> that
               </span>
               <span>makes them ready now.</span>
             </div>
