@@ -1,11 +1,8 @@
 import { ImageResponse } from "next/og"
 
 export const runtime = "edge"
-export const alt = "Pistachio AI — Commercial Intelligence for Life Sciences"
-export const size = { width: 1200, height: 630 }
-export const contentType = "image/png"
 
-export default async function Image() {
+export async function GET() {
   return new ImageResponse(
     (
       <div
@@ -57,7 +54,7 @@ export default async function Image() {
           {/* Headline */}
           <div
             style={{
-              fontSize: "56px",
+              fontSize: "52px",
               fontWeight: 700,
               color: "#1f2123",
               lineHeight: 1.15,
@@ -99,7 +96,6 @@ export default async function Image() {
             style={{
               fontSize: "16px",
               color: "#a1a1aa",
-              fontFamily: "monospace",
               display: "flex",
             }}
           >
@@ -112,7 +108,6 @@ export default async function Image() {
               background: "rgba(90, 197, 58, 0.1)",
               padding: "6px 16px",
               borderRadius: "20px",
-              fontFamily: "monospace",
               display: "flex",
             }}
           >
@@ -132,7 +127,8 @@ export default async function Image() {
       </div>
     ),
     {
-      ...size,
+      width: 1200,
+      height: 630,
     }
   )
 }
