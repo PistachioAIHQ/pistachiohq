@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.pistachiohq.ai/api/og",
+        url: "https://www.pistachiohq.ai/og-image.png",
         width: 1200,
         height: 630,
         alt: "Pistachio AI — Commercial Intelligence for Life Sciences",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: "Pistachio AI — Commercial Intelligence for Life Sciences",
     description: "Find the right accounts, the right stakeholders, and the signal that makes them ready now. Built for life sciences BD teams.",
     creator: "@DataMadan",
-    images: ["https://www.pistachiohq.ai/api/og"],
+    images: ["https://www.pistachiohq.ai/og-image.png"],
   },
   robots: {
     index: true,
