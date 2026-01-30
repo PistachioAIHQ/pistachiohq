@@ -21,6 +21,7 @@ interface Company {
     sec: string
     clinicalTrials: string
     fda: string
+    primarySource?: string
   }
   stakeholders: {
     count: number
@@ -181,8 +182,18 @@ function CompanyRow({ company }: { company: Company }) {
               <p className="text-sm text-muted-foreground leading-relaxed">{company.signalDetail}</p>
               
               {/* Source links */}
-              <div className="flex items-center gap-3 mt-3 pt-3 border-t border-border/50">
+              <div className="flex items-center gap-3 mt-3 pt-3 border-t border-border/50 flex-wrap">
                 <span className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">Verify:</span>
+                {company.sources.primarySource && (
+                  <a 
+                    href={company.sources.primarySource} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-[11px] text-primary hover:text-primary/80 font-medium transition-colors"
+                  >
+                    Primary Source <ExternalLink className="h-2.5 w-2.5" />
+                  </a>
+                )}
                 <a 
                   href={company.sources.clinicalTrials} 
                   target="_blank" 
