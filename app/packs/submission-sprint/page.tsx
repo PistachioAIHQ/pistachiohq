@@ -183,6 +183,149 @@ function DaysAwayBadge({ expectedDate }: { expectedDate: string }) {
   )
 }
 
+const AVATAR_COLORS = [
+  "bg-violet-500/20 text-violet-400",
+  "bg-cyan-500/20 text-cyan-400",
+  "bg-amber-500/20 text-amber-400",
+  "bg-rose-500/20 text-rose-400",
+  "bg-emerald-500/20 text-emerald-400",
+  "bg-blue-500/20 text-blue-400",
+  "bg-pink-500/20 text-pink-400",
+  "bg-teal-500/20 text-teal-400",
+]
+
+function nameToColor(name: string) {
+  let hash = 0
+  for (let i = 0; i < name.length; i++) hash = name.charCodeAt(i) + ((hash << 5) - hash)
+  return AVATAR_COLORS[Math.abs(hash) % AVATAR_COLORS.length]
+}
+
+function getInitials(name: string) {
+  return name.split(" ").map(n => n[0]).join("").slice(0, 2).toUpperCase()
+}
+
+function getSeniority(title: string): number {
+  const t = title.toLowerCase()
+  if (t.includes("ceo") || t.includes("president") || t.includes("chief")) return 0
+  if (t.includes("svp") || t.includes("senior vice president")) return 1
+  if (t.includes("vp") || t.includes("vice president")) return 2
+  if (t.includes("executive director") || t.includes("senior director")) return 3
+  if (t.includes("director") && !t.includes("associate")) return 4
+  if (t.includes("associate director")) return 5
+  if (t.includes("head")) return 2
+  return 6
+}
+
+function PersonNode({ person, isTop = false }: { person: StakeholderPerson; isTop?: boolean }) {
+  const [imgError, setImgError] = useState(false)
+  const linkedinHandle = person.linkedin?.split("/in/")[1]?.replace(/\/$/, "")
+  
+  return (
+    <div className={`flex flex-col items-center gap-1 ${isTop ? "mb-1" : ""}`}>
+      <div className="relative">
+        {!imgError && linkedinHandle ? (
+          <Image
+            src={`https://unavatar.io/linkedin/${linkedinHandle}`}
+            alt={person.name}
+            width={isTop ? 40 : 32}
+            height={isTop ? 40 : 32}
+            className={`rounded-full object-cover ${isTop ? "ring-2 ring-primary/30" : ""}`}
+            onError={() => setImgError(true)}
+            unoptimized
+          />
+        ) : (
+          <div className={`flex items-center justify-center rounded-full font-mono text-[10px] font-bold ${nameToColor(person.name)} ${isTop ? "w-10 h-10 ring-2 ring-primary/30" : "w-8 h-8"}`}>
+            {getInitials(person.name)}
+          </div>
+        )}
+      </div>
+      <div className="text-center max-w-[110px]">
+        <a
+          href={person.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[11px] font-medium text-foreground hover:text-primary transition-colors leading-tight block truncate"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {person.name}
+        </a>
+        <div className="text-[9px] text-muted-foreground leading-tight mt-0.5 line-clamp-2">{person.title}</div>
+      </div>
+    </div>
+  )
+}
+
+function OrgMap({ people }: { people: StakeholderPerson[] }) {
+  const sorted = [...people].sort((a, b) => getSeniority(a.title) - getSeniority(b.title))
+  const top = sorted[0]
+  const rest = sorted.slice(1)
+
+  return (
+    <div className="flex flex-col items-center gap-0">
+      {/* Top person */}
+      <PersonNode person={top} isTop />
+      
+      {/* Connector line */}
+      {rest.length > 0 && (
+        <div className="w-px h-3 bg-border" />
+      )}
+      
+      {/* Horizontal connector */}
+      {rest.length > 1 && (
+        <div className="relative w-full flex justify-center">
+          <div 
+            className="h-px bg-border" 
+            style={{ width: `${Math.min(rest.length * 33, 90)}%` }} 
+          />
+        </div>
+      )}
+      
+      {/* Bottom people */}
+      {rest.length > 0 && (
+        <div className="flex justify-center gap-3 mt-0">
+          {rest.length > 1 && rest.map((_, i) => (
+            <div key={`conn-${i}`} className="absolute w-px h-2 bg-border" style={{ display: "none" }} />
+          ))}
+          {rest.map((person, i) => (
+            <div key={i} className="flex flex-col items-center">
+              <div className="w-px h-2 bg-border" />
+              <PersonNode person={person} />
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
+function LockedOrgMap({ count, preview }: { count: number; preview: string[] }) {
+  return (
+    <div className="relative overflow-hidden rounded-md">
+      {/* Blurred fake org chart */}
+      <div className="flex flex-col items-center gap-1 blur-[6px] select-none pointer-events-none py-2">
+        <div className="w-9 h-9 rounded-full bg-muted/60" />
+        <div className="h-2 w-px bg-muted/40" />
+        <div className="flex gap-4">
+          {preview.slice(0, 3).map((_, i) => (
+            <div key={i} className="flex flex-col items-center gap-1">
+              <div className="w-px h-2 bg-muted/40" />
+              <div className="w-7 h-7 rounded-full bg-muted/60" />
+              <div className="w-14 h-2 rounded bg-muted/40" />
+              <div className="w-10 h-1.5 rounded bg-muted/30" />
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* Overlay */}
+      <div className="absolute inset-0 flex flex-col items-center justify-center bg-background/60 backdrop-blur-[1px]">
+        <Lock className="h-4 w-4 text-muted-foreground/50 mb-1" />
+        <span className="text-[10px] text-muted-foreground font-mono">{count} stakeholders</span>
+        <span className="text-[9px] text-muted-foreground/60">Unlock with purchase</span>
+      </div>
+    </div>
+  )
+}
+
 function CompanyCard({ company }: { company: Company }) {
   return (
     <div className="group flex flex-col border border-border rounded-lg hover:border-foreground/20 transition-all duration-200 hover:shadow-[0_0_20px_rgba(90,197,58,0.04)] bg-background">
@@ -246,25 +389,16 @@ function CompanyCard({ company }: { company: Company }) {
         )}
       </div>
       
-      {/* Stakeholders */}
+      {/* Stakeholders — Org Map */}
       {company.stakeholders.locked ? (
         <div className="mx-4 mb-4 rounded-md border border-dashed border-border bg-muted/10 p-3">
-          <div className="flex items-center justify-between mb-1.5">
-            <div className="flex items-center gap-1.5">
-              <Users className="h-3 w-3 text-muted-foreground/60" />
-              <span className="font-mono text-[9px] text-muted-foreground uppercase tracking-wider">
-                {company.stakeholders.count} Stakeholders
-              </span>
-            </div>
-            <Lock className="h-3 w-3 text-muted-foreground/40" />
+          <div className="flex items-center gap-1.5 mb-2">
+            <Users className="h-3 w-3 text-muted-foreground/60" />
+            <span className="font-mono text-[9px] text-muted-foreground uppercase tracking-wider">
+              Decision Makers
+            </span>
           </div>
-          <div className="flex flex-wrap gap-1">
-            {company.stakeholders.preview.map((title, i) => (
-              <span key={i} className="inline-flex items-center rounded bg-muted/50 px-1.5 py-0.5 text-[10px] text-muted-foreground blur-[2px] select-none">
-                {title}
-              </span>
-            ))}
-          </div>
+          <LockedOrgMap count={company.stakeholders.count} preview={company.stakeholders.preview} />
         </div>
       ) : (
         <div className="mx-4 mb-4 rounded-md border border-primary/20 bg-primary/5 p-3">
@@ -272,33 +406,14 @@ function CompanyCard({ company }: { company: Company }) {
             <div className="flex items-center gap-1.5">
               <Users className="h-3 w-3 text-primary" />
               <span className="font-mono text-[9px] text-primary uppercase tracking-wider font-semibold">
-                {company.stakeholders.count} Stakeholders
+                Decision Makers
               </span>
             </div>
-            <span className="font-mono text-[8px] text-primary bg-primary/10 px-1.5 py-0.5 rounded-full uppercase tracking-wider">Unlocked</span>
+            <span className="font-mono text-[8px] text-primary bg-primary/10 px-1.5 py-0.5 rounded-full uppercase tracking-wider">Preview</span>
           </div>
-          <div className="space-y-1.5">
-            {company.stakeholders.people?.map((person, i) => (
-              <div key={i} className="flex items-center justify-between gap-2">
-                <div className="min-w-0">
-                  <div className="text-[12px] font-medium text-foreground truncate">{person.name}</div>
-                  <div className="text-[10px] text-muted-foreground truncate">{person.title}</div>
-                </div>
-                <a
-                  href={person.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="shrink-0 text-muted-foreground hover:text-primary transition-colors"
-                  onClick={(e) => e.stopPropagation()}
-                  title={`${person.name} on LinkedIn`}
-                >
-                  <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                  </svg>
-                </a>
-              </div>
-            ))}
-          </div>
+          {company.stakeholders.people && company.stakeholders.people.length > 0 && (
+            <OrgMap people={company.stakeholders.people} />
+          )}
         </div>
       )}
     </div>
