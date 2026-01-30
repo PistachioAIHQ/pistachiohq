@@ -1,7 +1,7 @@
 {
   "pack": {
     "name": "Submission Sprint",
-    "tagline": "Pharma leaders about to file \u2014 and drowning in documents",
+    "tagline": "Pharma leaders about to file — and drowning in documents",
     "description": "75-100 regulatory leaders at companies with imminent FDA submission deadlines, enriched with specific filing details and timeline pressure.",
     "targetBuyer": "Regulatory document AI companies (Raycaster, Artos, Scoop)",
     "price": 450,
@@ -35,7 +35,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AXSM&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Axsome+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://sleepreviewmag.com/sleep-treatments/pharmaceuticals/emerging-compounds/axsome-to-submit-new-drug-application-narcolepsy-treatment-axs-12/"
       },
       "therapeuticArea": "Neurology"
     },
@@ -62,7 +63,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=BTAI&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=BioXcel+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.bioxceltherapeutics.com/news-releases/news-release-details/bioxcel-therapeutics-submits-supplemental-new-drug-application"
       },
       "therapeuticArea": "Psychiatry"
     },
@@ -89,7 +91,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=OSTX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=OS+Therapies",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.sec.gov/Archives/edgar/data/1795091/000121390025078152/ea025371101ex99-1_ostherap.htm"
       },
       "therapeuticArea": "Oncology"
     },
@@ -116,7 +119,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RGNX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=REGENXBIO",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://regenxbio.gcs-web.com/news-releases/news-release-details/regenxbio-highlights-key-2026-catalysts-and-announces-positive"
       },
       "therapeuticArea": "Ophthalmology"
     },
@@ -143,7 +147,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CLSD&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Clearside+Biomedical",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://news.abbvie.com/2025-01-13-AbbVie-and-REGENXBIO-Announce-Updates-on-the-ABBV-RGX-314-Clinical-Program"
       },
       "therapeuticArea": "Ophthalmology"
     },
@@ -170,7 +175,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ABBV&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=AbbVie",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://regenxbio.gcs-web.com/news-releases/news-release-details/regenxbio-reports-third-quarter-2025-financial-results-and"
       },
       "therapeuticArea": "Ophthalmology"
     },
@@ -197,7 +203,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AQST&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Aquestive+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.sec.gov/Archives/edgar/data/1398733/000139873325000012/q22025-ex991earningsrelease.htm"
       },
       "therapeuticArea": "Other"
     },
@@ -224,7 +231,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=PHAR&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Pharming+Group+N.V.",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.prismedia.ai/news/fda-grants-priority-review-to-leniolisib-for-children-with-apds"
       },
       "therapeuticArea": "Rare Disease"
     },
@@ -251,7 +259,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=SPRB&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Spruce+Biosciences",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://investors.sprucebio.com/news-releases/news-release-details/spruce-biosciences-announces-new-corporate-strategy-and"
       },
       "therapeuticArea": "Rare Disease"
     },
@@ -278,7 +287,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=MRK&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Merck+&+Company",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.onclive.com/view/q1-2026-5-fda-decisions-to-watch-in-the-realm-of-oncology"
       },
       "therapeuticArea": "Oncology"
     },
@@ -305,7 +315,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=VNDA&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Vanda+Pharmaceuticals",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.sec.gov/Archives/edgar/data/1347178/000162828025023154/vnda8-k572025exhibit991.htm"
       },
       "therapeuticArea": "Psychiatry"
     },
@@ -332,7 +343,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ETON&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Eton+Pharmaceuticals",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.etonpharma.com/news-releases/news-release-details/eton-pharmaceuticals-reports-third-quarter-2025-financial"
       },
       "therapeuticArea": "Endocrinology & Metabolic"
     },
@@ -359,7 +371,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ASND&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Ascendis+Pharma+A/S",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://investors.ascendispharma.com/static-files/70b60a1b-3429-48d6-967e-aa13d4ab9d16"
       },
       "therapeuticArea": "Endocrinology & Metabolic"
     },
@@ -386,7 +399,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=BMRN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=BioMarin+Pharmaceutical",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.prnewswire.com/news-releases/fda-accepts-biomarins-palynziq-pegvaliase-pqpz-supplemental-biologics-license-application-for-priority-review-to-expand-use-to-adolescents-aged-12-17-with-phenylketonuria-302597628.html"
       },
       "therapeuticArea": "Endocrinology & Metabolic"
     },
@@ -413,7 +427,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=LNTH&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Lantheus+Holdings",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://lantheusholdings.gcs-web.com/news-releases/news-release-details/lantheus-announces-fda-acceptance-nda-new-formulation-market"
       },
       "therapeuticArea": "Oncology"
     },
@@ -440,7 +455,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=BMY&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Bristol-Myers+Squibb+Company",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://news.bms.com/news/details/2025/Bristol-Myers-Squibbs-Supplemental-New-Drug-Application-sNDA-for-Sotyktu-deucravacitinib-for-the-Treatment-of-Adults-with-Active-Psoriatic-Arthritis-Accepted-for-Review-Across-Four-Regions-Globally/default.aspx"
       },
       "therapeuticArea": "Immunology & Inflammation"
     },
@@ -467,7 +483,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ALDX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Aldeyra+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.ophthalmologytimes.com/view/fda-extends-aldeyra-s-reproxalap-pdufa-after-requesting-additional-clinical-study-report"
       },
       "therapeuticArea": "Ophthalmology"
     },
@@ -494,7 +511,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RYTM&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Rhythm+Pharmaceuticals",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-announces-fda-extension-review-period-0"
       },
       "therapeuticArea": "Endocrinology & Metabolic"
     },
@@ -521,7 +539,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=GSK&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=GSK+plc+American+Depositary+Shares+(Each+representing+two)",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.spherixglobalinsights.com/gsks-linerixibat-poised-to-address-substantial-unmet-need-for-the-treatment-of-pruritus-associated-with-primary-biliary-cholangitis-according-to-spherix-global-insights/"
       },
       "therapeuticArea": "Other"
     },
@@ -548,7 +567,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RCKT&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Rocket+Pharmaceuticals",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://checkrare.com/2026-orphan-drugs-pdufa-dates-and-fda-approvals/"
       },
       "therapeuticArea": "Other"
     },
@@ -575,7 +595,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CGEM&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Cullinan+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.biospace.com/press-releases/cullinan-therapeutics-provides-corporate-update-and-highlights-anticipated-2026-milestones"
       },
       "therapeuticArea": "Oncology"
     },
@@ -602,7 +623,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=IONS&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Ionis+Pharmaceuticals",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.biospace.com/drug-development/gsk-ionis-achieve-functional-cure-in-hepatitis-b-studies-clearing-path-for-fda-run"
       },
       "therapeuticArea": "Infectious Disease"
     },
@@ -629,7 +651,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=REGN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Regeneron+Pharmaceuticals",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://prismmarketview.com/regenerons-cemdisiran-hits-phase-3-goals-in-myasthenia-gravis-fda-filing-planned-for-2026/"
       },
       "therapeuticArea": "Other"
     },
@@ -656,7 +679,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=DNLI&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Denali+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.globenewswire.com/news-release/2026/01/29/3229066/0/en/Denali-Therapeutics-Announces-Data-Presentations-on-Enzyme-TransportVehicle-Programs-for-Hunter-Syndrome-Sanfilippo-Syndrome-Type-A-and-Pompe-Disease-at-Upcoming-2026-WORLDSymposiu.html"
       },
       "therapeuticArea": "Rare Disease"
     },
@@ -683,7 +707,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=REPL&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Replimune+Group",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.replimune.com/news-releases/news-release-details/replimune-announces-fda-acceptance-bla-resubmission-rp1-0"
       },
       "therapeuticArea": "Oncology"
     },
@@ -710,9 +735,12 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=TVTX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Travere+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.travere.com/press-releases/news-details/2026/Travere-Therapeutics-Announces-FDA-Extends-Review-of-sNDA-for-FILSPARI-sparsentan-in-FSGS/default.aspx"
       },
-      "therapeuticArea": "Nephrology"
+      "therapeuticArea": "Nephrology",
+      "status": "resolved",
+      "statusNote": "FDA approval appears to have been granted based on search results"
     },
     {
       "rank": 27,
@@ -737,7 +765,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=GRCE&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Grace+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.globenewswire.com/news-release/2025/11/13/3187283/0/en/Grace-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-Provides-Business-Update.html"
       },
       "therapeuticArea": "Other"
     },
@@ -764,7 +793,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ARGX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=argenx+SE",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.globenewswire.com/news-release/2026/01/13/3217457/0/en/argenx-Announces-FDA-Acceptance-of-Supplemental-Biologics-License-Application-with-Priority-Review-for-VYVGART-in-AChR-Ab-Seronegative-gMG.html"
       },
       "therapeuticArea": "Other"
     },
@@ -791,7 +821,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AZN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=AstraZeneca+PLC",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.rttnews.com/corpinfo/fdadetail.aspx?id=2488"
       },
       "therapeuticArea": "Oncology"
     },
@@ -818,7 +849,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=BIIB&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Biogen",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.neurologylive.com/view/priority-review-granted-weekly-subcutaneous-lecanemab-dosing-early-ad"
       },
       "therapeuticArea": "Neurology"
     },
@@ -845,7 +877,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=MNKD&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=MannKind+Corporation",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://investors.mannkindcorp.com/news-releases/news-release-details/mannkind-announces-us-fda-accepts-review-its-supplemental"
       },
       "therapeuticArea": "Endocrinology & Metabolic"
     },
@@ -872,7 +905,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CING&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Cingulate",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.cingulate.com/news-releases/news-release-details/fda-accepts-cingulates-new-drug-application-ctx-1301-attention"
       },
       "therapeuticArea": "Neurology"
     },
@@ -899,7 +933,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=PFE&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Pfizer",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.linkedin.com/posts/brentonmar_2025-fda-approvals-activity-7414147169240408064-0GxW"
       },
       "therapeuticArea": "Oncology"
     },
@@ -926,7 +961,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ARVN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Arvinas",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.arvinas.com/news-releases/news-release-details/arvinas-announces-fda-acceptance-new-drug-application"
       },
       "therapeuticArea": "Oncology"
     },
@@ -953,7 +989,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ACHV&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Achieve+Life+Sciences",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.achievelifesciences.com/news-events/press-releases/detail/238/achieve-life-sciences-announces-fda-acceptance-of-cytisinicline-new-drug-application-for-treatment-of-nicotine-dependence-for-smoking-cessation"
       },
       "therapeuticArea": "Other"
     },
@@ -980,7 +1017,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=UNCY&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Unicycive+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.sec.gov/Archives/edgar/data/1766140/000121390025108847/ea026522701ex99-1_unicycive.htm"
       },
       "therapeuticArea": "Nephrology"
     },
@@ -1007,7 +1045,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=HRMY&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Harmony+Biosciences+Holdings",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.sec.gov/Archives/edgar/data/1802665/000155837025001441/hrmy-20241231x10k.htm"
       },
       "therapeuticArea": "Other"
     },
@@ -1034,7 +1073,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=IMNM&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Immunome",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.biospace.com/drug-development/immunome-heads-to-the-fda-with-desmoid-tumor-drug-after-phase-iii-sweep"
       },
       "therapeuticArea": "Oncology"
     },
@@ -1061,7 +1101,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RNA&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Avidity+Biosciences",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.prnewswire.com/news-releases/avidity-biosciences-reports-third-quarter-2025-financial-results-and-recent-highlights-302610417.html"
       },
       "therapeuticArea": "Neurology"
     },
@@ -1070,7 +1111,7 @@
       "ticker": "LRMR",
       "company": "Larimar Therapeutics Inc.",
       "drug": "Nomlabofusp (CTI-1601)",
-      "indication": "Friedreich\u2019s ataxia (FA)",
+      "indication": "Friedreich’s ataxia (FA)",
       "milestone": "BLA Filing",
       "expectedDate": "2026-06-28",
       "signalType": "Submission",
@@ -1088,7 +1129,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=LRMR&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Larimar+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://investors.larimartx.com/news-releases/news-release-details/larimar-therapeutics-reports-third-quarter-2025-financial"
       },
       "therapeuticArea": "Neurology"
     },
@@ -1115,7 +1157,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=SGMO&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Sangamo+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.globenewswire.com/news-release/2025/12/18/3207689/33816/en/sangamo-therapeutics-initiates-rolling-submission-of-bla-to-u-s-fda-for-st-920-in-fabry-disease.html"
       },
       "therapeuticArea": "Endocrinology & Metabolic"
     },
@@ -1142,7 +1185,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ARQT&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Arcutis+Biotherapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://investors.arcutis.com/news-releases/news-release-details/fda-accepts-supplemental-new-drug-application-arcutis-zoryver"
       },
       "therapeuticArea": "Immunology & Inflammation"
     },
@@ -1169,7 +1213,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=VRDN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Viridian+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://investors.viridiantherapeutics.com/news/news-details/2025/Viridian-Therapeutics-Announces-BLA-Acceptance-and-Priority-Review-for-Veligrotug-for-the-Treatment-of-Thyroid-Eye-Disease/default.aspx"
       },
       "therapeuticArea": "Endocrinology & Metabolic"
     },
@@ -1196,7 +1241,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=VERA&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Vera+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review"
       },
       "therapeuticArea": "Nephrology"
     },
@@ -1223,7 +1269,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CORT&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Corcept+Therapeutics",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.businesswire.com/news/home/20251231309474/en/Corcept-Receives-Complete-Response-Letter-for-Relacorilant-as-a-Treatment-for-Patients-with-Hypercortisolism"
       },
       "therapeuticArea": "Oncology"
     },
@@ -1250,7 +1297,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CELC&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Celcuity",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.celcuity.com/news-releases/news-release-details/celcuity-announces-fda-acceptance-new-drug-application"
       },
       "therapeuticArea": "Oncology"
     },
@@ -1277,7 +1325,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NRXP&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=NRX+Pharmaceuticals",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-announces-us-food-and-drug-administration"
       },
       "therapeuticArea": "Other"
     },
@@ -1304,9 +1353,12 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=VTRS&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Viatris",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.webull.com/news/14047785850733568"
       },
-      "therapeuticArea": "Reproductive Health"
+      "therapeuticArea": "Reproductive Health",
+      "status": "resolved",
+      "statusNote": "FDA approval appears to have been granted based on search results"
     },
     {
       "rank": 49,
@@ -1331,7 +1383,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NUVL&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Nuvalent",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://www.prnewswire.com/news-releases/nuvalent-announces-fda-acceptance-of-new-drug-application-for-zidesamtinib-for-the-treatment-of-tki-pre-treated-patients-with-advanced-ros1-positive-nsclc-302620883.html"
       },
       "therapeuticArea": "Oncology"
     },
@@ -1358,7 +1411,8 @@
       "sources": {
         "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RPRX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
         "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Royalty+Pharma+plc",
-        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
+        "primarySource": "https://investors.nuvalent.com/2026-01-12-Nuvalent-Announces-OnTarget-2026-Operating-Plan-Progress-and-Outlines-Key-Anticipated-2026-Milestones"
       },
       "therapeuticArea": "Oncology"
     }
