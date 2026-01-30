@@ -1,7 +1,7 @@
 {
   "pack": {
     "name": "Submission Sprint",
-    "tagline": "Pharma leaders about to file — and drowning in documents",
+    "tagline": "Pharma leaders about to file \u2014 and drowning in documents",
     "description": "75-100 regulatory leaders at companies with imminent FDA submission deadlines, enriched with specific filing details and timeline pressure.",
     "targetBuyer": "Regulatory document AI companies (Raycaster, Artos, Scoop)",
     "price": 450,
@@ -31,7 +31,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AXSM&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Axsome+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Neurology"
     },
     {
       "rank": 2,
@@ -52,7 +58,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=BTAI&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=BioXcel+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Psychiatry"
     },
     {
       "rank": 3,
@@ -73,7 +85,13 @@
           "Director Biologics Regulatory",
           "Head of Quality"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=OSTX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=OS+Therapies",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 4,
@@ -94,7 +112,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RGNX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=REGENXBIO",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Ophthalmology"
     },
     {
       "rank": 5,
@@ -115,7 +139,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CLSD&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Clearside+Biomedical",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Ophthalmology"
     },
     {
       "rank": 6,
@@ -136,7 +166,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ABBV&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=AbbVie",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Ophthalmology"
     },
     {
       "rank": 7,
@@ -157,7 +193,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AQST&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Aquestive+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Other"
     },
     {
       "rank": 8,
@@ -178,7 +220,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=PHAR&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Pharming+Group+N.V.",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Rare Disease"
     },
     {
       "rank": 9,
@@ -199,7 +247,13 @@
           "Director Biologics Regulatory",
           "Head of Quality"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=SPRB&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Spruce+Biosciences",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Rare Disease"
     },
     {
       "rank": 10,
@@ -220,7 +274,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=MRK&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Merck+&+Company",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 11,
@@ -241,7 +301,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=VNDA&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Vanda+Pharmaceuticals",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Psychiatry"
     },
     {
       "rank": 12,
@@ -262,7 +328,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ETON&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Eton+Pharmaceuticals",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Endocrinology & Metabolic"
     },
     {
       "rank": 13,
@@ -283,7 +355,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ASND&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Ascendis+Pharma+A/S",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Endocrinology & Metabolic"
     },
     {
       "rank": 14,
@@ -304,7 +382,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=BMRN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=BioMarin+Pharmaceutical",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Endocrinology & Metabolic"
     },
     {
       "rank": 15,
@@ -325,7 +409,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=LNTH&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Lantheus+Holdings",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 16,
@@ -346,7 +436,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=BMY&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Bristol-Myers+Squibb+Company",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Immunology & Inflammation"
     },
     {
       "rank": 17,
@@ -367,7 +463,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ALDX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Aldeyra+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Ophthalmology"
     },
     {
       "rank": 18,
@@ -388,7 +490,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RYTM&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Rhythm+Pharmaceuticals",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Endocrinology & Metabolic"
     },
     {
       "rank": 19,
@@ -409,7 +517,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=GSK&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=GSK+plc+American+Depositary+Shares+(Each+representing+two)",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Other"
     },
     {
       "rank": 20,
@@ -430,7 +544,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RCKT&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Rocket+Pharmaceuticals",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Other"
     },
     {
       "rank": 21,
@@ -451,7 +571,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CGEM&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Cullinan+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 22,
@@ -472,7 +598,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=IONS&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Ionis+Pharmaceuticals",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Infectious Disease"
     },
     {
       "rank": 23,
@@ -493,7 +625,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=REGN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Regeneron+Pharmaceuticals",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Other"
     },
     {
       "rank": 24,
@@ -514,7 +652,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=DNLI&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Denali+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Rare Disease"
     },
     {
       "rank": 25,
@@ -535,7 +679,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=REPL&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Replimune+Group",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 26,
@@ -556,7 +706,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=TVTX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Travere+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Nephrology"
     },
     {
       "rank": 27,
@@ -577,7 +733,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=GRCE&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Grace+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Other"
     },
     {
       "rank": 28,
@@ -598,7 +760,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ARGX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=argenx+SE",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Other"
     },
     {
       "rank": 29,
@@ -619,7 +787,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AZN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=AstraZeneca+PLC",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 30,
@@ -640,7 +814,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=BIIB&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Biogen",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Neurology"
     },
     {
       "rank": 31,
@@ -661,7 +841,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=MNKD&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=MannKind+Corporation",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Endocrinology & Metabolic"
     },
     {
       "rank": 32,
@@ -682,7 +868,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CING&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Cingulate",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Neurology"
     },
     {
       "rank": 33,
@@ -703,7 +895,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=PFE&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Pfizer",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 34,
@@ -724,7 +922,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ARVN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Arvinas",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 35,
@@ -745,7 +949,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ACHV&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Achieve+Life+Sciences",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Other"
     },
     {
       "rank": 36,
@@ -766,7 +976,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=UNCY&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Unicycive+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Nephrology"
     },
     {
       "rank": 37,
@@ -787,7 +1003,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=HRMY&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Harmony+Biosciences+Holdings",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Other"
     },
     {
       "rank": 38,
@@ -808,7 +1030,13 @@
           "Director Regulatory Operations",
           "Head of CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=IMNM&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Immunome",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 39,
@@ -829,14 +1057,20 @@
           "Director Biologics Regulatory",
           "Head of Quality"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RNA&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Avidity+Biosciences",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Neurology"
     },
     {
       "rank": 40,
       "ticker": "LRMR",
       "company": "Larimar Therapeutics Inc.",
       "drug": "Nomlabofusp (CTI-1601)",
-      "indication": "Friedreich’s ataxia (FA)",
+      "indication": "Friedreich\u2019s ataxia (FA)",
       "milestone": "BLA Filing",
       "expectedDate": "2026-06-28",
       "signalType": "Submission",
@@ -850,7 +1084,13 @@
           "Director Biologics Regulatory",
           "Head of Quality"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=LRMR&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Larimar+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Neurology"
     },
     {
       "rank": 41,
@@ -871,7 +1111,13 @@
           "Director Biologics Regulatory",
           "Head of Quality"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=SGMO&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Sangamo+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Endocrinology & Metabolic"
     },
     {
       "rank": 42,
@@ -892,7 +1138,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=ARQT&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Arcutis+Biotherapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Immunology & Inflammation"
     },
     {
       "rank": 43,
@@ -913,7 +1165,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=VRDN&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Viridian+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Endocrinology & Metabolic"
     },
     {
       "rank": 44,
@@ -934,7 +1192,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=VERA&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Vera+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Nephrology"
     },
     {
       "rank": 45,
@@ -955,7 +1219,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CORT&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Corcept+Therapeutics",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 46,
@@ -976,7 +1246,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CELC&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Celcuity",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 47,
@@ -997,7 +1273,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NRXP&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=NRX+Pharmaceuticals",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Other"
     },
     {
       "rank": 48,
@@ -1018,7 +1300,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=VTRS&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Viatris",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Reproductive Health"
     },
     {
       "rank": 49,
@@ -1039,7 +1327,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NUVL&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Nuvalent",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     },
     {
       "rank": 50,
@@ -1060,7 +1354,13 @@
           "Head of Medical Writing",
           "Director CMC"
         ]
-      }
+      },
+      "sources": {
+        "sec": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=RPRX&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Royalty+Pharma+plc",
+        "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process"
+      },
+      "therapeuticArea": "Oncology"
     }
   ]
 }
