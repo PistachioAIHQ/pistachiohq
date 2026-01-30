@@ -38,7 +38,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://sleepreviewmag.com/sleep-treatments/pharmaceuticals/emerging-compounds/axsome-to-submit-new-drug-application-narcolepsy-treatment-axs-12/"
       },
-      "therapeuticArea": "Neurology"
+      "therapeuticArea": "Neurology",
+      "domain": "axsome.com"
     },
     {
       "rank": 2,
@@ -66,7 +67,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://ir.bioxceltherapeutics.com/news-releases/news-release-details/bioxcel-therapeutics-submits-supplemental-new-drug-application"
       },
-      "therapeuticArea": "Psychiatry"
+      "therapeuticArea": "Psychiatry",
+      "domain": "bioxceltherapeutics.com"
     },
     {
       "rank": 3,
@@ -94,7 +96,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.sec.gov/Archives/edgar/data/1795091/000121390025078152/ea025371101ex99-1_ostherap.htm"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "ostherapies.com"
     },
     {
       "rank": 4,
@@ -122,7 +125,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://regenxbio.gcs-web.com/news-releases/news-release-details/regenxbio-highlights-key-2026-catalysts-and-announces-positive"
       },
-      "therapeuticArea": "Ophthalmology"
+      "therapeuticArea": "Ophthalmology",
+      "domain": "regenxbio.com"
     },
     {
       "rank": 5,
@@ -150,7 +154,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://news.abbvie.com/2025-01-13-AbbVie-and-REGENXBIO-Announce-Updates-on-the-ABBV-RGX-314-Clinical-Program"
       },
-      "therapeuticArea": "Ophthalmology"
+      "therapeuticArea": "Ophthalmology",
+      "domain": "clearsidebio.com"
     },
     {
       "rank": 6,
@@ -178,7 +183,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://regenxbio.gcs-web.com/news-releases/news-release-details/regenxbio-reports-third-quarter-2025-financial-results-and"
       },
-      "therapeuticArea": "Ophthalmology"
+      "therapeuticArea": "Ophthalmology",
+      "domain": "abbvie.com"
     },
     {
       "rank": 7,
@@ -206,7 +212,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.sec.gov/Archives/edgar/data/1398733/000139873325000012/q22025-ex991earningsrelease.htm"
       },
-      "therapeuticArea": "Other"
+      "therapeuticArea": "Other",
+      "domain": "aquestive.com"
     },
     {
       "rank": 8,
@@ -234,7 +241,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.prismedia.ai/news/fda-grants-priority-review-to-leniolisib-for-children-with-apds"
       },
-      "therapeuticArea": "Rare Disease"
+      "therapeuticArea": "Rare Disease",
+      "domain": "pharming.com"
     },
     {
       "rank": 9,
@@ -262,7 +270,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://investors.sprucebio.com/news-releases/news-release-details/spruce-biosciences-announces-new-corporate-strategy-and"
       },
-      "therapeuticArea": "Rare Disease"
+      "therapeuticArea": "Rare Disease",
+      "domain": "sprucebio.com"
     },
     {
       "rank": 10,
@@ -290,7 +299,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.onclive.com/view/q1-2026-5-fda-decisions-to-watch-in-the-realm-of-oncology"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "merck.com"
     },
     {
       "rank": 11,
@@ -318,7 +328,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.sec.gov/Archives/edgar/data/1347178/000162828025023154/vnda8-k572025exhibit991.htm"
       },
-      "therapeuticArea": "Psychiatry"
+      "therapeuticArea": "Psychiatry",
+      "domain": "vandapharma.com"
     },
     {
       "rank": 12,
@@ -346,7 +357,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://ir.etonpharma.com/news-releases/news-release-details/eton-pharmaceuticals-reports-third-quarter-2025-financial"
       },
-      "therapeuticArea": "Endocrinology & Metabolic"
+      "therapeuticArea": "Endocrinology & Metabolic",
+      "domain": "etonpharma.com"
     },
     {
       "rank": 13,
@@ -374,7 +386,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://investors.ascendispharma.com/static-files/70b60a1b-3429-48d6-967e-aa13d4ab9d16"
       },
-      "therapeuticArea": "Endocrinology & Metabolic"
+      "therapeuticArea": "Endocrinology & Metabolic",
+      "domain": "ascendispharma.com"
     },
     {
       "rank": 14,
@@ -402,7 +415,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.prnewswire.com/news-releases/fda-accepts-biomarins-palynziq-pegvaliase-pqpz-supplemental-biologics-license-application-for-priority-review-to-expand-use-to-adolescents-aged-12-17-with-phenylketonuria-302597628.html"
       },
-      "therapeuticArea": "Endocrinology & Metabolic"
+      "therapeuticArea": "Endocrinology & Metabolic",
+      "domain": "biomarin.com"
     },
     {
       "rank": 15,
@@ -430,7 +444,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://lantheusholdings.gcs-web.com/news-releases/news-release-details/lantheus-announces-fda-acceptance-nda-new-formulation-market"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "lantheus.com"
     },
     {
       "rank": 16,
@@ -458,7 +473,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://news.bms.com/news/details/2025/Bristol-Myers-Squibbs-Supplemental-New-Drug-Application-sNDA-for-Sotyktu-deucravacitinib-for-the-Treatment-of-Adults-with-Active-Psoriatic-Arthritis-Accepted-for-Review-Across-Four-Regions-Globally/default.aspx"
       },
-      "therapeuticArea": "Immunology & Inflammation"
+      "therapeuticArea": "Immunology & Inflammation",
+      "domain": "bms.com"
     },
     {
       "rank": 17,
@@ -486,7 +502,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.ophthalmologytimes.com/view/fda-extends-aldeyra-s-reproxalap-pdufa-after-requesting-additional-clinical-study-report"
       },
-      "therapeuticArea": "Ophthalmology"
+      "therapeuticArea": "Ophthalmology",
+      "domain": "aldeyra.com"
     },
     {
       "rank": 18,
@@ -514,7 +531,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-announces-fda-extension-review-period-0"
       },
-      "therapeuticArea": "Endocrinology & Metabolic"
+      "therapeuticArea": "Endocrinology & Metabolic",
+      "domain": "rhythmtx.com"
     },
     {
       "rank": 19,
@@ -542,7 +560,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.spherixglobalinsights.com/gsks-linerixibat-poised-to-address-substantial-unmet-need-for-the-treatment-of-pruritus-associated-with-primary-biliary-cholangitis-according-to-spherix-global-insights/"
       },
-      "therapeuticArea": "Other"
+      "therapeuticArea": "Other",
+      "domain": "gsk.com"
     },
     {
       "rank": 20,
@@ -570,7 +589,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://checkrare.com/2026-orphan-drugs-pdufa-dates-and-fda-approvals/"
       },
-      "therapeuticArea": "Other"
+      "therapeuticArea": "Other",
+      "domain": "rocketpharma.com"
     },
     {
       "rank": 21,
@@ -598,7 +618,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.biospace.com/press-releases/cullinan-therapeutics-provides-corporate-update-and-highlights-anticipated-2026-milestones"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "cullinantx.com"
     },
     {
       "rank": 22,
@@ -626,7 +647,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.biospace.com/drug-development/gsk-ionis-achieve-functional-cure-in-hepatitis-b-studies-clearing-path-for-fda-run"
       },
-      "therapeuticArea": "Infectious Disease"
+      "therapeuticArea": "Infectious Disease",
+      "domain": "ionispharma.com"
     },
     {
       "rank": 23,
@@ -654,7 +676,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://prismmarketview.com/regenerons-cemdisiran-hits-phase-3-goals-in-myasthenia-gravis-fda-filing-planned-for-2026/"
       },
-      "therapeuticArea": "Other"
+      "therapeuticArea": "Other",
+      "domain": "regeneron.com"
     },
     {
       "rank": 24,
@@ -682,7 +705,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.globenewswire.com/news-release/2026/01/29/3229066/0/en/Denali-Therapeutics-Announces-Data-Presentations-on-Enzyme-TransportVehicle-Programs-for-Hunter-Syndrome-Sanfilippo-Syndrome-Type-A-and-Pompe-Disease-at-Upcoming-2026-WORLDSymposiu.html"
       },
-      "therapeuticArea": "Rare Disease"
+      "therapeuticArea": "Rare Disease",
+      "domain": "denalitherapeutics.com"
     },
     {
       "rank": 25,
@@ -710,7 +734,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://ir.replimune.com/news-releases/news-release-details/replimune-announces-fda-acceptance-bla-resubmission-rp1-0"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "replimune.com"
     },
     {
       "rank": 26,
@@ -740,7 +765,8 @@
       },
       "therapeuticArea": "Nephrology",
       "status": "resolved",
-      "statusNote": "FDA approval appears to have been granted based on search results"
+      "statusNote": "FDA approval appears to have been granted based on search results",
+      "domain": "travere.com"
     },
     {
       "rank": 27,
@@ -768,7 +794,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.globenewswire.com/news-release/2025/11/13/3187283/0/en/Grace-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-Provides-Business-Update.html"
       },
-      "therapeuticArea": "Other"
+      "therapeuticArea": "Other",
+      "domain": "gracetherapeutics.com"
     },
     {
       "rank": 28,
@@ -796,7 +823,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.globenewswire.com/news-release/2026/01/13/3217457/0/en/argenx-Announces-FDA-Acceptance-of-Supplemental-Biologics-License-Application-with-Priority-Review-for-VYVGART-in-AChR-Ab-Seronegative-gMG.html"
       },
-      "therapeuticArea": "Other"
+      "therapeuticArea": "Other",
+      "domain": "argenx.com"
     },
     {
       "rank": 29,
@@ -824,7 +852,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.rttnews.com/corpinfo/fdadetail.aspx?id=2488"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "astrazeneca.com"
     },
     {
       "rank": 30,
@@ -852,7 +881,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.neurologylive.com/view/priority-review-granted-weekly-subcutaneous-lecanemab-dosing-early-ad"
       },
-      "therapeuticArea": "Neurology"
+      "therapeuticArea": "Neurology",
+      "domain": "biogen.com"
     },
     {
       "rank": 31,
@@ -880,7 +910,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://investors.mannkindcorp.com/news-releases/news-release-details/mannkind-announces-us-fda-accepts-review-its-supplemental"
       },
-      "therapeuticArea": "Endocrinology & Metabolic"
+      "therapeuticArea": "Endocrinology & Metabolic",
+      "domain": "mannkindcorp.com"
     },
     {
       "rank": 32,
@@ -908,7 +939,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.cingulate.com/news-releases/news-release-details/fda-accepts-cingulates-new-drug-application-ctx-1301-attention"
       },
-      "therapeuticArea": "Neurology"
+      "therapeuticArea": "Neurology",
+      "domain": "cingulate.com"
     },
     {
       "rank": 33,
@@ -936,7 +968,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.linkedin.com/posts/brentonmar_2025-fda-approvals-activity-7414147169240408064-0GxW"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "pfizer.com"
     },
     {
       "rank": 34,
@@ -964,7 +997,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://ir.arvinas.com/news-releases/news-release-details/arvinas-announces-fda-acceptance-new-drug-application"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "arvinas.com"
     },
     {
       "rank": 35,
@@ -992,7 +1026,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://ir.achievelifesciences.com/news-events/press-releases/detail/238/achieve-life-sciences-announces-fda-acceptance-of-cytisinicline-new-drug-application-for-treatment-of-nicotine-dependence-for-smoking-cessation"
       },
-      "therapeuticArea": "Other"
+      "therapeuticArea": "Other",
+      "domain": "achievelifesciences.com"
     },
     {
       "rank": 36,
@@ -1020,7 +1055,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.sec.gov/Archives/edgar/data/1766140/000121390025108847/ea026522701ex99-1_unicycive.htm"
       },
-      "therapeuticArea": "Nephrology"
+      "therapeuticArea": "Nephrology",
+      "domain": "unicycive.com"
     },
     {
       "rank": 37,
@@ -1048,7 +1084,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.sec.gov/Archives/edgar/data/1802665/000155837025001441/hrmy-20241231x10k.htm"
       },
-      "therapeuticArea": "Other"
+      "therapeuticArea": "Other",
+      "domain": "harmonybiosciences.com"
     },
     {
       "rank": 38,
@@ -1076,7 +1113,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.biospace.com/drug-development/immunome-heads-to-the-fda-with-desmoid-tumor-drug-after-phase-iii-sweep"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "immunome.com"
     },
     {
       "rank": 39,
@@ -1104,7 +1142,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.prnewswire.com/news-releases/avidity-biosciences-reports-third-quarter-2025-financial-results-and-recent-highlights-302610417.html"
       },
-      "therapeuticArea": "Neurology"
+      "therapeuticArea": "Neurology",
+      "domain": "aviditybiosciences.com"
     },
     {
       "rank": 40,
@@ -1132,7 +1171,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://investors.larimartx.com/news-releases/news-release-details/larimar-therapeutics-reports-third-quarter-2025-financial"
       },
-      "therapeuticArea": "Neurology"
+      "therapeuticArea": "Neurology",
+      "domain": "larimartx.com"
     },
     {
       "rank": 41,
@@ -1160,7 +1200,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.globenewswire.com/news-release/2025/12/18/3207689/33816/en/sangamo-therapeutics-initiates-rolling-submission-of-bla-to-u-s-fda-for-st-920-in-fabry-disease.html"
       },
-      "therapeuticArea": "Endocrinology & Metabolic"
+      "therapeuticArea": "Endocrinology & Metabolic",
+      "domain": "sangamo.com"
     },
     {
       "rank": 42,
@@ -1188,7 +1229,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://investors.arcutis.com/news-releases/news-release-details/fda-accepts-supplemental-new-drug-application-arcutis-zoryver"
       },
-      "therapeuticArea": "Immunology & Inflammation"
+      "therapeuticArea": "Immunology & Inflammation",
+      "domain": "arcutis.com"
     },
     {
       "rank": 43,
@@ -1216,7 +1258,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://investors.viridiantherapeutics.com/news/news-details/2025/Viridian-Therapeutics-Announces-BLA-Acceptance-and-Priority-Review-for-Veligrotug-for-the-Treatment-of-Thyroid-Eye-Disease/default.aspx"
       },
-      "therapeuticArea": "Endocrinology & Metabolic"
+      "therapeuticArea": "Endocrinology & Metabolic",
+      "domain": "viridiantherapeutics.com"
     },
     {
       "rank": 44,
@@ -1244,7 +1287,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review"
       },
-      "therapeuticArea": "Nephrology"
+      "therapeuticArea": "Nephrology",
+      "domain": "veratx.com"
     },
     {
       "rank": 45,
@@ -1272,7 +1316,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.businesswire.com/news/home/20251231309474/en/Corcept-Receives-Complete-Response-Letter-for-Relacorilant-as-a-Treatment-for-Patients-with-Hypercortisolism"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "corcept.com"
     },
     {
       "rank": 46,
@@ -1300,7 +1345,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://ir.celcuity.com/news-releases/news-release-details/celcuity-announces-fda-acceptance-new-drug-application"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "celcuity.com"
     },
     {
       "rank": 47,
@@ -1328,7 +1374,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-announces-us-food-and-drug-administration"
       },
-      "therapeuticArea": "Other"
+      "therapeuticArea": "Other",
+      "domain": "nrxpharma.com"
     },
     {
       "rank": 48,
@@ -1358,7 +1405,8 @@
       },
       "therapeuticArea": "Reproductive Health",
       "status": "resolved",
-      "statusNote": "FDA approval appears to have been granted based on search results"
+      "statusNote": "FDA approval appears to have been granted based on search results",
+      "domain": "viatris.com"
     },
     {
       "rank": 49,
@@ -1386,7 +1434,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://www.prnewswire.com/news-releases/nuvalent-announces-fda-acceptance-of-new-drug-application-for-zidesamtinib-for-the-treatment-of-tki-pre-treated-patients-with-advanced-ros1-positive-nsclc-302620883.html"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "nuvalent.com"
     },
     {
       "rank": 50,
@@ -1414,7 +1463,8 @@
         "fda": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process",
         "primarySource": "https://investors.nuvalent.com/2026-01-12-Nuvalent-Announces-OnTarget-2026-Operating-Plan-Progress-and-Outlines-Key-Anticipated-2026-Milestones"
       },
-      "therapeuticArea": "Oncology"
+      "therapeuticArea": "Oncology",
+      "domain": "royaltypharma.com"
     }
   ]
 }

@@ -1,14 +1,16 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Lock, ArrowRight, Calendar, FileText, AlertTriangle, Clock, Building2, Pill, Target, Users, ChevronDown, ChevronUp, ExternalLink, Filter, X } from "lucide-react"
+import { Lock, ArrowRight, Calendar, FileText, AlertTriangle, Clock, Building2, Pill, Target, Users, ChevronDown, ChevronUp, ExternalLink, Filter, X, RefreshCw } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { useState, useEffect, useMemo } from "react"
 
 interface Company {
   rank: number
   ticker: string
   company: string
+  domain: string
   drug: string
   indication: string
   milestone: string
@@ -114,6 +116,30 @@ function FilterChip({ label, active, count, onClick }: { label: string; active: 
   )
 }
 
+function CompanyLogo({ domain, company }: { domain: string; company: string }) {
+  const [error, setError] = useState(false)
+  
+  if (!domain || error) {
+    return (
+      <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-muted text-[10px] font-mono font-bold text-muted-foreground">
+        {company.charAt(0)}
+      </div>
+    )
+  }
+
+  return (
+    <Image
+      src={`https://img.logo.dev/${domain}?token=pk_JBbN5IBfSNmUyE2Gj2LiiA&retina=true`}
+      alt={company}
+      width={28}
+      height={28}
+      className="shrink-0 rounded-md bg-white/10"
+      onError={() => setError(true)}
+      unoptimized
+    />
+  )
+}
+
 function CompanyRow({ company }: { company: Company }) {
   const [expanded, setExpanded] = useState(false)
   
@@ -129,9 +155,7 @@ function CompanyRow({ company }: { company: Company }) {
         className="flex items-start gap-3 md:gap-4 p-3 md:p-4 cursor-pointer hover:bg-muted/30 transition-colors"
         onClick={() => setExpanded(!expanded)}
       >
-        <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-muted font-mono text-xs font-medium text-muted-foreground">
-          {company.rank}
-        </div>
+        <CompanyLogo domain={company.domain} company={company.company} />
         
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
@@ -181,44 +205,19 @@ function CompanyRow({ company }: { company: Company }) {
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">{company.signalDetail}</p>
               
-              {/* Source links */}
-              <div className="flex items-center gap-3 mt-3 pt-3 border-t border-border/50 flex-wrap">
-                <span className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">Verify:</span>
-                {company.sources.primarySource && (
+              {/* Primary source link only */}
+              {company.sources.primarySource && (
+                <div className="flex items-center gap-3 mt-3 pt-3 border-t border-border/50">
                   <a 
                     href={company.sources.primarySource} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[11px] text-primary hover:text-primary/80 font-medium transition-colors"
+                    className="inline-flex items-center gap-1.5 text-[11px] text-primary hover:text-primary/80 font-medium transition-colors"
                   >
                     Primary Source <ExternalLink className="h-2.5 w-2.5" />
                   </a>
-                )}
-                <a 
-                  href={company.sources.clinicalTrials} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-[11px] text-primary/70 hover:text-primary transition-colors"
-                >
-                  ClinicalTrials.gov <ExternalLink className="h-2.5 w-2.5" />
-                </a>
-                <a 
-                  href={company.sources.sec} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-[11px] text-primary/70 hover:text-primary transition-colors"
-                >
-                  SEC EDGAR <ExternalLink className="h-2.5 w-2.5" />
-                </a>
-                <a 
-                  href={company.sources.fda} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-[11px] text-primary/70 hover:text-primary transition-colors"
-                >
-                  FDA <ExternalLink className="h-2.5 w-2.5" />
-                </a>
-              </div>
+                </div>
+              )}
             </div>
             
             {/* Stakeholders (locked) */}
@@ -253,6 +252,7 @@ function CompanyRow({ company }: { company: Company }) {
 export default function SubmissionSprintPage() {
   const [data, setData] = useState<PackData | null>(null)
   const [showAll, setShowAll] = useState(false)
+  const [filtersOpen, setFiltersOpen] = useState(false)
   const [milestoneFilter, setMilestoneFilter] = useState<string | null>(null)
   const [urgencyFilter, setUrgencyFilter] = useState<string | null>(null)
   const [taFilter, setTaFilter] = useState<string | null>(null)
@@ -299,12 +299,13 @@ export default function SubmissionSprintPage() {
   }
 
   const visibleCompanies = showAll ? filteredCompanies : filteredCompanies.slice(0, 10)
+  const activeFilterCount = [milestoneFilter, urgencyFilter, taFilter].filter(Boolean).length
 
   return (
     <div className="min-h-screen bg-background">
       <div className="h-1 w-full bg-gradient-to-r from-[#5ac53a] via-[#d5fd51] via-[#f6c86a] to-[#eb5d2a]" />
       
-      <div className="container mx-auto px-4 py-6 md:py-8 max-w-5xl">
+      <div className="container mx-auto px-4 py-6 md:py-8">
         <Link href="/" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6">
           ← Back to Pistachio AI
         </Link>
@@ -335,27 +336,26 @@ export default function SubmissionSprintPage() {
             </div>
           </div>
           
-          {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mt-6">
+          {/* Value stats */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6">
             <div className="rounded-lg border border-border p-3 text-center">
               <div className="font-mono text-xl md:text-2xl font-bold">{data.pack.totalCompanies}</div>
               <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Companies</div>
             </div>
-            <div className="rounded-lg border border-red-500/20 bg-red-500/5 p-3 text-center">
-              <div className="font-mono text-xl md:text-2xl font-bold text-red-400">{counts.urgencies["Critical"] || 0}</div>
-              <div className="text-[10px] text-red-400/70 uppercase tracking-wider mt-0.5">Critical</div>
+            <div className="rounded-lg border border-border p-3 text-center">
+              <div className="font-mono text-xl md:text-2xl font-bold">{Object.keys(counts.tas).length}</div>
+              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Therapeutic Areas</div>
             </div>
-            <div className="rounded-lg border border-orange-500/20 bg-orange-500/5 p-3 text-center">
-              <div className="font-mono text-xl md:text-2xl font-bold text-orange-400">{counts.urgencies["High"] || 0}</div>
-              <div className="text-[10px] text-orange-400/70 uppercase tracking-wider mt-0.5">High</div>
+            <div className="rounded-lg border border-border p-3 text-center">
+              <div className="font-mono text-xl md:text-2xl font-bold">${data.pack.price}</div>
+              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Per Refresh</div>
             </div>
-            <div className="rounded-lg border border-yellow-500/20 bg-yellow-500/5 p-3 text-center">
-              <div className="font-mono text-xl md:text-2xl font-bold text-yellow-400">{counts.urgencies["Medium"] || 0}</div>
-              <div className="text-[10px] text-yellow-400/70 uppercase tracking-wider mt-0.5">Medium</div>
-            </div>
-            <div className="rounded-lg border border-primary/20 bg-primary/5 p-3 text-center">
-              <div className="font-mono text-xl md:text-2xl font-bold text-primary">{Object.keys(counts.tas).length}</div>
-              <div className="text-[10px] text-primary/70 uppercase tracking-wider mt-0.5">Therapy Areas</div>
+            <div className="rounded-lg border border-border p-3 text-center">
+              <div className="flex items-center justify-center gap-1.5">
+                <RefreshCw className="h-4 w-4 text-muted-foreground" />
+                <span className="font-mono text-xl md:text-2xl font-bold">2wk</span>
+              </div>
+              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Update Cadence</div>
             </div>
           </div>
         </div>
@@ -378,68 +378,85 @@ export default function SubmissionSprintPage() {
           <span className="text-[11px] text-muted-foreground">Public press releases</span>
         </div>
 
-        {/* Filters */}
-        <div className="border border-border rounded-lg p-4 mb-4 space-y-3">
-          <div className="flex items-center gap-2">
-            <Filter className="h-3.5 w-3.5 text-muted-foreground" />
-            <span className="font-mono text-xs text-muted-foreground uppercase tracking-wider">Filter</span>
-            {hasFilters && (
-              <button 
-                onClick={() => { setMilestoneFilter(null); setUrgencyFilter(null); setTaFilter(null); }}
-                className="ml-auto text-xs text-primary hover:underline cursor-pointer"
-              >
-                Clear all
-              </button>
-            )}
-          </div>
-          
-          {/* Milestone filters */}
-          <div>
-            <div className="text-[10px] text-muted-foreground/50 uppercase tracking-wider mb-1.5">Milestone</div>
-            <div className="flex flex-wrap gap-1.5">
-              {Object.entries(counts.milestones).sort((a, b) => b[1] - a[1]).map(([m, count]) => (
-                <FilterChip 
-                  key={m} 
-                  label={m} 
-                  count={count} 
-                  active={milestoneFilter === m}
-                  onClick={() => setMilestoneFilter(milestoneFilter === m ? null : m)} 
-                />
-              ))}
+        {/* Compact collapsible filter bar */}
+        <div className="border border-border rounded-lg mb-4">
+          <button
+            onClick={() => setFiltersOpen(!filtersOpen)}
+            className="w-full flex items-center justify-between px-4 py-2.5 cursor-pointer hover:bg-muted/20 transition-colors"
+          >
+            <div className="flex items-center gap-2">
+              <Filter className="h-3.5 w-3.5 text-muted-foreground" />
+              <span className="font-mono text-xs text-muted-foreground uppercase tracking-wider">Filter</span>
+              {activeFilterCount > 0 && (
+                <span className="inline-flex items-center justify-center h-4 w-4 rounded-full bg-primary text-[10px] font-mono font-bold text-primary-foreground">
+                  {activeFilterCount}
+                </span>
+              )}
             </div>
-          </div>
-          
-          {/* Urgency filters */}
-          <div>
-            <div className="text-[10px] text-muted-foreground/50 uppercase tracking-wider mb-1.5">Urgency</div>
-            <div className="flex flex-wrap gap-1.5">
-              {["Critical", "High", "Medium"].map(u => (
-                <FilterChip 
-                  key={u} 
-                  label={u} 
-                  count={counts.urgencies[u] || 0}
-                  active={urgencyFilter === u}
-                  onClick={() => setUrgencyFilter(urgencyFilter === u ? null : u)} 
-                />
-              ))}
+            <div className="flex items-center gap-2">
+              {hasFilters && (
+                <span
+                  onClick={(e) => { e.stopPropagation(); setMilestoneFilter(null); setUrgencyFilter(null); setTaFilter(null); }}
+                  className="text-xs text-primary hover:underline cursor-pointer"
+                >
+                  Clear all
+                </span>
+              )}
+              {filtersOpen ? <ChevronUp className="h-3.5 w-3.5 text-muted-foreground" /> : <ChevronDown className="h-3.5 w-3.5 text-muted-foreground" />}
             </div>
-          </div>
+          </button>
           
-          {/* Therapeutic area filters */}
-          <div>
-            <div className="text-[10px] text-muted-foreground/50 uppercase tracking-wider mb-1.5">Therapeutic Area</div>
-            <div className="flex flex-wrap gap-1.5">
-              {Object.entries(counts.tas).sort((a, b) => b[1] - a[1]).map(([ta, count]) => (
-                <FilterChip 
-                  key={ta} 
-                  label={ta} 
-                  count={count}
-                  active={taFilter === ta}
-                  onClick={() => setTaFilter(taFilter === ta ? null : ta)} 
-                />
-              ))}
+          {filtersOpen && (
+            <div className="px-4 pb-4 pt-1 space-y-3 border-t border-border">
+              {/* Milestone filters */}
+              <div>
+                <div className="text-[10px] text-muted-foreground/50 uppercase tracking-wider mb-1.5">Milestone</div>
+                <div className="flex flex-wrap gap-1.5">
+                  {Object.entries(counts.milestones).sort((a, b) => b[1] - a[1]).map(([m, count]) => (
+                    <FilterChip 
+                      key={m} 
+                      label={m} 
+                      count={count} 
+                      active={milestoneFilter === m}
+                      onClick={() => setMilestoneFilter(milestoneFilter === m ? null : m)} 
+                    />
+                  ))}
+                </div>
+              </div>
+              
+              {/* Urgency filters */}
+              <div>
+                <div className="text-[10px] text-muted-foreground/50 uppercase tracking-wider mb-1.5">Urgency</div>
+                <div className="flex flex-wrap gap-1.5">
+                  {["Critical", "High", "Medium"].map(u => (
+                    <FilterChip 
+                      key={u} 
+                      label={u} 
+                      count={counts.urgencies[u] || 0}
+                      active={urgencyFilter === u}
+                      onClick={() => setUrgencyFilter(urgencyFilter === u ? null : u)} 
+                    />
+                  ))}
+                </div>
+              </div>
+              
+              {/* Therapeutic area filters */}
+              <div>
+                <div className="text-[10px] text-muted-foreground/50 uppercase tracking-wider mb-1.5">Therapeutic Area</div>
+                <div className="flex flex-wrap gap-1.5">
+                  {Object.entries(counts.tas).sort((a, b) => b[1] - a[1]).map(([ta, count]) => (
+                    <FilterChip 
+                      key={ta} 
+                      label={ta} 
+                      count={count}
+                      active={taFilter === ta}
+                      onClick={() => setTaFilter(taFilter === ta ? null : ta)} 
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         {/* Target buyer callout */}
