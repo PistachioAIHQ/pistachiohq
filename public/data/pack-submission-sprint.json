@@ -8,8 +8,8 @@
     "refreshCadence": "Biweekly",
     "lastUpdated": "2026-01-29",
     "totalCompanies": 50,
-    "totalStakeholders": 0,
-    "stakeholdersLocked": true
+    "totalStakeholders": 23,
+    "stakeholdersLocked": false
   },
   "companies": [
     {
@@ -24,12 +24,38 @@
       "signalDetail": "NDA planned for January 2026. Phase 3 presentation at Psych Congress on September 20, 2025. Phase 3 trial study met the primary endpoint, noted November 26, 2024.",
       "urgency": "High",
       "stakeholders": {
-        "count": 3,
-        "locked": true,
+        "count": 4,
+        "locked": false,
         "preview": [
-          "SVP Regulatory Affairs",
-          "Director Regulatory Operations",
-          "Head of CMC"
+          "Executive Director Regulatory Affairs",
+          "CMC Regulatory Executive Director",
+          "SVP Medical Affairs"
+        ],
+        "people": [
+          {
+            "name": "Michael Adams",
+            "title": "Executive Director, Regulatory Affairs",
+            "linkedin": "https://linkedin.com/in/michael-adams-regadpromo",
+            "company": "Axsome Therapeutics"
+          },
+          {
+            "name": "Donald Klein",
+            "title": "CMC Regulatory Executive Director",
+            "linkedin": "https://linkedin.com/in/donald-klein-5624951a3",
+            "company": "Axsome Therapeutics"
+          },
+          {
+            "name": "Suzanne Giordano",
+            "title": "Senior Vice President, Medical Affairs",
+            "linkedin": "https://linkedin.com/in/suzanne-giordano-phd-2a99376",
+            "company": "Axsome Therapeutics"
+          },
+          {
+            "name": "Antonio Alvarez-Pinto",
+            "title": "Associate Director, Regulatory Affairs",
+            "linkedin": "https://linkedin.com/in/antonioalvarezpinto",
+            "company": "Axsome Therapeutics"
+          }
         ]
       },
       "sources": {
@@ -53,12 +79,38 @@
       "signalDetail": "sNDA submitted in January 14, 2026. Phase 3 study achieved SERENITY At-Home's primary endpoint of being well-tolerated in the at-home treatment, noted August 27, 2025. Additional Phase 3 data reported",
       "urgency": "High",
       "stakeholders": {
-        "count": 3,
-        "locked": true,
+        "count": 4,
+        "locked": false,
         "preview": [
-          "SVP Regulatory Affairs",
-          "Director Regulatory Operations",
-          "Head of CMC"
+          "VP Regulatory Affairs",
+          "VP Quality & Compliance",
+          "VP Medical Affairs Strategy"
+        ],
+        "people": [
+          {
+            "name": "Margaret Foley",
+            "title": "Vice President, Regulatory Affairs",
+            "linkedin": "https://linkedin.com/in/margaret-foley-0414ab16",
+            "company": "BioXcel Therapeutics"
+          },
+          {
+            "name": "Mark Carroll",
+            "title": "VP, Head of Quality and GXP Compliance",
+            "linkedin": "https://linkedin.com/in/mark-carroll-b1527850",
+            "company": "BioXcel Therapeutics"
+          },
+          {
+            "name": "Dusan Kostic",
+            "title": "VP, Medical Affairs Strategy",
+            "linkedin": "https://linkedin.com/in/dusan-kostic-486704170",
+            "company": "BioXcel Therapeutics"
+          },
+          {
+            "name": "Francine Cavallaro",
+            "title": "Associate Director, Regulatory Submissions",
+            "linkedin": "https://linkedin.com/in/francine-cavallaro-9ba2a510",
+            "company": "BioXcel Therapeutics"
+          }
         ]
       },
       "sources": {
@@ -83,11 +135,31 @@
       "urgency": "High",
       "stakeholders": {
         "count": 3,
-        "locked": true,
+        "locked": false,
         "preview": [
-          "VP Regulatory Affairs",
-          "Director Biologics Regulatory",
-          "Head of Quality"
+          "CEO",
+          "Director of Operations",
+          "Chief of Staff"
+        ],
+        "people": [
+          {
+            "name": "Paul Romness",
+            "title": "CEO",
+            "linkedin": "https://linkedin.com/in/paul-romness-97a83886",
+            "company": "OS Therapies"
+          },
+          {
+            "name": "Grace Howley",
+            "title": "Director of Operations",
+            "linkedin": "https://linkedin.com/in/grace-howley-492676211",
+            "company": "OS Therapies"
+          },
+          {
+            "name": "John Doll",
+            "title": "Chief of Staff",
+            "linkedin": "https://linkedin.com/in/john-doll-ba7ba0198",
+            "company": "OS Therapies"
+          }
         ]
       },
       "sources": {
@@ -111,12 +183,38 @@
       "signalDetail": "Phase 2 presentation at EURETINA reported new 12-month pivotal data from its CAMPSIITE trial showing sustained >80% reduction in CSF HS D2S6 and continued neurodevelopmental improvements, noted Septem",
       "urgency": "High",
       "stakeholders": {
-        "count": 3,
-        "locked": true,
+        "count": 4,
+        "locked": false,
         "preview": [
-          "SVP Regulatory Affairs",
-          "Director Regulatory Operations",
-          "Head of CMC"
+          "Associate Director Regulatory Affairs",
+          "Senior Director CMC",
+          "Senior Medical Director"
+        ],
+        "people": [
+          {
+            "name": "Janet Yu",
+            "title": "Associate Director, Regulatory Affairs",
+            "linkedin": "https://linkedin.com/in/janet-yu-4aa4a335",
+            "company": "REGENXBIO"
+          },
+          {
+            "name": "Alicia Hoffman",
+            "title": "CMC Lead, Senior Director",
+            "linkedin": "https://linkedin.com/in/alicia-hoffman-0546139",
+            "company": "REGENXBIO"
+          },
+          {
+            "name": "Zina M. Johnson",
+            "title": "Senior Medical Director, Medical Affairs - Ophthalmology",
+            "linkedin": "https://linkedin.com/in/zinamjohnson",
+            "company": "REGENXBIO"
+          },
+          {
+            "name": "James Folmer",
+            "title": "Senior Director, CMC and Program Operations",
+            "linkedin": "https://linkedin.com/in/james-folmer-9a53451b",
+            "company": "REGENXBIO"
+          }
         ]
       },
       "sources": {
@@ -140,12 +238,38 @@
       "signalDetail": "Phase 2 presentation at EURETINA reported new 12-month pivotal data from its CAMPSIITE trial showing sustained >80% reduction in CSF HS D2S6 and continued neurodevelopmental improvements, noted Septem",
       "urgency": "High",
       "stakeholders": {
-        "count": 3,
-        "locked": true,
+        "count": 4,
+        "locked": false,
         "preview": [
-          "SVP Regulatory Affairs",
-          "Director Regulatory Operations",
-          "Head of CMC"
+          "VP Regulatory",
+          "SVP CMC & Manufacturing",
+          "Director Medical Affairs"
+        ],
+        "people": [
+          {
+            "name": "Barbara Bauschka",
+            "title": "Vice President, Regulatory",
+            "linkedin": "https://linkedin.com/in/barbara-bauschka-a094975",
+            "company": "Clearside Biomedical"
+          },
+          {
+            "name": "Rafael V. Andino",
+            "title": "SVP, CMC, Engineering & Manufacturing",
+            "linkedin": "https://linkedin.com/in/rafaelandino",
+            "company": "Clearside Biomedical"
+          },
+          {
+            "name": "Nathan Fisher",
+            "title": "Director of Medical Affairs",
+            "linkedin": "https://linkedin.com/in/nathan-e-fisher",
+            "company": "Clearside Biomedical"
+          },
+          {
+            "name": "Victor Chong",
+            "title": "CMO & EVP, Head of R&D",
+            "linkedin": "https://linkedin.com/in/eretina",
+            "company": "Clearside Biomedical"
+          }
         ]
       },
       "sources": {
@@ -169,12 +293,38 @@
       "signalDetail": "Phase 2 presentation at EURETINA reported new 12-month pivotal data from its CAMPSIITE trial showing sustained >80% reduction in CSF HS D2S6 and continued neurodevelopmental improvements, noted Septem",
       "urgency": "High",
       "stakeholders": {
-        "count": 3,
-        "locked": true,
+        "count": 4,
+        "locked": false,
         "preview": [
-          "SVP Regulatory Affairs",
-          "Director Regulatory Operations",
-          "Head of CMC"
+          "VP Global Regulatory Affairs",
+          "Senior Director Regulatory CMC",
+          "Sr. Director Medical Affairs"
+        ],
+        "people": [
+          {
+            "name": "Leslie Carter",
+            "title": "VP, Global Regulatory Affairs",
+            "linkedin": "https://linkedin.com/in/leslie-carter-21b892a",
+            "company": "AbbVie"
+          },
+          {
+            "name": "Kelly Norton",
+            "title": "Senior Director, Regulatory Affairs CMC",
+            "linkedin": "https://linkedin.com/in/kelly-norton-49b1b510",
+            "company": "AbbVie"
+          },
+          {
+            "name": "Janette Contreras-De Lama",
+            "title": "Sr. Director, Medical Affairs",
+            "linkedin": "https://linkedin.com/in/janette-contreras-de-lama-phd-a9899a7",
+            "company": "AbbVie"
+          },
+          {
+            "name": "Paul Stone",
+            "title": "VP, Global Regulatory Strategy",
+            "linkedin": "https://linkedin.com/in/paul-stone-328b9028",
+            "company": "AbbVie"
+          }
         ]
       },
       "sources": {
