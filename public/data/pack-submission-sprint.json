@@ -1,0 +1,1066 @@
+{
+  "pack": {
+    "name": "Submission Sprint",
+    "tagline": "Pharma leaders about to file — and drowning in documents",
+    "description": "75-100 regulatory leaders at companies with imminent FDA submission deadlines, enriched with specific filing details and timeline pressure.",
+    "targetBuyer": "Regulatory document AI companies (Raycaster, Artos, Scoop)",
+    "price": 450,
+    "refreshCadence": "Biweekly",
+    "lastUpdated": "2026-01-29",
+    "totalCompanies": 50,
+    "totalStakeholders": 0,
+    "stakeholdersLocked": true
+  },
+  "companies": [
+    {
+      "rank": 1,
+      "ticker": "AXSM",
+      "company": "Axsome Therapeutics Inc.",
+      "drug": "Reboxetine (AXS-12) - (ENCORE)",
+      "indication": "Narcolepsy",
+      "milestone": "NDA Filing",
+      "expectedDate": "2026-01-01",
+      "signalType": "Submission",
+      "signalDetail": "NDA planned for January 2026. Phase 3 presentation at Psych Congress on September 20, 2025. Phase 3 trial study met the primary endpoint, noted November 26, 2024.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ticker": "BTAI",
+      "company": "BioXcel Therapeutics Inc.",
+      "drug": "BXCL501 - (SERENITY III)",
+      "indication": "Agitation associated with bipolar I or II disorder or schizophrenia",
+      "milestone": "sNDA Filing",
+      "expectedDate": "2026-01-01",
+      "signalType": "Submission",
+      "signalDetail": "sNDA submitted in January 14, 2026. Phase 3 study achieved SERENITY At-Home's primary endpoint of being well-tolerated in the at-home treatment, noted August 27, 2025. Additional Phase 3 data reported",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ticker": "OSTX",
+      "company": "OS Therapies Incorporated",
+      "drug": "OST-HER2 (AOST-2121)",
+      "indication": "Resected osteosarcoma",
+      "milestone": "BLA Filing",
+      "expectedDate": "2026-01-01",
+      "signalType": "Submission",
+      "signalDetail": "BLA planned for January 2026 with approval planned for 3Q 2026. Phase 2b data reported that activation of immune blood biomarkers in the interferon gamma pathway was predictive of overall survival, d",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Director Biologics Regulatory",
+          "Head of Quality"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ticker": "RGNX",
+      "company": "REGENXBIO Inc.",
+      "drug": "RGX-314 - (ALTITUDE)",
+      "indication": "Diabetic retinopathy",
+      "milestone": "NDA Filing",
+      "expectedDate": "2026-01-02",
+      "signalType": "Submission",
+      "signalDetail": "Phase 2 presentation at EURETINA reported new 12-month pivotal data from its CAMPSIITE trial showing sustained >80% reduction in CSF HS D2S6 and continued neurodevelopmental improvements, noted Septem",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ticker": "CLSD",
+      "company": "Clearside Biomedical Inc.",
+      "drug": "RGX-314 - (ALTITUDE)",
+      "indication": "Diabetic retinopathy",
+      "milestone": "NDA Filing",
+      "expectedDate": "2026-01-02",
+      "signalType": "Submission",
+      "signalDetail": "Phase 2 presentation at EURETINA reported new 12-month pivotal data from its CAMPSIITE trial showing sustained >80% reduction in CSF HS D2S6 and continued neurodevelopmental improvements, noted Septem",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ticker": "ABBV",
+      "company": "AbbVie Inc.",
+      "drug": "RGX-314 - (ALTITUDE)",
+      "indication": "Diabetic retinopathy",
+      "milestone": "NDA Filing",
+      "expectedDate": "2026-01-02",
+      "signalType": "Submission",
+      "signalDetail": "Phase 2 presentation at EURETINA reported new 12-month pivotal data from its CAMPSIITE trial showing sustained >80% reduction in CSF HS D2S6 and continued neurodevelopmental improvements, noted Septem",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ticker": "AQST",
+      "company": "Aquestive Therapeutics Inc.",
+      "drug": "Anaphylm (AQ-109)- (103)",
+      "indication": "Anaphylaxis",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-01-31",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date on January 31, 2026. No Advisory Committee required, noted September 4, 2025. Announced receipt of FDA letter stating it has identified deficiencies that preclude labeling discussions for A",
+      "urgency": "Critical",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ticker": "PHAR",
+      "company": "Pharming Group N.V.",
+      "drug": "Leniolisib - (pediactric)",
+      "indication": "Activated phosphoinositide 3-kinase delta syndrome (APDS)",
+      "milestone": "PDUFA priority review",
+      "expectedDate": "2026-01-31",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA PR data planned for January 31, 2026.",
+      "urgency": "Critical",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "ticker": "SPRB",
+      "company": "Spruce Biosciences Inc.",
+      "drug": "Tralesinidase alfa enzyme replacement therapy (TA-ERT)",
+      "indication": "Sanfilippo Syndrome Type B (MPS IIIB)",
+      "milestone": "BLA Filing",
+      "expectedDate": "2026-02-05",
+      "signalType": "Submission",
+      "signalDetail": "Long-term data to be shared at the WORLDSymposium 2026 on February 5, 2026. BLA Submission to FDA anticipated in 1Q 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Director Biologics Regulatory",
+          "Head of Quality"
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "ticker": "MRK",
+      "company": "Merck & Company Inc.",
+      "drug": "ENGOT-ov65 - (KEYNOTE-B96)",
+      "indication": "Platinum-Resistant Recurrent Ovarian Cancer",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-02-20",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date of Feb. 20, 2026. Phase 3 trial met primary endpoint, noted May 15, 2025.",
+      "urgency": "Critical",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 11,
+      "ticker": "VNDA",
+      "company": "Vanda Pharmaceuticals Inc.",
+      "drug": "Bysanti (milsaperidone)",
+      "indication": "Acute bipolar I disorder",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-02-21",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "NDA filed to the FDA and that at this time no potential review issues have been identified, noted May 5, 2025. PDUFA date expected February 21, 2026.",
+      "urgency": "Critical",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 12,
+      "ticker": "ETON",
+      "company": "Eton Pharmaceuticals Inc.",
+      "drug": "ET-600",
+      "indication": "Endocrinology condition",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-02-25",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date on February 25, 2026.",
+      "urgency": "Critical",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 13,
+      "ticker": "ASND",
+      "company": "Ascendis Pharma A/S",
+      "drug": "TransCon CNP - (ApproaCH)",
+      "indication": "Achondroplasia",
+      "milestone": "PDUFA priority review",
+      "expectedDate": "2026-02-28",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date extended to February 28, 2026.",
+      "urgency": "Critical",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 14,
+      "ticker": "BMRN",
+      "company": "BioMarin Pharmaceutical Inc.",
+      "drug": "PALYNZIQ (pegvaliase-pqpz) - (PEGASUS)",
+      "indication": "Phenylketonuria (PKU) in adolescents aged 12-17",
+      "milestone": "PDUFA priority review",
+      "expectedDate": "2026-02-28",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA priority review date of February 28, 2026.",
+      "urgency": "Critical",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 15,
+      "ticker": "LNTH",
+      "company": "Lantheus Holdings Inc.",
+      "drug": "PYLARIFY (piflufolastat F 18) Injection",
+      "indication": "Prostate Cancer",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-03-06",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date set for March 6, 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 16,
+      "ticker": "BMY",
+      "company": "Bristol-Myers Squibb Company",
+      "drug": "Sotyktu (deucravacitinib) - (POETYK PsA-1)",
+      "indication": "Psoriatic Arthritis",
+      "milestone": "PDUFA priority review",
+      "expectedDate": "2026-03-06",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "sNDA accepted July 21, 2025.PDUFA date of March 6, 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 17,
+      "ticker": "ALDX",
+      "company": "Aldeyra Therapeutics Inc.",
+      "drug": "Reproxalap (ADX-102) - (CHAMBER)",
+      "indication": "Dry Eye Disease",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-03-16",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date extended to March 16, 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 18,
+      "ticker": "RYTM",
+      "company": "Rhythm Pharmaceuticals Inc.",
+      "drug": "Setmelanotide - (TRANSCEND)",
+      "indication": "Hypothalamic obesity",
+      "milestone": "PDUFA priority review",
+      "expectedDate": "2026-03-20",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date extended by 3 months to March 20, 2026.. PDUFA Priority Review date on December 20, 2025.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 19,
+      "ticker": "GSK",
+      "company": "GSK plc American Depositary Shares (Each representing two)",
+      "drug": "Linerixibat - (GLISTEN)",
+      "indication": "Primary biliary cholangitis (PBC)",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-03-24",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date in March 24, 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 20,
+      "ticker": "RCKT",
+      "company": "Rocket Pharmaceuticals Inc.",
+      "drug": "KRESLADI (marnetegragene autotemcel)",
+      "indication": "Leukocyte Adhesion Deficiency-I (LAD-I)",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-03-28",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date accepted after resubmission on March 28, 2026. CRL issued June 28, 2024.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 21,
+      "ticker": "CGEM",
+      "company": "Cullinan Therapeutics Inc.",
+      "drug": "Zipalertinib (CLN-081/TAS6417) - (REZILIENT1)",
+      "indication": "Non-small cell lung cancer",
+      "milestone": "NDA Filing",
+      "expectedDate": "2026-03-28",
+      "signalType": "Submission",
+      "signalDetail": "NDA rolling submission commenced November 20, 2025. NDA submission due in 1Q 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 22,
+      "ticker": "IONS",
+      "company": "Ionis Pharmaceuticals Inc.",
+      "drug": "Bepirovirsen (IONIS-HBVRx)",
+      "indication": "Chronic hepatitis B virus (CHB)",
+      "milestone": "NDA Filing",
+      "expectedDate": "2026-03-28",
+      "signalType": "Submission",
+      "signalDetail": "Regulatory filing due in 1Q 2026. Phase 3 trial initiated February 1, 2023. Phase 3 data reported a statistically significant and clinically meaningful functional cure rate, noted January 7, 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 23,
+      "ticker": "REGN",
+      "company": "Regeneron Pharmaceuticals Inc.",
+      "drug": "C5 Combo (pozelimab and cemdisiran) - (NIMBLE)",
+      "indication": "Myasthenia gravis (MG)",
+      "milestone": "NDA Filing",
+      "expectedDate": "2026-03-28",
+      "signalType": "Submission",
+      "signalDetail": "Phase 3 study met the primary and key secondary endpoints, noted August 26, 2025. Regulatory submission expected 1Q 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 24,
+      "ticker": "DNLI",
+      "company": "Denali Therapeutics Inc.",
+      "drug": "Tividenofusp alfa (DNL310) - (COMPASS)",
+      "indication": "Hunter syndrome MPS II",
+      "milestone": "PDUFA priority review",
+      "expectedDate": "2026-04-05",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA PR date of extended by 3 months to April 5, 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 25,
+      "ticker": "REPL",
+      "company": "Replimune Group Inc.",
+      "drug": "RP1 (vusolimogene oderparepvec) and OPDIVO (nivolumab) - (IGNYTE-3)",
+      "indication": "Non-melanoma (NMSC) / Non-small cell lung cancer (NSCLC)",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-04-10",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA resubmission set for decision on April 10, 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 26,
+      "ticker": "TVTX",
+      "company": "Travere Therapeutics Inc.",
+      "drug": "FILSPARI (sparsentan)",
+      "indication": "Focal segmental glomerulosclerosis (FSGS)",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-04-13",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date extended to April 13, 2026. Advisory Committee meeting planned.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 27,
+      "ticker": "GRCE",
+      "company": "Grace Therapeutics Inc.",
+      "drug": "GTX-104 - (STRIVE-ON)",
+      "indication": "Subarachnoid hemorrhage (SAH)",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-04-23",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date accepted on April 23, 2026.",
+      "urgency": "High",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 28,
+      "ticker": "ARGX",
+      "company": "argenx SE",
+      "drug": "VYVGART - (ADAPT SERON)",
+      "indication": "Myasthenia Gravis",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-05-10",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA target action date of May 10, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 29,
+      "ticker": "AZN",
+      "company": "AstraZeneca PLC",
+      "drug": "ENHERTU (trastuzumab deruxtecan) - (DESTINY-Breast11)",
+      "indication": "High-Risk HER2 Positive Early-Stage Breast Cancer",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-05-18",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date on May 18, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 30,
+      "ticker": "BIIB",
+      "company": "Biogen Inc.",
+      "drug": "LEQEMBI IQLIK (lecanemab-irmb)(at-home injection)",
+      "indication": "Early Alzheimer's disease (AD) a-home injection",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-05-24",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA Priority Review Date of May 24, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 31,
+      "ticker": "MNKD",
+      "company": "MannKind Corporation",
+      "drug": "Afrezza (Technosphere Insulin) - (INHALE-1)",
+      "indication": "Pediatric type 1/2 diabetes",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-05-29",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date expected May 29, 2025.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 32,
+      "ticker": "CING",
+      "company": "Cingulate Inc.",
+      "drug": "CTx-1301 (fixed dose, pediatric study)",
+      "indication": "ADHD",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-05-31",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date of May 31, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 33,
+      "ticker": "PFE",
+      "company": "Pfizer Inc.",
+      "drug": "Vepdegestrant (ARV-471) - (VERITAC-2)",
+      "indication": "Breast cancer",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-06-05",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date of June 5, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 34,
+      "ticker": "ARVN",
+      "company": "Arvinas Inc.",
+      "drug": "Vepdegestrant (ARV-471) - (VERITAC-2)",
+      "indication": "Breast cancer",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-06-05",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date of June 5, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 35,
+      "ticker": "ACHV",
+      "company": "Achieve Life Sciences Inc.",
+      "drug": "Cytisinicline - (ORCA-3)",
+      "indication": "Smoking cessation of cigarettes",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-06-20",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date of June 20, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 36,
+      "ticker": "UNCY",
+      "company": "Unicycive Therapeutics Inc.",
+      "drug": "Oxylanthanum Carbonate (OLC)",
+      "indication": "Kidney disease",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-06-27",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date June 27, 2026. NDA resubmission accepted by the FDA, noted January 29, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 37,
+      "ticker": "HRMY",
+      "company": "Harmony Biosciences Holdings Inc.",
+      "drug": "WAKIX - (Pitolisant GR)",
+      "indication": "GI symptoms;",
+      "milestone": "NDA Filing",
+      "expectedDate": "2026-06-28",
+      "signalType": "Submission",
+      "signalDetail": "NDA is ongoing, with topline data expected in 2Q 2026. PDUFA date in 1Q 2027.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 38,
+      "ticker": "IMNM",
+      "company": "Immunome Inc.",
+      "drug": "AL102 - (RINGSIDE)",
+      "indication": "Desmoid tumors",
+      "milestone": "NDA Filing",
+      "expectedDate": "2026-06-28",
+      "signalType": "Submission",
+      "signalDetail": "Phase 3 trial met primary endpoint and met all key secondary endpoints, with varegacestat delivering an objective response rate of 56%, noted December 15, 2025. NDA planned for 2Q 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Regulatory Affairs",
+          "Director Regulatory Operations",
+          "Head of CMC"
+        ]
+      }
+    },
+    {
+      "rank": 39,
+      "ticker": "RNA",
+      "company": "Avidity Biosciences Inc.",
+      "drug": "Delpacibart braxlosiran (del-brax) - (FORTITUDE)",
+      "indication": "Facioscapulohumeral Muscular Dystrophy (FSHD)",
+      "milestone": "BLA Filing",
+      "expectedDate": "2026-06-28",
+      "signalType": "Submission",
+      "signalDetail": "Data support planned accelerated approval BLA submission planned for 2Q 2026. Phase 1/2 topline data demonstrate improvement in function, strength, and PROs and rapid and significant reduction in biom",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Director Biologics Regulatory",
+          "Head of Quality"
+        ]
+      }
+    },
+    {
+      "rank": 40,
+      "ticker": "LRMR",
+      "company": "Larimar Therapeutics Inc.",
+      "drug": "Nomlabofusp (CTI-1601)",
+      "indication": "Friedreich’s ataxia (FA)",
+      "milestone": "BLA Filing",
+      "expectedDate": "2026-06-28",
+      "signalType": "Submission",
+      "signalDetail": "Phase 2 study showed that nomlabofusp increased frataxin (FXN) to levels seen in asymptomatic carriers and demonstrated consistent directional improvement across four key clinical measures in Friedrei",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Director Biologics Regulatory",
+          "Head of Quality"
+        ]
+      }
+    },
+    {
+      "rank": 41,
+      "ticker": "SGMO",
+      "company": "Sangamo Therapeutics Inc.",
+      "drug": "Civaparvovec (ST-920) - (STAAR)",
+      "indication": "Fabry disease",
+      "milestone": "BLA Filing",
+      "expectedDate": "2026-06-28",
+      "signalType": "Submission",
+      "signalDetail": "BLA rolling submission initiated December 18, 2025. BLA submission to be completed in 2Q 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Director Biologics Regulatory",
+          "Head of Quality"
+        ]
+      }
+    },
+    {
+      "rank": 42,
+      "ticker": "ARQT",
+      "company": "Arcutis Biotherapeutics Inc.",
+      "drug": "ZORYVE (roflumilast) Cream 0.3%",
+      "indication": "Plaque Psoriasis in Children Ages 2 to 5",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-06-29",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date on June 29, 2025.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 43,
+      "ticker": "VRDN",
+      "company": "Viridian Therapeutics Inc.",
+      "drug": "VRDN-001 - (THRIVE)",
+      "indication": "Active Thyroid Eye Disease (TED)",
+      "milestone": "PDUFA priority review",
+      "expectedDate": "2026-06-30",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA target action date of June 30, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 44,
+      "ticker": "VERA",
+      "company": "Vera Therapeutics Inc.",
+      "drug": "Atacicept - (ORIGIN 3)",
+      "indication": "IgA Nephropathy",
+      "milestone": "PDUFA priority review",
+      "expectedDate": "2026-07-07",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA PR date of July 7, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 45,
+      "ticker": "CORT",
+      "company": "Corcept Therapeutics Incorporated",
+      "drug": "Relacorilant plus ABRAXANE (nab-paclitaxel) - (ROSELLA)",
+      "indication": "Ovarian cancer",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-07-11",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA Date on July 11, 2026. Phase 3 study met its overall survival (OS) primary endpoint, noed January 22, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 46,
+      "ticker": "CELC",
+      "company": "Celcuity Inc.",
+      "drug": "Gedatolisib with Fulvestrant - (VIKTORIA-1)",
+      "indication": "HR+/HER2- advanced breast cancer",
+      "milestone": "PDUFA priority review",
+      "expectedDate": "2026-07-17",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA Priority Review date on July 17, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 47,
+      "ticker": "NRXP",
+      "company": "NRX Pharmaceuticals Inc.",
+      "drug": "KETAFREE",
+      "indication": "Preservative-free intravenous ketamine formulation",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-07-29",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "GDUFA date expected July 29, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 48,
+      "ticker": "VTRS",
+      "company": "Viatris Inc.",
+      "drug": "Low dose estrogen weekly patch (150 mcg norelgestromin and 17.5 mcg ethinyl estradiol)",
+      "indication": "Contraception",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-07-30",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date of July 30, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 49,
+      "ticker": "NUVL",
+      "company": "Nuvalent Inc.",
+      "drug": "Zidesamtinib (NVL-520) - (ARROS-1)",
+      "indication": "ROS1 Non-small cell lung cancer (NSCLC)",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-09-18",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date on September 18, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    },
+    {
+      "rank": 50,
+      "ticker": "RPRX",
+      "company": "Royalty Pharma plc",
+      "drug": "Zidesamtinib (NVL-520) - (ARROS-1)",
+      "indication": "ROS1 Non-small cell lung cancer (NSCLC)",
+      "milestone": "PDUFA",
+      "expectedDate": "2026-09-18",
+      "signalType": "Regulatory Decision",
+      "signalDetail": "PDUFA date on September 18, 2026.",
+      "urgency": "Medium",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Regulatory Affairs",
+          "Head of Medical Writing",
+          "Director CMC"
+        ]
+      }
+    }
+  ]
+}
