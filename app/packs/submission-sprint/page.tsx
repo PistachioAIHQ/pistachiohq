@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Lock, ArrowRight, Calendar, FileText, AlertTriangle, Clock, Building2, Pill, Target, Users, ChevronDown, ChevronUp, ExternalLink, Filter, X, RefreshCw } from "lucide-react"
+import { Lock, ArrowRight, Calendar, FileText, AlertTriangle, Clock, Building2, Pill, Target, Users, ChevronDown, ExternalLink, Filter, X, RefreshCw, TrendingUp, Zap, Shield } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { useState, useEffect, useMemo } from "react"
@@ -116,12 +116,15 @@ function FilterChip({ label, active, count, onClick }: { label: string; active: 
   )
 }
 
-function CompanyLogo({ domain, company }: { domain: string; company: string }) {
+function CompanyLogo({ domain, company, size = 32 }: { domain: string; company: string; size?: number }) {
   const [error, setError] = useState(false)
   
   if (!domain || error) {
     return (
-      <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-muted text-[10px] font-mono font-bold text-muted-foreground">
+      <div 
+        className="flex shrink-0 items-center justify-center rounded-lg bg-muted text-xs font-mono font-bold text-muted-foreground"
+        style={{ width: size, height: size }}
+      >
         {company.charAt(0)}
       </div>
     )
@@ -131,120 +134,149 @@ function CompanyLogo({ domain, company }: { domain: string; company: string }) {
     <Image
       src={`https://img.logo.dev/${domain}?token=pk_JBbN5IBfSNmUyE2Gj2LiiA&retina=true`}
       alt={company}
-      width={28}
-      height={28}
-      className="shrink-0 rounded-md bg-white/10"
+      width={size}
+      height={size}
+      className="shrink-0 rounded-lg bg-white/10"
       onError={() => setError(true)}
       unoptimized
     />
   )
 }
 
-function CompanyRow({ company }: { company: Company }) {
-  const [expanded, setExpanded] = useState(false)
-  
+function DaysAwayBadge({ expectedDate }: { expectedDate: string }) {
   const daysUntil = useMemo(() => {
-    const d = new Date(company.expectedDate)
+    const d = new Date(expectedDate)
     const now = new Date()
     return Math.ceil((d.getTime() - now.getTime()) / (1000 * 60 * 60 * 24))
-  }, [company.expectedDate])
+  }, [expectedDate])
+
+  if (daysUntil <= 0) {
+    return (
+      <span className="inline-flex items-center gap-1 font-mono text-xs text-red-400 font-semibold">
+        <Zap className="h-3 w-3" />
+        Imminent
+      </span>
+    )
+  }
+  
+  if (daysUntil > 180) return null
+
+  const color = daysUntil <= 30 
+    ? "text-red-400 font-semibold" 
+    : daysUntil <= 60 
+    ? "text-orange-400" 
+    : "text-yellow-400/70"
 
   return (
-    <div className="group border-b border-border last:border-b-0">
-      <div 
-        className="flex items-start gap-3 md:gap-4 p-3 md:p-4 cursor-pointer hover:bg-muted/30 transition-colors"
-        onClick={() => setExpanded(!expanded)}
-      >
-        <CompanyLogo domain={company.domain} company={company.company} />
-        
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="font-mono text-xs text-muted-foreground">{company.ticker}</span>
-            <span className="font-serif text-sm md:text-base font-semibold">{company.company}</span>
-            <UrgencyBadge urgency={company.urgency} />
-          </div>
-          <div className="mt-1 flex items-center gap-2 flex-wrap text-xs md:text-sm text-muted-foreground">
-            <span className="flex items-center gap-1">
-              <Pill className="h-3 w-3 shrink-0" />
-              <span className="truncate max-w-[200px]">{company.drug}</span>
-            </span>
-            <span className="text-border hidden md:inline">·</span>
-            <span className="hidden md:inline">{company.indication}</span>
-          </div>
-          <div className="mt-1.5 flex items-center gap-2 flex-wrap">
-            <MilestoneBadge milestone={company.milestone} />
-            <TherapeuticBadge area={company.therapeuticArea} />
+    <span className={`inline-flex items-center gap-1 font-mono text-xs ${color}`}>
+      <Clock className="h-3 w-3" />
+      {daysUntil}d away
+    </span>
+  )
+}
+
+function CompanyCard({ company }: { company: Company }) {
+  return (
+    <div className="group flex flex-col border border-border rounded-lg hover:border-foreground/20 transition-all duration-200 hover:shadow-[0_0_20px_rgba(90,197,58,0.04)] bg-background">
+      {/* Card header */}
+      <div className="p-4 pb-3">
+        <div className="flex items-start gap-3">
+          <CompanyLogo domain={company.domain} company={company.company} size={36} />
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="font-serif text-sm font-semibold leading-tight">{company.company}</span>
+              <span className="font-mono text-[11px] text-muted-foreground bg-muted/50 px-1.5 py-0.5 rounded">{company.ticker}</span>
+            </div>
+            <div className="mt-1 flex items-center gap-1.5 text-xs text-muted-foreground">
+              <Pill className="h-3 w-3 shrink-0 text-muted-foreground/60" />
+              <span className="truncate">{company.drug}</span>
+            </div>
           </div>
         </div>
         
-        <div className="flex flex-col items-end gap-1 shrink-0">
-          <div className="flex items-center gap-1 text-xs text-muted-foreground">
+        {/* Indication */}
+        <p className="mt-2 text-xs text-muted-foreground leading-relaxed line-clamp-2">
+          {company.indication}
+        </p>
+        
+        {/* Badges row */}
+        <div className="mt-2.5 flex items-center gap-1.5 flex-wrap">
+          <MilestoneBadge milestone={company.milestone} />
+          <TherapeuticBadge area={company.therapeuticArea} />
+          <UrgencyBadge urgency={company.urgency} />
+        </div>
+        
+        {/* Date + countdown */}
+        <div className="mt-2.5 flex items-center justify-between">
+          <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
             <Calendar className="h-3 w-3" />
             <span className="font-mono">{company.expectedDate}</span>
           </div>
-          {daysUntil > 0 && daysUntil <= 180 && (
-            <span className={`font-mono text-xs ${daysUntil <= 30 ? "text-red-400 font-semibold" : daysUntil <= 60 ? "text-orange-400" : "text-yellow-400/70"}`}>
-              {daysUntil}d away
-            </span>
-          )}
-        </div>
-        
-        <div className="shrink-0 text-muted-foreground mt-1">
-          {expanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+          <DaysAwayBadge expectedDate={company.expectedDate} />
         </div>
       </div>
       
-      {expanded && (
-        <div className="px-3 md:px-4 pb-4">
-          <div className="ml-10 space-y-3">
-            {/* Signal detail */}
-            <div className="rounded-lg border border-border bg-muted/20 p-3">
-              <div className="flex items-center gap-2 mb-2">
-                <FileText className="h-3.5 w-3.5 text-primary" />
-                <span className="font-mono text-[10px] text-primary uppercase tracking-wider font-semibold">Signal Intelligence</span>
-              </div>
-              <p className="text-sm text-muted-foreground leading-relaxed">{company.signalDetail}</p>
-              
-              {/* Primary source link only */}
-              {company.sources.primarySource && (
-                <div className="flex items-center gap-3 mt-3 pt-3 border-t border-border/50">
-                  <a 
-                    href={company.sources.primarySource} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-[11px] text-primary hover:text-primary/80 font-medium transition-colors"
-                  >
-                    Primary Source <ExternalLink className="h-2.5 w-2.5" />
-                  </a>
-                </div>
-              )}
-            </div>
-            
-            {/* Stakeholders (locked) */}
-            <div className="rounded-lg border border-dashed border-border bg-muted/10 p-3">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <Users className="h-3.5 w-3.5 text-muted-foreground" />
-                  <span className="font-mono text-[10px] text-muted-foreground uppercase tracking-wider">
-                    {company.stakeholders.count} Key Stakeholders Identified
-                  </span>
-                </div>
-                <Lock className="h-3.5 w-3.5 text-muted-foreground" />
-              </div>
-              <div className="mt-2 flex flex-wrap gap-1.5">
-                {company.stakeholders.preview.map((title, i) => (
-                  <span key={i} className="inline-flex items-center rounded-md bg-muted/50 px-2 py-0.5 text-[11px] text-muted-foreground blur-[2px] select-none">
-                    {title}
-                  </span>
-                ))}
-              </div>
-              <p className="mt-2 text-[11px] text-muted-foreground/60 text-center">
-                Names, titles, LinkedIn profiles, and email addresses included with pack purchase
-              </p>
-            </div>
-          </div>
+      {/* Signal detail — the value */}
+      <div className="mx-4 mb-3 rounded-md border border-border bg-muted/20 p-3">
+        <div className="flex items-center gap-1.5 mb-1.5">
+          <FileText className="h-3 w-3 text-primary" />
+          <span className="font-mono text-[9px] text-primary uppercase tracking-wider font-semibold">Signal</span>
         </div>
-      )}
+        <p className="text-[12px] text-muted-foreground leading-relaxed line-clamp-3">
+          {company.signalDetail}
+        </p>
+        {company.sources.primarySource && (
+          <a 
+            href={company.sources.primarySource} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 mt-2 text-[11px] text-primary hover:text-primary/80 font-medium transition-colors"
+            onClick={(e) => e.stopPropagation()}
+          >
+            Primary Source <ExternalLink className="h-2.5 w-2.5" />
+          </a>
+        )}
+      </div>
+      
+      {/* Stakeholders — locked */}
+      <div className="mx-4 mb-4 rounded-md border border-dashed border-border bg-muted/10 p-3">
+        <div className="flex items-center justify-between mb-1.5">
+          <div className="flex items-center gap-1.5">
+            <Users className="h-3 w-3 text-muted-foreground/60" />
+            <span className="font-mono text-[9px] text-muted-foreground uppercase tracking-wider">
+              {company.stakeholders.count} Stakeholders
+            </span>
+          </div>
+          <Lock className="h-3 w-3 text-muted-foreground/40" />
+        </div>
+        <div className="flex flex-wrap gap-1">
+          {company.stakeholders.preview.map((title, i) => (
+            <span key={i} className="inline-flex items-center rounded bg-muted/50 px-1.5 py-0.5 text-[10px] text-muted-foreground blur-[2px] select-none">
+              {title}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function MidPageCTA({ price, companyCount }: { price: number; companyCount: number }) {
+  return (
+    <div className="col-span-full my-2">
+      <div className="border border-primary/20 bg-primary/5 rounded-lg p-5 text-center">
+        <p className="text-sm text-muted-foreground mb-3">
+          You&apos;re previewing <strong className="text-foreground">{companyCount} companies</strong> with signal intelligence, regulatory timelines, and urgency scoring.
+          <br />
+          <span className="text-primary font-medium">Unlock stakeholder maps with names, titles, LinkedIn &amp; emails.</span>
+        </p>
+        <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
+          <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-6 py-5 text-sm cursor-pointer">
+            Get Full Access — ${price}/refresh
+            <ArrowRight className="h-4 w-4 ml-2" />
+          </Button>
+        </a>
+      </div>
     </div>
   )
 }
@@ -276,7 +308,6 @@ export default function SubmissionSprintPage() {
 
   const hasFilters = milestoneFilter || urgencyFilter || taFilter
 
-  // Counts for filter chips
   const counts = useMemo(() => {
     if (!data) return { milestones: {}, urgencies: {}, tas: {} }
     const m: Record<string, number> = {}
@@ -290,6 +321,29 @@ export default function SubmissionSprintPage() {
     return { milestones: m, urgencies: u, tas: t }
   }, [data])
 
+  // Compute stats for hero
+  const stats = useMemo(() => {
+    if (!data) return { criticalCount: 0, avgDays: 0, taCount: 0 }
+    let criticalCount = 0
+    let totalDays = 0
+    let countWithDays = 0
+    const now = new Date()
+    for (const c of data.companies) {
+      if (c.urgency === "Critical") criticalCount++
+      const d = new Date(c.expectedDate)
+      const days = Math.ceil((d.getTime() - now.getTime()) / (1000 * 60 * 60 * 24))
+      if (days > 0 && days <= 365) {
+        totalDays += days
+        countWithDays++
+      }
+    }
+    return {
+      criticalCount,
+      avgDays: countWithDays > 0 ? Math.round(totalDays / countWithDays) : 0,
+      taCount: Object.keys(counts.tas).length
+    }
+  }, [data, counts.tas])
+
   if (!data) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -298,19 +352,20 @@ export default function SubmissionSprintPage() {
     )
   }
 
-  const visibleCompanies = showAll ? filteredCompanies : filteredCompanies.slice(0, 10)
+  const visibleCompanies = showAll ? filteredCompanies : filteredCompanies.slice(0, 12)
   const activeFilterCount = [milestoneFilter, urgencyFilter, taFilter].filter(Boolean).length
+  const pricePerLead = Math.round(data.pack.price / data.pack.totalCompanies)
 
   return (
     <div className="min-h-screen bg-background">
       <div className="h-1 w-full bg-gradient-to-r from-[#5ac53a] via-[#d5fd51] via-[#f6c86a] to-[#eb5d2a]" />
       
-      <div className="container mx-auto px-4 py-6 md:py-8">
+      <div className="container mx-auto px-4 py-6 md:py-8 max-w-7xl">
         <Link href="/" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6">
           ← Back to Pistachio AI
         </Link>
         
-        {/* Pack header */}
+        {/* Hero — benefit-first messaging */}
         <div className="relative border border-border p-5 md:p-8 mb-6">
           <div className="absolute left-0 top-0 h-3 w-3 border-l-2 border-t-2 border-foreground -translate-x-px -translate-y-px" />
           <div className="absolute right-0 top-0 h-3 w-3 border-r-2 border-t-2 border-foreground translate-x-px -translate-y-px" />
@@ -318,51 +373,113 @@ export default function SubmissionSprintPage() {
           <div className="absolute right-0 bottom-0 h-3 w-3 border-r-2 border-b-2 border-foreground translate-x-px translate-y-px" />
           
           <div className="flex items-start justify-between flex-wrap gap-4">
-            <div>
-              <div className="flex items-center gap-2 mb-2">
+            <div className="max-w-2xl">
+              <div className="flex items-center gap-2 mb-3">
                 <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
                 <span className="font-mono text-xs text-muted-foreground">Updated {data.pack.lastUpdated}</span>
               </div>
-              <h1 className="font-serif text-2xl md:text-4xl font-semibold mb-2">
+              <h1 className="font-serif text-2xl md:text-4xl font-semibold mb-3">
                 Submission Sprint
               </h1>
-              <p className="text-base md:text-lg text-muted-foreground max-w-2xl">
-                Companies with imminent FDA submissions — their regulatory teams are under pressure and actively evaluating tools to move faster.
+              <p className="text-base md:text-lg text-foreground/90 leading-relaxed">
+                <strong>{data.pack.totalCompanies} pharma &amp; biotech companies</strong> with imminent FDA submissions — complete with regulatory signals, filing timelines, and decision-maker contacts.
+              </p>
+              <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
+                Their regulatory teams are under deadline pressure and actively evaluating tools. You get the company, the signal, and the people to call.
               </p>
             </div>
             <div className="text-right shrink-0">
               <div className="font-mono text-3xl font-bold">${data.pack.price}</div>
               <div className="text-xs text-muted-foreground">per refresh · {data.pack.refreshCadence}</div>
+              <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer" className="mt-3 block">
+                <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-6 py-5 text-sm cursor-pointer w-full">
+                  Get Access
+                  <ArrowRight className="h-4 w-4 ml-2" />
+                </Button>
+              </a>
             </div>
           </div>
           
-          {/* Value stats */}
+          {/* ROI-focused stats — persona C fix */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6">
             <div className="rounded-lg border border-border p-3 text-center">
               <div className="font-mono text-xl md:text-2xl font-bold">{data.pack.totalCompanies}</div>
-              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Companies</div>
+              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Pre-Qualified Companies</div>
             </div>
             <div className="rounded-lg border border-border p-3 text-center">
-              <div className="font-mono text-xl md:text-2xl font-bold">{Object.keys(counts.tas).length}</div>
+              <div className="font-mono text-xl md:text-2xl font-bold text-primary">${pricePerLead}</div>
+              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Per Company</div>
+            </div>
+            <div className="rounded-lg border border-border p-3 text-center">
+              <div className="font-mono text-xl md:text-2xl font-bold text-red-400">{stats.criticalCount}</div>
+              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Critical Urgency</div>
+            </div>
+            <div className="rounded-lg border border-border p-3 text-center">
+              <div className="font-mono text-xl md:text-2xl font-bold">{stats.taCount}</div>
               <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Therapeutic Areas</div>
-            </div>
-            <div className="rounded-lg border border-border p-3 text-center">
-              <div className="font-mono text-xl md:text-2xl font-bold">${data.pack.price}</div>
-              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Per Refresh</div>
-            </div>
-            <div className="rounded-lg border border-border p-3 text-center">
-              <div className="flex items-center justify-center gap-1.5">
-                <RefreshCw className="h-4 w-4 text-muted-foreground" />
-                <span className="font-mono text-xl md:text-2xl font-bold">2wk</span>
-              </div>
-              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Update Cadence</div>
             </div>
           </div>
         </div>
 
-        {/* Data sources */}
+        {/* ROI callout — persona C fix */}
+        <div className="border border-primary/20 bg-primary/5 rounded-lg p-4 mb-4 flex items-start gap-3">
+          <TrendingUp className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+          <div>
+            <p className="text-sm text-foreground font-medium">
+              ${pricePerLead} per pre-qualified lead. If even 1 of {data.pack.totalCompanies} converts, this pays for itself 100x.
+            </p>
+            <p className="text-xs text-muted-foreground mt-1">
+              Every company has an active FDA filing timeline — these aren&apos;t cold leads, they&apos;re companies under regulatory pressure right now.
+            </p>
+          </div>
+        </div>
+
+        {/* What you get — clear value breakdown */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+          <div className="flex items-start gap-3 rounded-lg border border-border p-3">
+            <Building2 className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+            <div>
+              <div className="text-sm font-medium">Company Intelligence</div>
+              <div className="text-xs text-muted-foreground">Drug name, indication, phase, filing type, expected date</div>
+            </div>
+          </div>
+          <div className="flex items-start gap-3 rounded-lg border border-border p-3">
+            <Zap className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+            <div>
+              <div className="text-sm font-medium">Signal Intelligence</div>
+              <div className="text-xs text-muted-foreground">Filing details, trial results, urgency scoring with sources</div>
+            </div>
+          </div>
+          <div className="flex items-start gap-3 rounded-lg border border-border p-3 relative overflow-hidden">
+            <Lock className="h-4 w-4 text-muted-foreground shrink-0 mt-0.5" />
+            <div>
+              <div className="text-sm font-medium">Stakeholder Maps</div>
+              <div className="text-xs text-muted-foreground">Names, titles, LinkedIn, verified emails — with purchase</div>
+            </div>
+            <div className="absolute top-0 right-0 bg-primary/10 text-primary text-[9px] font-mono uppercase tracking-wider px-2 py-0.5 rounded-bl">
+              Paid
+            </div>
+          </div>
+        </div>
+
+        {/* Built for callout */}
+        <div className="border border-dashed border-foreground/15 bg-muted/30 rounded-lg p-4 mb-4">
+          <div className="flex items-start gap-3">
+            <Target className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+            <div>
+              <div className="font-mono text-[10px] text-primary uppercase tracking-wider font-semibold mb-1">Built For</div>
+              <p className="text-sm text-muted-foreground">
+                Startups selling regulatory document AI, submission automation, or medical writing tools to pharma.
+                We combine regulatory signals + buying intent + decision-maker contacts — so you don&apos;t have to spend weeks on manual research.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Data sources — credibility for persona B */}
         <div className="flex items-center gap-2 flex-wrap mb-4 px-1">
-          <span className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">Sources:</span>
+          <Shield className="h-3 w-3 text-muted-foreground/40" />
+          <span className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">Verified Sources:</span>
           <a href="https://www.fda.gov/drugs/development-approval-process-drugs/drug-and-biologic-approval-and-ind-activity-reports" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[11px] text-muted-foreground hover:text-foreground transition-colors">
             FDA.gov <ExternalLink className="h-2 w-2" />
           </a>
@@ -378,8 +495,8 @@ export default function SubmissionSprintPage() {
           <span className="text-[11px] text-muted-foreground">Public press releases</span>
         </div>
 
-        {/* Compact collapsible filter bar */}
-        <div className="border border-border rounded-lg mb-4">
+        {/* Filter bar */}
+        <div className="border border-border rounded-lg mb-5">
           <button
             onClick={() => setFiltersOpen(!filtersOpen)}
             className="w-full flex items-center justify-between px-4 py-2.5 cursor-pointer hover:bg-muted/20 transition-colors"
@@ -402,13 +519,12 @@ export default function SubmissionSprintPage() {
                   Clear all
                 </span>
               )}
-              {filtersOpen ? <ChevronUp className="h-3.5 w-3.5 text-muted-foreground" /> : <ChevronDown className="h-3.5 w-3.5 text-muted-foreground" />}
+              <ChevronDown className={`h-3.5 w-3.5 text-muted-foreground transition-transform ${filtersOpen ? "rotate-180" : ""}`} />
             </div>
           </button>
           
           {filtersOpen && (
             <div className="px-4 pb-4 pt-1 space-y-3 border-t border-border">
-              {/* Milestone filters */}
               <div>
                 <div className="text-[10px] text-muted-foreground/50 uppercase tracking-wider mb-1.5">Milestone</div>
                 <div className="flex flex-wrap gap-1.5">
@@ -423,8 +539,6 @@ export default function SubmissionSprintPage() {
                   ))}
                 </div>
               </div>
-              
-              {/* Urgency filters */}
               <div>
                 <div className="text-[10px] text-muted-foreground/50 uppercase tracking-wider mb-1.5">Urgency</div>
                 <div className="flex flex-wrap gap-1.5">
@@ -439,8 +553,6 @@ export default function SubmissionSprintPage() {
                   ))}
                 </div>
               </div>
-              
-              {/* Therapeutic area filters */}
               <div>
                 <div className="text-[10px] text-muted-foreground/50 uppercase tracking-wider mb-1.5">Therapeutic Area</div>
                 <div className="flex flex-wrap gap-1.5">
@@ -459,85 +571,55 @@ export default function SubmissionSprintPage() {
           )}
         </div>
 
-        {/* Target buyer callout */}
-        <div className="border border-dashed border-primary/30 bg-primary/5 rounded-lg p-4 mb-4">
-          <div className="flex items-start gap-3">
-            <Target className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-            <div>
-              <div className="font-mono text-[10px] text-primary uppercase tracking-wider font-semibold mb-1">Built For</div>
-              <p className="text-sm text-muted-foreground">
-                Startups selling regulatory document AI, submission automation, or medical writing tools to pharma.
-                Every company in this pack has an imminent FDA filing — their regulatory teams are under pressure and evaluating new tools.
-              </p>
-            </div>
-          </div>
+        {/* Company count header */}
+        <div className="flex items-center justify-between mb-4 px-1">
+          <span className="font-mono text-xs uppercase tracking-wider text-muted-foreground">
+            {filteredCompanies.length} {hasFilters ? "matching" : ""} companies · Sorted by date
+          </span>
         </div>
         
-        {/* What's included */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
-          <div className="flex items-center gap-2 rounded-lg border border-border p-3">
-            <Building2 className="h-4 w-4 text-primary shrink-0" />
-            <div>
-              <div className="text-sm font-medium">Company Intelligence</div>
-              <div className="text-xs text-muted-foreground">Drug, indication, phase, timeline</div>
-            </div>
+        {/* Card grid */}
+        {filteredCompanies.length === 0 ? (
+          <div className="p-8 text-center text-sm text-muted-foreground border border-border rounded-lg">
+            No companies match the selected filters.
           </div>
-          <div className="flex items-center gap-2 rounded-lg border border-border p-3">
-            <Clock className="h-4 w-4 text-primary shrink-0" />
-            <div>
-              <div className="text-sm font-medium">Temporal Signals</div>
-              <div className="text-xs text-muted-foreground">PDUFA dates, filing status, urgency</div>
-            </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {visibleCompanies.flatMap((company, index) => {
+              const items = [
+                <CompanyCard key={`card-${company.rank}`} company={company} />
+              ]
+              if (index === 5 && !showAll && filteredCompanies.length > 6) {
+                items.push(
+                  <MidPageCTA key="mid-cta" price={data.pack.price} companyCount={data.pack.totalCompanies} />
+                )
+              }
+              return items
+            })}
           </div>
-          <div className="flex items-center gap-2 rounded-lg border border-border p-3 opacity-60">
-            <Lock className="h-4 w-4 text-muted-foreground shrink-0" />
-            <div>
-              <div className="text-sm font-medium">Stakeholder Maps</div>
-              <div className="text-xs text-muted-foreground">Names, titles, LinkedIn — with purchase</div>
-            </div>
-          </div>
-        </div>
+        )}
         
-        {/* Company list */}
-        <div className="border border-border">
-          <div className="border-b border-border bg-muted/30 px-4 py-3 flex items-center justify-between">
-            <span className="font-mono text-xs uppercase tracking-wider text-muted-foreground">
-              {filteredCompanies.length} {hasFilters ? "matching" : ""} companies · Sorted by date
-            </span>
-            <span className="font-mono text-[10px] text-muted-foreground/50">
-              Click to expand
-            </span>
+        {!showAll && filteredCompanies.length > 12 && (
+          <div className="mt-6 text-center">
+            <Button 
+              variant="outline" 
+              className="rounded-none font-mono text-xs cursor-pointer px-8 py-5"
+              onClick={() => setShowAll(true)}
+            >
+              Show all {filteredCompanies.length} companies
+              <ChevronDown className="h-3 w-3 ml-1" />
+            </Button>
           </div>
-          
-          {visibleCompanies.length === 0 ? (
-            <div className="p-8 text-center text-sm text-muted-foreground">
-              No companies match the selected filters.
-            </div>
-          ) : (
-            visibleCompanies.map((company) => (
-              <CompanyRow key={company.rank} company={company} />
-            ))
-          )}
-          
-          {!showAll && filteredCompanies.length > 10 && (
-            <div className="p-4 text-center border-t border-border bg-muted/10">
-              <Button 
-                variant="outline" 
-                className="rounded-none font-mono text-xs cursor-pointer"
-                onClick={() => setShowAll(true)}
-              >
-                Show all {filteredCompanies.length} companies
-                <ChevronDown className="h-3 w-3 ml-1" />
-              </Button>
-            </div>
-          )}
-        </div>
+        )}
         
-        {/* CTA */}
-        <div className="mt-8 text-center border border-border p-6 md:p-8 bg-muted/10">
+        {/* Bottom CTA */}
+        <div className="mt-8 text-center border border-border p-6 md:p-8 bg-muted/10 rounded-lg">
           <h2 className="font-serif text-xl md:text-2xl font-semibold mb-2">Unlock the full pack</h2>
-          <p className="text-muted-foreground text-sm mb-4 max-w-lg mx-auto">
-            Get stakeholder maps with names, titles, LinkedIn profiles, and verified emails for all {data.companies.length} companies — plus biweekly refreshes with new signals as filings progress.
+          <p className="text-muted-foreground text-sm mb-1 max-w-lg mx-auto">
+            Get stakeholder maps with names, titles, LinkedIn profiles, and verified emails for all {data.companies.length} companies — plus biweekly refreshes as filings progress.
+          </p>
+          <p className="text-sm text-primary font-medium mb-4">
+            That&apos;s ${pricePerLead}/company for pre-qualified, time-sensitive leads.
           </p>
           <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
             <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-8 py-6 text-base cursor-pointer">
@@ -546,12 +628,12 @@ export default function SubmissionSprintPage() {
             </Button>
           </a>
           <p className="text-xs text-muted-foreground mt-3">
-            Private alpha · Cancel anytime
+            Limited availability · Cancel anytime
           </p>
         </div>
         
-        {/* Methodology */}
-        <div className="mt-6 border border-border p-5 text-sm">
+        {/* Methodology — credibility for persona B */}
+        <div className="mt-6 border border-border rounded-lg p-5 text-sm">
           <h3 className="font-mono text-xs uppercase tracking-wider text-muted-foreground mb-3">Methodology</h3>
           <div className="space-y-2 text-muted-foreground text-xs leading-relaxed">
             <p><strong className="text-foreground">Signal sourcing:</strong> Regulatory events are aggregated from FDA.gov (PDUFA dates, designations, approval actions), ClinicalTrials.gov (trial status, phase transitions), SEC EDGAR (funding disclosures, material events), and verified company press releases.</p>
