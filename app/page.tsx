@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles, Target, TrendingUp, Users, Zap, ExternalLink, Calendar, Briefcase, MessageCircle, Database, Linkedin, FileText, Mail, ThumbsUp, MessageSquare, Clock, Award } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 import { useEffect, useState, useRef } from "react"
 
 // Stakeholder data with source evidence
@@ -1008,6 +1009,69 @@ export default function Page() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="container mx-auto px-4">
+        <div
+          className="h-5 w-full"
+          style={{
+            background:
+              "repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(31,33,35,0.15) 4px, rgba(31,33,35,0.15) 6px)",
+          }}
+        />
+      </div>
+
+      {/* Signal Packs Section */}
+      <section className="container mx-auto px-4 py-8">
+        <div className="relative border border-border bg-transparent">
+          <div className="absolute left-0 top-0 h-3 w-3 border-l-2 border-t-2 border-foreground -translate-x-px -translate-y-px" />
+          <div className="absolute right-0 top-0 h-3 w-3 border-r-2 border-t-2 border-foreground translate-x-px -translate-y-px" />
+          <div className="absolute left-0 bottom-0 h-3 w-3 border-l-2 border-b-2 border-foreground -translate-x-px translate-y-px" />
+          <div className="absolute right-0 bottom-0 h-3 w-3 border-r-2 border-b-2 border-foreground translate-x-px translate-y-px" />
+
+          <div className="p-6 md:p-10">
+            <div className="mb-6">
+              <span className="font-mono text-xs text-muted-foreground uppercase tracking-wider">Ready-made intelligence</span>
+              <h2 className="font-serif text-2xl md:text-3xl mt-2">Signal Packs</h2>
+              <p className="text-sm text-muted-foreground mt-2 max-w-2xl">
+                Pre-built, research-backed lists of companies and decision-makers — with verified activity signals, sources, and contact info. Updated on a schedule so you always have fresh leads.
+              </p>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-2">
+              {/* Submission Sprint Pack */}
+              <Link href="/packs/submission-sprint" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
+                  <span className="font-mono text-xs text-muted-foreground/60">$750/refresh</span>
+                </div>
+                <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">Submission Sprint</h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  40+ pharma &amp; biotech companies with imminent FDA submissions — regulatory signals, filing timelines, and decision-maker contacts.
+                </p>
+                <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
+                  View pack <ArrowRight className="h-3 w-3" />
+                </div>
+              </Link>
+
+              {/* AI R&D Leaders Pack */}
+              <Link href="/packs/ai-rd-leaders" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
+                  <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
+                </div>
+                <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">AI R&D Leaders</h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  48 pharma AI/ML decision-makers who are actively building, hiring, and investing — with verified activity signals and proof.
+                </p>
+                <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
+                  View pack <ArrowRight className="h-3 w-3" />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
