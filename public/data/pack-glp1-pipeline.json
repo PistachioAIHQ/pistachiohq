@@ -1,0 +1,2005 @@
+{
+  "pack": {
+    "name": "GLP-1 Pipeline Radar",
+    "tagline": "Every company racing to build the next obesity blockbuster — who they are, what they're developing, and who to call",
+    "description": "45 companies with active GLP-1/incretin/obesity pipeline assets, cross-referenced with recent deal flow, clinical signals, and decision-maker contacts.",
+    "targetBuyer": "CDMOs, CROs, drug delivery companies, pharma BD teams, and consultants tracking the obesity pipeline",
+    "price": 500,
+    "refreshCadence": "Monthly",
+    "lastUpdated": "2026-01-31",
+    "totalCompanies": 45,
+    "totalStakeholders": 157
+  },
+  "companies": [
+    {
+      "rank": 1,
+      "company": "Viking Therapeutics",
+      "ticker": "VKTX",
+      "domain": "vikingtherapeutics.com",
+      "stage": "Phase 3",
+      "drugCandidate": "VK2735",
+      "modality": "Dual: oral small molecule + subcutaneous peptide",
+      "indication": "Obesity / NASH",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2026-01-12T00:00:00.000Z",
+          "title": "Viking Therapeutics Announces Publication of Results from ...",
+          "url": "https://www.prnewswire.com/news-releases/viking-therapeutics-announces-publication-of-results-from-phase-2-venture-trial-of-dual-glp-1gip-receptor-agonist-vk2735-in-the-journal-obesity-302658213.html",
+          "summary": "Viking Therapeutics Announces Publication of Results from Phase 2 VENTURE Trial of Dual GLP-1/GIP Receptor Agonist VK2735 in the Journal Obesity[Accessibility Statement] [Skip Navigation]"
+        },
+        {
+          "type": "news",
+          "date": "2026-01-12T00:00:00.000Z",
+          "title": "Viking Therapeutics - Press Releases",
+          "url": "https://ir.vikingtherapeutics.com/press-releases",
+          "summary": "Viking Therapeutics - Press Releases"
+        },
+        {
+          "type": "clinical",
+          "date": "2026-01-12T00:00:00.000Z",
+          "title": "Viking Therapeutics Announces Publication of Results from Phase 2 VENTURE Trial of Dual GLP-1/GIP Receptor Agonist VK273",
+          "url": "https://ir.vikingtherapeutics.com/2026-01-12-Viking-Therapeutics-Announces-Publication-of-Results-from-Phase-2-VENTURE-Trial-of-Dual-GLP-1-GIP-Receptor-Agonist-VK2735-in-the-Journal-Obesity",
+          "summary": "Viking Therapeutics Announces Publication of Results from Phase 2 VENTURE Trial of Dual GLP-1/GIP Receptor Agonist VK2735 in the Journal Obesity - Jan 12, 2026"
+        }
+      ],
+      "stakeholders": {
+        "count": 5,
+        "locked": false,
+        "people": [
+          {
+            "name": "Marianne M.",
+            "title": "Chief Operating Officer at Viking Therapeutics, Inc",
+            "linkedin": "https://linkedin.com/in/mariannemancini"
+          },
+          {
+            "name": "Maureen McGonegal Barnes",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/maureenbarnes"
+          },
+          {
+            "name": "Greg Zante",
+            "title": "Chief Financial Officer at Viking Therapeutics, Inc",
+            "linkedin": "https://linkedin.com/in/greg-zante-61280021"
+          },
+          {
+            "name": "Kader Yagiz",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/kaderyagiz"
+          },
+          {
+            "name": "William Hoye",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/william-hoye-72a1997"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "company": "Structure Therapeutics",
+      "ticker": "GPCR",
+      "domain": "structuretx.com",
+      "stage": "Phase 2",
+      "drugCandidate": "GSBR-1290 (afexitide)",
+      "modality": "Oral small molecule",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2026-01-21T00:00:00.000Z",
+          "title": "Healthy Returns: Structure Therapeutics CEO on obesity ...",
+          "url": "https://www.cnbc.com/2026/01/21/healthy-returns-structure-therapeutics-ceo-on-obesity-pill-and-more.html",
+          "summary": "Healthy Returns: Structure Therapeutics CEO on obesity pill and more"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-12-08T00:00:00.000Z",
+          "title": "Press Release",
+          "url": "https://ir.structuretx.com/news-releases/news-release-details/structure-therapeutics-reports-positive-topline-data-access",
+          "summary": "Structure Therapeutics Reports Positive Topline Data from ACCESS Program for its Once-Daily Oral Small Molecule GLP-1 Receptor Agonist, Aleniglipron | Structure Therapeutics"
+        },
+        {
+          "type": "news",
+          "date": "2025-12-17T00:00:00.000Z",
+          "title": "Press Releases",
+          "url": "https://ir.structuretx.com/press-releases",
+          "summary": "Press Releases | Structure Therapeutics"
+        }
+      ],
+      "stakeholders": {
+        "count": 4,
+        "locked": false,
+        "people": [
+          {
+            "name": "Raymond Stevens",
+            "title": "Chief Executive Officer at Structure Therapeutics",
+            "linkedin": "https://linkedin.com/in/raymond-stevens-737a34129"
+          },
+          {
+            "name": "Xichen Lin",
+            "title": "Chief Scientific Officer at [Structure Therapeutics](https://www",
+            "linkedin": "https://linkedin.com/in/xichen-lin-33512313"
+          },
+          {
+            "name": "Ashley H.",
+            "title": "Chief Development Officer at Structure Therapeutics",
+            "linkedin": "https://linkedin.com/in/ashley-h-9005652"
+          },
+          {
+            "name": "Chris de Graaf",
+            "title": "VP, Head of Computational Drug Discovery and Data Science - Structure Therape...",
+            "linkedin": "https://linkedin.com/in/cdegraaf"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "company": "Altimmune",
+      "ticker": "ALT",
+      "domain": "altimmune.com",
+      "stage": "Phase 2",
+      "drugCandidate": "Pemvidutide",
+      "modality": "Peptide (GLP-1/glucagon dual agonist)",
+      "indication": "Obesity / NASH",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2025-12-19T00:00:00.000Z",
+          "title": "Altimmune Announces that Pemvidutide Achieved Key ...",
+          "url": "https://ir.altimmune.com/news-releases/news-release-details/altimmune-announces-pemvidutide-achieved-key-measures-success-48",
+          "summary": "Altimmune Announces that Pemvidutide Achieved Key Measures of Success at 48 Weeks in IMPACT Phase 2b MASH Trial –Altimmune"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-12-19T00:00:00.000Z",
+          "title": "Altimmune eyes phase 3 MASH trial as weight loss deepens",
+          "url": "https://www.fiercebiotech.com/biotech/altimmune-eyes-phase-3-mash-trial-weight-loss-deepens",
+          "summary": "Altimmune eyes phase 3 MASH trial as weight loss deepens"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-11-03T00:00:00.000Z",
+          "title": "Altimmune Announces Early Completion of Enrollment in ...",
+          "url": "https://ir.altimmune.com/news-releases/news-release-details/altimmune-announces-early-completion-enrollment-reclaim-phase-2",
+          "summary": "Altimmune Announces Early Completion of Enrollment in RECLAIM Phase 2 Trial Evaluating Pemvidutide in Alcohol Use Disorder –Altimmune"
+        }
+      ],
+      "stakeholders": {
+        "count": 5,
+        "locked": false,
+        "people": [
+          {
+            "name": "Raymond Jordt",
+            "title": "Chief Business Officer, Altimmune",
+            "linkedin": "https://linkedin.com/in/raymond-jordt-8b417211"
+          },
+          {
+            "name": "Vipin Garg",
+            "title": "President And Chief Executive Officer at Altimmune",
+            "linkedin": "https://linkedin.com/in/dr-vipin-garg-480402"
+          },
+          {
+            "name": "Laura Gibbs",
+            "title": "CEO and Executive Vice President, Strategy & Business Development, including ...",
+            "linkedin": "https://linkedin.com/in/largibbs"
+          },
+          {
+            "name": "Scot Roberts",
+            "title": "Chief Scientific Officer at Altimmune, Inc",
+            "linkedin": "https://linkedin.com/in/scot-roberts-47500918"
+          },
+          {
+            "name": "Pin-Nan Cheng",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/pin-nan-cheng-phd-97999550"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "company": "Terns Pharmaceuticals",
+      "ticker": "TERN",
+      "domain": "ternspharma.com",
+      "stage": "Phase 2",
+      "drugCandidate": "TERN-601",
+      "modality": "Oral small molecule GLP-1R agonist",
+      "indication": "Obesity / NASH",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2025-10-21T00:00:00.000Z",
+          "title": "Terns Pharmaceuticals Reports Topline 12-week Data from ...",
+          "url": "https://ir.ternspharma.com/news-releases/news-release-details/terns-pharmaceuticals-reports-topline-12-week-data-its-phase-2",
+          "summary": "Terns Pharmaceuticals Reports Topline 12-week Data from its Phase 2 Trial Evaluating Oral GLP-1 Receptor Agonist TERN-601 in Obesity —Terns Pharmaceuticals, Inc."
+        },
+        {
+          "type": "clinical",
+          "date": "2025-10-22T00:00:00.000Z",
+          "title": "Terns mothballs obesity program after phase 2 data fall short",
+          "url": "https://www.fiercebiotech.com/biotech/terns-mothballs-obesity-program-after-phase-2-data-fall-short",
+          "summary": "[Biotech]"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-10-22T00:00:00.000Z",
+          "title": "Terns Pharmaceuticals Reports Topline 12-week Data from its Phase 2 Trial Evaluating Oral GLP-1 Receptor Agonist TERN-60",
+          "url": "https://www.biospace.com/press-releases/terns-pharmaceuticals-reports-topline-12-week-data-from-its-phase-2-trial-evaluating-oral-glp-1-receptor-agonist-tern-601-in-obesity",
+          "summary": "Terns Pharmaceuticals Reports Topline 12-week Data from its Phase 2 Trial Evaluating Oral GLP-1 Receptor Agonist TERN-601 in Obesity - BioSpace"
+        }
+      ],
+      "stakeholders": {
+        "count": 5,
+        "locked": false,
+        "people": [
+          {
+            "name": "Senthil Sundaram",
+            "title": "Chief Executive Officer at Terns Pharmaceuticals",
+            "linkedin": "https://linkedin.com/in/senthil1"
+          },
+          {
+            "name": "Weidong Zhong",
+            "title": "Chief Strategy Officer, R&D Executive, San Francisco Bay Area",
+            "linkedin": "https://linkedin.com/in/ternspharma"
+          },
+          {
+            "name": "Brian Yip",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/brianeyip"
+          },
+          {
+            "name": "Amy Burroughs",
+            "title": "Chief Executive Officer at Terns Pharmaceuticals",
+            "linkedin": "https://linkedin.com/in/amyburroughs"
+          },
+          {
+            "name": "Emil Kuriakose",
+            "title": "Chief Medical Officer at Terns Pharmaceuticals",
+            "linkedin": "https://linkedin.com/in/emil-kuriakose-md-41b28b44"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "company": "Sciwind Biosciences",
+      "ticker": null,
+      "domain": "sciwind.com",
+      "stage": "Phase 2",
+      "drugCandidate": "Ecnoglutide (XW003)",
+      "modality": "Long-acting peptide (GLP-1R agonist)",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [
+        {
+          "type": "regulatory",
+          "date": "2025-06-21T00:00:00.000Z",
+          "title": "China's Sciwind's GLP-1 shows similar weight loss to Novo's Wegovy, study finds",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/chinas-sciwinds-glp-1-shows-similar-weight-loss-novos-wegovy-study-finds-2025-06-21/",
+          "summary": "Novo Nordisk logo is seen in Bagsvaerd outside of Copenhagen, Denmark February 1, 2017. Scanpix Denmark/Liselotte Sabroe via REUTERS ATTENTION EDITORS - THIS IMAGE WAS PROVIDED BY A THIRD PARTY. FOR E"
+        },
+        {
+          "type": "news",
+          "date": "2025-06-30T00:00:00.000Z",
+          "title": "Obesity drugs made in China next wave of treatments",
+          "url": "https://www.nature.com/articles/d41586-025-01987-z",
+          "summary": "A drug that outperforms placebo in helping people to lose weight is one of a growing number of next-generation obesity drugs being produced in China."
+        },
+        {
+          "type": "clinical",
+          "date": "2025-06-22T00:00:00.000Z",
+          "title": "Ecnoglutide, a novel GLP-1, safe and effective for treatment ...",
+          "url": "https://www.healio.com/news/endocrinology/20250622/ecnoglutide-a-novel-glp1-safe-and-effective-for-treatment-of-overweight-obesity",
+          "summary": "Ecnoglutide, a novel GLP-1, safe and effective for treatment of overweight, obesity"
+        }
+      ],
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "people": [
+          {
+            "name": "Xinle Wu",
+            "title": "VP Of BD at Sciwind Biosciences USA",
+            "linkedin": "https://linkedin.com/in/xinle-wu-87b7373"
+          },
+          {
+            "name": "Hai Pan",
+            "title": "CEO",
+            "linkedin": "https://linkedin.com/in/hai-pan-57442310"
+          },
+          {
+            "name": "Li Jiamin",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/li-jiamin-a98099299"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "company": "Hanmi Pharmaceutical",
+      "ticker": "128940.KS",
+      "domain": "hanmipharm.com",
+      "stage": "Phase 2",
+      "drugCandidate": "Efinopegdutide (HM15211)",
+      "modality": "Peptide (GLP-1/GIP/glucagon triple agonist)",
+      "indication": "Obesity / NASH",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2026-01-27T21:17:10.132Z",
+          "title": "Hanmi Secures Export Deal with Mexican Partner Sanfer ...",
+          "url": "https://www.prnewswire.com/news-releases/hanmi-secures-export-deal-with-mexican-partner-sanfer-for-glp-1-obesity-drug-and-more-302672036.html",
+          "summary": "Hanmi Secures Export Deal with Mexican Partner Sanfer for GLP-1 Obesity Drug and More[Accessibility Statement] [Skip Navigation]"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-27T21:17:10.132Z",
+          "title": "Hanmi Pharm signs exclusive Mexico deal for GLP-1 obesity ...",
+          "url": "https://www.koreabiomed.com/news/articleView.html?idxno=30447",
+          "summary": "Hanmi Pharm signs exclusive Mexico deal for GLP-1 obesity drug efpeglenatide\\ [Log in] [Join]"
+        },
+        {
+          "type": "regulatory",
+          "date": "2026-01-23T21:17:10.132Z",
+          "title": "S.Korea speeds homegrown weight-loss drug ...",
+          "url": "https://www.kedglobal.com/bio-pharma/newsView/ked202601230005",
+          "summary": "S.Korea speeds homegrown weight-loss drug development led by Hanmi Pharm - KED Global"
+        }
+      ],
+      "stakeholders": {
+        "count": 5,
+        "locked": false,
+        "people": [
+          {
+            "name": "Gwan Sun Lee",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/gwan-sun-lee-6b088085"
+          },
+          {
+            "name": "Joan Shin",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/joan-shin-3b74b723a"
+          },
+          {
+            "name": "Si young Jung",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/si-young-jung-14834b20"
+          },
+          {
+            "name": "Tae Hee Ha",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/tae-hee-ha-892396b6"
+          },
+          {
+            "name": "Kyoungwoo Lee",
+            "title": "Head of R&D, Research Center at Beijing Hanmi Pharmaceutical Co",
+            "linkedin": "https://linkedin.com/in/kyoungwoo-lee-3272b618"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "company": "Boehringer Ingelheim",
+      "ticker": null,
+      "domain": "boehringer-ingelheim.com",
+      "stage": "Phase 3",
+      "drugCandidate": "Survodutide",
+      "modality": "Peptide (GLP-1/glucagon dual agonist)",
+      "indication": "Obesity / NASH",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-12-08T00:00:00.000Z",
+          "title": "Boehringer advances obesity treatment to mid-stage ...",
+          "url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/boehringer-advances-obesity-treatment-mid-stage-development",
+          "summary": "Request unsuccessful. Incapsula incident ID: 348000530301263287-831009269093240146"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-05-14T00:00:00.000Z",
+          "title": "Boehringer Ingelheim and Zealand Pharma announce phase II trial showed 14.9% weight loss in people living with obesity o",
+          "url": "https://via.tt.se/pressmeddelande/3347371/boehringer-ingelheim-and-zealand-pharma-announce-phase-ii-trial-showed-149-weight-loss-in-people-living-with-obesity-or-overweight?publisherId=259167",
+          "summary": "# Boehringer Ingelheim and Zealand Pharma announce phase II trial showed 14.9% weight loss in people living with obesity or overweight"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-11-05T00:00:00.000Z",
+          "title": "Oral GLP-1 reduces body weight, HbA1c for adults with ...",
+          "url": "https://www.healio.com/news/endocrinology/20251105/oral-glp1-reduces-body-weight-hba1c-for-adults-with-obesity-plus-type-2-diabetes",
+          "summary": "Oral GLP-1 reduces body weight, HbA1c for adults with obesity plus type 2 diabetes"
+        }
+      ],
+      "stakeholders": {
+        "count": 6,
+        "locked": false,
+        "people": [
+          {
+            "name": "Jerry Hart",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/jerry-hart-824b4220"
+          },
+          {
+            "name": "Mary-Ellen Devlin",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/mary-ellen-devlin-33144815"
+          },
+          {
+            "name": "Ute Lehmann",
+            "title": "VP, Global Head of BD&KAM and Marketing BioXcellence - the Contract Manufactu...",
+            "linkedin": "https://linkedin.com/in/ute-lehmann"
+          },
+          {
+            "name": "Friedrich Schäfer",
+            "title": "Head of Commercial Excellence",
+            "linkedin": "https://linkedin.com/in/friedrich-sch%C3%A4fer-74103112a"
+          },
+          {
+            "name": "Andreas Koehler",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/andreas-koehler-08049513a"
+          },
+          {
+            "name": "Irene Waizenegger",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/irene-waizenegger-24211417"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "company": "Carmot Therapeutics (Roche)",
+      "ticker": "ROG.SW",
+      "domain": "roche.com",
+      "stage": "Phase 3",
+      "drugCandidate": "CT-996 / CT-388",
+      "modality": "Oral small molecule + peptide",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2026-01-27T21:17:13.723Z",
+          "title": "Roche, trailing in obesity, showcases new data for GLP-1 ...",
+          "url": "https://www.biopharmadive.com/news/roche-obesity-drug-phase-2-data-carmot-glp-gip/810578/",
+          "summary": "Roche, trailing in obesity, showcases new data for GLP-1 shot | BioPharma Dive[Skip to main content]"
+        },
+        {
+          "type": "news",
+          "date": "2026-01-29T21:17:13.723Z",
+          "title": "Roche Plans To Go Toe-to-Toe With Novo, Lilly in Obesity",
+          "url": "https://www.biospace.com/business/roche-plans-to-go-toe-to-toe-with-novo-lilly-in-obesity",
+          "summary": "Roche Plans To Go Toe-to-Toe With Novo, Lilly in Obesity - BioSpace"
+        },
+        {
+          "type": "clinical",
+          "date": "2026-01-26T21:17:13.723Z",
+          "title": "Roche moves obesity drug to pivotal trials after mid-stage ...",
+          "url": "https://www.statnews.com/2026/01/27/roche-ct388-trials-weight-loss-obesity/",
+          "summary": "Roche moves obesity drug to pivotal trials after mid-stage success[Skip to Main Content]"
+        }
+      ],
+      "stakeholders": {
+        "count": 4,
+        "locked": false,
+        "people": [
+          {
+            "name": "Heather Turner",
+            "title": "CEO Board member",
+            "linkedin": "https://linkedin.com/in/heather-turner-759146b"
+          },
+          {
+            "name": "Stig Hansen",
+            "title": "President, and CEO, Kimia Therapeutics, Inc",
+            "linkedin": "https://linkedin.com/in/stig-hansen-6988568"
+          },
+          {
+            "name": "Manu Chakravarthy",
+            "title": "SVP and Global Head of Cardiovascular, Renal and Metabolism Product Developme...",
+            "linkedin": "https://linkedin.com/in/manu-chakravarthy-mdphd"
+          },
+          {
+            "name": "Victoria D.",
+            "title": "",
+            "linkedin": "https://linkedin.com/in/vdavis27"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "company": "Inversago Pharma (Novo Nordisk)",
+      "ticker": "NVO",
+      "domain": "novonordisk.com",
+      "stage": "Phase 2",
+      "drugCandidate": "INV-202 (CB1 inverse agonist)",
+      "modality": "Oral small molecule (peripheral CB1)",
+      "indication": "Obesity adjunct",
+      "recentSignals": [
+        {
+          "type": "regulatory",
+          "date": "2025-03-25T00:00:00.000Z",
+          "title": "UK weight loss market: M&A opportunities",
+          "url": "https://pharmaphorum.com/market-access/uk-weight-loss-market-ma-opportunities",
+          "summary": "[Skip to main content]"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-09-17T00:00:00.000Z",
+          "title": "NVO Stock Rises on Upbeat Phase III Data for Cagrilintide ...",
+          "url": "https://www.tradingview.com/news/zacks:24e826661094b:0-nvo-stock-rises-on-upbeat-phase-iii-data-for-cagrilintide-in-obesity/",
+          "summary": "Search"
+        },
+        {
+          "type": "news",
+          "date": "2026-01-06T00:00:00.000Z",
+          "title": "Novo Nordisk: Wegovy Pill Is Not A Game Changer",
+          "url": "https://seekingalpha.com/article/4857096-novo-nordisk-wegovy-pill-is-not-a-game-changer",
+          "summary": "Novo Nordisk: Wegovy Pill Is Not A Game Changer (NYSE:NVO) | Seeking Alpha"
+        }
+      ],
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "people": [
+          {
+            "name": "Mi***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Lu***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Gl***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "company": "Rivus Pharmaceuticals",
+      "ticker": null,
+      "domain": "rivuspharma.com",
+      "stage": "Phase 2",
+      "drugCandidate": "HU6",
+      "modality": "Oral small molecule (mitochondrial uncoupler)",
+      "indication": "Obesity / cardiometabolic",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2025-11-10T00:00:00.000Z",
+          "title": "Rivus Pharmaceuticals Announces New Data from Phase ...",
+          "url": "https://www.rivuspharma.com/news/press-releases/110725/",
+          "summary": "Rivus Pharmaceuticals Announces New Data from Phase 2 M-ACCEL Trial of HU6 in MASH in Late-Breaker Oral Presentation at AASLD The Liver Meeting 2025"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-10-14T00:00:00.000Z",
+          "title": "Rivus Pharmaceuticals to Present Clinical Data from ...",
+          "url": "https://www.prnewswire.com/news-releases/rivus-pharmaceuticals-to-present-clinical-data-from-phase-2a-m-accel-trial-of-hu6-in-mash-as-late-breaker-oral-presentation-at-aasld-the-liver-meeting-2025-302582497.html",
+          "summary": "Rivus Pharmaceuticals to Present Clinical Data from Phase 2a M-ACCEL Trial of HU6 in MASH as Late-Breaker Oral Presentation at AASLD The Liver Meeting® 2025[Accessibility Statement] [Skip Navigation]"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-11-04T00:00:00.000Z",
+          "title": "Rivus Pharmaceuticals Presents Preclinical Data for",
+          "url": "https://www.globenewswire.com/news-release/2025/11/04/3180682/0/en/Rivus-Pharmaceuticals-Presents-Preclinical-Data-for-Controlled-Metabolic-Accelerator-CMA-Pipeline-Showing-Fat-Selective-Muscle-Preserving-Weight-Loss-in-Obesity-at-ObesityWeek.html",
+          "summary": "[Accessibility: Skip TopNav]"
+        }
+      ],
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "people": [
+          {
+            "name": "Al***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Da***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Sh***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 11,
+      "company": "Eccogene",
+      "ticker": null,
+      "domain": "eccogene.com",
+      "stage": "Phase 2",
+      "drugCandidate": "ECC5004",
+      "modality": "Oral small molecule GLP-1R agonist",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2025-05-12T00:00:00.000Z",
+          "title": "Agreement with Eccogene for clinical stage GLP-1RA | Company Announcement | Investegate",
+          "url": "https://www.investegate.co.uk/announcement/rns/astrazeneca--azn/agreement-with-eccogene-for-clinical-stage-glp-1ra/7870087",
+          "summary": "- [Home]"
+        },
+        {
+          "type": "news",
+          "date": "2025-04-29T00:00:00.000Z",
+          "title": "Astrazeneca to pay $2B for Eccogene’s oral GLP-1 obesity drug",
+          "url": "https://www.bioworld.com/articles/702792-astrazeneca-to-pay-2b-for-eccogenes-oral-glp-1-obesity-drug?v=preview",
+          "summary": "BioWorld - Saturday, June 15, 2024"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-30T21:17:18.939Z",
+          "title": "AstraZeneca's China Trip Yields CSPC Obesity Deal Worth ...",
+          "url": "https://www.biospace.com/deals/astrazenecas-china-trip-yields-cspc-obesity-deal-worth-1-2b-upfront",
+          "summary": "AstraZeneca’s China Trip Yields CSPC Obesity Deal Worth $1.2B Upfront - BioSpace"
+        }
+      ],
+      "stakeholders": {
+        "count": 4,
+        "locked": true,
+        "people": [
+          {
+            "name": "Ji***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "La***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ji***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Su***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 12,
+      "company": "Amgen",
+      "ticker": "AMGN",
+      "domain": "amgen.com",
+      "stage": "Phase 2",
+      "drugCandidate": "MariTide (AMG 133)",
+      "modality": "Bispecific antibody-peptide (GIP antagonist / GLP-1 agonist)",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2026-01-13T00:00:00.000Z",
+          "title": "Amgen CEO: weight loss drug can address ' ... - CNBC",
+          "url": "https://www.cnbc.com/2026/01/13/amgen-ceo-weight-loss-drug-can-address-patient-persistence-issue.html",
+          "summary": "Amgen CEO: weight loss drug can address 'patient persistence issue'"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-06-23T00:00:00.000Z",
+          "title": "RESULTS FROM AMGEN'S PHASE 2 OBESITY STUDY ...",
+          "url": "https://www.amgen.com/newsroom/press-releases/2025/06/results-from-amgens-phase-2-obesity-study-of-monthly-maritide-presented-at-the-american-diabetes-association-85th-scientific-sessions",
+          "summary": "RESULTS FROM AMGEN&#39;S PHASE 2 OBESITY STUDY OF MONTHLY MARITIDE PRESENTED AT THE AMERICAN DIABETES ASSOCIATION 85TH SCIENTIFIC SESSIONS| Amgen"
+        },
+        {
+          "type": "clinical",
+          "date": "2026-01-08T00:00:00.000Z",
+          "title": "Amgen Advances Early-Stage Obesity Candidate With ...",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMGN/pressreleases/36951957/amgen-advances-early-stage-obesity-candidate-with-new-injection-trial/",
+          "summary": "Amgen Advances Early-Stage Obesity Candidate With New Injection Trial - The Globe and Mail"
+        }
+      ],
+      "stakeholders": {
+        "count": 6,
+        "locked": true,
+        "people": [
+          {
+            "name": "Bo***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ma***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ol***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Am***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ho***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ja***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 13,
+      "company": "Pfizer",
+      "ticker": "PFE",
+      "domain": "pfizer.com",
+      "stage": "Phase 2",
+      "drugCandidate": "Danuglipron",
+      "modality": "Oral small molecule GLP-1R agonist",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-12-09T00:00:00.000Z",
+          "title": "Pfizer Enters into Exclusive Collaboration and License ...",
+          "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-enters-exclusive-collaboration-and-license-agreement",
+          "summary": "Pfizer Enters into Exclusive Collaboration and License Agreement with YaoPharma | Pfizer[Skip to main content]"
+        },
+        {
+          "type": "news",
+          "date": "2025-12-12T00:00:00.000Z",
+          "title": "Pfizer boosts weight loss pipeline with GLP-1 drug",
+          "url": "https://www.ddw-online.com/pfizer-boosts-weight-loss-pipeline-with-glp-1-drug-39474-202512/",
+          "summary": "[Skip to content]"
+        },
+        {
+          "type": "deal",
+          "date": "2025-12-11T00:00:00.000Z",
+          "title": "Pfizer's $2bn+ obesity bet, and other weight-loss news",
+          "url": "https://pharmaphorum.com/news/pfizers-2bn-obesity-bet-and-other-weight-loss-news",
+          "summary": "[Skip to main content]"
+        }
+      ],
+      "stakeholders": {
+        "count": 6,
+        "locked": true,
+        "people": [
+          {
+            "name": "Bo***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Sl***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Su***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ro***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Jo***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ch***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 14,
+      "company": "AstraZeneca",
+      "ticker": "AZN",
+      "domain": "astrazeneca.com",
+      "stage": "Phase 1",
+      "drugCandidate": "AZD5004",
+      "modality": "Oral small molecule GLP-1R agonist",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2026-01-30T21:17:24.177Z",
+          "title": "AstraZeneca's China Trip Yields CSPC Obesity Deal Worth ...",
+          "url": "https://www.biospace.com/deals/astrazenecas-china-trip-yields-cspc-obesity-deal-worth-1-2b-upfront",
+          "summary": "AstraZeneca’s China Trip Yields CSPC Obesity Deal Worth $1.2B Upfront - BioSpace"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-30T21:17:24.177Z",
+          "title": "AZ deepens Chinese ties, signs $18.5bn CSPC obesity deal",
+          "url": "https://pharmaphorum.com/news/az-deepens-chinese-ties-signs-185bn-cspc-obesity-deal",
+          "summary": "AZ deepens Chinese ties, signs $18.5bn CSPC obesity deal | pharmaphorum[Skip to main content]"
+        },
+        {
+          "type": "news",
+          "date": "2025-04-25T00:00:00.000Z",
+          "title": "GLP-1-based therapies for diabetes, obesity and beyond",
+          "url": "https://www.nature.com/articles/s41573-025-01183-8",
+          "summary": "GLP-1-based therapies for diabetes, obesity and beyond | Nature Reviews Drug Discovery"
+        }
+      ],
+      "stakeholders": {
+        "count": 6,
+        "locked": true,
+        "people": [
+          {
+            "name": "Li***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ma***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Jo***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ag***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Qi***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ul***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 15,
+      "company": "Eli Lilly",
+      "ticker": "LLY",
+      "domain": "lilly.com",
+      "stage": "Phase 3",
+      "drugCandidate": "Orforglipron",
+      "modality": "Oral small molecule GLP-1R agonist",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2025-12-18T00:00:00.000Z",
+          "title": "Lilly's orforglipron helped people maintain weight loss after ...",
+          "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-orforglipron-helped-people-maintain-weight-loss-after",
+          "summary": "Lilly&#039;s orforglipron helped people maintain weight loss after switching from injectable incretins to oral GLP-1 therapy in first-of-its-kind Phase 3 trial | Eli Lilly and Company"
+        },
+        {
+          "type": "regulatory",
+          "date": "2025-12-18T00:00:00.000Z",
+          "title": "What to Know About Orforglipron Oral GLP-1",
+          "url": "https://www.lilly.com/news/stories/what-to-know-about-orforglipron",
+          "summary": "What to Know About Orforglipron Oral GLP-1 | Eli Lilly and Company"
+        },
+        {
+          "type": "regulatory",
+          "date": "2026-01-14T00:00:00.000Z",
+          "title": "Lilly, chasing Novo, expects second-quarter FDA decision ...",
+          "url": "https://www.biopharmadive.com/news/lilly-obesity-pill-orforglipron-fda-decision-dtc-sales/809598/",
+          "summary": "Lilly, chasing Novo, expects second-quarter FDA decision on obesity pill | BioPharma Dive[Skip to main content]"
+        }
+      ],
+      "stakeholders": {
+        "count": 6,
+        "locked": true,
+        "people": [
+          {
+            "name": "Je***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Al***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Sa***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ty***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Er***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Na***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 16,
+      "company": "Novo Nordisk",
+      "ticker": "NVO",
+      "domain": "novonordisk.com",
+      "stage": "Phase 3",
+      "drugCandidate": "Amycretin (oral)",
+      "modality": "Oral peptide (GLP-1/amylin dual agonist)",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "regulatory",
+          "date": "2026-01-27T21:17:28.049Z",
+          "title": "US FDA Approves First Daily Oral GLP‑1 Treatment ...",
+          "url": "https://www.prnewswire.com/apac/news-releases/us-fda-approves-first-daily-oral-glp1-treatment-for-weight-management-showing-comparable-results-to-injectable-therapy-302671957.html",
+          "summary": "US FDA Approves First Daily Oral GLP‑1 Treatment for Weight Management, Showing Comparable Results to Injectable Therapy[Accessibility Statement] [Skip Navigation]"
+        },
+        {
+          "type": "regulatory",
+          "date": "2025-12-22T00:00:00.000Z",
+          "title": "FDA approves Novo Nordisk's Wegovy® pill, the first and only oral GLP-1 for weight loss in adults",
+          "url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-302648344.html",
+          "summary": "FDA approves Novo Nordisk's Wegovy® pill, the first and only oral GLP-1 for weight loss in adults[Accessibility Statement] [Skip Navigation]"
+        },
+        {
+          "type": "regulatory",
+          "date": "2025-12-22T00:00:00.000Z",
+          "title": "FDA approves first GLP-1 pill for obesity from Wegovy maker Novo Nordisk",
+          "url": "https://www.cnbc.com/2025/12/22/fda-approves-first-glp-1-pill-for-obesity-from-novo-nordisk.html#:~:text=The%20U.S.%20Food%20and%20Drug,the%20pill%20in%20early%202026.",
+          "summary": "FDA approves first GLP-1 pill for obesity from Wegovy maker Novo Nordisk"
+        }
+      ],
+      "stakeholders": {
+        "count": 6,
+        "locked": true,
+        "people": [
+          {
+            "name": "Ho***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "La***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ye***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ge***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ma***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Pe***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 17,
+      "company": "CSPC Pharmaceutical",
+      "ticker": "1093.HK",
+      "domain": "cspc.com.hk",
+      "stage": "Phase 1",
+      "drugCandidate": "SYSA1801",
+      "modality": "Peptide GLP-1/GIP dual agonist",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2026-01-30T21:17:29.761Z",
+          "title": "AstraZeneca's China Trip Yields CSPC Obesity Deal Worth ...",
+          "url": "https://www.biospace.com/deals/astrazenecas-china-trip-yields-cspc-obesity-deal-worth-1-2b-upfront",
+          "summary": "AstraZeneca’s China Trip Yields CSPC Obesity Deal Worth $1.2B Upfront - BioSpace"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-30T21:17:29.761Z",
+          "title": "AZ deepens Chinese ties, signs $18.5bn CSPC obesity deal",
+          "url": "https://pharmaphorum.com/news/az-deepens-chinese-ties-signs-185bn-cspc-obesity-deal",
+          "summary": "AZ deepens Chinese ties, signs $18.5bn CSPC obesity deal | pharmaphorum[Skip to main content]"
+        },
+        {
+          "type": "clinical",
+          "date": "2026-01-27T21:17:29.761Z",
+          "title": "Roche, trailing in obesity, showcases new data for GLP-1 ...",
+          "url": "https://www.biopharmadive.com/news/roche-obesity-drug-phase-2-data-carmot-glp-gip/810578/",
+          "summary": "Roche, trailing in obesity, showcases new data for GLP-1 shot | BioPharma Dive[Skip to main content]"
+        }
+      ],
+      "stakeholders": {
+        "count": 5,
+        "locked": true,
+        "people": [
+          {
+            "name": "Xi***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Lo***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "No***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Hu***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ch***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 18,
+      "company": "Gan & Lee Pharmaceuticals",
+      "ticker": "603087.SS",
+      "domain": "ganlee.com",
+      "stage": "Phase 2",
+      "drugCandidate": "GZR18",
+      "modality": "Peptide GLP-1R agonist",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2025-11-27T00:00:00.000Z",
+          "title": "Once-Monthly GLP-1 RA | Gan & Lee Pharmaceuticals ...",
+          "url": "https://www.prnewswire.com/news-releases/once-monthly-glp-1-ra--gan--lee-pharmaceuticals-initiates-phase-3-clinical-study-gradual-3-of-the-first-chinese-once-monthly-glp-1-ra-for-weight-management-302627433.html",
+          "summary": "Once-Monthly GLP-1 RA | Gan &amp; Lee Pharmaceuticals Initiates Phase 3 Clinical Study (GRADUAL-3) of the First Chinese Once-Monthly GLP-1 RA for Weight Management[Accessibility Statement] [Skip Navig"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-11-28T00:00:00.000Z",
+          "title": "Gan & Lee begins Phase III GLP-1 RA clinical trial in China",
+          "url": "https://www.clinicaltrialsarena.com/news/gan-lee-clinical-trial/",
+          "summary": "[Skip to site menu] [Skip to page content]"
+        },
+        {
+          "type": "deal",
+          "date": "2025-12-29T00:00:00.000Z",
+          "title": "Lupin Signs Exclusive Licensing Agreement with Gan & Lee ...",
+          "url": "https://www.lupin.com/lupin-signs-exclusive-licensing-agreement-with-gan-lee-pharmaceuticals-for-novel-glp-1-receptor-agonist/",
+          "summary": "Lupin Signs Exclusive Licensing Agreement with Gan &amp; Lee Pharmaceuticals for novel GLP-1 receptor agonist"
+        }
+      ],
+      "stakeholders": {
+        "count": 5,
+        "locked": true,
+        "people": [
+          {
+            "name": "Sh***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Zh***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ce***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ga***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "we***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 19,
+      "company": "YaoPharma",
+      "ticker": null,
+      "domain": "yaopharma.com",
+      "stage": "Phase 1",
+      "drugCandidate": "YAP-0840",
+      "modality": "Oral small molecule GLP-1R agonist",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-12-09T00:00:00.000Z",
+          "title": "Pfizer Enters into Exclusive Collaboration and License ...",
+          "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-enters-exclusive-collaboration-and-license-agreement",
+          "summary": "Pfizer Enters into Exclusive Collaboration and License Agreement with YaoPharma | Pfizer[Skip to main content]"
+        },
+        {
+          "type": "deal",
+          "date": "2025-12-09T00:00:00.000Z",
+          "title": "Pfizer strikes deal with YaoPharma for obesity pill",
+          "url": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "summary": "Pfizer strikes deal with YaoPharma for obesity pill"
+        },
+        {
+          "type": "regulatory",
+          "date": "2026-01-23T00:00:00.000Z",
+          "title": "Big Pharma shops Chinese biotechs to stock GLP-1 pipelines",
+          "url": "https://www.pharmavoice.com/news/big-pharma-glp1-novo-lilly-pfizer-obesity/810275/",
+          "summary": "Big Pharma shops Chinese biotechs to stock GLP-1 pipelines | PharmaVoice[Skip to main content]"
+        }
+      ],
+      "stakeholders": {
+        "count": 4,
+        "locked": true,
+        "people": [
+          {
+            "name": "Ya***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Je***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Mi***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Hi***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 20,
+      "company": "Poolbeg Pharma",
+      "ticker": "POLB.L",
+      "domain": "poolbegpharma.com",
+      "stage": "Preclinical",
+      "drugCandidate": "PBPK001 (oral GLP-1 enhancer)",
+      "modality": "Oral small molecule",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-06-29T00:00:00.000Z",
+          "title": "Poolbeg Pharma: New Capital, New Catalysts as POLB ...",
+          "url": "https://www.share-talk.com/poolbeg-pharma-new-capital-new-catalysts-as-polb-001-advances-toward-the-clinic/",
+          "summary": "Poolbeg Pharma: New Capital, New Catalysts as POLB 001 Advances Toward the Clinic - Share Talk"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-05-18T00:00:00.000Z",
+          "title": "Pipeline",
+          "url": "https://www.poolbegpharma.com/pipeline/",
+          "summary": "Pipeline | Poolbeg Pharma"
+        },
+        {
+          "type": "deal",
+          "date": "2025-10-01T21:17:35.494Z",
+          "title": "Poolbeg Pharma CEO on active H1, POLB 001 & GLP-1 trial ...",
+          "url": "https://www.youtube.com/watch?v=n7ZSgIH1IEg",
+          "summary": "Poolbeg Pharma PLC (AIM:POLB, OTC:POLBF) CEO Jeremy Skillington talked with Proactive's Stephen Gunnion about the company’s interim results and key clinical milestones.\\n\\nSkillington highlighted that"
+        }
+      ],
+      "stakeholders": {
+        "count": 4,
+        "locked": true,
+        "people": [
+          {
+            "name": "Je***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ca***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ia***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Pa***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 21,
+      "company": "Eolo Pharma",
+      "ticker": null,
+      "domain": "eolopharma.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed oral GLP-1",
+      "modality": "Oral small molecule",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-06-17T00:00:00.000Z",
+          "title": "Eolo Pharma Publishes First-in-Human Study in Nature ...",
+          "url": "https://eolo-pharma.com/2025/06/17/eolo-pharma-publishes-first-in-human-study-in-nature-metabolism-on-novel-obesity-drug-activating-energy-burning-pathway/",
+          "summary": "­"
+        },
+        {
+          "type": "deal",
+          "date": "2025-06-19T00:00:00.000Z",
+          "title": "Eolo Pharma's Novel Obesity Drug Activates Energy- ...",
+          "url": "https://www.clinicaltrialvanguard.com/news/eolo-pharmas-novel-obesity-drug-activates-energy-burning-pathway/",
+          "summary": "#### Moe Alsumidaie"
+        },
+        {
+          "type": "news",
+          "date": "2025-06-16T00:00:00.000Z",
+          "title": "Eolo Pharma Publishes First-in-Human Study in Nature Metabolism on Novel Obesity Drug Activating Energy-Burning Pathway",
+          "url": "https://www.globenewswire.com/news-release/2025/06/16/3099684/0/en/Eolo-Pharma-Publishes-First-in-Human-Study-in-Nature-Metabolism-on-Novel-Obesity-Drug-Activating-Energy-Burning-Pathway.html",
+          "summary": "Eolo Pharma Publishes First-in-Human Study in Nature"
+        }
+      ],
+      "stakeholders": {
+        "count": 4,
+        "locked": true,
+        "people": [
+          {
+            "name": "Ma***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ro***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ma***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ca***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 22,
+      "company": "Pep2Tango",
+      "ticker": null,
+      "domain": "pep2tango.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed peptide",
+      "modality": "Peptide (novel incretin)",
+      "indication": "Obesity / metabolic",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-01-28T00:00:00.000Z",
+          "title": "Versant Launches Fourth Obesity Startup Helicore to ...",
+          "url": "https://www.biospace.com/business/versant-launches-fourth-obesity-startup-helicore-to-improve-weight-loss-quality",
+          "summary": ""
+        },
+        {
+          "type": "news",
+          "date": "2025-09-17T00:00:00.000Z",
+          "title": "GLP1 & Oral Peptides | April 15-16, 2025 | San Diego, CA",
+          "url": "https://www.drugdiscoverychemistry.com/25/oral-peptides",
+          "summary": "GLP1 &amp; Oral Peptides | April 15-16, 2025 | San Diego, CA"
+        },
+        {
+          "type": "regulatory",
+          "date": "2025-01-28T00:00:00.000Z",
+          "title": "Versant invests again in obesity, this time backing Helicore ...",
+          "url": "https://www.biopharmadive.com/news/versant-obesity-helicore-series-a-gip-antagonist/738403/",
+          "summary": "Versant invests again in obesity, this time backing Helicore Biopharma | BioPharma Dive[Skip to main content]"
+        }
+      ],
+      "stakeholders": {
+        "count": 5,
+        "locked": true,
+        "people": [
+          {
+            "name": "Pa***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ay***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Cr***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Th***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "An***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 23,
+      "company": "Deep Apple Therapeutics",
+      "ticker": null,
+      "domain": "deepappletherapeutics.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed",
+      "modality": "Small molecule",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-06-12T00:00:00.000Z",
+          "title": "Novo Nordisk signs $812m research deal with Deep Apple ...",
+          "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-signs-812m-research-deal-with-deep-apple-for-non-glp-1-drugs/",
+          "summary": "Deep Apple is the latest biotech to be tapped by Novo Nordisk as the drugmaker aims to regain market share lost to Eli Lilly."
+        },
+        {
+          "type": "deal",
+          "date": "2025-06-11T00:00:00.000Z",
+          "title": "Novo Ups Obesity Ante With $800M+ Deep Apple Pact for ...",
+          "url": "https://www.biospace.com/business/novo-ups-obesity-ante-with-800m-deep-apple-pact-for-oral-non-incretin-drugs",
+          "summary": "[Novo Nordisk] is partnering with San Francisco’s Deep Apple Therapeutics to develop novel non-incretin oral drugs for obesity in a deal worth up to $812 million."
+        },
+        {
+          "type": "deal",
+          "date": "2025-06-12T00:00:00.000Z",
+          "title": "Novo Nordisk and Deep Apple announce collaboration",
+          "url": "https://www.ddw-online.com/novo-nordisk-and-deep-apple-announce-collaboration-35302-202506/",
+          "summary": "Novo Nordisk and Deep Apple Therapeutics have announced a research collaboration and exclusive worldwide license agreement to discover and develop oral small molecule therapeutics."
+        }
+      ],
+      "stakeholders": {
+        "count": 6,
+        "locked": true,
+        "people": [
+          {
+            "name": "Sp***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ja***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ja***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "St***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Me***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ja***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 24,
+      "company": "Helicore Biopharma",
+      "ticker": null,
+      "domain": "helicorebio.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed",
+      "modality": "Novel peptide",
+      "indication": "Obesity / metabolic",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2026-01-09T00:00:00.000Z",
+          "title": "Inside Helicore Biopharma’s obesity therapeutics patent portfolio",
+          "url": "https://parolaanalytics.com/blog/helicore-biopharma-obesity-gip-patents/",
+          "summary": "Helicore Biopharma’s obesity therapeutics patent portfolio[Skip to main content] [Skip to footer]"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-03-25T00:00:00.000Z",
+          "title": "Helicore Biopharma: Phase1 HCR-188 GIP Antagonist for ...",
+          "url": "https://www.helicore.com/news/helicore-biopharma-phase1-hcr-188-gip-antagonist-obesity",
+          "summary": "top of page"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-03-25T00:00:00.000Z",
+          "title": "Helicore Biopharma Announces First Participant Dosed in Phase 1 Clinical Trial of HCR-188, a First-in-Class GIP Antagoni",
+          "url": "https://natlawreview.com/press-releases/helicore-biopharma-announces-first-participant-dosed-phase-1-clinical-trial",
+          "summary": "[Skip to main content]"
+        }
+      ],
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "people": [
+          {
+            "name": "Pa***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ji***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ja***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 25,
+      "company": "Ambrosia Biosciences",
+      "ticker": null,
+      "domain": "ambrosiabiosciences.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed",
+      "modality": "Oral small molecule",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "",
+          "title": "Ambrosia Biosciences Inc.",
+          "url": "https://www.linkedin.com/company/ambrosia-biosciences",
+          "summary": "Ambrosia Biosciences Inc. is a privately held drug discovery company developing orally delivered, small molecule-based therapies for obesity and other metabolic disorders."
+        },
+        {
+          "type": "clinical",
+          "date": "2025-04-15T00:00:00.000Z",
+          "title": "Companies seek a second obesity treatment revolution—in ...",
+          "url": "https://www.science.org/content/article/companies-seek-second-obesity-treatment-revolution-pill-form",
+          "summary": ""
+        },
+        {
+          "type": "news",
+          "date": "2026-01-02T00:00:00.000Z",
+          "title": "Ambrosia Biosciences",
+          "url": "https://ambrosiabiosciences.com/",
+          "summary": "Ambrosia Biosciences"
+        }
+      ],
+      "stakeholders": {
+        "count": 4,
+        "locked": true,
+        "people": [
+          {
+            "name": "Ni***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Ma***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Jo***",
+            "title": "***",
+            "linkedin": ""
+          },
+          {
+            "name": "Do***",
+            "title": "***",
+            "linkedin": ""
+          }
+        ]
+      }
+    },
+    {
+      "rank": 26,
+      "company": "Zealand Pharma",
+      "ticker": "ZEAL",
+      "domain": "zealandpharma.com",
+      "stage": "Phase 2",
+      "drugCandidate": "Petrelintide + semaglutide",
+      "modality": "Peptide (amylin analog combo)",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2026-01-27T21:17:46.546Z",
+          "title": "Roche's 22% Weight Loss Benefit Seals GLP-1's Phase III ...",
+          "url": "https://www.biospace.com/drug-development/roches-22-weight-loss-benefit-seals-glp-1s-phase-iii-plans-boosts-zealand-combo",
+          "summary": "Roche’s 22% Weight Loss Benefit Seals GLP-1’s Phase III Plans, Boosts Zealand Combo - BioSpace"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-06-18T00:00:00.000Z",
+          "title": "Zealand Pharma announces positive topline results from 28-week Phase 1b trial with GLP-1/GLP-2 receptor dual agonist dap",
+          "url": "https://www.globenewswire.com/news-release/2025/06/18/3101731/0/en/Zealand-Pharma-announces-positive-topline-results-from-28-week-Phase-1b-trial-with-GLP-1-GLP-2-receptor-dual-agonist-dapiglutide.html",
+          "summary": "[Accessibility: Skip TopNav]"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-06-18T00:00:00.000Z",
+          "title": "Zealand Pharma's GLP-1/GLP-2 candidate linked to 11.6% weight loss after 28 weeks",
+          "url": "https://www.fiercebiotech.com/biotech/zealand-pharmas-glp-1glp-2-candidate-linked-116-weight-loss-after-28-weeks",
+          "summary": "Zealand Pharma is back with updated findings for its GLP-1/GLP-2 receptor dual agonist, finding mean body weight reductions rose to 11.6% for a higher dosing regimen after 28 weeks in a phase 1b trial"
+        }
+      ],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 27,
+      "company": "Kallyope",
+      "ticker": null,
+      "domain": "kallyope.com",
+      "stage": "Phase 1",
+      "drugCandidate": "KLY-2510",
+      "modality": "Oral small molecule (gut-brain axis)",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2026-01-07T00:00:00.000Z",
+          "title": "Kallyope Announces 2026 Strategic Priorities for Migraine ...",
+          "url": "https://www.businesswire.com/news/home/20260107056893/en/Kallyope-Announces-2026-Strategic-Priorities-for-Migraine-and-Metabolism-Portfolio-Based-on-Novel-Neural-Circuits-Platform",
+          "summary": "-"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-02-27T00:00:00.000Z",
+          "title": "Kallyope Discreetly Drops Disappointing Data for Oral ...",
+          "url": "https://www.biospace.com/drug-development/kallyope-discreetly-drops-disappointing-data-for-oral-obesity-candidate",
+          "summary": "[SUBSCRIBE]"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-02-26T00:00:00.000Z",
+          "title": "NCT06019559 | A Study to Evaluate the Safety, Tolerability ...",
+          "url": "https://clinicaltrials.gov/study/NCT06019559",
+          "summary": "ClinicalTrials.gov"
+        }
+      ],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 28,
+      "company": "Zihipp",
+      "ticker": null,
+      "domain": "zihipp.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed oral GLP-1",
+      "modality": "Oral small molecule",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-10-13T00:00:00.000Z",
+          "title": "Update on potential future royalty income from Metsera ...",
+          "url": "https://www.ipgroupplc.com/news-and-events/ip-group-news/2025/2025-10-13",
+          "summary": "- [Link to News & Events page from breadcrumb]"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-10-06T00:00:00.000Z",
+          "title": "British firms hungry to join booming anti-obesity market",
+          "url": "https://observer.co.uk/news/business/article/british-firms-hungry-to-join-booming-anti-obesity-market",
+          "summary": "In September, Pfizer announced plans to buy Metsera, a little-known US biotech startup, for $4.9bn (£3.6bn). Last week it became clear why: in trials, one of Metsera’s injectable drugs had been shown"
+        },
+        {
+          "type": "deal",
+          "date": "2025-10-08T00:00:00.000Z",
+          "title": "Pfizer aims to bring Imperial obesity drug candidates ...",
+          "url": "https://www.imperial.ac.uk/news/articles/medicine/metabolism-digestion-reproduction/2025/pfizer-aims-to-bring-imperial-obesity-drug-candidates-to-clinic-in-49bn-deal/",
+          "summary": "Pfizer aims to bring Imperial obesity drug candidates to clinic in $4.9bn deal | Imperial News | Imperial College London[Skip to main content] [View accessibility support page]"
+        }
+      ],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 29,
+      "company": "ERX Pharmaceuticals",
+      "ticker": null,
+      "domain": "erxpharmaceuticals.com",
+      "stage": "Preclinical",
+      "drugCandidate": "ERX-1000",
+      "modality": "Oral peptide (GLP-1 + leptin sensitizer)",
+      "indication": "Obesity",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2025-01-01T00:00:00.000Z",
+          "title": "ERX1000 - Safety, Tolerability, Pharmacokinetic, and Pharmacodynamic Study in Male and Female Subjects With Obesity",
+          "url": "https://ctv.veeva.com/study/erx1000-safety-tolerability-pharmacokinetic-and-pharmacodynamic-study-in-male-and-female-subjec",
+          "summary": "ERX1000 - Safety, Tolerability, Pharmacokinetic, and Pharmacodynamic Study in Male and Female Subjects With Obesity"
+        },
+        {
+          "type": "news",
+          "date": "2026-01-02T00:00:00.000Z",
+          "title": "The expanding landscape of GLP-1 medicines",
+          "url": "https://www.nature.com/articles/s41591-025-04124-5",
+          "summary": "The expanding landscape of GLP-1 medicines | Nature Medicine"
+        },
+        {
+          "type": "clinical",
+          "date": "2025-09-16T00:00:00.000Z",
+          "title": "Novel GLP-1 Pill for Obesity Passes Phase III Test",
+          "url": "https://www.medpagetoday.com/meetingcoverage/easd/117495",
+          "summary": "Novel GLP-1 Pill for Obesity Passes Phase III Test | MedPage Today"
+        }
+      ],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 30,
+      "company": "Fractyl Health",
+      "ticker": "GUTS",
+      "domain": "fractyl.com",
+      "stage": "Phase 2",
+      "drugCandidate": "Revita DMR (device) + GLP-1",
+      "modality": "Device / combination",
+      "indication": "Type 2 diabetes / Obesity",
+      "recentSignals": [
+        {
+          "type": "clinical",
+          "date": "2026-01-29T21:17:53.980Z",
+          "title": "Release Details",
+          "url": "https://ir.fractyl.com/news-releases/news-release-details/fractyl-health-announces-compelling-6-month-randomized-remain-1",
+          "summary": "Fractyl Health Announces Compelling 6-Month Randomized REMAIN-1 Midpoint Data Showing Durable Weight Maintenance with Revita® After GLP-1 Discontinuation | Fractyl Health, Inc."
+        },
+        {
+          "type": "news",
+          "date": "2026-01-24T21:17:53.980Z",
+          "title": "The next frontier in weight-loss drugs: one-time gene therapy",
+          "url": "https://www.washingtonpost.com/health/2026/01/24/fractyl-glp1-gene-therapy/",
+          "summary": "The next frontier in weight-loss drugs: one-time gene therapy - The Washington Post"
+        },
+        {
+          "type": "news",
+          "date": "2026-01-05T00:00:00.000Z",
+          "title": "Fractyl Health Enters a Catalyst-Rich 2026 Positioned to ...",
+          "url": "https://ir.fractyl.com/news-releases/news-release-details/fractyl-health-enters-catalyst-rich-2026-positioned-define-post",
+          "summary": "Fractyl Health Enters a Catalyst-Rich 2026 Positioned to Define the Post-GLP-1 Weight Maintenance Therapeutic Category | Fractyl Health, Inc."
+        }
+      ],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 31,
+      "company": "Emerald Health Therapeutics",
+      "ticker": null,
+      "domain": "emeraldbioscience.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed",
+      "modality": "Novel biologic",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 32,
+      "company": "Aardvark Therapeutics",
+      "ticker": null,
+      "domain": "aardvarktherapeutics.com",
+      "stage": "Phase 1",
+      "drugCandidate": "ARD-101",
+      "modality": "Oral small molecule (TAS2R bitter taste receptor)",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 33,
+      "company": "Aphaia Pharma",
+      "ticker": null,
+      "domain": "aphaiapharma.com",
+      "stage": "Phase 2",
+      "drugCandidate": "APH-012",
+      "modality": "Oral combination (GLP-1 booster)",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 34,
+      "company": "Metsera",
+      "ticker": null,
+      "domain": "metsera.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed biologic",
+      "modality": "Novel biologic",
+      "indication": "Obesity / metabolic",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 35,
+      "company": "Verdiva Bio",
+      "ticker": null,
+      "domain": "verdivabio.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed oral peptide",
+      "modality": "Oral peptide",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 36,
+      "company": "BioAge Labs",
+      "ticker": "BIOA",
+      "domain": "bioagelabs.com",
+      "stage": "Phase 2",
+      "drugCandidate": "Azelaprag",
+      "modality": "Oral small molecule (apelin receptor agonist)",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 37,
+      "company": "Regor Therapeutics",
+      "ticker": null,
+      "domain": "regortherapeutics.com",
+      "stage": "Phase 1",
+      "drugCandidate": "RGT-075",
+      "modality": "Oral small molecule GLP-1R agonist",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 38,
+      "company": "Innovent Biologics",
+      "ticker": "1801.HK",
+      "domain": "innoventbio.com",
+      "stage": "Phase 2",
+      "drugCandidate": "Mazdutide (IBI362)",
+      "modality": "Peptide (GLP-1/glucagon dual agonist)",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 39,
+      "company": "Connect Biopharma",
+      "ticker": "CNTB",
+      "domain": "connectbiopharm.com",
+      "stage": "Phase 1",
+      "drugCandidate": "CBP-3388",
+      "modality": "Oral small molecule",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 40,
+      "company": "Genfleet Therapeutics",
+      "ticker": null,
+      "domain": "genfleet.com",
+      "stage": "Phase 1",
+      "drugCandidate": "GFT-505",
+      "modality": "Oral small molecule GLP-1R agonist",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 41,
+      "company": "Jiangsu Hengrui",
+      "ticker": "600276.SS",
+      "domain": "hengrui.com",
+      "stage": "Phase 3",
+      "drugCandidate": "HRS-7535 (noiiglutide)",
+      "modality": "Peptide GLP-1R agonist",
+      "indication": "Obesity / Type 2 diabetes",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 42,
+      "company": "Sun Pharma Advanced Research",
+      "ticker": "SPARC.NS",
+      "domain": "sparc.life",
+      "stage": "Phase 1",
+      "drugCandidate": "SDC-1801",
+      "modality": "Oral small molecule GLP-1R agonist",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 43,
+      "company": "Bacainn Therapeutics",
+      "ticker": null,
+      "domain": "bacainn.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Undisclosed",
+      "modality": "Oral peptide (long-acting incretin)",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 44,
+      "company": "Lilly Asia Ventures / Medicinova",
+      "ticker": null,
+      "domain": "medicinova.com",
+      "stage": "Phase 1",
+      "drugCandidate": "MN-401",
+      "modality": "Oral small molecule (PDE inhibitor + metabolic)",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    },
+    {
+      "rank": 45,
+      "company": "Senda Biosciences",
+      "ticker": null,
+      "domain": "sendabio.com",
+      "stage": "Preclinical",
+      "drugCandidate": "Lipid nanoparticle-delivered GLP-1",
+      "modality": "mRNA / LNP biologic",
+      "indication": "Obesity",
+      "recentSignals": [],
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "people": []
+      }
+    }
+  ]
+}

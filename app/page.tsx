@@ -1041,7 +1041,7 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 md:grid-cols-3">
               {/* Submission Sprint Pack */}
               <Link href="/packs/submission-sprint" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
                 <div className="flex items-center gap-2 mb-2">
@@ -1061,12 +1061,27 @@ export default function Page() {
               <Link href="/packs/ai-rd-leaders" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
                   <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">AI R&D Leaders</h3>
                 <p className="text-sm text-muted-foreground mt-1">
                   48 pharma AI/ML decision-makers who are actively building, hiring, and investing — with verified activity signals and proof.
+                </p>
+                <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
+                  View pack <ArrowRight className="h-3 w-3" />
+                </div>
+              </Link>
+
+              {/* GLP-1 Pipeline Radar Pack */}
+              <Link href="/packs/glp1-pipeline" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
+                  <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
+                </div>
+                <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">GLP-1 Pipeline Radar</h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  45 companies racing to build the next obesity blockbuster — drug candidates, clinical stages, deal signals, and BD contacts.
                 </p>
                 <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
                   View pack <ArrowRight className="h-3 w-3" />
