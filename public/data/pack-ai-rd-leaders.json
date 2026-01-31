@@ -1,0 +1,1510 @@
+{
+  "pack": {
+    "name": "AI R&D Leaders",
+    "tagline": "Pharma AI/ML decision-makers who are actively building, hiring, and investing right now",
+    "description": "30-50 senior AI/ML leaders at top pharma and biotech companies, cross-referenced with recent LinkedIn activity, hiring signals, and deal announcements.",
+    "targetBuyer": "Startups selling AI/ML tools, compute platforms, or data infrastructure to pharma R&D teams",
+    "price": 500,
+    "refreshCadence": "Monthly",
+    "lastUpdated": "2026-01-31",
+    "totalCompanies": 25,
+    "totalStakeholders": 48,
+    "stakeholdersLocked": true
+  },
+  "leaders": [
+    {
+      "rank": 1,
+      "name": "Kim Branson",
+      "title": "SVP Global Head of AI and Machine Learning",
+      "company": "GSK",
+      "domain": "gsk.com",
+      "linkedin": "https://linkedin.com/in/kim-branson-b864963",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Exclusive: GSK to pay $50M to use Noetik's AI cancer models",
+          "url": "https://www.linkedin.com/posts/kim-branson-b864963_exclusive-gsk-to-pay-50m-to-use-noetiks-activity-7415061152851845120-Q_pw",
+          "summary": "Exclusive: GSK to pay $50M to use Noetik&#39;s AI cancer models | Kim Branson to join or sign in, you agree to LinkedIn\u2019sUser Agreement,Privacy Policy, andCookie Policy. `````````````` # Kim"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-08",
+          "title": "GSK inks model deal in $50M bet on Noetik's cancer AI ...",
+          "url": "https://www.fiercebiotech.com/biotech/gsk-inks-model-deal-50m-bet-noetiks-cancer-ai-platform",
+          "summary": "GSK inks model deal in $50M bet on Noetik's cancer AI platform * Fierce Pharma * Fierce Biotech * Fierce Healthcare * Fierce Life Sciences Events * Advertise * About Us !Home"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-22",
+          "title": "Pharma Bets Big on AI Platforms with Flurry of New Year ...",
+          "url": "https://www.genengnews.com/topics/artificial-intelligence/pharma-bets-big-on-ai-platforms-with-flurry-of-new-year-deals/",
+          "summary": "Pharma Bets Big on AI Platforms with Flurry of New Year Dealsgenprowebdirectory **Facebook **Linkedin **RSS **Twitter **Youtube ** * GEN Edge** * Featured News * Multimedia * Content**"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Ronald Goh",
+      "title": "Director of AI and ML in Drug Discovery",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "linkedin": "https://linkedin.com/in/ronald-goh-8aa7741a",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2026-01-08",
+          "title": "Pfizer Inc.",
+          "url": "https://www.marketscreener.com/news/boltz-and-pfizer-announce-strategic-collaboration-to-develop-and-deploy-biomolecular-ai-foundation-m-ce7e59dddf8ff327",
+          "summary": "Boltz and Pfizer announce strategic collaboration to develop and deploy biomolecular AI foundation models | MarketScreener ** !Marketscreener, stock market website 34927535daf18085a5fd3e2c919.-lgL7G8v"
+        },
+        {
+          "type": "linkedin",
+          "date": "2025-10-23",
+          "title": "Stanford launches AI in Healthcare Leadership program",
+          "url": "https://www.linkedin.com/posts/ethan-goh_healthcare-ai-is-evolving-faster-than-most-activity-7387140790579376128-FH3b",
+          "summary": "Stanford launches AI in Healthcare Leadership program | Ethan Goh, MD posted on the topic | LinkedIn ## LinkedIn respects your privacy LinkedIn and 3rd parties use essential and non-essential cookies "
+        },
+        {
+          "type": "news",
+          "date": "2025-05-15",
+          "title": "Pfizer eyes AI-powered drug discovery and development software",
+          "url": "https://pharmaphorum.com/news/pfizer-ai-drug-discovery-xtalpi",
+          "summary": "Pfizer eyes AI-powered drug discovery and development software | pharmaphorum Wednesday 28 January 2026 BlueSky linkedin youtube !search-icon !Pharmaphorum close Channels Channels**"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Troy C. Sarich",
+      "title": "Chief Commercial Data Science Officer",
+      "company": "Johnson & Johnson",
+      "domain": "jnj.com",
+      "linkedin": "https://linkedin.com/in/troy-c-sarich-ph-d",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "speaking",
+          "date": "2025-06-13",
+          "title": "Biotech sector looks toward impacts of AI at annual ...",
+          "url": "https://www.massbioed.org/biotech-sector-looks-toward-impacts-of-ai-at-annual-conference-bay-state-banner/",
+          "summary": "Skip to content June 11, 2025 Avery Bleichfeld Dr. Kirk Taylor, president and CEO of the Massachusetts Life Sciences Center, speaks during the MassBioEd annual life science workforce conference at Bos"
+        },
+        {
+          "type": "news",
+          "date": "2025-05-26",
+          "title": "Mike Tirozzi Email & Phone Number",
+          "url": "https://contactout.com/Mike-Tirozzi-86031475",
+          "summary": "MT # Mike Tirozzi SVP, Chief Information and Data Officer at Alnylam Pharmaceuticals \\| Greater Boston ## View Mike Tirozzi's Email & Phone Number Mike Tirozzi Socials About Mike Tirozzi Mike Tirozzi "
+        },
+        {
+          "type": "news",
+          "date": "2026-01-12",
+          "title": "Alnylam Launches \u201cAlnylam 2030\u201d Strategy to Drive Next Era of Growth and Patient Impact",
+          "url": "https://www.biospace.com/press-releases/alnylam-launches-alnylam-2030-strategy-to-drive-next-era-of-growth-and-patient-impact",
+          "summary": "SUBSCRIBE Menu SUBSCRIBE Show Search Search Query Submit Search Press Releases # Alnylam Launches \u201cAlnylam 2030\u201d Strategy to Drive Next Era of Growth and Patient Impact January 12, 2026 \\| 11 min read"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Michael Gormley",
+      "title": "Sr. Scientific Director, Head of Computational Biology, Oncology",
+      "company": "Janssen (J&J)",
+      "domain": "jnj.com",
+      "linkedin": "https://linkedin.com/in/michaelgormley",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "speaking",
+          "date": "2026-01-10",
+          "title": "Discover Speaker Biographies at Bio-IT World Expo 2025",
+          "url": "https://www.bio-itworldexpo.com/speaker-biographies",
+          "summary": "Discover Speaker Biographies at Bio-IT World Expo 2025 * About * About the Event * Get Involved * Online Learning &amp; Podcasts * Media Gallery * Testimonials * Key Contacts * FAQ * Agenda"
+        },
+        {
+          "type": "news",
+          "date": "2025-10-20",
+          "title": "AbbVie\u2019s AI Strategy: Reshaping Pharma from Discovery to Patient Impact",
+          "url": "https://www.startuphub.ai/ai-news/ai-video/2025/abbvies-ai-strategy-reshaping-pharma-from-discovery-to-patient-impact/",
+          "summary": "AbbVie&#039;s AI Strategy: Reshaping Pharma from Discovery to Patient Impact !StartupHub.ai arrow\\_back StartupHub.ai is the leading hub for AI news, with the foremost AI startups database and the aut"
+        },
+        {
+          "type": "news",
+          "date": "2025-08-07",
+          "title": "FAQ: AbbVie Uses AI Agents \u2013 10 Ways to Use AI [FAQ] [2025]",
+          "url": "https://www.klover.ai/faq-abbvie-uses-ai-agents-10-ways-to-use-ai-faq-2025/",
+          "summary": "FAQ: AbbVie Uses AI Agents \u201310 Ways to Use AI FAQ 2025 - Klover.ai # FAQ: AbbVie Uses AI Agents \u201310 Ways to Use AI FAQ 2025 * Dany Kitishian * August 7, 2025 Klover built the world\u2019s largest library o"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Dimi Karatasios",
+      "title": "Head of Applied AI Engineering",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "linkedin": "https://linkedin.com/in/dkaratasios",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2026-01-22",
+          "title": "Sanford's New CTO Shares Early Plans for Health ...",
+          "url": "https://www.newsweek.com/sanfords-new-cto-shares-early-plans-for-health-plan-provider-integration-access-health-11401697",
+          "summary": "Sanford\u2019s New CTO Shares Early Plans for Health Plan, Provider Integration - Newsweek Winter storm Dire Warning Issued as Major Winter Storm Set to Hit Millions * Nation News Politics Tech Fact Check "
+        },
+        {
+          "type": "linkedin",
+          "date": "",
+          "title": "Jim Cafone's Post",
+          "url": "https://www.linkedin.com/posts/jim-cafone-4032501_i-am-back-from-our-nexgen-supply-chain-year-activity-7316181472829136897-S53d",
+          "summary": "Jim Cafone\u2019s Post Senior Vice President - Global Supply Chain 5mo I am back from our Nexgen Supply Chain year beginning meetings and I'm proud to share that"
+        },
+        {
+          "type": "news",
+          "date": "2025-05-14",
+          "title": "Pfizer grows digital team with chief AI officer appointment",
+          "url": "https://pharmaphorum.com/news/pfizer-grows-digital-team-chief-ai-officer-appointment",
+          "summary": "Pfizer grows digital team with chief AI officer appointment | pharmaphorum Wednesday 28 January 2026 BlueSky linkedin youtube !search-icon !Pharmaphorum close Channels Channels** Newsletters"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Ryan Steinberger",
+      "title": "SVP, Digital R&D",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "linkedin": "https://linkedin.com/in/ryan-steinberger-15b9371",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "speaking",
+          "date": "2025-10-01",
+          "title": "Alumni Summit Spotlights Energy and Ideas of an Evolving ...",
+          "url": "https://www.publichealth.columbia.edu/news/alumni-summit-spotlights-energy-ideas-evolving-field",
+          "summary": "Alumni Summit Spotlights Energy and Ideas of an Evolving Field | Columbia University Mailman School of Public Health Skip to content Columbia University Irving Medical Center !Columbia University Mail"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-08",
+          "title": "Pfizer Inc.",
+          "url": "https://www.marketscreener.com/news/boltz-and-pfizer-announce-strategic-collaboration-to-develop-and-deploy-biomolecular-ai-foundation-m-ce7e59dddf8ff327",
+          "summary": "Boltz and Pfizer announce strategic collaboration to develop and deploy biomolecular AI foundation models | MarketScreener ** !Marketscreener, stock market website 9bebe3e63.CP4m6lgwIXrkIc56QT98yfZ83h"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-08",
+          "title": "Boltz and Pfizer Announce Strategic Collaboration to Develop and Deploy Biomolecular Ai Foundation Models",
+          "url": "https://www.marketscreener.com/news/boltz-and-pfizer-announce-strategic-collaboration-to-develop-and-deploy-biomolecular-ai-foundation-m-ce7e59ddde88f624",
+          "summary": "Boltz and Pfizer Announce Strategic Collaboration to Develop and Deploy Biomolecular Ai Foundation Models | MarketScreener ** !Marketscreener, stock market website 4765.Yy4UQe9OtX16Du5EdIgFMyZGlZNbbXD"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Jeanine Bortel",
+      "title": "VP, Head of AI Portfolio, Development",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "linkedin": "https://linkedin.com/in/jeanine-bortel-a734933a",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2026-01-21",
+          "title": "Atlas of AI Summit",
+          "url": "https://link.vt.edu/events/ai-summit.html",
+          "summary": "Atlas of AI Summit | Innovation and Partnerships | Virginia Tech ! Virginia Tech&reg;home ! Universal Access Toggle Universal Access Close Universal Access dialogUniversal Access Options * ! Report a "
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Subha Madhavan - amia",
+          "url": "https://www.linkedin.com/posts/subhamadhavan_amia-activity-7340558025075687424-ZLhq",
+          "summary": "to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. # Subha Madhavan\u2019s Post Subha Madhavan Vice President & Head of AI/ML @ Pfizer"
+        },
+        {
+          "type": "deal",
+          "date": "2025-07-05",
+          "title": "The 1st Agentic AI Innovation Summit",
+          "url": "https://nference.com/events/summit-invitation",
+          "summary": "Partners Data Events Products Solutions Publications Resources Company LoginRequest Demo Closed Summit Agenda # The 1st Agentic AI Innovation Summit May 22, 2025 \\| 08:00 AM \u2013 07:00 PM ET Verizon Inno"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Eden Wells",
+      "title": "Chief Insights and Decision Science Officer",
+      "company": "Novartis",
+      "domain": "novartis.com",
+      "linkedin": "https://linkedin.com/in/eden-wells-86a52898",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "linkedin",
+          "date": "",
+          "title": "Steven Paul's Syremis Therapeutics Aims to Top Cobenfy",
+          "url": "https://www.linkedin.com/posts/kylelahucik_exclusive-steve-pauls-post-karuna-act-draws-activity-7407382250956173312-yfxe",
+          "summary": "Steven Paul&#39;s Syremis Therapeutics Aims to Top Cobenfy | Kyle LaHucik posted on the topic | LinkedIn ## LinkedIn respects your privacy LinkedIn and 3rd parties use essential and non-essential cook"
+        },
+        {
+          "type": "news",
+          "date": "2026-01-12",
+          "title": "NVIDIA and Eli Lilly and Company Announce Co-Innovation AI Lab to Reinvent Drug Discovery in the Age of AI",
+          "url": "https://www.marketscreener.com/news/nvidia-and-eli-lilly-and-company-announce-co-innovation-ai-lab-to-reinvent-drug-discovery-in-the-age-ce7e58dad18afe24",
+          "summary": "NVIDIA and Eli Lilly and Company Announce Co-Innovation AI Lab to Reinvent Drug Discovery in the Age of AI | MarketScreener ** !Marketscreener, stock market website 0a4e0a2dda69cf04574e7.NI8U80KyKCjsp"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-08",
+          "title": "Benchling and Lilly TuneLab, Platform by Eli Lilly and Company, Partner to Democratize Access to AI Models for Scientists Everywhere",
+          "url": "https://www.marketscreener.com/news/benchling-and-lilly-tunelab-platform-by-eli-lilly-and-company-partner-to-democratize-access-to-ai-ce7e59dddf8af221",
+          "summary": "Benchling and Lilly TuneLab, Platform by Eli Lilly and Company, Partner to Democratize Access to AI Models for Scientists Everywhere | MarketScreener ** !Marketscreener, stock market website 38152aa4c"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Jenny Nance",
+      "title": "VP, Digital R&D Creation Center, Clinical Development Solutions",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "linkedin": "https://linkedin.com/in/jenny-nance-61132417",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2026-01-05",
+          "title": "Novartis picks Salesforce\u2019s Agentforce as pharma bets big on AI agents",
+          "url": "https://www.drugdiscoverytrends.com/novartis-picks-salesforces-agentforce-as-pharma-bets-big-on-ai-agents/",
+          "summary": "Novartis picks Salesforce&#039;s Agentforce as pharma bets big on AI agents - Drug Discovery and Development Drug Discovery and Development ** ** # Novartis picks Salesforce&#8217;s Agentforce as phar"
+        },
+        {
+          "type": "speaking",
+          "date": "2025-11-18",
+          "title": "Meet Novartis Management Speaker Bios",
+          "url": "https://www.novartis.com/sites/novartis_com/files/meet-novartis-management-2025-speakers.pdf",
+          "summary": "Speaker biographies Corporate Immunology Cardiovascular, Renal & Metabolic Oncology Neuroscience Vas Narasimhan Victor Bulto Patrick Horber Shreeram Aradhye Fiona Marshall Harry Kirsch Angelika Jahrei"
+        },
+        {
+          "type": "deal",
+          "date": "2025-09-05",
+          "title": "Novartis and Microsoft announce collaboration to transform medicine with artificial intelligence",
+          "url": "https://www.novartis.com/ie-en/stories/novartis-and-microsoft-announce-collaboration-transform-medicine-artificial-intelligence",
+          "summary": "Novartis and Microsoft announce collaboration to transform medicine with artificial intelligence | Novartis Ireland Header !Image of scientist working in a lab Corporate # Novartis and Microsoft annou"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Raghavendra Hosur",
+      "title": "Head of Computational Biology",
+      "company": "Maze Therapeutics",
+      "domain": "mazetx.com",
+      "linkedin": "https://linkedin.com/in/raghavendra-hosur-117b774",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2026-01-22",
+          "title": "BioMarin vets form Mendra to 'modernize' rare disease ...",
+          "url": "https://www.biopharmadive.com/news/mendra-rare-disease-biotech-startup-ai-biomarin-financing/810204/",
+          "summary": "BioMarin vets form Mendra to \u2018modernize\u2019 rare disease drug development | BioPharma Dive !BioPharma Dive CONTINUE TO SITE \u279e# Don't miss tomorrow's biopharma industry news Let BioPharma Dive's free news"
+        },
+        {
+          "type": "deal",
+          "date": "2026-01-22",
+          "title": "New $82 Million Biopharma Launch Targets Rare Disease ...",
+          "url": "https://www.biopharminternational.com/view/new-82-million-biopharma-launch-targets-rare-disease-development-with-ai-driven-strategy",
+          "summary": "New $82 Million Biopharma Launch Targets Rare Disease Development With AI-Driven Strategy | BioPharm International ! Subscribe My Account * News * Multimedia * Publication * Conferences * Resources * "
+        },
+        {
+          "type": "deal",
+          "date": "2025-05-16",
+          "title": "BioMarin Acquires Inozyme Pharma",
+          "url": "https://www.cooley.com/news/coverage/2025/2025-05-16-biomarin-acquires-inozyme-pharma",
+          "summary": "- Contact - News - Events - Alumni - Sign up Press Release # BioMarin Acquires Inozyme Pharma May 16, 2025 **San Francisco \u2013 May 16, 2025 \u2013** Cooley is advising BioMarin Pharmaceutical (Nasdaq: BMRN),"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Kenneth Longo",
+      "title": "VP, Discovery Data Science",
+      "company": "Wave Life Sciences",
+      "domain": "wavelifesciences.com",
+      "linkedin": "https://linkedin.com/in/kennethlongo",
+      "activityScore": "HIGH",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-08-20",
+          "title": "Merck Expands Innovative Internal Generative AI Solutions Helping to Deliver Medicines to Patients Faster - Merck.com",
+          "url": "https://www.merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster/",
+          "summary": "Merck Expands Innovative Internal Generative AI Solutions Helping to Deliver Medicines to Patients Faster - Merck.com Skip to content !Site logo ! Search everything! Close! Menu! Close Main menu !Scie"
+        },
+        {
+          "type": "news",
+          "date": "2026-01-09",
+          "title": "5 ways we\u2019re transforming artificial intelligence into impact",
+          "url": "https://www.merck.com/stories/5-ways-were-transforming-artificial-intelligence-into-impact/",
+          "summary": "5 ways we\u2019re transforming artificial intelligence into impact - Merck.com Skip to content !Site logo ! Search everything! Close! Menu! Close Main menu !Scientist reviewing test tubes ####"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Nikita Popov",
+      "title": "Head of AI Strategy Office",
+      "company": "Novartis",
+      "domain": "novartis.com",
+      "linkedin": "https://linkedin.com/in/popovnikita",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-10-19",
+          "title": "Agenda",
+          "url": "https://hlth.com/events/usa/agenda/?date=2025-10-21",
+          "summary": "Agenda | HLTH USA 2026 | Las Vegas, NV - HLTH * * EUROPE * ViVE * About * Sponsorship * Foundation ! !hlth-logo-light.png * Who Attends Who Attends Featured: Key themes, takeaways, &amp; standout mome"
+        },
+        {
+          "type": "speaking",
+          "date": "2025-11-18",
+          "title": "Meet Novartis Management Speaker Bios",
+          "url": "https://www.novartis.com/sites/novartis_com/files/meet-novartis-management-2025-speakers.pdf",
+          "summary": "Speaker biographies Corporate Immunology Cardiovascular, Renal & Metabolic Oncology Neuroscience Vas Narasimhan Victor Bulto Patrick Horber Shreeram Aradhye Fiona Marshall Harry Kirsch Angelika Jahrei"
+        },
+        {
+          "type": "deal",
+          "date": "2025-09-05",
+          "title": "Novartis and Microsoft announce collaboration to transform medicine with artificial intelligence",
+          "url": "https://www.novartis.com/ie-en/stories/novartis-and-microsoft-announce-collaboration-transform-medicine-artificial-intelligence",
+          "summary": "Novartis and Microsoft announce collaboration to transform medicine with artificial intelligence | Novartis Ireland Header !Image of scientist working in a lab Corporate # Novartis and Microsoft annou"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Mishal Patel",
+      "title": "SVP, AI & Digital Innovation, R&D",
+      "company": "Novo Nordisk",
+      "domain": "novonordisk.com",
+      "linkedin": "https://linkedin.com/in/mishal-patel-55791533",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Novo Nordisk partners with NVIDIA and DCAI on AI ...",
+          "url": "https://www.linkedin.com/posts/mishal-patel-55791533_drugdiscovery-ai-activity-7338537336437153792-pPsl",
+          "summary": "Novo Nordisk partners with NVIDIA and DCAI on AI supercomputer | Mishal Patel posted on the topic | LinkedIn to join or sign in, you agree to LinkedIn\u2019sUser Agreement,Privacy Policy, andCookie Policy."
+        },
+        {
+          "type": "news",
+          "date": "2025-09-02",
+          "title": "How AI advances will shape the drugmaker of the future",
+          "url": "https://www.pharmavoice.com/news/ai-drug-discovery-pharma-immunai-pfizer-novo-nordisk-cradle/758994/",
+          "summary": "How AI advances will shape the drugmaker of the future | PharmaVoice !PharmaVoice CONTINUE TO SITE \u279e# Don't miss the most important voices in pharma Let PharmaVoice's free newsletter keep you informed"
+        },
+        {
+          "type": "news",
+          "date": "2025-06-12",
+          "title": "Novo Nordisk teams up with NVIDIA on AI models",
+          "url": "https://pharmaphorum.com/news/novo-nordisk-teams-nvidia-ai-models",
+          "summary": "Novo Nordisk teams up with NVIDIA on AI models | pharmaphorum Wednesday 21 January 2026 BlueSky linkedin youtube !search-icon !Pharmaphorum close Channels Channels** Newsletters and"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Ed Couch",
+      "title": "Head of AI Transformation, Pharmaceutical Technology & Development",
+      "company": "AstraZeneca",
+      "domain": "astrazeneca.com",
+      "linkedin": "https://linkedin.com/in/ed-couch-b959325",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "speaking",
+          "date": "2025-06-13",
+          "title": "LMDE 2025 CONFERENCE Proceedings of Extended Abstracts",
+          "url": "https://www.lmde.net/images/BoA_LMDE_2025.pdf",
+          "summary": "LMDE 2025 CONFERENCE Leading & Managing in the Digital Era: SHAPING THE FUTURE WITH AI AND DATA ANALYTICS Proceedings of Extended Abstracts JUNE 13 - 17, ATHENS, SYROS | GREECE Gregory Prastacos, Ioan"
+        },
+        {
+          "type": "deal",
+          "date": "2025-06-02",
+          "title": "AstraZeneca Racks Up AI Partners, Seeking To Stop Cancer at All Stages",
+          "url": "https://www.biospace.com/deals/astrazeneca-racks-up-ai-partners-seeking-to-stop-cancer-at-all-stages",
+          "summary": "AstraZeneca Racks Up AI Partners, Seeking To Stop Cancer at All Stages - BioSpace SUBSCRIBE Menu !BioSpace logo SUBSCRIBE Show Search Search QuerySubmit Search News Deals # AstraZeneca Racks Up AI Par"
+        },
+        {
+          "type": "news",
+          "date": "2025-09-16",
+          "title": "Unlocking the future of drug discovery through advances in AI",
+          "url": "https://www.astrazeneca.com/content/astraz/what-science-can-do/topics/data-science-ai/unlocking-future-drug-discovery-through-AI-advances.html",
+          "summary": "Unlocking the future of drug discovery through advances in AI * Skip to content * Skip to navigation * Skip to footer # Unlocking the future of drug discovery through advances in AI LAST UPDATED16 Sep"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Jiajie Zhang",
+      "title": "Chief Data Science and AI Officer",
+      "company": "Evinova (AstraZeneca)",
+      "domain": "evinova.com",
+      "linkedin": "https://linkedin.com/in/zhangjiajie",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "",
+          "title": "Evinova - Global healthtech",
+          "url": "https://www.linkedin.com/company/evinova",
+          "summary": "Digital solutions need to do more to propel clinical development, elevate user experiences and accelerate better health outcomes. At Evinova, we\u2019re doing something about it. We\u2019re a healthtech busines"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "#prixgalien",
+          "url": "https://www.linkedin.com/posts/evinova_prixgalien-activity-7361464287262900225-VNjt",
+          "summary": "#prixgalien | Evinova | 31 comments to join or sign in, you agree to LinkedIn\u2019sUser Agreement,Privacy Policy, andCookie Policy. `````````````` # Evinova\u2019s Post !View organization page for Evinova"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Evinova's Agentic AI boosts life sciences with AI agents",
+          "url": "https://www.linkedin.com/posts/cristina-ortega-duran-1693a718_evinova-agenticai-clinicaldevelopment-activity-7375799403934064641-kgtO",
+          "summary": "Evinova&#39;s Agentic AI boosts life sciences with AI agents | Cristina Ortega Duran posted on the topic | LinkedIn to join or sign in, you agree to LinkedIn\u2019sUser Agreement,Privacy Policy, andCookie "
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Marina Borozna",
+      "title": "Head of Data and AI Strategy",
+      "company": "Ipsen",
+      "domain": "ipsen.com",
+      "linkedin": "https://linkedin.com/in/borozna",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-15",
+          "title": "Meet the team",
+          "url": "https://www.ipsen.com/science/partnering/meet-the-team/",
+          "summary": "Meet the team - Global # Meet the team At Ipsen, partnering is personal and purpose led. Discover the people leading Ipsen\u2019s external innovation and alliance management strategy. #### Meet Philippe Lo"
+        },
+        {
+          "type": "hiring",
+          "date": "2025-12-29",
+          "title": "Solutions \u2013 Iris.ai",
+          "url": "https://iris.ai/solutions",
+          "summary": "Solutions \u2013Iris.ai Products Products Axion\u2122 Neuralith\u2122 RSpace\u2122 Case Studies Solutions More Company About IRIS.AI Careers Resources Webinars Blog Support Sitemap Help Center"
+        },
+        {
+          "type": "news",
+          "date": "2025-10-15",
+          "title": "Profiles - Global",
+          "url": "https://www.ipsen.com/profiles/",
+          "summary": "Profiles - Global # Profiles Behind every breakthrough are passionate minds. Discover the people driving science at Ipsen &#8211; from our R&amp;D teams to Medical &#8211; all united by the same purpo"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "James Weatherall",
+      "title": "VP, Data Science and AI, R&D",
+      "company": "AstraZeneca",
+      "domain": "astrazeneca.com",
+      "linkedin": "https://linkedin.com/in/james-weatherall-91b04518",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "",
+          "title": "From large language models to AI agents to regulation",
+          "url": "https://www.sciencedirect.com/science/article/pii/S135964462500306X",
+          "summary": "Just a moment... ScienceDirect # Are you a robot? Please confirm you are a human by completing the captcha challenge below. Waiting for www.sciencedirect.com to respond... * **Reference number:**9bc68"
+        },
+        {
+          "type": "deal",
+          "date": "2025-10-06",
+          "title": "AstraZeneca Makes Another AI Deal With $555M Algen ...",
+          "url": "https://www.biospace.com/business/astrazeneca-makes-another-ai-deal-with-555m-algen-alliance",
+          "summary": "AstraZeneca Makes Another AI Deal With $555M Algen Alliance - BioSpace SUBSCRIBE Menu !BioSpace logo SUBSCRIBE Show Search Search QuerySubmit Search News Business # AstraZeneca Makes Another AI Deal W"
+        },
+        {
+          "type": "news",
+          "date": "2025-09-16",
+          "title": "Unlocking the future of drug discovery through advances in AI",
+          "url": "https://www.astrazeneca.com/content/astraz/what-science-can-do/topics/data-science-ai/unlocking-future-drug-discovery-through-AI-advances.html",
+          "summary": "Unlocking the future of drug discovery through advances in AI * Skip to content * Skip to navigation * Skip to footer # Unlocking the future of drug discovery through advances in AI LAST UPDATED16 Sep"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Benjamin S.",
+      "title": "VP of Data Science",
+      "company": "BioMarin Pharmaceutical",
+      "domain": "biomarin.com",
+      "linkedin": "https://linkedin.com/in/benjamin-s-364443184",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-10-14",
+          "title": "Transforming Commercial Pharma with Agentic AI",
+          "url": "https://www.globant.com/news/transforming-commercial-pharma-with-agentic-ai-report",
+          "summary": "Transforming Commercial Pharma with Agentic AI | Globant News !Loading... ** Back to news * # MIT Technology Review Insights and Globant Report: Three quarters of global pharma organizations are pilot"
+        },
+        {
+          "type": "news",
+          "date": "2025-10-14",
+          "title": "MIT Technology Review Insights and Globant Report ...",
+          "url": "https://www.prnewswire.com/news-releases/mit-technology-review-insights-and-globant-report-three-quarters-of-global-pharma-organizations-are-piloting-or-deploying-agentic-ai-302583623.html",
+          "summary": "MIT Technology Review Insights and Globant Report: Three quarters of global pharma organizations are piloting or deploying agentic AIAccessibility Statement Skip Navigation # MIT Technology Review Ins"
+        },
+        {
+          "type": "deal",
+          "date": "2025-10-17",
+          "title": "AI-enabled health care is here. How Johnson & Johnson is leading the way.",
+          "url": "https://sponsored.bostonglobe.com/johnson-johnson/johnson-johnson-is-leading-ai-enabled-health-care/",
+          "summary": "Johnson &amp; Johnson is leading AI-enabled health care | Sponsored Menu This content is sponsored byJohnson &amp; Johnson Sponsored byJohnson &amp; Johnson ! This content was produced by Boston Globe"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Jeff Headd",
+      "title": "VP, Commercial Data Science",
+      "company": "Johnson & Johnson",
+      "domain": "jnj.com",
+      "linkedin": "https://linkedin.com/in/jheadd",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-05-15",
+          "title": "GSK hires former Genentech expert for AI unit",
+          "url": "https://pharmaphorum.com/news/gsk-hires-former-genentech-expert-for-ai-unit",
+          "summary": "GSK hires former Genentech expert for AI unit | pharmaphorum Friday 9 January 2026 BlueSky linkedin youtube !search-icon !Pharmaphorum close Channels Channels** Newsletters and Deep"
+        },
+        {
+          "type": "news",
+          "date": "2025-11-25",
+          "title": "How GSK & the Fleming Initiative Use AI Against AMR",
+          "url": "https://healthcare-digital.com/news/how-gsk-the-fleming-initiative-use-ai-against-amr",
+          "summary": "How GSK &amp; the Fleming Initiative Use AI Against AMR | Healthcare Digital ! Article Technology &amp; AI # How GSK &amp; the Fleming Initiative Use AI Against AMR ByCharlie King November 25, 2025 un"
+        },
+        {
+          "type": "news",
+          "date": "2025-05-15",
+          "title": "Our leading scientists",
+          "url": "https://www.gsk.com/en-gb/innovation/our-leading-scientists/",
+          "summary": "Our leading scientists | GSK * Skip to content * Skip to search * Behind the science magazine * Company * * Company * Purpose, strategy and culture * Outstanding people * * Outstanding people"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Guglielmo Roma",
+      "title": "VP, Global Head of Vaccines Discovery Data Sciences",
+      "company": "GSK",
+      "domain": "gsk.com",
+      "linkedin": "https://linkedin.com/in/guglielmoroma",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-11-18",
+          "title": "GSK and Fleming Initiative scientists unite to target AMR with advanced AI",
+          "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-and-fleming-initiative-scientists-unite-to-target-amr-with-advanced-ai/",
+          "summary": "GSK and Fleming Initiative scientists unite to target AMR with advanced AI | GSK * Skip to content * Skip to search * Behind the Science magazine * Company * * Company * Purpose, strategy and culture "
+        },
+        {
+          "type": "news",
+          "date": "2025-05-15",
+          "title": "GSK hires former Genentech expert for AI unit",
+          "url": "https://pharmaphorum.com/news/gsk-hires-former-genentech-expert-for-ai-unit",
+          "summary": "GSK hires former Genentech expert for AI unit | pharmaphorum Friday 9 January 2026 BlueSky linkedin youtube !search-icon !Pharmaphorum close Channels Channels** Newsletters and Deep"
+        },
+        {
+          "type": "news",
+          "date": "2025-11-21",
+          "title": "Physical AI at GSK: Unlocking business value with foundation models and digital twins",
+          "url": "https://wandb.ai/site/customers/gsk/",
+          "summary": "Physical AI at GSK: Unlocking business value with foundation models and digital twins - Weights &amp; Biases To comply with applicable regulations, starting on September 1st, 2025, our services will n"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Colton An",
+      "title": "VP of Medical Data Science",
+      "company": "Merck",
+      "domain": "merck.com",
+      "linkedin": "https://linkedin.com/in/colton-an-9624b028",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-11-06",
+          "title": "Miruna Sasu Takes on US Chief Data Officer Role at Novartis",
+          "url": "https://www.cdomagazine.tech/leadership-moves/miruna-sasu-takes-on-us-chief-data-officer-role-at-novartis",
+          "summary": "Miruna Sasu Takes on US Chief Data Officer Role at Novartis - CDO Magazine !logo \u200b\u200bEvents Community Topics News About Join Our Community Webinar | From Pilots to Production: AI Predictions for 2026Str"
+        },
+        {
+          "type": "news",
+          "date": "2025-11-03",
+          "title": "Miruna Sasu was Named US Chief Data Officer at Novartis",
+          "url": "https://oncodaily.com/career/miruna-sasu-402565",
+          "summary": "Miruna Sasu was Named US Chief Data Officer at Novartis - OncoDaily !Menu!Close !Calculator Calculators !Oncologists Oncologists !OncoCalendar OncoCalendar"
+        },
+        {
+          "type": "deal",
+          "date": "2025-11-07",
+          "title": "Novartis appoints Miruna Sasu as US Chief Data Officer",
+          "url": "https://www.linkedin.com/posts/uni-network-group_novartis-leadershipannouncement-mirunasasu-activity-7392516178516107265-_YOG",
+          "summary": "Novartis appoints Miruna Sasu as US Chief Data Officer | UNI NETWORK GROUP posted on the topic | LinkedIn to join or sign in, you agree to LinkedIn\u2019sUser Agreement,Privacy Policy, andCookie Policy. ``"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Dominic Labriola",
+      "title": "Chief Data and Analytics Officer",
+      "company": "Madrigal Pharmaceuticals",
+      "domain": "madrigalpharma.com",
+      "linkedin": "https://linkedin.com/in/dominic-labriola-63431a40",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-06-18",
+          "title": "Agentic AI \u2014 Healthcare Isn't Waiting. Pharma Can't Either",
+          "url": "https://www.viz.ai/blog/agentic-ai-healthcare-isnt-waiting-pharma-cant-either",
+          "summary": "Agentic AI \u2014Healthcare Isn\u2019t Waiting. Pharma Can\u2019t Either - Viz.ai, the Proven AI-Powered Care Coordination Platform Press Release:Viz.ai Launches Viz Assist: The First Multimodal AI Agent Platform fo"
+        },
+        {
+          "type": "hiring",
+          "date": "2025-08-27",
+          "title": "How Can Consultants Build Deeper Relationships with BioPharma Senior Executives? An MIT Sloan Career Development Office Conversation with Troy Sarich,",
+          "url": "https://cdo.mit.edu/blog/2025/08/27/how-can-consultants-build-deeper-relationships-with-biopharma-senior-executives-an-mit-sloan-career-development-office-conversation-with-troy-sarich-chief-commercial-data-science-officer-for-johnson/",
+          "summary": "How Can Consultants Build Deeper Relationships with BioPharma Senior Executives? An MIT Sloan Career Development Office Conversation with Troy Sarich, Chief Commercial Data Science Officer for Johnson"
+        },
+        {
+          "type": "deal",
+          "date": "2025-07-05",
+          "title": "The 1st Agentic AI Innovation Summit",
+          "url": "https://nference.com/events/summit-invitation",
+          "summary": "Partners Data Events Products Solutions Publications Resources Company LoginRequest Demo Closed Summit Agenda # The 1st Agentic AI Innovation Summit May 22, 2025 \\| 08:00 AM \u2013 07:00 PM ET Verizon Inno"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Mike Tirozzi",
+      "title": "SVP, Chief Information and Data Officer",
+      "company": "Alnylam Pharmaceuticals",
+      "domain": "alnylam.com",
+      "linkedin": "https://linkedin.com/in/mtirozzi",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-12-09",
+          "title": "AI reshaping how patients are diagnosed, treated",
+          "url": "https://www.chinadaily.com.cn/a/202512/09/WS693780c1a310d6866eb2d9df.html",
+          "summary": "AI reshaping how patients are diagnosed, treated - Chinadaily.com.cn ! * Search * HOME * CHINA * WORLD * BUSINESS * LIFESTYLE * CULTURE * TRAVEL * VIDEO * SPORTS * OPINION"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Takeda launches AI platform for global enterprise",
+          "url": "https://www.linkedin.com/posts/gabrielericci78_takedaai-digitaltransformation-enterpriseai-activity-7345949918642978818-JfZg",
+          "summary": "Takeda launches AI platform for global enterprise | Gabriele Ricci posted on the topic | LinkedIn to join or sign in, you agree to LinkedIn\u2019sUser Agreement,Privacy Policy, andCookie Policy. ``````````"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Pharma's AI Transformation: 2026 Predictions",
+          "url": "https://www.linkedin.com/posts/gabrielericci78_pharma-ai-operatingmodel-activity-7417573074780454913-V5IA",
+          "summary": "Pharma 2026: AI Embedded in Operating Model | Gabriele Ricci posted on the topic | LinkedIn to join or sign in, you agree to LinkedIn\u2019sUser Agreement,Privacy Policy, andCookie Policy. ``````````````"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Gabriele Ricci",
+      "title": "Chief Data Technology Officer",
+      "company": "Takeda",
+      "domain": "takeda.com",
+      "linkedin": "https://linkedin.com/in/gabrielericci78",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-06-16",
+          "title": "We\u2019re excited to welcome Agam Upadhyay as our new Senior Vice President, Chief Digital and Information Officer at Vertex Pharmaceuticals!",
+          "url": "https://www.linkedin.com/posts/david-altshuler-9650755b_were-excited-to-welcome-agam-upadhyay-as-activity-7340410839499264003-t4cn",
+          "summary": "We\u2019re excited to welcome Agam Upadhyay as our new Senior Vice President, Chief Digital and Information Officer at Vertex Pharmaceuticals! Agam brings 25 years of experience leading digital innovation\u2026"
+        },
+        {
+          "type": "news",
+          "date": "2025-07-14",
+          "title": "56 CIOs On the Move",
+          "url": "https://nationalcioreview.com/articles-insights/leadership/56-cios-on-the-move/",
+          "summary": "56 CIOs On the Move - The National CIO ReviewSkip to content ! ** ## Subscribe to Newsletters ! ! ** ! ! ## Subscribe to Newsletters"
+        },
+        {
+          "type": "news",
+          "date": "2025-11-18",
+          "title": "Vertex Pharmaceuticals CEO talks AI - New England Council",
+          "url": "https://www.newenglandcouncil.com/news-article/vertex-pharmaceuticals-ceo-talks-ai/",
+          "summary": "Vertex Pharmaceuticals CEO talks AI - New England Council Skip to Main Content SearchSearch # News Nov 18, 2025Blog|Member News, Healthcare, Technology &amp; Innovation## Vertex Pharmaceuticals CEO ta"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "Agam Upadhyay",
+      "title": "SVP and Chief Digital Information Officer",
+      "company": "Vertex Pharmaceuticals",
+      "domain": "vrtx.com",
+      "linkedin": "https://linkedin.com/in/agamupadhyay",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "speaking",
+          "date": "",
+          "title": "health.tech",
+          "url": "https://www.instagram.com/health.tech_globalsummit/?hl=en",
+          "summary": "English \u00a9 2025 Instagram from Meta"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "myTomorrows raises $29M to expand AI-powered patient ...",
+          "url": "https://www.linkedin.com/posts/pivot-al-ai_healthtech-aiinhealthcare-clinicaltrials-activity-7394097468067663873-bHEt",
+          "summary": "myTomorrows raises $29M to expand AI-powered patient access platform | Pivotal AI posted on the topic | LinkedIn ## LinkedIn respects your privacy LinkedIn and 3rd parties use essential and non-essent"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Mayo Clinic Platform_Accelerate announces 11 new AI ...",
+          "url": "https://www.linkedin.com/posts/mayo-clinic-ventures_mayo-clinic-platformaccelerate-announces-activity-7384581405202141184-abKQ",
+          "summary": "Mayo Clinic Platform\\_Accelerate announces 11 new AI-focused health tech startups | Mayo Clinic Business Development posted on the topic | LinkedIn to join or sign in, you agree to LinkedIn\u2019sUser Agre"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Alette Ramos Hunt",
+      "title": "Global Director, Digital Innovation and AI, Global Drug Development",
+      "company": "Novartis",
+      "domain": "novartis.com",
+      "linkedin": "https://linkedin.com/in/alettehunt",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-04-11",
+          "title": "Upskilling our workforce to thrive in the age of AI \u2013 AstraZeneca",
+          "url": "https://www.astrazeneca.com/media-centre/articles/2025/upskillingAI.html",
+          "summary": "Upskilling our workforce to thrive in the age of AI \u2013AstraZeneca * Skip to content * Skip to navigation * Skip to footer # How we\u2019re upskilling and preparing our workforce to thrive in the age of AI P"
+        },
+        {
+          "type": "news",
+          "date": "2025-04-11",
+          "title": "How we\u2019re upskilling and preparing our workforce to   thrive in the age of AI",
+          "url": "https://www.astrazeneca.com/content/astraz/media-centre/articles/2025/upskillingAI.html",
+          "summary": "Upskilling our workforce to thrive in the age of AI \u2013AstraZeneca * Skip to content * Skip to navigation * Skip to footer # How we\u2019re upskilling and preparing our workforce to thrive in the age of AI P"
+        },
+        {
+          "type": "news",
+          "date": "2025-09-16",
+          "title": "Unlocking the future of drug discovery through advances in AI",
+          "url": "https://www.astrazeneca.com/content/astraz/what-science-can-do/topics/data-science-ai/unlocking-future-drug-discovery-through-AI-advances.html",
+          "summary": "Unlocking the future of drug discovery through advances in AI * Skip to content * Skip to navigation * Skip to footer # Unlocking the future of drug discovery through advances in AI LAST UPDATED16 Sep"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "Darcey Carey",
+      "title": "Executive Director, Head of Data and AI Policy & Governance R&D",
+      "company": "AstraZeneca",
+      "domain": "astrazeneca.com",
+      "linkedin": "https://linkedin.com/in/darceycarey",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-06-24",
+          "title": "Shameer Khader - Festival of Geonomics Boston 2025",
+          "url": "https://festivalofgenomics.com/boston/speakers/shameer-khader",
+          "summary": "Executive Director - Precision Medicine and Computational Biology, Sanofi Shameer Khader is an Executive Director of Precision Medicine and Computational Biology at Sanofi, Cambridge MA. He leads a gl"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Building a disease data ecosystem at Sanofi",
+          "url": "https://www.linkedin.com/posts/khadershameer_ai-ml-digitalbiology-activity-7343295915522252802-oOwn",
+          "summary": "to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. # Building a disease data ecosystem at Sanofi This title was summarized by AI from the post"
+        },
+        {
+          "type": "speaking",
+          "date": "2025-04-16",
+          "title": "How Pharma Is Adopting Generative AI Across Clinical ...",
+          "url": "https://theconferenceforum.org/pharmatalkradio/how-pharma-is-adopting-generative-ai-across-clinical-development",
+          "summary": "Menu - Videos/Webcasts - Marketing Services - About Us - Conferences - Editorial - Podcasts Explore By Subject Area - Biotech CMO/R&D Leadership - Community-Based Clinical Trials - Drug Delivery"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "Shameer Khader",
+      "title": "Executive Director, Precision Medicine & Computational Biology",
+      "company": "Sanofi",
+      "domain": "sanofi.com",
+      "linkedin": "https://linkedin.com/in/khadershameer",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "hiring",
+          "date": "2025-12-12",
+          "title": "Fabian Theis\u2019 Post",
+          "url": "https://www.linkedin.com/posts/fabian-theis-4b4b10173_artificial-intelligence-agents-for-biology-activity-7405271868120952833-N7iD",
+          "summary": "Artificial intelligence agents for biology - Nature Methods | Fabian Theis ## LinkedIn respects your privacy LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyz"
+        },
+        {
+          "type": "hiring",
+          "date": "2025-04-29",
+          "title": "Roche granted FDA Breakthrough Device Designation for first AI-driven\u2026",
+          "url": "https://www.linkedin.com/posts/saleh-miri-23a14463_roche-granted-fda-breakthrough-device-designation-activity-7322859961485533184-xKEd",
+          "summary": "LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including **professional and job ads**) on and off "
+        },
+        {
+          "type": "news",
+          "date": "2025-11-03",
+          "title": "Roche taps an AI specialist to craft new brain drugs",
+          "url": "https://www.biopharmadive.com/news/roche-taps-an-ai-specialist-to-craft-new-brain-drugs/804186/",
+          "summary": "Roche taps an AI specialist to craft new brain drugs | BioPharma Dive !BioPharma Dive CONTINUE TO SITE \u279e# Don't miss tomorrow's biopharma industry news Let BioPharma Dive's free newsletter keep you in"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Fabian Birzele",
+      "title": "VP, Global Head of Computational Biology and Medicine",
+      "company": "Roche",
+      "domain": "roche.com",
+      "linkedin": "https://linkedin.com/in/fabian-birzele-98369354",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "",
+          "title": "Comparative assessment of combined concentration and ...",
+          "url": "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2025.1586893/full",
+          "summary": "1 Introduction Influenza, a highly contagious respiratory illness, poses a significant global health threat, causing recurring seasonal epidemics associated with substantial morbidity and mortality wo"
+        },
+        {
+          "type": "deal",
+          "date": "2025-04-05",
+          "title": "Responsible governance of generative AI: conceptualizing GenAI as complex\u2026",
+          "url": "https://www.linkedin.com/posts/janssenmarijn_responsible-governance-of-generative-ai-activity-7314271678715297792-Lbzi",
+          "summary": "to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. `` `` `` `` `` `` # Marijn Janssen\u2019s Post Marijn Janssen 3w - Report this post"
+        },
+        {
+          "type": "news",
+          "date": "2025-05-15",
+          "title": "GORMLEM - School of Psychology",
+          "url": "https://www.tcd.ie/psychology/people/academic-staff/gormlem/",
+          "summary": "- People - Academic Staff - GORMLEM !Dr. Michael Gormley # Dr. Michael Gormley Assistant Professor, Psychology Email Michael.Gormley@tcd.ie Phone3531896 3903 http://people.tcd.ie/gormlem ## Biography "
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "Athena Hadjixenofontos",
+      "title": "Director of Data Science, Head of AI/ML in Biotherapeutics",
+      "company": "AbbVie",
+      "domain": "abbvie.com",
+      "linkedin": "https://linkedin.com/in/athenahadjixenofontos",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "",
+          "title": "BlackPeak Capital's Post",
+          "url": "https://www.linkedin.com/posts/blackpeakcapital_growthequity-healthinnovation-healthtech-activity-7376525130446888960-NM-p",
+          "summary": "to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. # BlackPeak Capital\u2019s Post BlackPeak Capital 6,890 followers 1mo - Report this post"
+        },
+        {
+          "type": "news",
+          "date": "2025-07-17",
+          "title": "Elix Provides AI Drug Discovery Platform \u201cElix Discovery\u2122\u201d to Eisai",
+          "url": "https://www.businesswire.com/news/home/20250715531249/en/Elix-Provides-AI-Drug-Discovery-Platform-Elix-Discovery-to-Eisai",
+          "summary": "Elix Provides AI Drug Discovery Platform \u201cElix Discovery\u2122\u201d to Eisai Contact Us Contact Us Newsroom Services &amp;&amp; Solutions #### Services &amp;&amp; Solutions ### Services Press Release Distribut"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "SeqOne",
+          "url": "https://www.linkedin.com/posts/seqone_genomics-personalizedmedicine-ai-activity-7331219788196704256-6qEz",
+          "summary": "SeqOne\u2019s Post \ud83d\ude80 Big News &amp; Bold Future at SeqOne ! \ud83d\ude80 We're thrilled to announce a significant milestone: SeqOne has successfully raised \u20ac20 million in an oversubscribed Growth funding round! This "
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "Bart Naughton",
+      "title": "Senior Director, Head of Global Discovery Computational Biology",
+      "company": "Eisai",
+      "domain": "eisai.com",
+      "linkedin": "https://linkedin.com/in/bart-naughton-19685414",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-11-11",
+          "title": "Bioinformatics and IT Strategy Meeting East Coast 2024",
+          "url": "https://proventainternational.com/events/rd/usa-east/boston/bioinformatics-and-it-strategy-meeting-east-coast-2024",
+          "summary": "R&D region Boston 08 May, 2025 - 13 Nov Explore other regions **Europe** **USA East**- **USA West**\\- **Webinars**\\- **Dinners & Spotlights**- - ##### R&D Overview - #### R&D Boston - **Medicinal Chem"
+        },
+        {
+          "type": "hiring",
+          "date": "2025-08-28",
+          "title": "Inside Takeda\u2019s Revolution in Trustworthy AI",
+          "url": "https://www.cdomagazine.tech/data-management/inside-takedas-revolution-in-trustworthy-ai",
+          "summary": "Inside Takeda\u2019s Revolution in Trustworthy AI - CDO Magazine !logo \u200b\u200bEvents Community Topics News About Join Our Community The 2025 Data and AI Readiness ReportUnpack the governance, talent, and execut"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Accelerating discovery in natural science laboratories with ...",
+          "url": "https://www.science.org/doi/10.1126/scirobotics.adv7932",
+          "summary": "Advertisement Main content starts here Contents ## Abstract Science laboratory automation enables accelerated discovery in life sciences and materials. However, it requires interdisciplinary collabora"
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "Bin Li",
+      "title": "Senior Director, Computational Biology",
+      "company": "Takeda",
+      "domain": "takeda.com",
+      "linkedin": "https://linkedin.com/in/bin-li-b6410b4",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "hiring",
+          "date": "2025-12-08",
+          "title": "GenAI Dialogue Fuels Boston's CDO Magazine Leadership ...",
+          "url": "https://www.cdomagazine.tech/community/genai-dialogue-fuels-bostons-cdo-magazine-leadership-dinner",
+          "summary": "GenAI Dialogue Fuels Boston\u2019s CDO Magazine Leadership Dinner - CDO Magazine !logo \u200b\u200bEvents Community Topics News About Join Our Community The 2025 Data and AI Readiness ReportUnpack the governance, ta"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "How GenAI is changing Data Governance with Barbara ...",
+          "url": "https://www.linkedin.com/posts/moritzplassnig_datagovernance-cdo-ai-activity-7386828459756621824-xtCS",
+          "summary": "to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. # How GenAI is changing Data Governance with Barbara Latulippe and Justin Heller This title"
+        },
+        {
+          "type": "news",
+          "date": "2025-07-21",
+          "title": "CDO Magazine Boston Leadership Dinner Tackles GenAI's ...",
+          "url": "https://www.cdomagazine.tech/community/cdo-magazine-boston-leadership-dinner-tackles-genais-data-impact",
+          "summary": "CDO Magazine Boston Leadership Dinner Tackles GenAI\u2019s Data Impact - CDO Magazine !logo \u200b\u200bEvents Community Topics News About Join Our Community Latest !Leadership Dinner \u2013Boston \u2013Abe &amp; Louie&#x27;s"
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Barbara Latulippe",
+      "title": "Head of Enterprise Data, CDO",
+      "company": "Takeda",
+      "domain": "takeda.com",
+      "linkedin": "https://linkedin.com/in/barbara-latulippe-595a2a4",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-06-18",
+          "title": "Advarra Establishes AI Council in Partnership with Life ...",
+          "url": "https://www.advarra.com/news/advarra-establishes-ai-council-in-partnership-with-life-sciences-leaders-to-drive-collaboration-and-advance-innovation-in-clinical-trials/",
+          "summary": "Advarra Establishes AI Council in Partnership with Life Sciences Leaders to Drive Collaboration and Advance Innovation in Clinical Trials - Advarra Advarra Launches Study Design Solution, Powered by B"
+        },
+        {
+          "type": "news",
+          "date": "2025-07-01",
+          "title": "Sanofi \u2013 VivaTech 2025 Day 3: Setting the Stage",
+          "url": "https://www.youtube.com/watch?v=dzxN5ouC3pw",
+          "summary": "Introduction to our AI transformation journey with Michel Rider (Global Head of Digital R\\u0026D). | view_count: 15 views | short_view_count: 15 | num_likes: No | num_subscribers: 32.4 thousand"
+        },
+        {
+          "type": "deal",
+          "date": "2025-12-16",
+          "title": "Year-end late-stage pipeline review",
+          "url": "https://www.sanofi.com/assets/dotcom/content-app/events/investor-presentation/2025/2025-year-end-late-stage-pipeline-review/2025_12_16_Sanofi_Year-end_late-stage_pipeline_review_Pres.pdf",
+          "summary": "Year-end late-stage pipeline review December 16, 2025 3 Forward-looking statements Investor Relations This document contains forward-looking statements as defined in the Private Securities Litigation "
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "Michel Rider",
+      "title": "Global Head of Digital R&D",
+      "company": "Sanofi",
+      "domain": "sanofi.com",
+      "linkedin": "https://linkedin.com/in/micheltrail",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-07-21",
+          "title": "Sophie\u2019s Notes",
+          "url": "https://open.substack.com/pub/sophiebakalar/p/the-distribution-era-is-ending-products",
+          "summary": "The Distribution Era is Ending. Product&#x27;s Up Next. !Sophie\u2019s Notes # Sophie\u2019s Notes SubscribeSign in # The Distribution Era is Ending. Product's Up Next. ### How AI Is Redefining Product-Led Grow"
+        },
+        {
+          "type": "news",
+          "date": "2025-05-12",
+          "title": "AI Innovation: Transforming Healthcare",
+          "url": "https://www.sanofi.com/en/our-science/digital/ai-across-sanofi",
+          "summary": "Digital Transformation and Artificial Intelligence | Sanofi Sanofi Global # Digital &amp; AI We are an**R&amp;D-driven, AI-powered biopharma company**committed to improving people&#x27;s lives. **We a"
+        },
+        {
+          "type": "news",
+          "date": "2025-09-09",
+          "title": "Sanofi\u2019s AI Playbook: From \u2018Snackable AI\u2019 to drug discovery engines",
+          "url": "https://enterpriseai.economictimes.indiatimes.com/news/case-studies/revolutionizing-drug-discovery-sanofis-ai-journey-from-snackable-tools-to-major-innovations/123778820",
+          "summary": "- Case Studies - 4 min read # Sanofi\u2019s AI Playbook: From \u2018Snackable AI\u2019 to drug discovery engines Inside pharma major Sanofi\u2019s AI-first strategy to shrink drug timelines, reimagine R&D, and put \u2018snack"
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Sophie Forge",
+      "title": "VP, Global Head of Digital R&D Pipeline and Project Analytics",
+      "company": "Sanofi",
+      "domain": "sanofi.com",
+      "linkedin": "https://linkedin.com/in/sophie-forge-3bb3012",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-12-22",
+          "title": "Sangeetha Kanvar Joins Eli Lilly as Head, Quality Systems ...",
+          "url": "https://hrtoday.in/sangeetha-kanvar-joins-eli-lilly-as-head-quality-systems-excellence-digital-transformation/",
+          "summary": "Sangeetha Kanvar Joins Eli Lilly as Head, Quality Systems Excellence &amp; Digital Transformation - Global HR News &amp; Updates !Global HR News &amp; Updates * Features * Magazine * News * Asia * Eur"
+        },
+        {
+          "type": "news",
+          "date": "2025-05-15",
+          "title": "GSK hires former Genentech expert for AI unit",
+          "url": "https://pharmaphorum.com/news/gsk-hires-former-genentech-expert-for-ai-unit",
+          "summary": "GSK hires former Genentech expert for AI unit | pharmaphorum Friday 9 January 2026 BlueSky linkedin youtube !search-icon !Pharmaphorum close Channels Channels** Newsletters and Deep"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Sangeetha Kanvar",
+          "url": "https://www.linkedin.com/posts/sangeetha-kanvar_newchapter-qualityexcellence-digitaltransformation-activity-7401255281332178944-LKc8",
+          "summary": "#newchapter #qualityexcellence #digitaltransformation #elililly #gratitude | Sangeetha Kanvar | 230 comments to join or sign in, you agree to LinkedIn\u2019sUser Agreement,Privacy Policy, andCookie Policy."
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "Sangeetha Kanvar",
+      "title": "Head PPM DDA (VP, Digital Transformation Analytics)",
+      "company": "GSK",
+      "domain": "gsk.com",
+      "linkedin": "https://linkedin.com/in/sangeetha-kanvar-6206915",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-12-16",
+          "title": "Accelerating Innovation: Pfizer's 2025 AI Festival",
+          "url": "https://www.pfizer.com/news/announcements/accelerating-innovation-pfizers-2025-ai-festival",
+          "summary": "Accelerating Innovation: Pfizer\u2019s 2025 AI Festival | Pfizer !Pfizer logo ## * Science * Clinical Trials * Guide to Clinical Trials * Clinical Trials in Children * Data and Results *"
+        },
+        {
+          "type": "news",
+          "date": "2025-04-29",
+          "title": "Responsible AI in Global Business 2025",
+          "url": "https://som.yale.edu/event/responsible-ai-global-business-2025",
+          "summary": "Responsible AI in Global Business 2025 | Yale School of Management !Yale School of Management logo Yale SOM Home 1. Program on Stakeholder Innovation and Management 2. Responsible AI in Global Busines"
+        },
+        {
+          "type": "news",
+          "date": "2025-09-15",
+          "title": "Artificial Intelligence 150 2025 - 2026",
+          "url": "https://www.constellationr.com/artificial-intelligence-150-2025-2026",
+          "summary": "Artificial Intelligence 150 2025 - 2026 | Constellation Research Inc. # Artificial Intelligence 150 2025 - 2026 Constellation Research's Artificial Intelligence 150 (AI150) is an elite list of the top"
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "Berta Rodriguez-Hervas",
+      "title": "Chief AI & Analytics Officer, SVP",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "linkedin": "https://linkedin.com/in/berta-rodriguez-hervas-76012bb",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-10-10",
+          "title": "Start4Health",
+          "url": "https://centerfordigitalinnovation.pfizer.com/start4health",
+          "summary": "Accepting Applications: 10/10/25 - 09/11/25 # Start4Health ### Turn Innovation On! Start4Health is back for another year, looking for Greek **mature** and **early-stage** startup companies incubating "
+        },
+        {
+          "type": "speaking",
+          "date": "2025-07-10",
+          "title": "Speakers - GenAI Summit 2025",
+          "url": "https://www.genaisummitseeurope.com/speakers",
+          "summary": "Speakers - GenAI Summit 2025 0 Skip to Content !genaisummit Get involved Open MenuClose Menu !genaisummit Get involved Open MenuClose Menu ! ### Meet the minds guiding the next generation"
+        },
+        {
+          "type": "speaking",
+          "date": "",
+          "title": "GENERATIVE AI FOR REAL HEALTHCARE IMPACT",
+          "url": "https://www.youtube.com/watch?v=NXFO-F1nF0A",
+          "summary": "Speakers:\\n\u2022 Eirini Petrou, Researcher, Health Ethics \\u0026 Policy Lab, ETH Zurich\\n\u2022 Naya Giannakopoulou, Senior Technical Architect, Microsoft Innovation Hub\\n\u2022 Dimi Karatasios, Head of Applied AI "
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Subha Madhavan",
+      "title": "VP, Head of AI/ML, Quantitative Digital Sciences, R&D",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "linkedin": "https://linkedin.com/in/subhamadhavan",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "speaking",
+          "date": "2025-06-02",
+          "title": "The Past, Present & Future of Statistics in the Era of AI: ...",
+          "url": "https://statistics.columbian.gwu.edu/past-present-future-statistics-era-ai-speaker-details",
+          "summary": "Browse speaker bios and abstracts from the GW Department of Statistics' 90th anniversary event, \" The Past, Present and Future of Statistics in the Era of AI."
+        },
+        {
+          "type": "news",
+          "date": "2025-04-21",
+          "title": "ASA Recognizes 2025 Founders and Fellows",
+          "url": "https://www.amstat.org/news-listing/2025/04/21/asa-recognizes-2025-founders-and-fellows",
+          "summary": "- ASA - Amstat News - ASA Community - STATtr@k - _Practical Significance_ - ASA Leader HUB # ASA Recognizes 2025 Founders and Fellows The American Statistical Association is honored to grant the estee"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "Clinical insights: A comprehensive review of language models ...",
+          "url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000800",
+          "summary": "Clinical insights: A comprehensive review of language models in medicine | PLOS Digital Health Advertisement * Loading metrics Open Access Review # Clinical insights: A comprehensive review of languag"
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "Kannan Natarajan",
+      "title": "Sr. VP, Head of Global Data Sciences and Analytics",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "linkedin": "https://linkedin.com/in/kannan-natarajan-0a84b31",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "hiring",
+          "date": "2025-11-13",
+          "title": "Five questions with Eden Wells, Chief Insights and ...",
+          "url": "https://www.novartis.com/us-en/stories/five-questions-eden-wells-chief-insights-and-decision-science-officer-novartis-us",
+          "summary": "Header Education and Awareness # Five questions with Eden Wells, Chief Insights and Decision Science Officer at Novartis US In this interview, Eden discusses the pivotal moments that shaped her career"
+        },
+        {
+          "type": "news",
+          "date": "2025-06-02",
+          "title": "Eden Wells",
+          "url": "https://www.novartis.com/us-en/about/leadership-team/eden-wells",
+          "summary": "Chief Insights &amp; Decision Science Officer, US As Chief Insights and Decision Science Officer, Eden is leading a trailblazing strategy to integrate and develop data, insights, technology and genera"
+        },
+        {
+          "type": "speaking",
+          "date": "2025-12-05",
+          "title": "A FTLive Event - US Pharma and Biotech Summit 2026 Agenda",
+          "url": "https://uspharma.live.ft.com/agenda",
+          "summary": "US Pharma and Biotech Summit 2026 Agenda - A FTLive Event Registered User?Login Access to our event community is available to Professional (Digital and In-Person), Speaker, Sponsor and VIP ticket hold"
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "name": "Shams Zaman",
+      "title": "Sr Director, AI/ML",
+      "company": "Eli Lilly",
+      "domain": "lilly.com",
+      "linkedin": "https://linkedin.com/in/shamszaman",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "",
+          "title": "The Evolving Role of Statisticians in the Pharmaceutical Industry",
+          "url": "https://asabiopreport.substack.com/p/the-evolving-role-of-statisticians-ae6",
+          "summary": "The Evolving Role of Statisticians in the Pharmaceutical Industry: Leveraging Advanced Statistical Analytics and Artificial Intelligence !ASA Biopharmaceutical Report # ASA Biopharmaceutical Report Su"
+        },
+        {
+          "type": "deal",
+          "date": "",
+          "title": "How giles\u00ae AI enhances research with LLM-agnostic tech",
+          "url": "https://www.linkedin.com/posts/ahmedathar_research-scientists-tech-activity-7389431103633227776-HDtn",
+          "summary": "How giles\u00ae AI enhances research with LLM-agnostic tech | Athar Ahmed posted on the topic | LinkedIn to join or sign in, you agree to LinkedIn\u2019sUser Agreement,Privacy Policy, andCookie Policy. ````````"
+        },
+        {
+          "type": "news",
+          "date": "2025-12-17",
+          "title": "Program Book (Full)",
+          "url": "https://www3.stat.sinica.edu.tw/joint2025/Program_book/Full_version.pdf",
+          "summary": "\u001b\u001a~\u0019\u0018 \u0017\u0016\u0015\u0014\u0016\u0013\u0012 \u0011\u0015\u0015\u0010 \u001b\u001a\u0019\u0018\u0018\u001b \u0017\u0016\u001a \u0015\u001a\u0014\u0013\u0014\u0012\u001a \u001b\u0011 \u0010\u0018 \u001a \u001b\u0018\u000f \u0011\u001b \u0011\u000e\u001a\u0016\u001b\u0011\u001b \u0016\u001b \u0011\u000e\u001a\u0016 \u0019\u0010 \u0016 \u0019\u001a \u0019\u0018\u0019\u000f \u0011 \u001a \b\u001b\u0007\u001a \u0016\u0011\u001a \u001b\u0018\u000f \u0011\u001b \u0011\u000e\u001a \u0015\u0018\u000f\u0018 \u0018 1 Content Welcome......................................................................"
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "name": "Haoda Fu",
+      "title": "Head of Exploratory Biostatistics",
+      "company": "Amgen",
+      "domain": "amgen.com",
+      "linkedin": "https://linkedin.com/in/haoda-fu-17a5256",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-07-28",
+          "title": "WHX Tech unveils its agenda for September 2025 in Dubai",
+          "url": "https://gulfbusiness.com/whx-tech-unveils-its-agenda-for-september-2025-in-dubai/",
+          "summary": "WHX Tech unveils its agenda for September 2025 in Dubai !Gulf Business Now Reading ###### WHX Tech unveils its agenda for September 2025 in Dubai ** ** ** ** !Gulf Business !Gulf Business"
+        },
+        {
+          "type": "news",
+          "date": "2025-09-09",
+          "title": "Lilly launches AI-powered platform to accelerate drug discovery",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/lilly-launches-ai-powered-platform-accelerate-drug-discovery-2025-09-09/",
+          "summary": "Lilly launches AI-powered platform to accelerate drug discovery | Reuters Exclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv My News Register # Lilly launch"
+        },
+        {
+          "type": "deal",
+          "date": "2025-06-11",
+          "title": "Towards longevity, redefining health and well-being",
+          "url": "https://www.adghw.com/media/b3llymls/psr_brochure-adghw2025-26may_.pdf",
+          "summary": "Post show report 2025 Towards longevity, redefining health and well-being AN ABU DHABI STRATEGIC INITIATIVE ORGANISED BY FOUNDATION PARTNER Across three dynamic days, attendees engaged in visionary ke"
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "Laura Swint",
+      "title": "VP, Digital Health and AI Leader",
+      "company": "Eli Lilly",
+      "domain": "lilly.com",
+      "linkedin": "https://linkedin.com/in/laura-swint-48060964",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-10-20",
+          "title": "Director, Corporate Responsibility, Pfizer (Festival Underwriter)",
+          "url": "https://www.aspenideas.org/speakers/jenny-sia",
+          "summary": "Jenny Sia Director, Corporate Responsibility, Pfizer (Festival Underwriter) Jenny Sia is director of corporate responsibility for Pfizer, working to implement key elements of the company\u2019"
+        },
+        {
+          "type": "news",
+          "date": "2025-05-14",
+          "title": "Pfizer grows digital team with chief AI officer appointment",
+          "url": "https://pharmaphorum.com/news/pfizer-grows-digital-team-chief-ai-officer-appointment",
+          "summary": "Pfizer grows digital team with chief AI officer appointment | pharmaphorum Wednesday 28 January 2026 BlueSky linkedin youtube !search-icon !Pharmaphorum close Channels Channels** Newsletters"
+        },
+        {
+          "type": "deal",
+          "date": "2025-06-18",
+          "title": "At Pfizer, we continuously explore how AI can be leveraged to make smarter, quicker decisions, ultimately leading to breakthroughs that change patient",
+          "url": "https://www.linkedin.com/posts/pfizer_at-pfizer-we-continuously-explore-how-ai-activity-7341200458042040320-25eU",
+          "summary": "At Pfizer, we continuously explore how AI can be leveraged to make smarter, quicker decisions, ultimately leading to breakthroughs that change patients&#39; lives. | Pfizer to join or sign in, you agr"
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "name": "Aaron C. Daugherty",
+      "title": "VP of Discovery",
+      "company": "Aria Pharmaceuticals",
+      "domain": "ariapharma.com",
+      "linkedin": "https://linkedin.com/in/aaron-c-daugherty-146a7010",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "speaking",
+          "date": "2025-07-10",
+          "title": "We Want to Be AI-ready for The Long Haul \u2014 Regeneron Executive Director for Commercial Insights and Analytics",
+          "url": "https://www.cdomagazine.tech/aiml/we-want-to-be-ai-ready-for-the-long-haul-regeneron-executive-director-for-commercial-insights-and-analytics",
+          "summary": "\u200b \u200b Events Community Topics News About Join Our Community Latest Leadership Summit From Data Silos to AI-Enabled Customer Engagement CDO Magazine Launches \u201cCDO Strategies to Unlock Value in the Agenti"
+        },
+        {
+          "type": "news",
+          "date": "2025-04-25",
+          "title": "Abstract LB366: Fianlimab + cemiplimab in patients (pts) with ...",
+          "url": "https://aacrjournals.org/cancerres/article/85/8_Supplement_2/LB366/761911/Abstract-LB366-Fianlimab-cemiplimab-in-patients",
+          "summary": "Skip to Main Content Advertisement _Open Menu_ _Search Dropdown Menu_ header search search inputSearch input auto suggest Search Advanced Search _User Tools Dropdown_ Register Sign In _Open Menu_"
+        },
+        {
+          "type": "news",
+          "date": "",
+          "title": "Omicron Variant Could Be an Antigenic Shift of SARS-CoV-2",
+          "url": "https://www.mdpi.com/2673-8112/5/5/73",
+          "summary": "You are currently viewing a new version of our website. To view the old version click here. Close COVID Open CiteCite Open ShareShare Download PDF More formats Abstract Introduction Neutralization-Res"
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "name": "Jorine Putter",
+      "title": "VP Head, Data Value Office",
+      "company": "GSK",
+      "domain": "gsk.com",
+      "linkedin": "https://linkedin.com/in/jorine-putter-34b09916",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-04-08",
+          "title": "Wave's Reflect Launch Defines New Era of AI-Supported Mental Health Care",
+          "url": "https://www.prnewswire.com/news-releases/waves-reflect-launch-defines-new-era-of-ai-supported-mental-health-care-302422659.html",
+          "summary": "Wave's Reflect Launch Defines New Era of AI-Supported Mental Health CareAccessibility Statement Skip Navigation # Wave's Reflect Launch Defines New Era of AI-Supported Mental Health Care !Wave logo (P"
+        },
+        {
+          "type": "news",
+          "date": "",
+          "title": "Empowering scientific discovery with explainable small ...",
+          "url": "https://link.springer.com/article/10.1007/s10462-025-11365-w",
+          "summary": "Empowering scientific discovery with explainable small domain-specific and large language models | Artificial Intelligence Review | Springer Nature Link Advertisement !Springer Nature Link Log in # Em"
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "name": "Miruna Sasu",
+      "title": "Chief Data Officer",
+      "company": "Novartis",
+      "domain": "novartis.com",
+      "linkedin": "https://linkedin.com/in/miruna-sasu-7198a113",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "hiring",
+          "date": "2025-09-04",
+          "title": "Madrigal Pharmaceuticals hiring Senior Director, Agentic AI and Automation in Conshohocken, PA",
+          "url": "https://www.linkedin.com/jobs/view/senior-director-argentic-ai-and-automation-at-madrigal-pharmaceuticals-4279763247",
+          "summary": "Madrigal Pharmaceuticals hiring Senior Director, Agentic AI and Automation in Conshohocken, PA | LinkedIn !Madrigal Pharmaceuticals ### Senior Director, Agentic AI and Automation Madrigal Pharmaceutic"
+        },
+        {
+          "type": "news",
+          "date": "2025-10-31",
+          "title": "AI Agents in Drug Discovery",
+          "url": "https://arxiv.org/abs/2510.27130",
+          "summary": "2510.27130 AI Agents in Drug Discovery !Cornell University We gratefully acknowledge support from the Simons Foundation,member institutions, and all contributors.Donate !arxiv logo"
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "name": "Todd Sanger",
+      "title": "VP, Advanced Analytics and Data Sciences",
+      "company": "Eli Lilly",
+      "domain": "lilly.com",
+      "linkedin": "https://linkedin.com/in/todd-sanger-2408a11b",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-10-03",
+          "title": "Eli Lilly Appoints First Ever Chief AI Officer",
+          "url": "https://www.futuremedicine.com/articles/eli-lilly-appoints-first-ever-chief-ai-officer",
+          "summary": "# Eli Lilly Appoints First Ever Chief AI Officer Eli Lilly Appoints First Ever Chief AI Officer General Interest DATE October 11, 2024 AUTHOR Isabel Cameron SHARE The Language of Genomes **Eli Lilly i"
+        },
+        {
+          "type": "news",
+          "date": "2025-09-09",
+          "title": "Lilly launches AI-powered platform to accelerate drug discovery",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/lilly-launches-ai-powered-platform-accelerate-drug-discovery-2025-09-09/",
+          "summary": "Lilly launches AI-powered platform to accelerate drug discovery | Reuters Exclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv My News Register # Lilly launch"
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "name": "Marc Phippen",
+      "title": "Director, Data AI Scientific Lead",
+      "company": "Novartis",
+      "domain": "novartis.com",
+      "linkedin": "https://linkedin.com/in/marc-phippen-48089918",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-07-27",
+          "title": "Saturday",
+          "url": "https://www.harnessracingupdate.com/pdf/hru/hru072725.pdf",
+          "summary": "Harness Racing Update | Page 1 | July 27, 2025 Sunday, July 27, 2025 Hambletonian Society The program from the 1967 Hambletonian. Looking back at my first Hambletonian as I prepare for my 58th straigh"
+        },
+        {
+          "type": "deal",
+          "date": "2025-04-07",
+          "title": "Lindus Health Awarded ARIA Funding to Build Safe, Reliable AI for Clinical Trial\u00a0Design",
+          "url": "https://theaiinsider.tech/2025/04/07/lindus-health-awarded-aria-funding-to-build-safe-reliable-ai-for-clinical-trial-design/",
+          "summary": "Skip to content - AI , Business , Capital Markets , News , Slider - / - Lindus Health Awarded ARIA Funding to Build Safe, Reliable AI for Clinical Trial Design # Lindus Health Awarded ARIA Funding to "
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "name": "Mark Salvati",
+      "title": "Vice President",
+      "company": "Regeneron",
+      "domain": "regeneron.com",
+      "linkedin": "https://linkedin.com/in/mark-salvati-0b10054",
+      "activityScore": "MEDIUM",
+      "recentSignals": [
+        {
+          "type": "news",
+          "date": "2025-05-07",
+          "title": "Ichita 3",
+          "url": "https://www.scribd.com/document/763400019/ichita3",
+          "summary": "Open navigation menu Close suggestionsSearchSearch enChange Language Upload Sign in Sign in 0 ratings0% found this document useful (0 votes) 13K views2,860 pages # Ichita 3 Document Information ## Upl"
+        },
+        {
+          "type": "deal",
+          "date": "2025-05-13",
+          "title": "Maze Therapeutics raises $191M to unlock the genetic secrets of disease",
+          "url": "https://www.bioworld.com/articles/386006-maze-therapeutics-raises-191m-to-unlock-the-genetic-secrets-of-disease?v=preview",
+          "summary": "Maze Therapeutics raises $191M to unlock the genetic secrets of disease + | Bioworld | BioWorld # BioWorld. Link to homepage. !Clarivate # BioWorld. Link to homepage. Subscribe BioWorld - Wednesday, J"
+        }
+      ]
+    }
+  ]
+}
