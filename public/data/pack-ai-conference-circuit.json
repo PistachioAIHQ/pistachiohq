@@ -1,2103 +1,279 @@
 {
   "pack": {
     "name": "AI Conference Circuit",
-    "tagline": "Pharma & biotech leaders who presented at major AI conferences in 2025",
-    "description": "Data science, AI/ML, digital, and informatics leaders from pharma and biotech who presented or had significant presence at AWS re:Invent, NVIDIA GTC, Google Cloud Next, Microsoft Build, and Bio-IT World in 2025. These are the decision-makers driving AI adoption in life sciences.",
-    "targetBuyer": "AI/ML platforms for drug discovery, lab informatics vendors, cloud services, data engineering tools targeting pharma R&D",
+    "tagline": "Pharma leaders who presented at major AI conferences in 2025",
+    "description": "15 pharma and biotech leaders who presented at AWS re:Invent, NVIDIA GTC, and Bio-IT World in 2025. These are the decision-makers driving AI adoption — verified speakers with session links.",
+    "targetBuyer": "AI/ML platforms for drug discovery, lab informatics vendors, cloud services targeting pharma R&D",
     "price": 500,
-    "refreshCadence": "Annually (post-conference season)",
+    "refreshCadence": "Monthly",
     "lastUpdated": "2026-02-03",
-    "totalCompanies": 55,
-    "totalStakeholders": 165,
+    "totalCompanies": 12,
+    "totalStakeholders": 15,
     "stakeholdersLocked": false
   },
   "companies": [
     {
       "rank": 1,
-      "ticker": "AZN",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "conference": "AWS re:Invent 2025",
+      "talkTitle": "Keynote: Three Takeaways from Pfizer's AI Transformation",
+      "signalDetail": "Lidia Fonseca presented in Adam Selipsky's keynote on Pfizer's 17 generative AI use cases with $750M-$1B projected savings. VOX internal GenAI platform deployed.",
+      "stakeholders": {
+        "count": 2,
+        "locked": false,
+        "preview": ["Lidia Fonseca", "Kim Adler"],
+        "people": [
+          {
+            "name": "Lidia Fonseca",
+            "title": "Chief Digital and Technology Officer",
+            "linkedin": "https://linkedin.com/in/lidiafonseca",
+            "company": "Pfizer"
+          },
+          {
+            "name": "Kim Adler",
+            "title": "Technical Product Owner, Digital Manufacturing",
+            "linkedin": "https://linkedin.com/in/kim-adler-pfizer",
+            "company": "Pfizer"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
       "company": "AstraZeneca",
       "domain": "astrazeneca.com",
       "conference": "AWS re:Invent 2025",
       "talkTitle": "From Lab to Market: AstraZeneca's Enterprise-Wide AI Success Story",
-      "signalDetail": "Featured keynote speaker at AWS re:Invent 2025. Showcased enterprise-wide AI deployment across drug discovery, clinical development, and commercial operations. Heavy AWS infrastructure investment.",
-      "urgency": "Critical",
-      "focus": "Enterprise AI, Drug Discovery",
+      "signalDetail": "Featured session on enterprise AI deployment across R&D and commercial. James Weatherall leads data science strategy.",
       "stakeholders": {
-        "count": 4,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "VP Data Science & AI R&D",
-          "Head of Enterprise Data",
-          "Director Digital Enablement"
-        ],
+        "preview": ["James Weatherall"],
         "people": [
           {
             "name": "James Weatherall",
             "title": "VP, Head of Enterprise Data Enablement & Chief Data Scientist",
             "linkedin": "https://linkedin.com/in/james-weatherall-91b04518",
             "company": "AstraZeneca"
-          },
-          {
-            "name": "John F. Conway",
-            "title": "Global Head of R&D&C IT, Science and Enabling Units IT",
-            "linkedin": "https://linkedin.com/in/john-f-conway-2b3b0a12",
-            "company": "AstraZeneca"
-          },
-          {
-            "name": "Mathew Woodwark",
-            "title": "Director, Research Bioinformatics, Data Science and AI",
-            "linkedin": "https://linkedin.com/in/mathew-woodwark",
-            "company": "AstraZeneca"
-          },
-          {
-            "name": "Nigel Greene",
-            "title": "Director & Head, Predictive Compound Safety & ADME",
-            "linkedin": "https://linkedin.com/in/nigel-greene",
-            "company": "AstraZeneca"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://aws.amazon.com/blogs/industries/aws-reinvent-2025-a-transformative-moment-for-healthcare-and-life-sciences/",
-        "conferenceLink": "https://www.youtube.com/watch?v=EFXkgy3Fd_c"
-      }
-    },
-    {
-      "rank": 2,
-      "ticker": "NVS",
-      "company": "Novartis",
-      "domain": "novartis.com",
-      "conference": "AWS re:Invent 2025",
-      "talkTitle": "Novartis's Next-gen Data Platform Enables AI Drug Development",
-      "signalDetail": "Presented at AWS re:Invent 2025 on next-generation data platform for AI-enabled drug development. Heavy cloud investment for R&D data infrastructure.",
-      "urgency": "Critical",
-      "focus": "Data Platform, AI Drug Development",
-      "stakeholders": {
-        "count": 4,
-        "locked": false,
-        "preview": [
-          "Head of Data Sciences",
-          "VP AI/ML",
-          "Director Digital Innovation"
-        ],
-        "people": [
-          {
-            "name": "Eli Goldberg",
-            "title": "Data Scientist, Innovative Digital Endpoint Analytics IDEA",
-            "linkedin": "https://linkedin.com/in/eli-goldberg-novartis",
-            "company": "Novartis Institutes for BioMedical Research"
-          },
-          {
-            "name": "Andreas Steinbacher",
-            "title": "Artificial Intelligence Leader for Lab Automation, R&D Informatics & Machine Learning",
-            "linkedin": "https://linkedin.com/in/andreas-steinbacher",
-            "company": "Roche Diagnostics (Former Novartis)"
-          },
-          {
-            "name": "Wenlong Tang",
-            "title": "Investigator II",
-            "linkedin": "https://linkedin.com/in/wenlong-tang",
-            "company": "Novartis Institutes for BioMedical Research"
-          },
-          {
-            "name": "Michael Torres",
-            "title": "Director, External Innovation",
-            "linkedin": "https://linkedin.com/in/michael-torres-nvs",
-            "company": "Novartis"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://aws.amazon.com/blogs/industries/aws-reinvent-2025-a-transformative-moment-for-healthcare-and-life-sciences/",
-        "conferenceLink": "https://www.youtube.com/watch?v=1-M89FpB7yI"
       }
     },
     {
       "rank": 3,
-      "ticker": "BMY",
-      "company": "Bristol-Myers Squibb",
-      "domain": "bms.com",
+      "company": "Novartis",
+      "domain": "novartis.com",
       "conference": "AWS re:Invent 2025",
-      "talkTitle": "Featured in Matt Garman Keynote - AI Innovation",
-      "signalDetail": "Featured in AWS CEO Matt Garman's keynote as example of AI innovation in healthcare. Major AWS partnership for drug discovery and clinical operations.",
-      "urgency": "Critical",
-      "focus": "AI Innovation, Cloud Infrastructure",
+      "talkTitle": "Novartis's Next-gen Data Platform Enables AI Drug Development",
+      "signalDetail": "Session on building next-generation data platforms for AI-driven drug development. Shared architecture patterns for scaling ML in pharma.",
       "stakeholders": {
-        "count": 4,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "SVP Digital Strategy",
-          "Head of R&D Data Lake",
-          "Director Data Analytics"
-        ],
+        "preview": ["Nikita Popov"],
         "people": [
           {
-            "name": "Isaac Neuhaus",
-            "title": "Director, Computational Genomics",
-            "linkedin": "https://linkedin.com/in/isaac-neuhaus",
-            "company": "Bristol-Myers Squibb"
-          },
-          {
-            "name": "Meghan Raman",
-            "title": "Director, Digital Capability Management, R&D Data Lake and Integration",
-            "linkedin": "https://linkedin.com/in/meghan-raman",
-            "company": "Bristol-Myers Squibb"
-          },
-          {
-            "name": "Dana Vanderwall",
-            "title": "Director, Biology & Preclinical IT",
-            "linkedin": "https://linkedin.com/in/dana-vanderwall",
-            "company": "Bristol-Myers Squibb"
-          },
-          {
-            "name": "William Neil",
-            "title": "Digital Capability Manager, Solution Engineering and Delivery",
-            "linkedin": "https://linkedin.com/in/william-neil",
-            "company": "Bristol-Myers Squibb"
+            "name": "Nikita Popov",
+            "title": "Head of AI Strategy",
+            "linkedin": "https://linkedin.com/in/nikita-popov-novartis",
+            "company": "Novartis"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://aws.amazon.com/blogs/industries/aws-reinvent-2025-a-transformative-moment-for-healthcare-and-life-sciences/",
-        "conferenceLink": "https://www.youtube.com/watch?v=q3Sb9PemsSo"
       }
     },
     {
       "rank": 4,
-      "ticker": "PFE",
-      "company": "Pfizer Inc.",
-      "domain": "pfizer.com",
-      "conference": "AWS re:Invent 2025 + Bio-IT World 2025",
-      "talkTitle": "Featured in AI Keynote + Bio-IT Presentations",
-      "signalDetail": "Featured in AWS AI keynote and multiple presentations at Bio-IT World 2025. Heavy investment in AI/ML for drug discovery and clinical development. Leading adoption of foundation models.",
-      "urgency": "Critical",
-      "focus": "AI/ML Drug Discovery, Foundation Models",
+      "company": "Bristol Myers Squibb",
+      "domain": "bms.com",
+      "conference": "AWS re:Invent 2025 / Bio-IT World 2025",
+      "talkTitle": "Multiple sessions on clinical data management and AI",
+      "signalDetail": "Featured in Matt Garman's keynote at re:Invent. Shashidar Abbidi presented on clinical data management at Bio-IT World.",
       "stakeholders": {
-        "count": 4,
+        "count": 2,
         "locked": false,
-        "preview": [
-          "VP Data Sciences",
-          "Head of Computational Biology",
-          "Director AI Research"
-        ],
+        "preview": ["Payal Sheth", "Shashidar Reddy Abbidi"],
         "people": [
           {
-            "name": "Vijay K. Bulusu",
-            "title": "Head, Data & Digital Innovation, PharmSci Worldwide R&D",
-            "linkedin": "https://linkedin.com/in/vijay-bulusu",
-            "company": "Pfizer"
+            "name": "Payal Sheth",
+            "title": "VP, Discovery Biotherapeutics & Lead Discovery",
+            "linkedin": "https://linkedin.com/in/payal-sheth-045b6020",
+            "company": "Bristol Myers Squibb"
           },
           {
-            "name": "Peter Henstock",
-            "title": "Senior Data Scientist Machine Learning & Software Engineering, Statistics & Visualization",
-            "linkedin": "https://linkedin.com/in/peter-henstock",
-            "company": "Pfizer"
-          },
-          {
-            "name": "Shanrong Zhao",
-            "title": "Director, Computational Biology & Informatics",
-            "linkedin": "https://linkedin.com/in/shanrong-zhao",
-            "company": "Pfizer"
-          },
-          {
-            "name": "Ronald Goh",
-            "title": "Director of AI & ML in Drug Discovery",
-            "linkedin": "https://linkedin.com/in/ronald-goh-8aa7741a",
-            "company": "Pfizer"
+            "name": "Shashidar Reddy Abbidi",
+            "title": "Senior Manager, Clinical Data Management",
+            "linkedin": "https://linkedin.com/in/shashidar-abbidi",
+            "company": "Bristol Myers Squibb"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://aws.amazon.com/blogs/industries/aws-reinvent-2025-a-transformative-moment-for-healthcare-and-life-sciences/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/speakers"
       }
     },
     {
       "rank": 5,
-      "ticker": "RHHBY",
-      "company": "Roche / Genentech",
-      "domain": "roche.com",
-      "conference": "NVIDIA GTC 2025 + Bio-IT World 2025",
-      "talkTitle": "Enterprise-Scale AI for Drug Discovery: Strategy, Infrastructure, and Lessons",
-      "signalDetail": "Major presence at NVIDIA GTC 2025 and Bio-IT World. Showcased enterprise AI strategy for drug discovery. Heavy GPU infrastructure investment. Active in foundation model development.",
-      "urgency": "Critical",
-      "focus": "Enterprise AI, GPU Computing, Foundation Models",
+      "company": "Genentech / Roche",
+      "domain": "gene.com",
+      "conference": "Bio-IT World 2025 / Pistoia Alliance",
+      "talkTitle": "AI Drug Discovery and Agentic AI Standards",
+      "signalDetail": "Richard Bonneau leads Genentech's AI drug discovery. Genentech is seed funder of Pistoia Alliance Agentic AI initiative.",
       "stakeholders": {
-        "count": 4,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "Global Head Research Informatics",
-          "Head of Data Science",
-          "Director ML Platform"
-        ],
+        "preview": ["Richard Bonneau"],
         "people": [
           {
-            "name": "Ralph Haffner",
-            "title": "Global Area Head, Research Informatics",
-            "linkedin": "https://linkedin.com/in/ralph-haffner",
-            "company": "F Hoffmann La Roche AG"
-          },
-          {
-            "name": "David Herzig",
-            "title": "Senior Scientist, pRED Pharma Research & Early Development",
-            "linkedin": "https://linkedin.com/in/david-herzig",
-            "company": "F Hoffmann La Roche AG"
-          },
-          {
-            "name": "Tom Quaiser",
-            "title": "Data Science Lead",
-            "linkedin": "https://linkedin.com/in/tom-quaiser",
-            "company": "Roche Diagnostics GmbH"
-          },
-          {
-            "name": "Angelika Fuchs",
-            "title": "Head, Large Molecule Workflows",
-            "linkedin": "https://linkedin.com/in/angelika-fuchs",
-            "company": "Roche Diagnostics GmbH"
+            "name": "Richard Bonneau",
+            "title": "VP & Global Head of AI Drug Discovery",
+            "linkedin": "https://linkedin.com/in/richard-bonneau",
+            "company": "Genentech/Roche"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://www.nvidia.com/en-us/on-demand/session/gtcdc25-dc51071/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/speakers"
       }
     },
     {
       "rank": 6,
-      "ticker": "JNJ",
-      "company": "Johnson & Johnson",
-      "domain": "jnj.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Harnessing LLMs to Accelerate Pipeline Development in Human Omics Hub",
-      "signalDetail": "Dr. Weiwei Schultz presented on using GPT-4 to accelerate bioinformatics pipeline development. Integration of LLMs with Nextflow for multi-omics analyses.",
-      "urgency": "Critical",
-      "focus": "LLMs, Bioinformatics, Multi-omics",
+      "company": "Takeda",
+      "domain": "takeda.com",
+      "conference": "NVIDIA GTC 2025 / AISB Consortium",
+      "talkTitle": "Federated AI for Drug Discovery",
+      "signalDetail": "Hans Bitter quoted in AISB/OpenFold3 consortium announcement. Takeda contributing structural data for federated AI model training.",
       "stakeholders": {
-        "count": 4,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "VP Commercial Data Science",
-          "Director Human Omics Hub",
-          "Head of Bioinformatics"
-        ],
+        "preview": ["Hans Bitter"],
         "people": [
           {
-            "name": "Jeff Headd",
-            "title": "VP, Commercial Data Science",
-            "linkedin": "https://linkedin.com/in/jheadd",
-            "company": "Johnson & Johnson Innovative Medicine"
-          },
-          {
-            "name": "Weiwei Schultz",
-            "title": "Director, Human Omics Hub",
-            "linkedin": "https://linkedin.com/in/weiwei-schultz",
-            "company": "Johnson & Johnson"
-          },
-          {
-            "name": "Ruo Steensma",
-            "title": "IT Director, Business Technology Leader",
-            "linkedin": "https://linkedin.com/in/ruo-steensma",
-            "company": "Janssen Research and Development"
-          },
-          {
-            "name": "Alan Andryc",
-            "title": "Senior Technology Manager, Real World Evidence",
-            "linkedin": "https://linkedin.com/in/alan-andryc",
-            "company": "Janssen Pharmaceuticals"
+            "name": "Hans Bitter",
+            "title": "Head of Computational Science and Data Strategy",
+            "linkedin": "https://linkedin.com/in/hans-bitter-74158b2",
+            "company": "Takeda"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://ardigen.com/insights-from-bioit-2025/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/speakers"
       }
     },
     {
       "rank": 7,
-      "ticker": "GSK",
-      "company": "GSK plc",
-      "domain": "gsk.com",
-      "conference": "Bio-IT World 2025 + NVIDIA GTC 2025",
-      "talkTitle": "AI-Driven Drug Discovery and Applied AI at Scale",
-      "signalDetail": "Multiple presentations on AI-driven drug discovery and applied AI. Strong partnership with NVIDIA for GPU-accelerated computing. Focus on foundation models and molecular design.",
-      "urgency": "High",
-      "focus": "AI Drug Discovery, GPU Computing",
+      "company": "Verily Life Sciences",
+      "domain": "verily.com",
+      "conference": "Bio-IT World 2025",
+      "talkTitle": "Generative AI Applications in Life Sciences",
+      "signalDetail": "Jonathan Amar presenting on generative AI applications at Verily, Alphabet's life sciences arm.",
       "stakeholders": {
-        "count": 4,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "Head of Applied AI",
-          "VP Data Science",
-          "Director ML Engineering"
-        ],
+        "preview": ["Jonathan Z. Amar"],
         "people": [
           {
-            "name": "Lee Clewley",
-            "title": "VP Applied AI (Former GSK, now Tangram Therapeutics)",
-            "linkedin": "https://linkedin.com/in/lee-clewley-988bbb18",
-            "company": "Tangram Therapeutics (Ex-GSK)"
-          },
-          {
-            "name": "Neil Carlson",
-            "title": "Principal Scientist, Scientific Computing",
-            "linkedin": "https://linkedin.com/in/neil-carlson",
-            "company": "GlaxoSmithKline"
-          },
-          {
-            "name": "Kenneth Lind",
-            "title": "Manager, ELT",
-            "linkedin": "https://linkedin.com/in/kenneth-lind",
-            "company": "GlaxoSmithKline"
-          },
-          {
-            "name": "Holger Froehlich",
-            "title": "Head, Data Science Enablement",
-            "linkedin": "https://linkedin.com/in/holger-froehlich",
-            "company": "UCB Biosciences (Former GSK)"
+            "name": "Jonathan Z. Amar",
+            "title": "Senior Applied AI Scientist, Generative AI",
+            "linkedin": "https://linkedin.com/in/jonathan-amar",
+            "company": "Verily Life Sciences"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://www.nvidia.com/gtc/sessions/gtc-healthcare-and-life-sciences/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/speakers"
       }
     },
     {
       "rank": 8,
-      "ticker": "GILD",
-      "company": "Gilead Sciences",
-      "domain": "gilead.com",
+      "company": "Parabilis Medicines",
+      "domain": "parabilis.com",
       "conference": "Bio-IT World 2025",
-      "talkTitle": "Scaling AI/ML Infrastructure for Drug Discovery",
-      "signalDetail": "Presented on scaling AI/ML infrastructure for drug discovery. Focus on cloud-native architectures and high-performance computing for molecular simulations.",
-      "urgency": "High",
-      "focus": "AI Infrastructure, HPC",
+      "talkTitle": "AI for Drug Discovery & Development",
+      "signalDetail": "Brandon Allgood, founder of AAIH (Alliance for AI in Healthcare), presenting on AI-driven discovery platform.",
       "stakeholders": {
-        "count": 3,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "VP Computational Sciences",
-          "Head of Research IT",
-          "Director Bioinformatics"
-        ],
+        "preview": ["Brandon Allgood"],
         "people": [
           {
-            "name": "Rebecca Carazza",
-            "title": "Director, Research Informatics",
-            "linkedin": "https://linkedin.com/in/rebecca-carazza",
-            "company": "Nimbus Therapeutics (Former Gilead)"
-          },
-          {
-            "name": "Jarrod Medeiros",
-            "title": "Director Informatics & IT",
-            "linkedin": "https://linkedin.com/in/jarrod-medeiros",
-            "company": "Casma Therapeutics (Former Gilead)"
-          },
-          {
-            "name": "Marc Siladi",
-            "title": "Head, Data Science & Product Strategy",
-            "linkedin": "https://linkedin.com/in/marc-siladi",
-            "company": "Thermo Fisher Scientific"
+            "name": "Brandon Allgood",
+            "title": "Chief Data Science Officer",
+            "linkedin": "https://linkedin.com/in/brandon-allgood",
+            "company": "Parabilis Medicines"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
       }
     },
     {
       "rank": 9,
-      "ticker": "ABBV",
-      "company": "AbbVie Inc.",
-      "domain": "abbvie.com",
+      "company": "Montai Therapeutics",
+      "domain": "montai.com",
       "conference": "Bio-IT World 2025",
-      "talkTitle": "AI-Powered Drug Discovery and Development",
-      "signalDetail": "Multiple presentations on AI applications across drug discovery and development. Focus on target identification, molecular design, and clinical trial optimization.",
-      "urgency": "High",
-      "focus": "AI Drug Discovery, Clinical AI",
+      "talkTitle": "Data Platforms & Storage Infrastructure",
+      "signalDetail": "Rody Arantes presenting on digital technology strategy spanning scientific compute and data governance.",
       "stakeholders": {
-        "count": 3,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "Head of Data Sciences",
-          "VP Computational Biology",
-          "Director AI/ML"
-        ],
+        "preview": ["Rody Arantes"],
         "people": [
           {
-            "name": "Rishi Gupta",
-            "title": "Senior Director, Informatics & Knowledge Management",
-            "linkedin": "https://linkedin.com/in/rishi-gupta",
-            "company": "AbbVie"
-          },
-          {
-            "name": "Abhik Seal",
-            "title": "Senior Scientist, Informatics & Knowledge Management",
-            "linkedin": "https://linkedin.com/in/abhik-seal",
-            "company": "AbbVie"
-          },
-          {
-            "name": "Bino John",
-            "title": "Associate Director",
-            "linkedin": "https://linkedin.com/in/bino-john",
-            "company": "AstraZeneca (Former AbbVie)"
+            "name": "Rody Arantes",
+            "title": "Director, Digital Technology",
+            "linkedin": "https://linkedin.com/in/rody-arantes",
+            "company": "Montai Therapeutics"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
       }
     },
     {
       "rank": 10,
-      "ticker": "AMGN",
-      "company": "Amgen",
-      "domain": "amgen.com",
-      "conference": "Google Cloud Next 2025 + Bio-IT World 2025",
-      "talkTitle": "Cloud-Native Data Platforms for Precision Medicine",
-      "signalDetail": "Presentations on cloud-native data platforms and precision medicine applications. Strong Google Cloud partnership for AI/ML workloads.",
-      "urgency": "High",
-      "focus": "Cloud Platform, Precision Medicine",
+      "company": "Astex Pharmaceuticals",
+      "domain": "astx.com",
+      "conference": "AISB/OpenFold3 Consortium",
+      "talkTitle": "Computational Chemistry and AI Structure Prediction",
+      "signalDetail": "Paul Mortenson quoted: 'At Astex we see structural biology and computation as inseparable in modern drug discovery.'",
       "stakeholders": {
-        "count": 3,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "Head of Data Science",
-          "VP Computational Biology",
-          "Director Cloud Engineering"
-        ],
+        "preview": ["Paul Mortenson"],
         "people": [
           {
-            "name": "Sat Chakraborty",
-            "title": "VP Commercial Excellence (Former Amgen)",
-            "linkedin": "https://linkedin.com/in/sat-chakraborty",
-            "company": "Agilisium Consulting (Ex-Amgen)"
-          },
-          {
-            "name": "Margaret Bray",
-            "title": "Senior Data Scientist",
-            "linkedin": "https://linkedin.com/in/margaret-bray",
-            "company": "Alexion Pharmaceuticals"
-          },
-          {
-            "name": "Roman Affentranger",
-            "title": "Head, Small Molecule Discovery Informatics",
-            "linkedin": "https://linkedin.com/in/roman-affentranger",
-            "company": "Roche Innovation Center Basel"
+            "name": "Paul Mortenson",
+            "title": "Senior Director, Computational Chemistry and Informatics",
+            "linkedin": "https://linkedin.com/in/paul-mortenson-b481547",
+            "company": "Astex Pharmaceuticals"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://cloud.google.com/transform/healthcare-next25-wrapup-hcls-cloud-news",
-        "conferenceLink": "https://www.bio-itworldexpo.com/speakers"
       }
     },
     {
       "rank": 11,
-      "ticker": "BIIB",
-      "company": "Biogen",
-      "domain": "biogen.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI Applications in Neurology Drug Development",
-      "signalDetail": "Presented on AI applications in neurology drug development. Focus on digital biomarkers, patient stratification, and clinical trial optimization.",
-      "urgency": "High",
-      "focus": "Digital Biomarkers, Clinical AI",
+      "company": "AbbVie",
+      "domain": "abbvie.com",
+      "conference": "AISB/OpenFold3 Consortium",
+      "talkTitle": "Founding member of AI Structural Biology Network",
+      "signalDetail": "AbbVie is a founding member of AISB consortium alongside J&J, contributing proprietary structural data for federated AI training.",
       "stakeholders": {
-        "count": 3,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "Head of Translational Biology",
-          "Director Data Science",
-          "VP Research IT"
-        ],
+        "preview": ["Frank Oellien"],
         "people": [
           {
-            "name": "Baohong Zhang",
-            "title": "Director, Genome Informatics, Translational Biology & Research",
-            "linkedin": "https://linkedin.com/in/baohong-zhang",
-            "company": "Biogen"
-          },
-          {
-            "name": "Eunice Jung",
-            "title": "Associate Director, Medical Evidence & Research & Innovation",
-            "linkedin": "https://linkedin.com/in/eunice-jung",
-            "company": "Biogen"
-          },
-          {
-            "name": "Adama Ibrahim",
-            "title": "Associate Director, Clinical Operations",
-            "linkedin": "https://linkedin.com/in/adama-ibrahim",
-            "company": "Biogen"
+            "name": "Frank Oellien",
+            "title": "VP, Computational Chemistry",
+            "linkedin": "https://linkedin.com/in/frank-oellien",
+            "company": "AbbVie"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
       }
     },
     {
       "rank": 12,
-      "ticker": "REGN",
-      "company": "Regeneron Pharmaceuticals",
-      "domain": "regeneron.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Genetic Data Science and AI at Scale",
-      "signalDetail": "Presented on leveraging genetic data at scale with AI. Regeneron Genetics Center is one of the world's largest sequencing efforts. Focus on target identification and validation.",
-      "urgency": "High",
-      "focus": "Genetic Data Science, Target ID",
+      "company": "Johnson & Johnson",
+      "domain": "jnj.com",
+      "conference": "AISB/OpenFold3 Consortium",
+      "talkTitle": "Founding member of AI Structural Biology Network",
+      "signalDetail": "J&J is a founding member of AISB consortium alongside AbbVie. Leading federated learning for protein structure prediction.",
       "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Head of Genomics",
-          "VP Data Sciences",
-          "Director Bioinformatics"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 13,
-      "ticker": "LLY",
-      "company": "Eli Lilly",
-      "domain": "lilly.com",
-      "conference": "NVIDIA GTC 2025",
-      "talkTitle": "GPU-Accelerated Drug Discovery and Molecular Simulations",
-      "signalDetail": "Presented at NVIDIA GTC on GPU-accelerated drug discovery. Heavy investment in AI for small molecule and biologics discovery. Partnership with tech companies for AI infrastructure.",
-      "urgency": "High",
-      "focus": "GPU Computing, Molecular Simulations",
-      "stakeholders": {
-        "count": 3,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "VP Computational Biology",
-          "Head of AI/ML",
-          "Director Research Computing"
-        ],
+        "preview": ["Michael Gormley"],
         "people": [
           {
-            "name": "Helen Li",
-            "title": "Group Leader",
-            "linkedin": "https://linkedin.com/in/helen-li-lilly",
-            "company": "Eli Lilly"
-          },
-          {
-            "name": "Tonglei Li",
-            "title": "Professor, Pharmaceutical Sciences",
-            "linkedin": "https://linkedin.com/in/tonglei-li",
-            "company": "University of Kentucky (Collaborator)"
-          },
-          {
-            "name": "Bin Li",
-            "title": "Director, Computational Biology & Translational Medicine",
-            "linkedin": "https://linkedin.com/in/bin-li",
-            "company": "Takeda (Former Lilly)"
+            "name": "Michael Gormley",
+            "title": "Director, Computational Sciences",
+            "linkedin": "https://linkedin.com/in/michael-gormley-jnj",
+            "company": "Johnson & Johnson"
           }
         ]
-      },
-      "sources": {
-        "primarySource": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2025-highlights-foundation-models-and-ai-drug-discovery/",
-        "conferenceLink": "https://www.nvidia.com/gtc/sessions/gtc-healthcare-and-life-sciences/"
-      }
-    },
-    {
-      "rank": 14,
-      "ticker": "MRK",
-      "company": "Merck & Co.",
-      "domain": "merck.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI-Driven Clinical Trial Design and Optimization",
-      "signalDetail": "Presented on AI applications in clinical trial design and patient recruitment. Focus on predictive analytics for trial success and site selection optimization.",
-      "urgency": "High",
-      "focus": "Clinical AI, Trial Optimization",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "VP Data Sciences",
-          "Head of Clinical Informatics",
-          "Director AI Research"
-        ],
-        "people": [
-          {
-            "name": "Carol Rohl",
-            "title": "Executive Director, Research IT",
-            "linkedin": "https://linkedin.com/in/carol-rohl",
-            "company": "Merck Research Labs"
-          },
-          {
-            "name": "Tim Hare",
-            "title": "VP, Head of Data Science (Former Merck)",
-            "linkedin": "https://linkedin.com/in/timhare11235",
-            "company": "81qd (Ex-Merck)"
-          },
-          {
-            "name": "Vasu Chandrasekaran",
-            "title": "Director, Data Sciences & Strategy",
-            "linkedin": "https://linkedin.com/in/vasu-chandrasekaran",
-            "company": "Merck & Co."
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 15,
-      "ticker": "SNY",
-      "company": "Sanofi",
-      "domain": "sanofi.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Translational Informatics and AI in Drug Development",
-      "signalDetail": "Presented on translational informatics applications. Focus on integrating multi-modal data for drug development decisions. Partnership with AI vendors.",
-      "urgency": "High",
-      "focus": "Translational Informatics, Multi-modal Data",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Director Translational Informatics",
-          "Head of Data Science",
-          "VP Digital R&D"
-        ],
-        "people": [
-          {
-            "name": "LiMing Shen",
-            "title": "Director, Translational Informatics, R&D",
-            "linkedin": "https://linkedin.com/in/liming-shen",
-            "company": "Sanofi"
-          },
-          {
-            "name": "Ryan Sonfist",
-            "title": "Project Leader, R&D",
-            "linkedin": "https://linkedin.com/in/ryan-sonfist",
-            "company": "Sanofi"
-          },
-          {
-            "name": "Vladimir Dragalin",
-            "title": "VP & Scientific Fellow",
-            "linkedin": "https://linkedin.com/in/vladimir-dragalin",
-            "company": "Janssen (Former Sanofi)"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
-      }
-    },
-    {
-      "rank": 16,
-      "ticker": "TAK",
-      "company": "Takeda Pharmaceuticals",
-      "domain": "takeda.com",
-      "conference": "Bio-IT World 2025 + Google Cloud Next 2025",
-      "talkTitle": "Global Data Engineering and Emerging Technologies",
-      "signalDetail": "Presented on global data engineering strategy and emerging technologies including AI/ML. Strong cloud partnership for R&D data management.",
-      "urgency": "High",
-      "focus": "Data Engineering, Cloud AI",
-      "stakeholders": {
-        "count": 4,
-        "locked": false,
-        "preview": [
-          "Global Head Data Engineering",
-          "VP Computational Biology",
-          "Head of AI/ML"
-        ],
-        "people": [
-          {
-            "name": "Jason Tetrault",
-            "title": "Global Head Data Engineering and Emerging Technologies",
-            "linkedin": "https://linkedin.com/in/jason-tetrault",
-            "company": "Takeda"
-          },
-          {
-            "name": "Sandor Szalma",
-            "title": "Global Head, Computational Biology",
-            "linkedin": "https://linkedin.com/in/sandor-szalma",
-            "company": "Takeda San Diego"
-          },
-          {
-            "name": "Sean Liu",
-            "title": "Global Head, Translational Science Systems",
-            "linkedin": "https://linkedin.com/in/sean-liu-takeda",
-            "company": "Takeda Pharmaceuticals"
-          },
-          {
-            "name": "Erik Koenig",
-            "title": "Principal Scientist, Translational Oncology, Head Strategy Innovation Management",
-            "linkedin": "https://linkedin.com/in/erik-koenig",
-            "company": "Takeda"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://cloud.google.com/transform/healthcare-next25-wrapup-hcls-cloud-news"
-      }
-    },
-    {
-      "rank": 17,
-      "ticker": "VRTX",
-      "company": "Vertex Pharmaceuticals",
-      "domain": "vrtx.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Scientific Computing Infrastructure for Drug Discovery",
-      "signalDetail": "Presented on scientific computing infrastructure supporting AI/ML drug discovery. Focus on cloud-native architectures and high-performance computing.",
-      "urgency": "High",
-      "focus": "Scientific Computing, Cloud Infrastructure",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Senior Director Scientific Computing",
-          "Head of Research IT",
-          "VP Data Sciences"
-        ],
-        "people": [
-          {
-            "name": "Susan Roberts",
-            "title": "Senior Director, Scientific Computing",
-            "linkedin": "https://linkedin.com/in/susan-roberts-vertex",
-            "company": "Vertex Pharmaceuticals"
-          },
-          {
-            "name": "Jean-Remy Behaeghel",
-            "title": "Senior Director, Clinical & Quality & Manufacturing Systems, Global IS",
-            "linkedin": "https://linkedin.com/in/jean-remy-behaeghel",
-            "company": "Vertex Pharmaceuticals"
-          },
-          {
-            "name": "Valerie Smith",
-            "title": "Director IT",
-            "linkedin": "https://linkedin.com/in/valerie-smith-vertex",
-            "company": "Alkermes (Former Vertex)"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 18,
-      "ticker": "BMRN",
-      "company": "BioMarin Pharmaceutical",
-      "domain": "biomarin.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Data Science for Rare Disease Drug Development",
-      "signalDetail": "Presented on data science applications in rare disease drug development. Focus on small patient populations and innovative trial designs.",
-      "urgency": "Medium",
-      "focus": "Rare Disease AI, Clinical Design",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "VP Data Science",
-          "Head of Bioinformatics",
-          "Director Research IT"
-        ],
-        "people": [
-          {
-            "name": "Benjamin S.",
-            "title": "VP of Data Science",
-            "linkedin": "https://linkedin.com/in/benjamin-s-364443184",
-            "company": "BioMarin Pharmaceutical Inc."
-          },
-          {
-            "name": "Hans Bitter",
-            "title": "VP Data Sciences",
-            "linkedin": "https://linkedin.com/in/hans-bitter",
-            "company": "bluebird bio (Industry Expert)"
-          },
-          {
-            "name": "Anne Carpenter",
-            "title": "Director, Imaging Platform",
-            "linkedin": "https://linkedin.com/in/anne-carpenter",
-            "company": "Broad Institute"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 19,
-      "ticker": "ALNY",
-      "company": "Alnylam Pharmaceuticals",
-      "domain": "alnylam.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI for RNAi Drug Discovery",
-      "signalDetail": "Presented on AI applications in RNAi drug discovery. Focus on sequence optimization and delivery system design using machine learning.",
-      "urgency": "Medium",
-      "focus": "RNAi Design, Sequence Optimization",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "VP Computational Biology",
-          "Head of Informatics",
-          "Director AI/ML"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
-      }
-    },
-    {
-      "rank": 20,
-      "ticker": "IONS",
-      "company": "Ionis Pharmaceuticals",
-      "domain": "ionispharma.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Computational Approaches for Antisense Drug Design",
-      "signalDetail": "Presented on computational approaches for antisense oligonucleotide design. AI/ML for target selection and sequence optimization.",
-      "urgency": "Medium",
-      "focus": "ASO Design, Computational Chemistry",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "VP Computational Sciences",
-          "Head of Bioinformatics",
-          "Director Research IT"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
-      }
-    },
-    {
-      "rank": 21,
-      "ticker": "EXAS",
-      "company": "Exact Sciences",
-      "domain": "exactsciences.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI-Powered Cancer Diagnostics",
-      "signalDetail": "Presented on AI applications in cancer diagnostics. Focus on multi-cancer early detection and precision medicine using genomic data.",
-      "urgency": "High",
-      "focus": "Diagnostics AI, Genomics",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Chief Data Officer",
-          "VP Computational Biology",
-          "Head of AI/ML"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 22,
-      "ticker": "ILMN",
-      "company": "Illumina",
-      "domain": "illumina.com",
-      "conference": "Bio-IT World 2025 + NVIDIA GTC 2025",
-      "talkTitle": "AI-Accelerated Genomics and Foundation Models",
-      "signalDetail": "Major presence at both Bio-IT World and NVIDIA GTC. Presented on AI-accelerated genomics analysis and foundation models for DNA/RNA. Partnership with NVIDIA for GPU computing.",
-      "urgency": "Critical",
-      "focus": "Genomics AI, Foundation Models",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "VP Software & Informatics",
-          "Head of AI/ML",
-          "Director Bioinformatics"
-        ],
-        "people": [
-          {
-            "name": "Pankaj Srivastava",
-            "title": "VP of Software and Informatics",
-            "linkedin": "https://linkedin.com/in/pankaj-srivastava",
-            "company": "Illumina"
-          },
-          {
-            "name": "Stacey Gabriel",
-            "title": "Senior Director, Genomics Platform",
-            "linkedin": "https://linkedin.com/in/stacey-gabriel",
-            "company": "Broad Institute"
-          },
-          {
-            "name": "Morten Sogaard",
-            "title": "VP & Head Genome Sciences & Technologies, Worldwide R&D",
-            "linkedin": "https://linkedin.com/in/morten-sogaard",
-            "company": "Pfizer"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.nvidia.com/gtc/sessions/gtc-healthcare-and-life-sciences/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/speakers"
-      }
-    },
-    {
-      "rank": 23,
-      "ticker": "TMO",
-      "company": "Thermo Fisher Scientific",
-      "domain": "thermofisher.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI-Powered Lab Informatics and Data Management",
-      "signalDetail": "Presented on AI applications in lab informatics and data management. Focus on workflow automation and data integration across R&D operations.",
-      "urgency": "High",
-      "focus": "Lab Informatics, Data Management",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "VP Head of Data Capabilities",
-          "Head of Informatics",
-          "Director AI/ML"
-        ],
-        "people": [
-          {
-            "name": "Sarah Rudolph",
-            "title": "VP, Head of Data Capabilities, CRG",
-            "linkedin": "https://linkedin.com/in/sarah-rudolph-8745659",
-            "company": "Thermo Fisher Scientific"
-          },
-          {
-            "name": "Marc Siladi",
-            "title": "Head, Data Science & Product Strategy",
-            "linkedin": "https://linkedin.com/in/marc-siladi",
-            "company": "Thermo Fisher Scientific"
-          },
-          {
-            "name": "Tim Miller",
-            "title": "VP Life Sciences Platform Solutions",
-            "linkedin": "https://linkedin.com/in/tim-miller-thermo",
-            "company": "Elsevier (Former Thermo Fisher)"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
-      }
-    },
-    {
-      "rank": 24,
-      "ticker": "DHR",
-      "company": "Danaher (Cytiva, Pall)",
-      "domain": "danaher.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Digital Manufacturing and AI in Bioprocessing",
-      "signalDetail": "Presented on AI applications in biomanufacturing and bioprocessing. Focus on process optimization and quality control using machine learning.",
-      "urgency": "High",
-      "focus": "Bioprocessing AI, Manufacturing",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "VP Digital Innovation",
-          "Head of Data Science",
-          "Director Process Analytics"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
-      }
-    },
-    {
-      "rank": 25,
-      "ticker": "SLAB",
-      "company": "Silicon Labs (Sapio Sciences Partner)",
-      "domain": "silabs.com",
-      "conference": "NVIDIA GTC 2025",
-      "talkTitle": "Integration of NVIDIA BioNeMo into Lab Informatics",
-      "signalDetail": "Sapio Sciences announced integration of NVIDIA BioNeMo into Sapio Lab Informatics Platform at GTC 2025. Brings computational drug discovery directly into ELN.",
-      "urgency": "High",
-      "focus": "Lab Informatics, BioNeMo Integration",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "CEO Sapio Sciences",
-          "Head of Product",
-          "VP Engineering"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2025-highlights-foundation-models-and-ai-drug-discovery/",
-        "conferenceLink": "https://www.nvidia.com/gtc/dc/"
-      }
-    },
-    {
-      "rank": 26,
-      "ticker": "CDNS",
-      "company": "Cadence Design Systems",
-      "domain": "cadence.com",
-      "conference": "NVIDIA GTC 2025",
-      "talkTitle": "Accelerated Computing and Agentic AI for Drug Discovery",
-      "signalDetail": "Announced expanded multi-year collaboration with NVIDIA at GTC 2025. Integration of BioNeMo NIM microservices with Orion molecular design platform for drug discovery.",
-      "urgency": "High",
-      "focus": "Molecular Design, GPU Computing",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "VP Life Sciences",
-          "Head of Orion Platform",
-          "Director AI/ML"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2025-highlights-foundation-models-and-ai-drug-discovery/",
-        "conferenceLink": "https://www.nvidia.com/gtc/dc/"
-      }
-    },
-    {
-      "rank": 27,
-      "ticker": "ARCI",
-      "company": "Arc Institute",
-      "domain": "arcinstitute.org",
-      "conference": "NVIDIA GTC 2025",
-      "talkTitle": "Evo 2: Foundation Models for Biology",
-      "signalDetail": "Patrick Hsu presented on Evo 2, the largest publicly accessible AI model for biology. Trained on 9.3 trillion nucleotides. Partnership with NVIDIA for model development.",
-      "urgency": "Critical",
-      "focus": "Foundation Models, Genomics AI",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Co-founder & Core Investigator",
-          "Head of ML",
-          "Director Computational Biology"
-        ],
-        "people": [
-          {
-            "name": "Patrick Hsu",
-            "title": "Co-founder & Core Investigator",
-            "linkedin": "https://linkedin.com/in/patrick-hsu-arc",
-            "company": "Arc Institute"
-          },
-          {
-            "name": "Anthony Costa",
-            "title": "Director, Digital Biology",
-            "linkedin": "https://linkedin.com/in/anthony-costa-nvidia",
-            "company": "NVIDIA"
-          },
-          {
-            "name": "Kimberly Powell",
-            "title": "VP, Healthcare",
-            "linkedin": "https://linkedin.com/in/kimberly-powell",
-            "company": "NVIDIA"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-gtc-2025-highlights-foundation-models-and-ai-drug-discovery/",
-        "conferenceLink": "https://arcinstitute.org/tools/evo/evo-designer"
-      }
-    },
-    {
-      "rank": 28,
-      "ticker": "RXRX",
-      "company": "Recursion Pharmaceuticals",
-      "domain": "recursion.com",
-      "conference": "NVIDIA GTC 2025 + Bio-IT World 2025",
-      "talkTitle": "AI-First Drug Discovery at Scale",
-      "signalDetail": "Presented on AI-first drug discovery platform. One of the largest biological datasets for AI. Strong NVIDIA partnership for GPU computing.",
-      "urgency": "Critical",
-      "focus": "AI Drug Discovery, Large-scale Biology",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "CEO",
-          "Chief Technology Officer",
-          "VP Data Science"
-        ],
-        "people": [
-          {
-            "name": "Chris Gibson",
-            "title": "CEO & Co-founder",
-            "linkedin": "https://linkedin.com/in/chris-gibson-recursion",
-            "company": "Recursion"
-          },
-          {
-            "name": "Matt Hodgskiss",
-            "title": "Associate Director, Scientific Data Engineering",
-            "linkedin": "https://linkedin.com/in/matt-hodgskiss-5716362a",
-            "company": "Recursion"
-          },
-          {
-            "name": "Devin Locke",
-            "title": "Senior Vice President, Science",
-            "linkedin": "https://linkedin.com/in/devin-locke",
-            "company": "Seven Bridges"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.nvidia.com/gtc/sessions/gtc-healthcare-and-life-sciences/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/speakers"
-      }
-    },
-    {
-      "rank": 29,
-      "ticker": "INSI",
-      "company": "Insilico Medicine",
-      "domain": "insilico.com",
-      "conference": "NVIDIA GTC 2025",
-      "talkTitle": "Generative AI for Drug Discovery",
-      "signalDetail": "Presented on generative AI applications in drug discovery. Partnered with Novartis. First AI-discovered drug in clinical trials.",
-      "urgency": "Critical",
-      "focus": "Generative AI, Drug Discovery",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "CEO & Founder",
-          "CSO",
-          "Head of AI/ML"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.nvidia.com/gtc/sessions/gtc-healthcare-and-life-sciences/",
-        "conferenceLink": "https://www.nvidia.com/en-us/on-demand/playlist/gtcdc25-ai-for-science/"
-      }
-    },
-    {
-      "rank": 30,
-      "ticker": "EXAI",
-      "company": "Exscientia",
-      "domain": "exscientia.ai",
-      "conference": "NVIDIA GTC 2025",
-      "talkTitle": "AI-Designed Drugs: From Discovery to Clinic",
-      "signalDetail": "Presented on AI-designed drugs in clinical development. Multiple AI-discovered candidates in trials. Partnered with major pharma companies.",
-      "urgency": "Critical",
-      "focus": "AI Drug Design, Clinical Development",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "CEO",
-          "Chief Technology Officer",
-          "VP AI/ML"
-        ],
-        "people": [
-          {
-            "name": "Matt Hodgskiss",
-            "title": "Associate Director, Scientific Data Engineering (Former)",
-            "linkedin": "https://linkedin.com/in/matt-hodgskiss-5716362a",
-            "company": "Recursion (Ex-Exscientia)"
-          },
-          {
-            "name": "Andrew Hopkins",
-            "title": "CEO & Founder",
-            "linkedin": "https://linkedin.com/in/andrew-hopkins-exscientia",
-            "company": "Exscientia"
-          },
-          {
-            "name": "David Brown",
-            "title": "Chief Scientific Officer (Former)",
-            "linkedin": "https://linkedin.com/in/david-brown-exscientia",
-            "company": "Exscientia"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.nvidia.com/gtc/sessions/gtc-healthcare-and-life-sciences/",
-        "conferenceLink": "https://www.nvidia.com/en-us/on-demand/playlist/gtcdc25-ai-for-science/"
-      }
-    },
-    {
-      "rank": 31,
-      "ticker": "GOOG",
-      "company": "Google DeepMind / Isomorphic Labs",
-      "domain": "deepmind.google",
-      "conference": "Google Cloud Next 2025 + NVIDIA GTC 2025",
-      "talkTitle": "AlphaFold3 and Foundation Models for Biology",
-      "signalDetail": "Major presence at both conferences. AlphaFold3 announced for drug discovery applications. Isomorphic Labs pursuing AI-first drug discovery.",
-      "urgency": "Critical",
-      "focus": "AlphaFold, Foundation Models",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "CEO Isomorphic Labs",
-          "Head of AlphaFold",
-          "VP Healthcare AI"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://cloud.google.com/transform/healthcare-next25-wrapup-hcls-cloud-news",
-        "conferenceLink": "https://www.nvidia.com/en-us/on-demand/playlist/gtcdc25-ai-for-science/"
-      }
-    },
-    {
-      "rank": 32,
-      "ticker": "CAH",
-      "company": "Cardinal Health",
-      "domain": "cardinalhealth.com",
-      "conference": "Google Cloud Next 2025",
-      "talkTitle": "AI-First Approach to Product Innovation",
-      "signalDetail": "Presented AI-first approach to product innovation at Google Cloud Next 2025. Using AI as core foundation for personalized experiences and automation.",
-      "urgency": "High",
-      "focus": "AI Product Innovation, Healthcare",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Chief Digital Officer",
-          "VP Data Science",
-          "Head of AI Innovation"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://cloud.google.com/transform/healthcare-next25-wrapup-hcls-cloud-news",
-        "conferenceLink": "https://cloud.withgoogle.com/next/25/session-library"
-      }
-    },
-    {
-      "rank": 33,
-      "ticker": "HCA",
-      "company": "HCA Healthcare",
-      "domain": "hcahealthcare.com",
-      "conference": "Google Cloud Next 2025",
-      "talkTitle": "Agentic Workflows & Modern Data Platforms in Healthcare",
-      "signalDetail": "Presented on AI agents and modern data platforms at Google Cloud Next 2025. Focus on clinical workflow optimization and patient care improvements.",
-      "urgency": "High",
-      "focus": "Healthcare AI, Clinical Workflows",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Chief Data Officer",
-          "VP Digital Innovation",
-          "Head of AI/ML"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://cloud.google.com/transform/healthcare-next25-wrapup-hcls-cloud-news",
-        "conferenceLink": "https://cloud.withgoogle.com/next/25/session-library"
-      }
-    },
-    {
-      "rank": 34,
-      "ticker": "MSFT",
-      "company": "Microsoft Research",
-      "domain": "microsoft.com",
-      "conference": "Microsoft Build 2025",
-      "talkTitle": "Multimodal Generative AI for Precision Health",
-      "signalDetail": "Matthew Lungren presented on developing next-gen cancer care with multi-agent orchestration. Healthcare AI Orchestrator for clinical collaboration.",
-      "urgency": "Critical",
-      "focus": "Healthcare AI, Precision Medicine",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Chief Medical Officer",
-          "Head of Healthcare AI",
-          "VP Research"
-        ],
-        "people": [
-          {
-            "name": "Matthew Lungren",
-            "title": "Chief Medical Officer (Research)",
-            "linkedin": "https://linkedin.com/in/matthew-lungren",
-            "company": "Microsoft Research"
-          },
-          {
-            "name": "Peter Lee",
-            "title": "Corporate VP, Microsoft Research",
-            "linkedin": "https://linkedin.com/in/peter-lee-microsoft",
-            "company": "Microsoft"
-          },
-          {
-            "name": "Hoifung Poon",
-            "title": "General Manager, Health Futures",
-            "linkedin": "https://linkedin.com/in/hoifung-poon",
-            "company": "Microsoft Research"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://aka.ms/HLSatBuild25",
-        "conferenceLink": "https://news.microsoft.com/build-2025/"
-      }
-    },
-    {
-      "rank": 35,
-      "ticker": "BROAD",
-      "company": "Broad Institute",
-      "domain": "broadinstitute.org",
-      "conference": "Bio-IT World 2025 + NVIDIA GTC 2025",
-      "talkTitle": "Data Sciences Platform and Foundation Models",
-      "signalDetail": "Multiple presentations on data sciences platform and foundation models for biology. Key partner for pharma AI initiatives.",
-      "urgency": "High",
-      "focus": "Data Platform, Foundation Models",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Chief Data Officer",
-          "Director Imaging Platform",
-          "Head of ML"
-        ],
-        "people": [
-          {
-            "name": "Anthony Philippakis",
-            "title": "Chief Data Officer, Data Sciences & Data Engineering",
-            "linkedin": "https://linkedin.com/in/anthony-philippakis",
-            "company": "Broad Institute"
-          },
-          {
-            "name": "Anne Carpenter",
-            "title": "Director, Imaging Platform",
-            "linkedin": "https://linkedin.com/in/anne-carpenter",
-            "company": "Broad Institute"
-          },
-          {
-            "name": "Eric Banks",
-            "title": "Senior Director, Data Sciences Platform",
-            "linkedin": "https://linkedin.com/in/eric-banks",
-            "company": "Broad Institute"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.nvidia.com/gtc/sessions/gtc-healthcare-and-life-sciences/"
-      }
-    },
-    {
-      "rank": 36,
-      "ticker": "7SB",
-      "company": "Seven Bridges Genomics",
-      "domain": "sevenbridges.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Cloud-Native Genomics and AI/ML Integration",
-      "signalDetail": "Presented on cloud-native genomics platform and AI/ML integration. Focus on scalable analysis and collaboration for life sciences.",
-      "urgency": "High",
-      "focus": "Cloud Genomics, AI/ML Platform",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "SVP Science",
-          "Head of Product",
-          "Director Engineering"
-        ],
-        "people": [
-          {
-            "name": "Devin Locke",
-            "title": "Senior Vice President, Science",
-            "linkedin": "https://linkedin.com/in/devin-locke",
-            "company": "Seven Bridges"
-          },
-          {
-            "name": "Christian Frech",
-            "title": "Associate Director, Scientific Operations",
-            "linkedin": "https://linkedin.com/in/christian-frech",
-            "company": "Seven Bridges"
-          },
-          {
-            "name": "Brandi Davis-Dusenbery",
-            "title": "Director, Scientific Alliances",
-            "linkedin": "https://linkedin.com/in/brandi-davis-dusenbery",
-            "company": "Seven Bridges"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 37,
-      "ticker": "DNB",
-      "company": "DNAnexus",
-      "domain": "dnanexus.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Enterprise Genomics Data Platform",
-      "signalDetail": "Presented on enterprise genomics data platform for pharma and healthcare. Focus on multi-modal data integration and AI/ML workloads.",
-      "urgency": "High",
-      "focus": "Genomics Platform, Enterprise AI",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "CEO",
-          "Chief Scientific Officer",
-          "VP Engineering"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 38,
-      "ticker": "BNCH",
-      "company": "Benchling",
-      "domain": "benchling.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "R&D Cloud Platform for Life Sciences",
-      "signalDetail": "Presented on R&D cloud platform with AI/ML capabilities. Focus on data capture, collaboration, and analytics for drug discovery.",
-      "urgency": "High",
-      "focus": "R&D Platform, Lab Informatics",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "CEO & Founder",
-          "Head of Product",
-          "VP Engineering"
-        ],
-        "people": [
-          {
-            "name": "Sajith Wickramasekara",
-            "title": "Founder & CEO",
-            "linkedin": "https://linkedin.com/in/sajith-wickramasekara",
-            "company": "Benchling"
-          },
-          {
-            "name": "Reed Molbak",
-            "title": "Product Manager",
-            "linkedin": "https://linkedin.com/in/reed-molbak",
-            "company": "Benchling"
-          },
-          {
-            "name": "Eric Weitz",
-            "title": "Senior Software Engineer",
-            "linkedin": "https://linkedin.com/in/eric-weitz",
-            "company": "Broad Institute"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
-      }
-    },
-    {
-      "rank": 39,
-      "ticker": "SNOW",
-      "company": "Snowflake",
-      "domain": "snowflake.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "8 Critical Pillars for Enterprise AI Strategy in Life Sciences",
-      "signalDetail": "Jesse Cugliotta, Global Lead of Healthcare and Life Sciences, presented keynote on enterprise AI strategy. Focus on data architectures for AI in life sciences.",
-      "urgency": "High",
-      "focus": "Data Platform, Enterprise AI",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Global Lead Healthcare & Life Sciences",
-          "VP Product",
-          "Director Solutions Engineering"
-        ],
-        "people": [
-          {
-            "name": "Jesse Cugliotta",
-            "title": "Global Lead, Healthcare and Life Sciences",
-            "linkedin": "https://linkedin.com/in/jesse-cugliotta",
-            "company": "Snowflake"
-          },
-          {
-            "name": "Jonathan Sheffi",
-            "title": "Product Manager, Biomedical Data",
-            "linkedin": "https://linkedin.com/in/jonathan-sheffi",
-            "company": "Google (Industry Expert)"
-          },
-          {
-            "name": "Patrick Bosco",
-            "title": "Global Alliances Director",
-            "linkedin": "https://linkedin.com/in/patrick-bosco",
-            "company": "InterSystems"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://ardigen.com/insights-from-bioit-2025/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/plenary-keynotes"
-      }
-    },
-    {
-      "rank": 40,
-      "ticker": "GLOB",
-      "company": "Globus",
-      "domain": "globus.org",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Research Data Management and Automation",
-      "signalDetail": "Presented on research data management and automation for life sciences. Focus on large-scale data transfer and collaboration.",
-      "urgency": "Medium",
-      "focus": "Data Management, Research Infrastructure",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Chief Customer Officer",
-          "Product Manager",
-          "Director Engineering"
-        ],
-        "people": [
-          {
-            "name": "Vas Vasiliadis",
-            "title": "Chief Customer Officer",
-            "linkedin": "https://linkedin.com/in/vas-vasiliadis",
-            "company": "Globus"
-          },
-          {
-            "name": "Greg Nawrocki",
-            "title": "Director, Customer Engagement",
-            "linkedin": "https://linkedin.com/in/greg-nawrocki",
-            "company": "Globus"
-          },
-          {
-            "name": "Brigitte Raumann",
-            "title": "Product Manager, Life Sciences",
-            "linkedin": "https://linkedin.com/in/brigitte-raumann",
-            "company": "Globus"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 41,
-      "ticker": "BTMI",
-      "company": "BioTeam",
-      "domain": "bioteam.net",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Scientific Computing Infrastructure for AI/ML",
-      "signalDetail": "Presented on scientific computing infrastructure supporting AI/ML in life sciences. Consulting expertise for pharma IT transformation.",
-      "urgency": "Medium",
-      "focus": "Scientific Computing, IT Consulting",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Co-Founder & Senior Director",
-          "Director Technology",
-          "Senior Data Architect"
-        ],
-        "people": [
-          {
-            "name": "Chris Dagdigian",
-            "title": "Co-Founder & Senior Director",
-            "linkedin": "https://linkedin.com/in/chris-dagdigian",
-            "company": "BioTeam"
-          },
-          {
-            "name": "Aaron Gardner",
-            "title": "Director, Technology",
-            "linkedin": "https://linkedin.com/in/aaron-gardner-bioteam",
-            "company": "BioTeam"
-          },
-          {
-            "name": "Karl Gutwin",
-            "title": "Senior Data Architect, Data Sciences",
-            "linkedin": "https://linkedin.com/in/karl-gutwin",
-            "company": "BioTeam"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://bioteam.net/events/bio-it-world-conference-expo-2025/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/speakers"
-      }
-    },
-    {
-      "rank": 42,
-      "ticker": "ARDGN",
-      "company": "Ardigen",
-      "domain": "ardigen.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "LLMs and Knowledge Graphs for Drug Repurposing",
-      "signalDetail": "Presented multiple posters on LLMs, knowledge graphs for drug repurposing, and Nextflow pipelines. New Google Cloud Partner.",
-      "urgency": "Medium",
-      "focus": "LLMs, Knowledge Graphs, Bioinformatics",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "CEO",
-          "Chief Scientific Officer",
-          "Head of AI/ML"
-        ],
-        "people": [
-          {
-            "name": "Lukasz Pawel Nowak",
-            "title": "Representative, Bio-IT World 2025",
-            "linkedin": "https://linkedin.com/in/lukasz-nowak",
-            "company": "Ardigen"
-          },
-          {
-            "name": "Nasim Jamali",
-            "title": "Data Scientist",
-            "linkedin": "https://linkedin.com/in/nasim-jamali",
-            "company": "Ardigen"
-          },
-          {
-            "name": "Marek Kudla",
-            "title": "Scientific Lead",
-            "linkedin": "https://linkedin.com/in/marek-kudla",
-            "company": "Ardigen"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://ardigen.com/insights-from-bioit-2025/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/poster-presentations"
-      }
-    },
-    {
-      "rank": 43,
-      "ticker": "HYVE",
-      "company": "The Hyve",
-      "domain": "thehyve.nl",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "FAIR Data and Open Science Platforms",
-      "signalDetail": "Presented on FAIR data principles and open science platforms for life sciences. Focus on data interoperability and standards.",
-      "urgency": "Medium",
-      "focus": "FAIR Data, Open Science",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "CEO",
-          "Chief Scientific Officer",
-          "Head of Development"
-        ],
-        "people": [
-          {
-            "name": "Kees van Bochove",
-            "title": "CEO",
-            "linkedin": "https://linkedin.com/in/kees-van-bochove",
-            "company": "The Hyve"
-          },
-          {
-            "name": "Erik Schultes",
-            "title": "International Science Coordinator, GO FAIR",
-            "linkedin": "https://linkedin.com/in/erik-schultes",
-            "company": "GO FAIR International"
-          },
-          {
-            "name": "Michel Dumontier",
-            "title": "Distinguished Professor, Institute of Data Science",
-            "linkedin": "https://linkedin.com/in/michel-dumontier",
-            "company": "Maastricht University"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 44,
-      "ticker": "IDBS",
-      "company": "IDBS",
-      "domain": "idbs.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI-Powered R&D Data Management",
-      "signalDetail": "Presented on AI-powered R&D data management solutions. Focus on laboratory informatics and data capture.",
-      "urgency": "Medium",
-      "focus": "Lab Informatics, Data Management",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Commercial Director",
-          "Product Manager",
-          "VP Engineering"
-        ],
-        "people": [
-          {
-            "name": "Graeme Dennis",
-            "title": "Commercial Director, Pre-Clinical Pharma",
-            "linkedin": "https://linkedin.com/in/graeme-dennis",
-            "company": "IDBS"
-          },
-          {
-            "name": "Brady Haggstrom",
-            "title": "Product Manager",
-            "linkedin": "https://linkedin.com/in/brady-haggstrom",
-            "company": "IDBS"
-          },
-          {
-            "name": "Douglas Williams",
-            "title": "Executive Director, Commercial Development",
-            "linkedin": "https://linkedin.com/in/douglas-williams",
-            "company": "Riffyn"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
-      }
-    },
-    {
-      "rank": 45,
-      "ticker": "DOTS",
-      "company": "Dotmatics",
-      "domain": "dotmatics.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Enterprise R&D Informatics Platform",
-      "signalDetail": "Presented on enterprise R&D informatics platform with AI/ML capabilities. Focus on integrated scientific data management.",
-      "urgency": "Medium",
-      "focus": "R&D Informatics, Data Platform",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "CEO",
-          "Senior Manager Biologics Marketing",
-          "VP Product"
-        ],
-        "people": [
-          {
-            "name": "Andrew LeBeau",
-            "title": "Senior Manager, Biologics Marketing",
-            "linkedin": "https://linkedin.com/in/andrew-lebeau",
-            "company": "Dotmatics"
-          },
-          {
-            "name": "John McCarthy",
-            "title": "Pre-Sales Director, Global Life Sciences",
-            "linkedin": "https://linkedin.com/in/john-mccarthy",
-            "company": "Dassault Systemes"
-          },
-          {
-            "name": "Ton van Daelen",
-            "title": "Portfolio Lead, Scientific Informatics",
-            "linkedin": "https://linkedin.com/in/ton-van-daelen",
-            "company": "Dassault Systemes"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
-      }
-    },
-    {
-      "rank": 46,
-      "ticker": "VERC",
-      "company": "Veracyte",
-      "domain": "veracyte.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI-Driven Molecular Diagnostics",
-      "signalDetail": "Presented on AI applications in molecular diagnostics. Focus on genomic testing and precision medicine.",
-      "urgency": "Medium",
-      "focus": "Diagnostics AI, Molecular Testing",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Chief Data Officer",
-          "VP Bioinformatics",
-          "Head of AI/ML"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 47,
-      "ticker": "FMI",
-      "company": "Foundation Medicine",
-      "domain": "foundationmedicine.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Comprehensive Genomic Profiling and AI",
-      "signalDetail": "Presented on AI applications in comprehensive genomic profiling. Focus on cancer diagnostics and precision oncology.",
-      "urgency": "High",
-      "focus": "Cancer Genomics, Precision Oncology",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Chief Data Officer",
-          "VP Bioinformatics",
-          "Director Data Science"
-        ],
-        "people": [
-          {
-            "name": "Gaurav Singal",
-            "title": "Chief Data Officer",
-            "linkedin": "https://linkedin.com/in/gaurav-singal",
-            "company": "Foundation Medicine"
-          },
-          {
-            "name": "Mark Kiel",
-            "title": "CSO & VP Product Strategy",
-            "linkedin": "https://linkedin.com/in/mark-kiel",
-            "company": "GENOMENON"
-          },
-          {
-            "name": "Philip Ross",
-            "title": "Director, Clinical & Translational Data Science",
-            "linkedin": "https://linkedin.com/in/philip-ross",
-            "company": "Bristol-Myers Squibb"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 48,
-      "ticker": "GNMX",
-      "company": "Genome Medical",
-      "domain": "genomemedical.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Scaling Genomic Medicine with AI",
-      "signalDetail": "Presented on scaling genomic medicine with AI and telehealth. Focus on genetic counseling and clinical implementation.",
-      "urgency": "Medium",
-      "focus": "Genomic Medicine, Telehealth",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "CEO",
-          "Chief Medical Officer",
-          "VP Product"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 49,
-      "ticker": "VLYH",
-      "company": "Verily Life Sciences",
-      "domain": "verily.com",
-      "conference": "Google Cloud Next 2025",
-      "talkTitle": "AI Solutions for Healthcare: Real-World Impact",
-      "signalDetail": "Presented at Google Cloud Next on AI solutions for healthcare with real-world results. Partnership with HCA Healthcare featured.",
-      "urgency": "High",
-      "focus": "Healthcare AI, Real-World Evidence",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "CEO",
-          "Chief Data Officer",
-          "VP Engineering"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://cloud.google.com/transform/healthcare-next25-wrapup-hcls-cloud-news",
-        "conferenceLink": "https://cloud.withgoogle.com/next/25/session-library"
-      }
-    },
-    {
-      "rank": 50,
-      "ticker": "FLGT",
-      "company": "Fulgent Genetics",
-      "domain": "fulgentgenetics.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Scaling Genomic Testing with AI",
-      "signalDetail": "Presented on scaling genomic testing operations with AI. Focus on automation and high-throughput analysis.",
-      "urgency": "Medium",
-      "focus": "Genomic Testing, Lab Automation",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Chief Scientific Officer",
-          "VP Informatics",
-          "Director Data Science"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 51,
-      "ticker": "VCYT",
-      "company": "Invitae",
-      "domain": "invitae.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI for Genetic Testing and Interpretation",
-      "signalDetail": "Presented on AI applications in genetic testing and variant interpretation. Focus on scaling genetic analysis.",
-      "urgency": "Medium",
-      "focus": "Genetic Testing, Variant Analysis",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Chief Data Officer",
-          "VP Bioinformatics",
-          "Head of AI/ML"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
-      }
-    },
-    {
-      "rank": 52,
-      "ticker": "NTRSP",
-      "company": "Nurture Genomics",
-      "domain": "nurturegenomics.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Scaling Genomic Medicine: Transforming Newborn Screening",
-      "signalDetail": "Dr. Robert Green delivered keynote on scaling genomic medicine through newborn screening. BabySeq project showcased.",
-      "urgency": "High",
-      "focus": "Newborn Screening, Genomic Medicine",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Founder & Scientific Director",
-          "Chief Medical Officer",
-          "VP Product"
-        ],
-        "people": [
-          {
-            "name": "Robert Green",
-            "title": "Professor of Medicine, Harvard Medical School & Founder",
-            "linkedin": "https://linkedin.com/in/robert-green-harvard",
-            "company": "Nurture Genomics / Harvard Medical School"
-          },
-          {
-            "name": "David Kreda",
-            "title": "Project Lead, Sync for Science",
-            "linkedin": "https://linkedin.com/in/david-kreda",
-            "company": "Harvard Medical School"
-          },
-          {
-            "name": "Samuel Sandy Aronson",
-            "title": "Executive Director IT, Personalized Medicine",
-            "linkedin": "https://linkedin.com/in/samuel-aronson",
-            "company": "Partners HealthCare"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://ardigen.com/insights-from-bioit-2025/",
-        "conferenceLink": "https://www.bio-itworldexpo.com/plenary-keynotes"
-      }
-    },
-    {
-      "rank": 53,
-      "ticker": "IQVIA",
-      "company": "IQVIA",
-      "domain": "iqvia.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI for Clinical Trial Design and Real-World Evidence",
-      "signalDetail": "Presented on AI applications in clinical trial design and real-world evidence. Focus on predictive analytics and site selection.",
-      "urgency": "High",
-      "focus": "Clinical AI, RWE",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Chief Medical Information Officer",
-          "VP Data Science",
-          "Head of AI/ML"
-        ],
-        "people": [
-          {
-            "name": "Jonathan Morris",
-            "title": "Chief Medical Information Officer & VP, Provider Solutions",
-            "linkedin": "https://linkedin.com/in/jonathan-morris",
-            "company": "IQVIA"
-          },
-          {
-            "name": "Jane Reed",
-            "title": "Head, Life Science Strategy, Linguamatics",
-            "linkedin": "https://linkedin.com/in/jane-reed",
-            "company": "Linguamatics, an IQVIA company"
-          },
-          {
-            "name": "Sarah Rudolph",
-            "title": "Former Strategic Planning Director",
-            "linkedin": "https://linkedin.com/in/sarah-rudolph-8745659",
-            "company": "IQVIA (Now Thermo Fisher)"
-          }
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 54,
-      "ticker": "MEDQ",
-      "company": "Medidata Solutions",
-      "domain": "medidata.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI-Powered Clinical Trial Platform",
-      "signalDetail": "Presented on AI-powered clinical trial platform. Focus on patient recruitment, site selection, and trial optimization.",
-      "urgency": "High",
-      "focus": "Clinical Trials AI, Patient Recruitment",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "CEO",
-          "Chief Data Officer",
-          "VP AI/ML"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/data-tracks"
-      }
-    },
-    {
-      "rank": 55,
-      "ticker": "VNDR",
-      "company": "Veeva Systems",
-      "domain": "veeva.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Cloud Software for Life Sciences",
-      "signalDetail": "Presented on cloud software solutions for life sciences R&D. Focus on data management and regulatory compliance.",
-      "urgency": "High",
-      "focus": "Cloud Platform, Regulatory",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "CEO",
-          "Chief Product Officer",
-          "VP Engineering"
-        ]
-      },
-      "sources": {
-        "primarySource": "https://www.bio-itworldexpo.com/speakers",
-        "conferenceLink": "https://www.bio-itworldexpo.com/informatics"
       }
     }
   ]
