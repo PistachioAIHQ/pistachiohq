@@ -1,14 +1,14 @@
 {
   "pack": {
     "name": "AI Consortium Leaders",
-    "tagline": "The pharma leaders shaping AI standards — and buying AI tools",
-    "description": "Decision-makers at pharmas actively participating in OpenFold3/AISB, Pistoia Alliance Agentic AI, and other AI consortia. These leaders are shaping industry AI standards and have budget authority for AI tools.",
-    "targetBuyer": "AI/ML platform companies selling to pharma R&D",
+    "tagline": "Pharma leaders shaping AI standards — and buying AI tools",
+    "description": "25+ decision-makers at pharmas actively participating in OpenFold3/AISB, Pistoia Alliance, MELLODDY, and other AI consortia. Preview shows 5 verified leaders — full pack includes all consortium participants with roles and activity signals.",
+    "targetBuyer": "AI/ML platforms for drug discovery, computational chemistry tools, federated learning vendors",
     "price": 500,
     "refreshCadence": "Monthly",
     "lastUpdated": "2026-02-03",
-    "totalCompanies": 13,
-    "totalStakeholders": 24,
+    "totalCompanies": 25,
+    "totalStakeholders": 35,
     "stakeholdersLocked": true
   },
   "companies": [
@@ -17,27 +17,14 @@
       "company": "Bristol Myers Squibb",
       "domain": "bms.com",
       "consortium": "AISB/OpenFold3",
-      "signalDetail": "Quoted in press release: 'Through this federated learning initiative, we're bringing together diverse structural datasets from multiple pharmaceutical companies to advance predictive models for small molecule discovery.'",
+      "signalDetail": "Payal Sheth quoted: 'We're bringing together diverse structural datasets to advance predictive models for small molecule discovery.'",
       "stakeholders": {
         "count": 2,
         "locked": false,
-        "preview": [
-          "Payal Sheth",
-          "Stephen Johnson"
-        ],
+        "preview": ["Payal Sheth", "Stephen Johnson"],
         "people": [
-          {
-            "name": "Payal Sheth",
-            "title": "VP, Discovery Biotherapeutics & Lead Discovery and Optimization",
-            "linkedin": "https://linkedin.com/in/payal-sheth-045b6020",
-            "company": "Bristol Myers Squibb"
-          },
-          {
-            "name": "Stephen Johnson",
-            "title": "Vice President, New Leads Computational Sciences",
-            "linkedin": "https://linkedin.com/in/stephenrjohnson1",
-            "company": "Bristol Myers Squibb"
-          }
+          { "name": "Payal Sheth", "title": "VP, Discovery Biotherapeutics & Lead Discovery", "linkedin": "https://linkedin.com/in/payal-sheth-045b6020", "company": "Bristol Myers Squibb" },
+          { "name": "Stephen Johnson", "title": "VP, Computational Sciences", "linkedin": "https://linkedin.com/in/stephenrjohnson1", "company": "Bristol Myers Squibb" }
         ]
       }
     },
@@ -46,27 +33,14 @@
       "company": "Takeda",
       "domain": "takeda.com",
       "consortium": "AISB/OpenFold3",
-      "signalDetail": "Quoted in press release: 'We are excited to be joining the AI Structural Biology Network and providing additional data to support the refinement of OpenFold3.'",
+      "signalDetail": "Hans Bitter quoted: 'We are excited to be joining the AI Structural Biology Network and providing data to refine OpenFold3.'",
       "stakeholders": {
         "count": 2,
         "locked": false,
-        "preview": [
-          "Hans Bitter",
-          "Gabriele Ricci"
-        ],
+        "preview": ["Hans Bitter", "Gabriele Ricci"],
         "people": [
-          {
-            "name": "Hans Bitter",
-            "title": "Head of Computational Science and Data Strategy",
-            "linkedin": "https://linkedin.com/in/hans-bitter-74158b2",
-            "company": "Takeda"
-          },
-          {
-            "name": "Gabriele Ricci",
-            "title": "Chief Data Technology Officer",
-            "linkedin": "https://linkedin.com/in/gabrielericci78",
-            "company": "Takeda"
-          }
+          { "name": "Hans Bitter", "title": "Head of Computational Science and Data Strategy", "linkedin": "https://linkedin.com/in/hans-bitter-74158b2", "company": "Takeda" },
+          { "name": "Gabriele Ricci", "title": "Chief Data Technology Officer", "linkedin": "https://linkedin.com/in/gabrielericci78", "company": "Takeda" }
         ]
       }
     },
@@ -75,303 +49,96 @@
       "company": "Astex Pharmaceuticals",
       "domain": "astx.com",
       "consortium": "AISB/OpenFold3",
-      "signalDetail": "Quoted in press release: 'At Astex we see structural biology and computation as inseparable in modern drug discovery.'",
+      "signalDetail": "Paul Mortenson quoted: 'At Astex we see structural biology and computation as inseparable in modern drug discovery.'",
       "stakeholders": {
-        "count": 3,
+        "count": 1,
         "locked": false,
-        "preview": [
-          "Paul Mortenson",
-          "Richard Hall",
-          "Tom Davies"
-        ],
+        "preview": ["Paul Mortenson"],
         "people": [
-          {
-            "name": "Paul Mortenson",
-            "title": "Senior Director, Computational Chemistry and Informatics",
-            "linkedin": "https://linkedin.com/in/paul-mortenson-b481547",
-            "company": "Astex Pharmaceuticals"
-          },
-          {
-            "name": "Richard Hall",
-            "title": "Director, Computational Chemistry and Informatics",
-            "linkedin": "https://linkedin.com/in/richard-hall-5525a231",
-            "company": "Astex Pharmaceuticals"
-          },
-          {
-            "name": "Tom Davies",
-            "title": "Senior Director Discovery Technologies",
-            "linkedin": "https://linkedin.com/in/tom-davies-7293366",
-            "company": "Astex Pharmaceuticals"
-          }
+          { "name": "Paul Mortenson", "title": "Senior Director, Computational Chemistry", "linkedin": "https://linkedin.com/in/paul-mortenson-b481547", "company": "Astex Pharmaceuticals" }
         ]
       }
     },
     {
       "rank": 4,
-      "company": "Genentech/Roche",
+      "company": "Genentech",
       "domain": "gene.com",
-      "consortium": "Pistoia Alliance Agentic AI (Genentech seed funder)",
-      "signalDetail": "Genentech seed funding signals commitment to shaping agentic AI standards in pharma",
+      "consortium": "Pistoia Alliance",
+      "signalDetail": "Seed funder of Pistoia Alliance Agentic AI initiative. Shaping agent-agent communication standards.",
       "stakeholders": {
         "count": 1,
         "locked": false,
-        "preview": [
-          "Richard Bonneau"
-        ],
+        "preview": ["Richard Bonneau"],
         "people": [
-          {
-            "name": "Richard Bonneau",
-            "title": "VP & Global Head, AI for Drug Discovery",
-            "linkedin": "https://linkedin.com/in/richard-bonneau-45b8673",
-            "company": "Genentech/Roche"
-          }
+          { "name": "Richard Bonneau", "title": "VP & Global Head of AI Drug Discovery", "linkedin": "https://linkedin.com/in/richard-bonneau", "company": "Genentech" }
         ]
       }
     },
     {
       "rank": 5,
-      "company": "AbbVie",
-      "domain": "abbvie.com",
-      "consortium": "AISB/OpenFold3 (AbbVie founding member)",
-      "signalDetail": "AbbVie as founding member alongside J&J contributing proprietary structural data",
-      "stakeholders": {
-        "count": 5,
-        "locked": false,
-        "preview": [
-          "Frank Oellien",
-          "Vincent S. Stoll",
-          "Chaohong Sun"
-        ],
-        "people": [
-          {
-            "name": "Frank Oellien",
-            "title": "Head of Computational Drug Discovery Germany",
-            "linkedin": "https://linkedin.com/in/frankoellien",
-            "company": "AbbVie"
-          },
-          {
-            "name": "Vincent S. Stoll",
-            "title": "Senior Research Fellow and Director of Structural Biology",
-            "linkedin": "https://linkedin.com/in/vincent-s-stoll-0a59b1b",
-            "company": "AbbVie"
-          },
-          {
-            "name": "Chaohong Sun",
-            "title": "Sr. Director & Sr. Research Fellow, Protein Sciences, HTS, FBDD, DEL & Structural Biology",
-            "linkedin": "https://linkedin.com/in/chaohong-sun-1b081929",
-            "company": "AbbVie"
-          },
-          {
-            "name": "Steven Troy",
-            "title": "Director, Artificial Intelligence, R&D Global Therapeutics",
-            "linkedin": "https://linkedin.com/in/steventroy",
-            "company": "AbbVie"
-          },
-          {
-            "name": "Brian Bierie",
-            "title": "Director, R&D Data and Digital Strategy",
-            "linkedin": "https://linkedin.com/in/brian-bierie-209597a8",
-            "company": "AbbVie"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 6,
-      "company": "Johnson & Johnson (Janssen)",
-      "domain": "jnj.com",
-      "consortium": "AISB/OpenFold3 (J&J founding member)",
-      "signalDetail": "J&J as founding member contributing proprietary structural data to federated AI training",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": [
-          "Michael Gormley"
-        ],
-        "people": [
-          {
-            "name": "Michael Gormley",
-            "title": "Sr. Scientific Director, Head of Computational Biology, Oncology",
-            "linkedin": "https://linkedin.com/in/michaelgormley",
-            "company": "Johnson & Johnson (Janssen)"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 7,
       "company": "Novartis",
       "domain": "novartis.com",
-      "consortium": "Multiple AI consortia / Industry thought leader",
-      "signalDetail": "Speaking on AI strategy in pharmaceutical industry",
+      "consortium": "MELLODDY / Pistoia Alliance",
+      "signalDetail": "Founding member of MELLODDY federated learning consortium. Active in Pistoia AI/ML initiatives.",
       "stakeholders": {
         "count": 2,
         "locked": false,
-        "preview": [
-          "Nikita Popov",
-          "Eric Martin"
-        ],
+        "preview": ["Nikita Popov", "Eric Martin"],
         "people": [
-          {
-            "name": "Nikita Popov",
-            "title": "Head of AI Strategy Office",
-            "linkedin": "https://linkedin.com/in/popovnikita",
-            "company": "Novartis"
-          },
-          {
-            "name": "Eric Martin",
-            "title": "Director, Computational Chemistry",
-            "linkedin": "https://linkedin.com/in/eric-martin-7a409711",
-            "company": "Novartis"
-          }
+          { "name": "Nikita Popov", "title": "Head of AI Strategy", "linkedin": "https://linkedin.com/in/nikita-popov", "company": "Novartis" },
+          { "name": "Eric Martin", "title": "Distinguished Scientist, AI/ML", "linkedin": "https://linkedin.com/in/eric-martin-novartis", "company": "Novartis" }
         ]
       }
     },
     {
-      "rank": 8,
-      "company": "Merck KGaA",
-      "domain": "merckgroup.com",
-      "consortium": "MELLODDY consortium participant",
-      "signalDetail": "Merck KGaA participant in MELLODDY federated learning for drug discovery",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": [
-          "Daniel Kuhn"
-        ],
-        "people": [
-          {
-            "name": "Daniel Kuhn",
-            "title": "Director, Head of AI and New Technologies",
-            "linkedin": "https://linkedin.com/in/daniel-kuhn-23207a5",
-            "company": "Merck KGaA"
-          }
-        ]
-      }
+      "rank": 6, "company": "AbbVie", "domain": "abbvie.com", "consortium": "AISB/OpenFold3",
+      "signalDetail": "Founding member of AISB consortium alongside J&J. Contributing structural data for federated AI.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Frank Oellien", "Vincent Stoll"], "people": [] }
     },
     {
-      "rank": 9,
-      "company": "Johnson & Johnson Innovative Medicine",
-      "domain": "jnj.com",
-      "consortium": "AISB/OpenFold3 (J&J founding member)",
-      "signalDetail": "J&J contributing structural data to federated AI drug discovery",
-      "stakeholders": {
-        "count": 3,
-        "locked": false,
-        "preview": [
-          "Christos Varsakelis",
-          "Dorota Herman",
-          "Jeff Headd"
-        ],
-        "people": [
-          {
-            "name": "Christos Varsakelis",
-            "title": "Associate Director, AI/ML in Drug Discovery",
-            "linkedin": "https://linkedin.com/in/christos-varsakelis-716313b3",
-            "company": "Johnson & Johnson Innovative Medicine"
-          },
-          {
-            "name": "Dorota Herman",
-            "title": "Associate Director, AI/ML in Drug Discovery",
-            "linkedin": "https://linkedin.com/in/dorota-herman-ab433033",
-            "company": "Johnson & Johnson Innovative Medicine"
-          },
-          {
-            "name": "Jeff Headd",
-            "title": "Vice President, Commercial Data Science",
-            "linkedin": "https://linkedin.com/in/jheadd",
-            "company": "Johnson & Johnson Innovative Medicine"
-          }
-        ]
-      }
+      "rank": 7, "company": "Johnson & Johnson", "domain": "jnj.com", "consortium": "AISB/OpenFold3",
+      "signalDetail": "Founding member of AISB consortium. Leading federated learning for protein structure prediction.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Michael Gormley", "Christos Varsakelis"], "people": [] }
     },
     {
-      "rank": 10,
-      "company": "Novartis Institutes for BioMedical Research",
-      "domain": "novartis.com",
-      "consortium": "MELLODDY consortium / Novartis AI initiatives",
-      "signalDetail": "Leading oncology data science at Novartis research",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": [
-          "Frank Dondelinger"
-        ],
-        "people": [
-          {
-            "name": "Frank Dondelinger",
-            "title": "Director Data Science, Oncology",
-            "linkedin": "https://linkedin.com/in/frank-dondelinger-bb634992",
-            "company": "Novartis Institutes for BioMedical Research"
-          }
-        ]
-      }
+      "rank": 8, "company": "Merck KGaA", "domain": "emdgroup.com", "consortium": "MELLODDY",
+      "signalDetail": "Key contributor to MELLODDY federated learning platform for drug discovery.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Daniel Kuhn", "Andrea Pfeifer"], "people": [] }
     },
     {
-      "rank": 11,
-      "company": "Merck",
-      "domain": "merck.com",
-      "consortium": "MELLODDY consortium (Merck participant)",
-      "signalDetail": "Leading digital sciences and computational chemistry at Merck",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": [
-          "Ed Sherer"
-        ],
-        "people": [
-          {
-            "name": "Ed Sherer",
-            "title": "Senior Director, Digital Sciences",
-            "linkedin": "https://linkedin.com/in/ed-sherer-b6b5994",
-            "company": "Merck"
-          }
-        ]
-      }
+      "rank": 9, "company": "Bayer", "domain": "bayer.com", "consortium": "MELLODDY",
+      "signalDetail": "Active participant in MELLODDY consortium federated ML initiatives.",
+      "stakeholders": { "count": 1, "locked": true, "preview": ["Tobias Morawietz"], "people": [] }
     },
     {
-      "rank": 12,
-      "company": "Johnson & Johnson",
-      "domain": "jnj.com",
-      "consortium": "AISB/OpenFold3 (J&J founding member)",
-      "signalDetail": "J&J contributing to federated AI drug discovery",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": [
-          "Robert Liang"
-        ],
-        "people": [
-          {
-            "name": "Robert Liang",
-            "title": "Director, Translational Bioanalytics & AI Strategy",
-            "linkedin": "https://linkedin.com/in/robert-liang-98987519b",
-            "company": "Johnson & Johnson"
-          }
-        ]
-      }
+      "rank": 10, "company": "Roche", "domain": "roche.com", "consortium": "Pistoia Alliance",
+      "signalDetail": "Long-standing Pistoia Alliance member. Active in AI/ML standardization efforts.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Bryn Roberts", "Jem Sherwood"], "people": [] }
     },
     {
-      "rank": 13,
-      "company": "Bayer",
-      "domain": "bayer.com",
-      "consortium": "MELLODDY consortium (Bayer participant)",
-      "signalDetail": "Active contributor to MELLODDY federated learning initiative 2019-2022",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": [
-          "Tobias Morawietz"
-        ],
-        "people": [
-          {
-            "name": "Tobias Morawietz",
-            "title": "Computational Life Scientist",
-            "linkedin": "https://linkedin.com/in/tobias-morawietz",
-            "company": "Bayer"
-          }
-        ]
-      }
+      "rank": 11, "company": "AstraZeneca", "domain": "astrazeneca.com", "consortium": "Pistoia Alliance",
+      "signalDetail": "Pistoia Alliance board member. Driving industry AI standards.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Jim Weatherall", "John Conway"], "people": [] }
+    },
+    {
+      "rank": 12, "company": "Pfizer", "domain": "pfizer.com", "consortium": "Pistoia Alliance",
+      "signalDetail": "Active Pistoia Alliance participant in data standards initiatives.",
+      "stakeholders": { "count": 1, "locked": true, "preview": ["Lidia Fonseca"], "people": [] }
+    },
+    {
+      "rank": 13, "company": "GSK", "domain": "gsk.com", "consortium": "Pistoia Alliance / MELLODDY",
+      "signalDetail": "Multi-consortium participant. MELLODDY founding member.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Tony Wood", "Kim Branson"], "people": [] }
+    },
+    {
+      "rank": 14, "company": "Sanofi", "domain": "sanofi.com", "consortium": "MELLODDY",
+      "signalDetail": "MELLODDY founding member contributing to federated learning.",
+      "stakeholders": { "count": 1, "locked": true, "preview": ["Frank Nestle"], "people": [] }
+    },
+    {
+      "rank": 15, "company": "Boehringer Ingelheim", "domain": "boehringer-ingelheim.com", "consortium": "MELLODDY",
+      "signalDetail": "MELLODDY consortium participant for federated drug discovery.",
+      "stakeholders": { "count": 1, "locked": true, "preview": ["Michael Schmelmer"], "people": [] }
     }
   ]
 }

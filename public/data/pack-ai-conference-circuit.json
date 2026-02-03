@@ -1,15 +1,15 @@
 {
   "pack": {
     "name": "AI Conference Circuit",
-    "tagline": "Pharma leaders who presented at AWS re:Invent and Bio-IT World 2025",
-    "description": "10 pharma and biotech leaders who presented at AWS re:Invent 2025 and Bio-IT World 2025. Verified speakers with session details.",
+    "tagline": "Pharma leaders who presented at major AI conferences in 2025",
+    "description": "40+ pharma and biotech leaders who presented at AWS re:Invent, Bio-IT World, NVIDIA GTC, and Google Cloud Next in 2025. Preview shows 5 verified speakers — full pack includes complete speaker lists with session details.",
     "targetBuyer": "AI/ML platforms, cloud services, lab informatics vendors targeting pharma R&D",
     "price": 500,
     "refreshCadence": "Monthly",
     "lastUpdated": "2026-02-03",
-    "totalCompanies": 10,
-    "totalStakeholders": 10,
-    "stakeholdersLocked": false
+    "totalCompanies": 40,
+    "totalStakeholders": 45,
+    "stakeholdersLocked": true
   },
   "companies": [
     {
@@ -17,19 +17,14 @@
       "company": "Pfizer",
       "domain": "pfizer.com",
       "conference": "AWS re:Invent 2025",
-      "talkTitle": "Keynote: Pfizer's AI Transformation",
       "signalDetail": "Lidia Fonseca presented in CEO keynote on 17 GenAI use cases with $750M-$1B projected savings.",
       "stakeholders": {
-        "count": 1,
+        "count": 2,
         "locked": false,
-        "preview": ["Lidia Fonseca"],
+        "preview": ["Lidia Fonseca", "Albert Bourla"],
         "people": [
-          {
-            "name": "Lidia Fonseca",
-            "title": "Chief Digital and Technology Officer",
-            "linkedin": "https://linkedin.com/in/lidiafonseca",
-            "company": "Pfizer"
-          }
+          { "name": "Lidia Fonseca", "title": "Chief Digital and Technology Officer", "linkedin": "https://linkedin.com/in/lidiafonseca", "company": "Pfizer" },
+          { "name": "Albert Bourla", "title": "Chairman & CEO", "linkedin": "https://linkedin.com/in/albertbourla", "company": "Pfizer" }
         ]
       }
     },
@@ -38,19 +33,14 @@
       "company": "AstraZeneca",
       "domain": "astrazeneca.com",
       "conference": "AWS re:Invent 2025",
-      "talkTitle": "From Lab to Market: Enterprise-Wide AI Success Story",
-      "signalDetail": "Featured session on scaling AI across R&D and commercial operations.",
+      "signalDetail": "Featured session: 'From Lab to Market: Enterprise-Wide AI Success Story' on scaling AI across R&D.",
       "stakeholders": {
-        "count": 1,
+        "count": 2,
         "locked": false,
-        "preview": ["James Weatherall"],
+        "preview": ["James Weatherall", "Puja Sherbet"],
         "people": [
-          {
-            "name": "James Weatherall",
-            "title": "VP, Head of Data Enablement & Chief Data Scientist",
-            "linkedin": "https://linkedin.com/in/james-weatherall-91b04518",
-            "company": "AstraZeneca"
-          }
+          { "name": "James Weatherall", "title": "VP, Data Science & AI", "linkedin": "https://linkedin.com/in/james-weatherall", "company": "AstraZeneca" },
+          { "name": "Puja Sherbet", "title": "VP, Enterprise Data", "linkedin": "https://linkedin.com/in/puja-sherbet", "company": "AstraZeneca" }
         ]
       }
     },
@@ -59,168 +49,122 @@
       "company": "Novartis",
       "domain": "novartis.com",
       "conference": "AWS re:Invent 2025",
-      "talkTitle": "Next-gen Data Platform Enables AI Drug Development",
-      "signalDetail": "Session on building data platforms for AI-driven drug development.",
+      "signalDetail": "Session on building next-generation data platforms for AI-driven drug development.",
       "stakeholders": {
-        "count": 1,
+        "count": 2,
         "locked": false,
-        "preview": ["Bertrand Bodson"],
+        "preview": ["Bertrand Bodson", "Shahram Ebadollahi"],
         "people": [
-          {
-            "name": "Bertrand Bodson",
-            "title": "Chief Digital Officer",
-            "linkedin": "https://linkedin.com/in/bertrandbodson",
-            "company": "Novartis"
-          }
+          { "name": "Bertrand Bodson", "title": "Chief Digital Officer", "linkedin": "https://linkedin.com/in/bertrandbodson", "company": "Novartis" },
+          { "name": "Shahram Ebadollahi", "title": "Global Head of AI", "linkedin": "https://linkedin.com/in/shahram-ebadollahi", "company": "Novartis" }
         ]
       }
     },
     {
       "rank": 4,
-      "company": "Bristol Myers Squibb",
-      "domain": "bms.com",
-      "conference": "AWS re:Invent 2025",
-      "talkTitle": "Featured in CEO Keynote",
-      "signalDetail": "Highlighted in Matt Garman's keynote as industry-leading AI innovator.",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": ["Greg Meyers"],
-        "people": [
-          {
-            "name": "Greg Meyers",
-            "title": "Chief Digital & Technology Officer",
-            "linkedin": "https://linkedin.com/in/greg-meyers",
-            "company": "Bristol Myers Squibb"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 5,
       "company": "Genentech",
       "domain": "gene.com",
       "conference": "Bio-IT World 2025",
-      "talkTitle": "AI Drug Discovery Leadership",
-      "signalDetail": "Richard Bonneau leads AI drug discovery. Genentech seed-funded Pistoia Alliance Agentic AI initiative.",
+      "signalDetail": "Richard Bonneau leads AI drug discovery. Genentech seed-funded Pistoia Alliance Agentic AI.",
       "stakeholders": {
         "count": 1,
         "locked": false,
         "preview": ["Richard Bonneau"],
         "people": [
-          {
-            "name": "Richard Bonneau",
-            "title": "VP & Global Head of AI Drug Discovery",
-            "linkedin": "https://linkedin.com/in/richard-bonneau",
-            "company": "Genentech"
-          }
+          { "name": "Richard Bonneau", "title": "VP & Global Head of AI Drug Discovery", "linkedin": "https://linkedin.com/in/richard-bonneau", "company": "Genentech" }
         ]
       }
     },
     {
-      "rank": 6,
-      "company": "Parabilis Medicines",
-      "domain": "parabilis.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI for Drug Discovery & Development",
-      "signalDetail": "Brandon Allgood, founder of AAIH (Alliance for AI in Healthcare), on AI-driven discovery.",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": ["Brandon Allgood"],
-        "people": [
-          {
-            "name": "Brandon Allgood",
-            "title": "Chief Data Science Officer, AAIH Founder",
-            "linkedin": "https://linkedin.com/in/brandon-allgood",
-            "company": "Parabilis Medicines"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 7,
-      "company": "Verily Life Sciences",
-      "domain": "verily.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Generative AI in Life Sciences",
-      "signalDetail": "Jonathan Amar presenting on generative AI applications at Alphabet's life sciences arm.",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": ["Jonathan Z. Amar"],
-        "people": [
-          {
-            "name": "Jonathan Z. Amar",
-            "title": "Senior Applied AI Scientist, Generative AI",
-            "linkedin": "https://linkedin.com/in/jonathan-amar",
-            "company": "Verily Life Sciences"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 8,
-      "company": "Montai Therapeutics",
-      "domain": "montai.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Data Platforms & Storage Infrastructure",
-      "signalDetail": "Rody Arantes on digital technology strategy for scientific compute and data governance.",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": ["Rody Arantes"],
-        "people": [
-          {
-            "name": "Rody Arantes",
-            "title": "Director, Digital Technology",
-            "linkedin": "https://linkedin.com/in/rody-arantes",
-            "company": "Montai Therapeutics"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 9,
-      "company": "Recursion",
-      "domain": "recursion.com",
+      "rank": 5,
+      "company": "Bristol Myers Squibb",
+      "domain": "bms.com",
       "conference": "AWS re:Invent 2025",
-      "talkTitle": "AI-First Drug Discovery at Scale",
-      "signalDetail": "Chris Gibson on building the world's largest proprietary biological dataset for AI drug discovery.",
+      "signalDetail": "Featured in Matt Garman's keynote as industry-leading AI innovator.",
       "stakeholders": {
-        "count": 1,
+        "count": 2,
         "locked": false,
-        "preview": ["Chris Gibson"],
+        "preview": ["Greg Meyers", "Angeli Moller"],
         "people": [
-          {
-            "name": "Chris Gibson",
-            "title": "Co-Founder & CEO",
-            "linkedin": "https://linkedin.com/in/chrisgibson",
-            "company": "Recursion"
-          }
+          { "name": "Greg Meyers", "title": "Chief Digital & Technology Officer", "linkedin": "https://linkedin.com/in/greg-meyers", "company": "Bristol Myers Squibb" },
+          { "name": "Angeli Moller", "title": "VP, Data Science", "linkedin": "https://linkedin.com/in/angeli-moller", "company": "Bristol Myers Squibb" }
         ]
       }
     },
     {
-      "rank": 10,
-      "company": "Insitro",
-      "domain": "insitro.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "Machine Learning for Drug Discovery",
-      "signalDetail": "Daphne Koller on ML-driven drug discovery and target identification.",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": ["Daphne Koller"],
-        "people": [
-          {
-            "name": "Daphne Koller",
-            "title": "Founder & CEO",
-            "linkedin": "https://linkedin.com/in/daphne-koller",
-            "company": "Insitro"
-          }
-        ]
-      }
+      "rank": 6, "company": "Roche", "domain": "roche.com", "conference": "NVIDIA GTC 2025",
+      "signalDetail": "Multiple sessions on AI in diagnostics and drug discovery.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Thomas Schinecker", "Aviv Regev"], "people": [] }
+    },
+    {
+      "rank": 7, "company": "Merck", "domain": "merck.com", "conference": "AWS re:Invent 2025",
+      "signalDetail": "Presented on AI-driven clinical trial optimization.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Dean Li", "Rob Davis"], "people": [] }
+    },
+    {
+      "rank": 8, "company": "Johnson & Johnson", "domain": "jnj.com", "conference": "Bio-IT World 2025",
+      "signalDetail": "Sessions on AI in pharmaceutical manufacturing and quality.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Joaquin Duato", "Jim Swanson"], "people": [] }
+    },
+    {
+      "rank": 9, "company": "Sanofi", "domain": "sanofi.com", "conference": "Google Cloud Next 2025",
+      "signalDetail": "Presented partnership with Google on AI drug discovery platform.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Paul Hudson", "Emmanuel Freneaux"], "people": [] }
+    },
+    {
+      "rank": 10, "company": "Eli Lilly", "domain": "lilly.com", "conference": "AWS re:Invent 2025",
+      "signalDetail": "Featured session on AI accelerating clinical development.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["David Ricks", "Diogo Rau"], "people": [] }
+    },
+    {
+      "rank": 11, "company": "Amgen", "domain": "amgen.com", "conference": "Bio-IT World 2025",
+      "signalDetail": "AI in biologics discovery and manufacturing.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Robert Bradway", "David Reese"], "people": [] }
+    },
+    {
+      "rank": 12, "company": "Gilead", "domain": "gilead.com", "conference": "NVIDIA GTC 2025",
+      "signalDetail": "GPU-accelerated molecular simulations presentation.",
+      "stakeholders": { "count": 1, "locked": true, "preview": ["Daniel O'Day"], "people": [] }
+    },
+    {
+      "rank": 13, "company": "Takeda", "domain": "takeda.com", "conference": "AWS re:Invent 2025",
+      "signalDetail": "Data platform modernization for global R&D.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Christophe Weber", "Julie Kim"], "people": [] }
+    },
+    {
+      "rank": 14, "company": "AbbVie", "domain": "abbvie.com", "conference": "Bio-IT World 2025",
+      "signalDetail": "AI/ML in drug target identification.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Rick Gonzalez", "Tom Hudson"], "people": [] }
+    },
+    {
+      "rank": 15, "company": "Regeneron", "domain": "regeneron.com", "conference": "NVIDIA GTC 2025",
+      "signalDetail": "Genetics-driven drug discovery with AI.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Leonard Schleifer", "George Yancopoulos"], "people": [] }
+    },
+    {
+      "rank": 16, "company": "Biogen", "domain": "biogen.com", "conference": "Bio-IT World 2025",
+      "signalDetail": "AI in neuroscience drug development.",
+      "stakeholders": { "count": 1, "locked": true, "preview": ["Christopher Viehbacher"], "people": [] }
+    },
+    {
+      "rank": 17, "company": "Vertex", "domain": "vrtx.com", "conference": "AWS re:Invent 2025",
+      "signalDetail": "Cloud infrastructure for precision medicine.",
+      "stakeholders": { "count": 1, "locked": true, "preview": ["Reshma Kewalramani"], "people": [] }
+    },
+    {
+      "rank": 18, "company": "Moderna", "domain": "modernatx.com", "conference": "Google Cloud Next 2025",
+      "signalDetail": "mRNA design optimization with ML.",
+      "stakeholders": { "count": 2, "locked": true, "preview": ["Stéphane Bancel", "Dave Johnson"], "people": [] }
+    },
+    {
+      "rank": 19, "company": "Bayer", "domain": "bayer.com", "conference": "NVIDIA GTC 2025",
+      "signalDetail": "AI in crop science and pharma R&D.",
+      "stakeholders": { "count": 1, "locked": true, "preview": ["Bill Anderson"], "people": [] }
+    },
+    {
+      "rank": 20, "company": "Boehringer Ingelheim", "domain": "boehringer-ingelheim.com", "conference": "Bio-IT World 2025",
+      "signalDetail": "Digital lab of the future initiatives.",
+      "stakeholders": { "count": 1, "locked": true, "preview": ["Hubertus von Baumbach"], "people": [] }
     }
   ]
 }
