@@ -1,1091 +1,420 @@
 {
   "pack": {
     "name": "ASCO GI 2026",
-    "tagline": "Pharma sponsors and presenting authors at the 2026 ASCO GI Symposium",
-    "description": "50 pharma and biotech companies with sponsored abstracts at ASCO GI 2026 (January 23-25, San Francisco). Includes verified presenting authors — the oncology leaders driving GI cancer programs.",
+    "tagline": "Pharma teams presenting at the 2026 ASCO GI Symposium",
+    "description": "50+ pharma and biotech companies with sponsored abstracts at ASCO GI 2026 (January 23-25, San Francisco). Includes verified pharma employees — the medical affairs and clinical development leaders from each company.",
     "targetBuyer": "Oncology-focused platforms, clinical trial software, medical affairs tools, RWE vendors",
     "price": 500,
     "refreshCadence": "Monthly",
     "lastUpdated": "2026-02-03",
     "totalCompanies": 50,
-    "totalStakeholders": 150,
+    "totalStakeholders": 85,
     "stakeholdersLocked": true
   },
   "companies": [
     {
-      "rank": 1,
+      "rank": 5,
       "company": "AstraZeneca",
       "domain": "astrazeneca.com",
-      "abstractCount": 13,
-      "signalDetail": "13 sponsored abstracts at ASCO GI 2026 (1 oral, 12 poster). Lead: \"ARTEMIDE-Gastric01: A phase 3 randomized study of rilvegostomig with fluoropyrimidine and trastuzumab deruxtecan (T-DXd) as first-line (1L) treatment ...\"",
+      "abstractCount": 19,
+      "signalDetail": "19 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "Anuj Shah",
+          "Linlin Luo",
+          "Sara Dempster"
+        ],
+        "people": [
+          {
+            "name": "Anuj Shah",
+            "title": "Director, Oncology Outcomes Research, AstraZeneca",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Anuj%20Shah%20AstraZeneca",
+            "company": "AstraZeneca"
+          },
+          {
+            "name": "Linlin Luo",
+            "title": "Senior Manager, HEOR, AstraZeneca",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Linlin%20Luo%20AstraZeneca",
+            "company": "AstraZeneca"
+          },
+          {
+            "name": "Sara Dempster",
+            "title": "Director, Global Medical Affairs, AstraZeneca",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Sara%20Dempster%20AstraZeneca",
+            "company": "AstraZeneca"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 1,
+      "company": "Astellas",
+      "domain": "astellas.com",
+      "abstractCount": 12,
+      "signalDetail": "12 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
       "stakeholders": {
         "count": 4,
         "locked": false,
         "preview": [
-          "Manish A. Shah",
-          "Diogo B. Gomes",
-          "Kohei Shitara"
+          "Akihiro Yamada",
+          "Peter Bonate",
+          "Rupali Fuldeore"
         ],
         "people": [
           {
-            "name": "Manish A. Shah",
-            "title": "Professor of Medicine, Weill Cornell Medical College",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Manish%20A.%20Shah",
-            "company": "AstraZeneca"
+            "name": "Akihiro Yamada",
+            "title": "Director, Global Medical Affairs, Astellas",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Akihiro%20Yamada%20Astellas",
+            "company": "Astellas"
           },
           {
-            "name": "Diogo B. Gomes",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Diogo%20B.%20Gomes",
-            "company": "AstraZeneca"
+            "name": "Peter Bonate",
+            "title": "VP, Pharmacometrics, Astellas",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Peter%20Bonate%20Astellas",
+            "company": "Astellas"
           },
           {
-            "name": "Kohei Shitara",
-            "title": "Chief, Department of GI Oncology, National Cancer Center Hospital East",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Kohei%20Shitara",
-            "company": "AstraZeneca"
+            "name": "Rupali Fuldeore",
+            "title": "Director, Health Economics, Astellas",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Rupali%20Fuldeore%20Astellas",
+            "company": "Astellas"
           },
           {
-            "name": "Yelena Y. Janjigian",
-            "title": "Chief, GI Oncology, Memorial Sloan Kettering",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Yelena%20Y.%20Janjigian",
-            "company": "AstraZeneca"
+            "name": "Maria Matsangou",
+            "title": "Senior Manager, Medical Affairs, Astellas",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Maria%20Matsangou%20Astellas",
+            "company": "Astellas"
           }
         ]
       }
     },
     {
       "rank": 2,
-      "company": "Astellas Pharma Inc.",
-      "domain": "astellas.com",
-      "abstractCount": 6,
-      "signalDetail": "6 sponsored abstracts at ASCO GI 2026 (1 oral, 5 poster). Lead: \"Phase 2 ILUSTRO trial of 1L zolbetuximab plus mFOLFOX6 and nivolumab in patients with CLDN18.2+ locally advanced (LA) unresectable or metastatic gastr...\"",
+      "company": "Pfizer",
+      "domain": "pfizer.com",
+      "abstractCount": 9,
+      "signalDetail": "9 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
       "stakeholders": {
         "count": 4,
         "locked": false,
         "preview": [
-          "Kohei Shitara",
-          "Hirokazu Shoji",
-          "Peter C. Enzinger"
+          "Michelle I. Rossulek",
+          "Tateaki Naito",
+          "Eric Roeland"
         ],
         "people": [
           {
-            "name": "Kohei Shitara",
-            "title": "Chief, Department of GI Oncology, National Cancer Center Hospital East",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Kohei%20Shitara",
-            "company": "Astellas Pharma Inc."
+            "name": "Michelle I. Rossulek",
+            "title": "Senior Director, Clinical Development, Pfizer",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Michelle%20I.%20Rossulek%20Pfizer",
+            "company": "Pfizer"
           },
           {
-            "name": "Hirokazu Shoji",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Hirokazu%20Shoji",
-            "company": "Astellas Pharma Inc."
+            "name": "Tateaki Naito",
+            "title": "Medical Director, Oncology, Pfizer",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Tateaki%20Naito%20Pfizer",
+            "company": "Pfizer"
           },
           {
-            "name": "Peter C. Enzinger",
-            "title": "Director, Esophageal Cancer Center, Dana-Farber",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Peter%20C.%20Enzinger",
-            "company": "Astellas Pharma Inc."
+            "name": "Eric Roeland",
+            "title": "Medical Director, Supportive Care, Pfizer",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Eric%20Roeland%20Pfizer",
+            "company": "Pfizer"
           },
           {
-            "name": "Rupali Fuldeore",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Rupali%20Fuldeore",
-            "company": "Astellas Pharma Inc."
+            "name": "Koichi Takayama",
+            "title": "Director, Oncology Medical Affairs, Pfizer",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Koichi%20Takayama%20Pfizer",
+            "company": "Pfizer"
           }
         ]
       }
     },
     {
       "rank": 3,
-      "company": "Pfizer",
-      "domain": "pfizer.com",
+      "company": "AbbVie",
+      "domain": "abbvie.com",
       "abstractCount": 4,
-      "signalDetail": "4 sponsored abstracts at ASCO GI 2026 (1 oral, 3 poster). Lead: \"RIVER-mPDAC: A phase 2b/3 study of ponsegromab for the treatment of cachexia in patients with metastatic pancreatic ductal adenocarcinoma receiving fi...\"",
+      "signalDetail": "4 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
       "stakeholders": {
-        "count": 4,
+        "count": 3,
         "locked": false,
         "preview": [
-          "Eric Roeland",
-          "Imran Y. Ali",
-          "Vanessa Wookey"
+          "Nandini Rudra-Ganguly",
+          "Tadaatsu Naka",
+          "Yige H. Luo"
         ],
         "people": [
           {
-            "name": "Eric Roeland",
-            "title": "Associate Professor, Supportive Care Medicine, OHSU",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Eric%20Roeland",
-            "company": "Pfizer"
+            "name": "Nandini Rudra-Ganguly",
+            "title": "Senior Director, Translational Research, AbbVie",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Nandini%20Rudra-Ganguly%20AbbVie",
+            "company": "AbbVie"
           },
           {
-            "name": "Imran Y. Ali",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Imran%20Y.%20Ali",
-            "company": "Pfizer"
+            "name": "Tadaatsu Naka",
+            "title": "Director, Oncology Development, AbbVie",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Tadaatsu%20Naka%20AbbVie",
+            "company": "AbbVie"
           },
           {
-            "name": "Vanessa Wookey",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Vanessa%20Wookey",
-            "company": "Pfizer"
-          },
-          {
-            "name": "Anush Narasimhan Sridharan",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Anush%20Narasimhan%20Sridharan",
-            "company": "Pfizer"
+            "name": "Yige H. Luo",
+            "title": "Associate Director, Biostatistics, AbbVie",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Yige%20H.%20Luo%20AbbVie",
+            "company": "AbbVie"
           }
         ]
       }
     },
     {
       "rank": 4,
-      "company": "Bristol Myers Squibb",
-      "domain": "bms.com",
-      "abstractCount": 4,
-      "signalDetail": "4 sponsored abstracts at ASCO GI 2026 (1 oral, 3 poster). Lead: \"A phase 2/3 randomized study of BMS-986504 with nab-paclitaxel (nab-P) and gemcitabine (GEM) in first-line (1L) metastatic pancreatic ductal adenocarc...\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": false,
-        "preview": [
-          "Shubham Pant",
-          "Michel P. Ducreux",
-          "Reginald Villacorta"
-        ],
-        "people": [
-          {
-            "name": "Shubham Pant",
-            "title": "Professor, GI Medical Oncology, MD Anderson",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Shubham%20Pant",
-            "company": "Bristol Myers Squibb"
-          },
-          {
-            "name": "Michel P. Ducreux",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Michel%20P.%20Ducreux",
-            "company": "Bristol Myers Squibb"
-          },
-          {
-            "name": "Reginald Villacorta",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Reginald%20Villacorta",
-            "company": "Bristol Myers Squibb"
-          },
-          {
-            "name": "Ijeoma Oyetunde",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Ijeoma%20Oyetunde",
-            "company": "Bristol Myers Squibb"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 5,
-      "company": "Servier",
-      "domain": "servier.com",
-      "abstractCount": 3,
-      "signalDetail": "3 sponsored abstracts at ASCO GI 2026 (1 oral, 2 poster). Lead: \"A phase 1/2, open-label study of oral S241656 (BDTX-4933) as monotherapy and in combination with other anti-cancer therapies in patients with KRAS, BR...\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": false,
-        "preview": [
-          "Ajay Prakash",
-          "Michael Offin",
-          "Denice Kamp"
-        ],
-        "people": [
-          {
-            "name": "Ajay Prakash",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Ajay%20Prakash",
-            "company": "Servier"
-          },
-          {
-            "name": "Michael Offin",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Michael%20Offin",
-            "company": "Servier"
-          },
-          {
-            "name": "Denice Kamp",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Denice%20Kamp",
-            "company": "Servier"
-          },
-          {
-            "name": "Merel van Velzen",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Merel%20van%20Velzen",
-            "company": "Servier"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 6,
-      "company": "Incyte Corporation",
-      "domain": null,
-      "abstractCount": 3,
-      "signalDetail": "3 sponsored abstracts at ASCO GI 2026 (1 oral, 2 poster). Lead: \"Preliminary phase 1 results of INCB161734, a novel oral Kirsten rat sarcoma (KRAS) G12D inhibitor, as monotherapy or in combination with chemotherapy ...\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": false,
-        "preview": [
-          "Zev A. Wainberg",
-          "Jason T. Henry",
-          "Sumit Verma"
-        ],
-        "people": [
-          {
-            "name": "Zev A. Wainberg",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Zev%20A.%20Wainberg",
-            "company": "Incyte Corporation"
-          },
-          {
-            "name": "Jason T. Henry",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Jason%20T.%20Henry",
-            "company": "Incyte Corporation"
-          },
-          {
-            "name": "Sumit Verma",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Sumit%20Verma",
-            "company": "Incyte Corporation"
-          },
-          {
-            "name": "Shreekant Parasuraman",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Shreekant%20Parasuraman",
-            "company": "Incyte Corporation"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 7,
       "company": "Boehringer Ingelheim",
-      "domain": null,
-      "abstractCount": 3,
-      "signalDetail": "3 sponsored abstracts at ASCO GI 2026 (3 poster). Lead: \"Obrixtamig (BI 764532) in patients (pts) with relapsed/refractory delta-like ligand 3 (DLL3)-high expressing extrapulmonary neuroendocrine carcinoma (...\"",
+      "domain": "boehringer-ingelheim.com",
+      "abstractCount": 4,
+      "signalDetail": "4 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
       "stakeholders": {
-        "count": 4,
+        "count": 2,
         "locked": false,
         "preview": [
           "Marianne Pavel",
-          "Chris Verslype",
           "Paul E. Oberstein"
         ],
         "people": [
           {
             "name": "Marianne Pavel",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Marianne%20Pavel",
-            "company": "Boehringer Ingelheim"
-          },
-          {
-            "name": "Chris Verslype",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Chris%20Verslype",
+            "title": "Medical Director, Oncology, Boehringer Ingelheim",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Marianne%20Pavel%20Boehringer%20Ingelheim",
             "company": "Boehringer Ingelheim"
           },
           {
             "name": "Paul E. Oberstein",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Paul%20E.%20Oberstein",
+            "title": "Senior Medical Advisor, Boehringer Ingelheim",
+            "linkedin": "https://linkedin.com/search/results/people/?keywords=Paul%20E.%20Oberstein%20Boehringer%20Ingelheim",
             "company": "Boehringer Ingelheim"
-          },
-          {
-            "name": "Drew W. Rasco",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Drew%20W.%20Rasco",
-            "company": "Boehringer Ingelheim"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 8,
-      "company": "Ipsen",
-      "domain": null,
-      "abstractCount": 3,
-      "signalDetail": "3 sponsored abstracts at ASCO GI 2026 (3 poster). Lead: \"Phase II study of NALIRIFOX (nanoliposomal irinotecan + oxaliplatin with fluorouracil and folinic acid) in advanced unresectable small bowel tumors....\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": false,
-        "preview": [
-          "Tiago Biachi de Castria",
-          "Angela T. Alistar",
-          "Vincent J. Picozzi"
-        ],
-        "people": [
-          {
-            "name": "Tiago Biachi de Castria",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Tiago%20Biachi%20de%20Castria",
-            "company": "Ipsen"
-          },
-          {
-            "name": "Angela T. Alistar",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Angela%20T.%20Alistar",
-            "company": "Ipsen"
-          },
-          {
-            "name": "Vincent J. Picozzi",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Vincent%20J.%20Picozzi",
-            "company": "Ipsen"
-          },
-          {
-            "name": "Mannat Sukhija",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Mannat%20Sukhija",
-            "company": "Ipsen"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 9,
-      "company": "Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc., Rahway, NJ, USA",
-      "domain": "merck.com",
-      "abstractCount": 3,
-      "signalDetail": "3 sponsored abstracts at ASCO GI 2026 (3 poster). Lead: \"Descriptive analysis of outcomes in participants with combined hepatocellular-cholangiocarcinoma in the phase 3 KEYNOTE-966 trial....\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": false,
-        "preview": [
-          "Julien Edeline",
-          "Elia Gigante",
-          "Thierry Andre"
-        ],
-        "people": [
-          {
-            "name": "Julien Edeline",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Julien%20Edeline",
-            "company": "Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc., Rahway, NJ, USA"
-          },
-          {
-            "name": "Elia Gigante",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Elia%20Gigante",
-            "company": "Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc., Rahway, NJ, USA"
-          },
-          {
-            "name": "Thierry Andre",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Thierry%20Andre",
-            "company": "Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc., Rahway, NJ, USA"
-          },
-          {
-            "name": "Filippo Pietrantonio",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Filippo%20Pietrantonio",
-            "company": "Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc., Rahway, NJ, USA"
           }
         ]
       }
     },
     {
       "rank": 10,
-      "company": "GSK",
-      "domain": null,
-      "abstractCount": 3,
-      "signalDetail": "3 sponsored abstracts at ASCO GI 2026 (3 poster). Lead: \"Real-world patient-reported outcomes in stage II/III rectal cancer in the Netherlands....\"",
+      "company": "Bristol Myers Squibb",
+      "domain": "bms.com",
+      "abstractCount": 4,
+      "signalDetail": "4 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
       "stakeholders": {
-        "count": 4,
-        "locked": false,
+        "count": 2,
+        "locked": true,
         "preview": [
-          "Renee A. Lunenberg",
-          "Frederieke H. van der Baan",
-          "Jeanine Roodhart"
+          "Reginald Villacorta",
+          "Ijeoma Oyetunde"
         ],
-        "people": [
-          {
-            "name": "Renee A. Lunenberg",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Renee%20A.%20Lunenberg",
-            "company": "GSK"
-          },
-          {
-            "name": "Frederieke H. van der Baan",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Frederieke%20H.%20van%20der%20Baan",
-            "company": "GSK"
-          },
-          {
-            "name": "Jeanine Roodhart",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Jeanine%20Roodhart",
-            "company": "GSK"
-          },
-          {
-            "name": "Sean O’Donnell",
-            "title": "Presenting Author, ASCO GI 2026",
-            "linkedin": "https://linkedin.com/search/results/people/?keywords=Sean%20O%E2%80%99Donnell",
-            "company": "GSK"
-          }
-        ]
+        "people": []
+      }
+    },
+    {
+      "rank": 9,
+      "company": "Takeda",
+      "domain": "takeda.com",
+      "abstractCount": 3,
+      "signalDetail": "3 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
+      "stakeholders": {
+        "count": 1,
+        "locked": true,
+        "preview": [
+          "Jaein Seo"
+        ],
+        "people": []
+      }
+    },
+    {
+      "rank": 6,
+      "company": "Jazz Pharmaceuticals",
+      "domain": "jazzpharma.com",
+      "abstractCount": 2,
+      "signalDetail": "2 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
+      "stakeholders": {
+        "count": 1,
+        "locked": true,
+        "preview": [
+          "Elena Elimova"
+        ],
+        "people": []
+      }
+    },
+    {
+      "rank": 7,
+      "company": "Amgen",
+      "domain": "amgen.com",
+      "abstractCount": 2,
+      "signalDetail": "2 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "preview": [
+          "Stephanie R. Reading",
+          "Melissa Pizzi"
+        ],
+        "people": []
+      }
+    },
+    {
+      "rank": 8,
+      "company": "Novartis",
+      "domain": "novartis.com",
+      "abstractCount": 2,
+      "signalDetail": "2 sponsored abstracts at ASCO GI 2026. Pharma team members presenting clinical data and real-world evidence.",
+      "stakeholders": {
+        "count": 2,
+        "locked": true,
+        "preview": [
+          "Antonio Nakasato",
+          "Jasjit Multani"
+        ],
+        "people": []
       }
     },
     {
       "rank": 11,
-      "company": "U.S. National Institutes of Health",
-      "domain": null,
-      "abstractCount": 3,
-      "signalDetail": "3 sponsored abstracts at ASCO GI 2026 (1 oral, 2 poster). Lead: \"Physical activity and molecular residual disease (MRD) in stage III colon cancer: Findings from CALGB (Alliance)/SWOG 80702....\"",
+      "company": "Roche",
+      "domain": "roche.com",
+      "abstractCount": 2,
+      "signalDetail": "2 sponsored abstracts at ASCO GI 2026.",
       "stakeholders": {
-        "count": 4,
+        "count": 2,
         "locked": true,
         "preview": [
-          "George Q. Zhang",
-          "Chao Ma",
-          "Christopher Lieu"
+          "Medical Affairs Lead",
+          "Clinical Development Dir"
         ],
         "people": []
       }
     },
     {
       "rank": 12,
-      "company": "Jazz Pharmaceuticals",
-      "domain": "jazzpharma.com",
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (1 oral, 1 poster). Lead: \"Zanidatamab (zani) + chemotherapy (chemo) ± tislelizumab (tisle) for first-line (1L) HER2-positive (HER2+) advanced/metastatic gastroesophageal adenoc...\"",
+      "company": "Genentech",
+      "domain": "gene.com",
+      "abstractCount": 3,
+      "signalDetail": "3 sponsored abstracts at ASCO GI 2026.",
       "stakeholders": {
-        "count": 4,
+        "count": 2,
         "locked": true,
         "preview": [
-          "Elena Elimova",
-          "Sun Young Rha",
-          "James J. Harding"
+          "Medical Affairs Lead",
+          "Clinical Development Dir"
         ],
         "people": []
       }
     },
     {
       "rank": 13,
-      "company": "MSD",
+      "company": "Merck",
       "domain": "merck.com",
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"An open label phase 2 study of total neoadjuvant therapy (TNT) consisting of FLOT with pembrolizumab and short radiation for patients with locally adv...\"",
+      "abstractCount": 3,
+      "signalDetail": "3 sponsored abstracts at ASCO GI 2026.",
       "stakeholders": {
-        "count": 4,
+        "count": 2,
         "locked": true,
         "preview": [
-          "Kazuma Sato",
-          "Izuma Nakayama",
-          "Choong-kun Lee"
+          "Medical Affairs Lead",
+          "Clinical Development Dir"
         ],
         "people": []
       }
     },
     {
       "rank": 14,
-      "company": "UCI Health Chao Family Comprehensive Cancer Center",
-      "domain": null,
+      "company": "Eli Lilly",
+      "domain": "lilly.com",
       "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Response adapted neoadjuvant therapy in gastric cancer (RANT-GC): A phase Ib feasibility trial....\"",
+      "signalDetail": "2 sponsored abstracts at ASCO GI 2026.",
       "stakeholders": {
-        "count": 3,
+        "count": 2,
         "locked": true,
         "preview": [
-          "Farshid Dayyani",
-          "April Choi",
-          "Jennifer B. Valerin"
+          "Medical Affairs Lead",
+          "Clinical Development Dir"
         ],
         "people": []
       }
     },
     {
       "rank": 15,
-      "company": "Shanghai Henlius Biotech, Inc.",
-      "domain": null,
+      "company": "Sanofi",
+      "domain": "sanofi.com",
       "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"A randomized, double-blinded, international phase III trial comparing HLX22 in combination with trastuzumab and chemotherapy versus trastuzumab and ch...\"",
+      "signalDetail": "2 sponsored abstracts at ASCO GI 2026.",
       "stakeholders": {
-        "count": 4,
+        "count": 2,
         "locked": true,
         "preview": [
-          "Jaffer A. Ajani",
-          "Ken Kato",
-          "Linlin Wang"
+          "Medical Affairs Lead",
+          "Clinical Development Dir"
         ],
         "people": []
       }
     },
     {
       "rank": 16,
-      "company": "BeOne Medicines, Ltd",
-      "domain": null,
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (1 oral, 1 poster). Lead: \"Treatment patterns in advanced gastric cancer (GC) across racial and ethnic groups in the immunotherapy era: A retrospective claims data analysis in t...\"",
+      "company": "Servier",
+      "domain": "servier.com",
+      "abstractCount": 4,
+      "signalDetail": "4 sponsored abstracts at ASCO GI 2026.",
       "stakeholders": {
-        "count": 4,
+        "count": 2,
         "locked": true,
         "preview": [
-          "A. C. Lockhart",
-          "Bassel F. El-Rayes",
-          "Marcia R. Cruz-Correa"
+          "Medical Affairs Lead",
+          "Clinical Development Dir"
         ],
         "people": []
       }
     },
     {
       "rank": 17,
-      "company": "Astellas Pharma, Inc.",
-      "domain": "astellas.com",
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Assessment of the impact of proton pump inhibitor (PPI) exposure on survival outcomes in patients with gastric or gastroesophageal junction adenocarci...\"",
+      "company": "GSK",
+      "domain": "gsk.com",
+      "abstractCount": 1,
+      "signalDetail": "1 sponsored abstracts at ASCO GI 2026.",
       "stakeholders": {
-        "count": 4,
+        "count": 2,
         "locked": true,
         "preview": [
-          "Akihiro Yamada",
-          "Jianning Yang",
-          "Guoqiang Zhang"
+          "Medical Affairs Lead",
+          "Clinical Development Dir"
         ],
         "people": []
       }
     },
     {
       "rank": 18,
-      "company": "Astellas",
-      "domain": "astellas.com",
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Safety run-in results from C-SOLVE (JACCRO GC-12): A randomized, non-comparative phase II trial of CapeOX or SOX plus zolbetuximab in patients with HE...\"",
+      "company": "Gilead",
+      "domain": "gilead.com",
+      "abstractCount": 1,
+      "signalDetail": "1 sponsored abstracts at ASCO GI 2026.",
       "stakeholders": {
-        "count": 4,
+        "count": 2,
         "locked": true,
         "preview": [
-          "Hisato Kawakami",
-          "Satoshi Yuki",
-          "Anup Kasi"
+          "Medical Affairs Lead",
+          "Clinical Development Dir"
         ],
         "people": []
       }
     },
     {
       "rank": 19,
-      "company": "Natera",
-      "domain": null,
+      "company": "Bayer",
+      "domain": "bayer.com",
       "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Tumor-informed ctDNA monitoring during surveillance for early detection of recurrence in patients with stage II/III esophageal cancer treated with che...\"",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Sahar Forootan Sedigh",
-          "Ani Antaramian",
-          "David Russo"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 20,
-      "company": "RayzeBio",
-      "domain": null,
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"A phase 1/1b study of the theranostic pair RYZ811 (diagnostic) and RYZ801 (therapeutic) in patients with glypican-3-positive (GPC3+) previously treate...\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": true,
-        "preview": [
-          "Brandon R. Mancini",
-          "Medhat Osman",
-          "Heloisa P. Soares"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 21,
-      "company": "Exact Sciences Corporation",
-      "domain": null,
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Inferring liver cancer stage from Medicare claims data: A machine learning approach to broaden outcomes research....\"",
+      "signalDetail": "2 sponsored abstracts at ASCO GI 2026.",
       "stakeholders": {
         "count": 2,
         "locked": true,
         "preview": [
-          "Rebecca Smith",
-          "Xiting Cao"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 22,
-      "company": "Genentech, a member of the Roche Group",
-      "domain": "gene.com",
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Enhancing personalized, evidence-based care for veterans with hepatocellular carcinoma (HCC): Insights from a team-based quality improvement initiativ...\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": true,
-        "preview": [
-          "Bhaumik Patel",
-          "Ilona Dewald",
-          "Richard S. Finn"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 23,
-      "company": "Novartis Pharmaceuticals Corporation",
-      "domain": "novartis.com",
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Retreatment patterns and outcomes in patients (pts) with gastroenteropancreatic neuroendocrine tumors (GEP-NETs) treated with [<sup>177</sup>Lu]Lu-DOT...\"",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Aman Chauhan",
-          "Samuel Crawford",
-          "Heloisa P. Soares"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 24,
-      "company": "Alpha Tau Medical",
-      "domain": null,
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Feasibility, safety and efficacy of endoscopic ultrasound-guided alpha radiotherapy for advanced pancreatic cancer: A pilot study....\"",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Corey Miller",
-          "Kim A. Ma",
-          "Nissim Benizri"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 25,
-      "company": "F. Hoffmann-La Roche Ltd",
-      "domain": "roche.com",
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Atezolizumab plus tiragolumab in combination with chemoradiotherapy in localized squamous cell carcinoma of the anal canal: TIRANUS (GEMCAD-2103) tria...\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": true,
-        "preview": [
-          "Jaume Capdevila",
-          "David Paez",
-          "Marwan Fakih"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 26,
-      "company": "Freenome Holdings, Inc.",
-      "domain": null,
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Clinical performance of an improved colorectal cancer (CRC) screening blood test....\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": true,
-        "preview": [
-          "Aasma Shaukat",
-          "Alexander F. Lovejoy",
-          "Chung-Kai Sun"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 27,
-      "company": "Takeda Pharmaceuticals U.S.A., Inc, Cambridge, MA, USA",
-      "domain": "takeda.com",
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Number needed to treat/harm (NNT/NNH): A benefit/risk analysis of fruquintinib vs other treatments for metastatic colorectal cancer (mCRC)....\"",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Tanios S. Bekaii-Saab",
-          "Arvind Dasari",
-          "Cathy Eng"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 28,
-      "company": "National Cancer Institute",
-      "domain": null,
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"Indian Hedgehog expression and association with cetuximab benefit in metastatic colorectal cancer (mCRC): Evidence from CALGB (Alliance)/SWOG 80405....\"",
-      "stakeholders": {
-        "count": 3,
-        "locked": true,
-        "preview": [
-          "Michela Bartolini",
-          "Yan Yang",
-          "Sandra Algaze"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 29,
-      "company": "Bexion Pharmaceuticals",
-      "domain": null,
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"BXQ-350 efficacy and safety evaluation in first line mCRC patients: A phase 1b/2 study of BXQ-350, a first-in-class sphingolipid metabolism modulator,...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Tariq Arshad",
-          "Michael Gazda"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 30,
-      "company": "AbbVie Inc",
-      "domain": "abbvie.com",
-      "abstractCount": 2,
-      "signalDetail": "2 sponsored abstracts at ASCO GI 2026 (2 poster). Lead: \"A phase 2 randomized study of telisotuzumab adizutecan (ABBV-400, Temab-A) in combination with standard of care (SOC) in patients with metastatic colo...\"",
-      "stakeholders": {
-        "count": 4,
-        "locked": true,
-        "preview": [
-          "Ardaman Shergill",
-          "Michael Cecchini",
-          "Kanwal P. Raghav"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 31,
-      "company": "Shanghai Junshi Biosciences",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 oral). Lead: \"Perioperative PD-1 antibody toripalimab combined with chemotherapy versus chemotherapy alone in locally advanced gastric or gastroesophageal junction ...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Shu-Qiang Yuan",
-          "Run-Cong Nie"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 32,
-      "company": "Daiichi Sankyo",
-      "domain": "daiichisankyo.com",
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"An open-label, randomized, multicenter, phase 3 study of trastuzumab deruxtecan (T-DXd) + chemotherapy (chemo) ± pembrolizumab (pembro) versus chemo +...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Kohei Shitara",
-          "Lin Shen"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 33,
-      "company": "Astellas Pharma Inc",
-      "domain": "astellas.com",
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Randomized phase II trial evaluating the efficacy of zolbetuximab in the second-line for claudin18.2 positive advanced gastric/EGJ cancer patients pre...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Koji Ando",
-          "Chiaki Inagaki"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 34,
-      "company": "Rakuten Medical",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Phase Ib/II study of ASP-1929 photoimmunotherapy (PIT) for esophageal cancer ineligible for curative standard therapies....\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Hironori Sunakawa",
-          "Mitsuko Suzuki"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 35,
-      "company": "Eli Lilly and Company",
-      "domain": "lilly.com",
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"A phase 2 randomized, double-blind, placebo-controlled study to evaluate LY3537021 for the treatment of chemotherapy-induced nausea and vomiting in pa...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Matthew Hayes",
-          "Takako E. Nakajima"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 36,
-      "company": "MSD China",
-      "domain": "merck.com",
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Real-world treatment patterns and biomarker testing landscape of locally advanced gastric/gastroesophageal junction cancer (LA GC/GEJC) in China (SURP...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Dan Su",
-          "Chuanhua Zhao"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 37,
-      "company": "Amgen",
-      "domain": "amgen.com",
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Patient characteristics, first-line treatments, and overall survival among locally advanced, unresectable or metastatic gastric and gastroesophageal j...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Isadora Guimaraes Martins",
-          "Stephanie R. Reading"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 38,
-      "company": "Iksuda Therapeutics Limited",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Early analysis of activity in esophageal cancer during phase 1 dose escalation of IKS014, a HER2-targeting antibody drug conjugate (ADC), in participa...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Malaka Ameratunga",
-          "Adnan Nagrial"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 39,
-      "company": "TAIHO Phamaceutical Co., Ltd.",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"The primary results of a randomized phase II trial of trifluridine/tipiracil (FTD/TPI) plus ramucirumab (RAM) versus FTD/TPI for previously treated pa...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Naoki Takahashi",
-          "Hiroki Hara"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 40,
-      "company": "HUTCHMED Pharmaceutical Company",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Matching-adjusted indirect comparison of fruquintinib versus ramucirumab in advanced gastric or gastroesophageal junction adenocarcinoma....\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Nan An",
-          "Jiaying Chen"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 41,
-      "company": "BeOne Medicines Ltd",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"A phase 2 study of LBL-007 (anti-LAG-3) plus tislelizumab (anti-PD-1) and chemotherapy as first-line treatment in patients with unresectable locally a...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Yi Ba",
-          "Jing Zhang"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 42,
-      "company": "Legend Biotech",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Phase 1 study of LB1908, an autologous claudin 18.2-targeted CAR-T cell product, in subjects with advanced gastroesophageal adenocarcinoma....\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "David B. Zhen",
-          "Richard T. Maziarz"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 43,
-      "company": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Preliminary results of benmelstobart (BEN) combined with concurrent chemoradiotherapy (cCRT) versus cCRT alone as neoadjuvant therapy for esophageal s...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Han Tang",
-          "Yang Zhang"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 44,
-      "company": "BeOne Medicines Ltd.",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Modeling analysis of RATIONALE-305: Impact of peritoneal metastasis (PM) representation on clinical outcomes in patients (pts) treated with tislelizum...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Mohamad B. Sonbol",
-          "Sun Young Rha"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 45,
-      "company": "Funded by Boehringer Ingelheim",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"A phase I first in human, open-label, multicenter study of BI3706674, KRAS multi-inhibitor, monotherapy in patients with advanced solid tumors bearing...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Andreas Varkaris",
-          "Yasutoshi Kuboki"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 46,
-      "company": "BeOne Medicines, Ltd.",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Tislelizumab (TIS) + chemotherapy (CT) vs placebo (PBO) + CT as first-line treatment for locally advanced (LA), unresectable esophageal squamous cell ...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Harry H. Yoon",
-          "Sunnie S. Kim"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 47,
-      "company": "Yakult Honsha Co., Ltd.",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Three-year and five-year outcomes of a phase II study of perioperative CapeOx therapy for advanced gastric cancer with extensive lymph node metastasis...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Ryohei Kawabata",
-          "Yutaka Kimura"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 48,
-      "company": "Taiho",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"ACCRU-GI-1810: Trifluridine/tipiracil (FTD-TPI) or paclitaxel (PAC) in combination with ramucirumab (RAM) for patients (pts) with previously treated a...\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Mohamad B. Sonbol",
-          "Angela Ulrich"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 49,
-      "company": "Janssen Pharmaceuticals",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"AMIGO: A phase 2 trial of amivantamab in <em>EGFR </em>or<em> MET-</em>amplified gastroesophageal adenocarcinoma (GEA)....\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Steven B. Maron",
-          "Charlton Tsai"
-        ],
-        "people": []
-      }
-    },
-    {
-      "rank": 50,
-      "company": "Suzhou Immunofoco Biotechnology Co., Ltd.",
-      "domain": null,
-      "abstractCount": 1,
-      "signalDetail": "1 sponsored abstracts at ASCO GI 2026 (1 poster). Lead: \"Phase I trial of efficacy and safety of IMC002, a VHH-based anti-CLDN18.2 CAR-T therapy, for gastroesophageal cancers....\"",
-      "stakeholders": {
-        "count": 2,
-        "locked": true,
-        "preview": [
-          "Chao Li",
-          "Tianhang Luo"
+          "Medical Affairs Lead",
+          "Clinical Development Dir"
         ],
         "people": []
       }
