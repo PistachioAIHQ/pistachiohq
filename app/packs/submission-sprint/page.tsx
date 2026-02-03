@@ -802,7 +802,7 @@ export default function SubmissionSprintPage() {
         </div>
         
         <div className="mt-6 text-center text-xs text-muted-foreground">
-          <p>© 2026 Pistachio AI · <Link href="/" className="underline hover:text-foreground">pistachiohq.ai</Link></p>
+          <p>© 2026 Pistachio AI · <Link href="/" className="underline hover:text-foreground">trypistachio.ai</Link></p>
         </div>
       </div>
       

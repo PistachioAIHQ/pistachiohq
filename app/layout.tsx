@@ -22,7 +22,7 @@ const fontSans = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pistachiohq.ai"),
+  metadataBase: new URL("https://trypistachio.ai"),
   title: {
     default: "Pistachio AI — Commercial Intelligence for Life Sciences",
     template: "%s | Pistachio AI",
@@ -33,18 +33,18 @@ export const metadata: Metadata = {
   creator: "Pistachio AI",
   publisher: "Pistachio AI",
   alternates: {
-    canonical: "https://pistachiohq.ai",
+    canonical: "https://trypistachio.ai",
   },
   openGraph: {
     title: "Pistachio AI — Commercial Intelligence for Life Sciences",
     description: "Find the right accounts, the right stakeholders, and the signal that makes them ready now. Built for life sciences BD teams.",
-    url: "https://pistachiohq.ai",
+    url: "https://trypistachio.ai",
     siteName: "Pistachio AI",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.pistachiohq.ai/og-image.png",
+        url: "https://www.trypistachio.ai/og-image.png",
         width: 1200,
         height: 630,
         alt: "Pistachio AI — Commercial Intelligence for Life Sciences",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: "Pistachio AI — Commercial Intelligence for Life Sciences",
     description: "Find the right accounts, the right stakeholders, and the signal that makes them ready now. Built for life sciences BD teams.",
     creator: "@DataMadan",
-    images: ["https://www.pistachiohq.ai/og-image.png"],
+    images: ["https://www.trypistachio.ai/og-image.png"],
   },
   robots: {
     index: true,

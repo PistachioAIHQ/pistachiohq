@@ -192,7 +192,7 @@ const jsonLd = {
   name: "Pistachio AI",
   applicationCategory: "BusinessApplication",
   description: "Commercial intelligence platform for life sciences BD and commercial teams. Find the right accounts, stakeholders, and timing signals using real-time data from clinical trials, publications, conferences, and hiring activity.",
-  url: "https://pistachiohq.ai",
+  url: "https://trypistachio.ai",
   operatingSystem: "Web",
   offers: {
     "@type": "Offer",
@@ -202,7 +202,7 @@ const jsonLd = {
   creator: {
     "@type": "Organization",
     name: "Pistachio AI",
-    url: "https://pistachiohq.ai",
+    url: "https://trypistachio.ai",
   },
 }
 
@@ -349,7 +349,7 @@ export default function Page() {
                   <div className="flex-1 flex justify-center">
                     <div className="hidden sm:flex items-center gap-2 bg-neutral-100 rounded-lg px-4 py-1.5">
                       <div className="h-3 w-3 rounded-sm bg-[#5ac53a]" />
-                      <span className="font-mono text-xs text-neutral-600">pistachiohq.ai/dashboard</span>
+                      <span className="font-mono text-xs text-neutral-600">trypistachio.ai/dashboard</span>
                     </div>
                   </div>
                   <div className="flex items-center gap-1.5 sm:gap-2">

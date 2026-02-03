@@ -100,7 +100,7 @@ export async function GET() {
                 display: "flex",
               }}
             >
-              pistachiohq.ai
+              trypistachio.ai
             </div>
             <div
               style={{
