@@ -489,7 +489,7 @@ function MidPageCTA({ price, companyCount }: { price: number; companyCount: numb
         </p>
         <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
           <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-6 py-5 text-sm cursor-pointer">
-            Get Full Access — ${price}
+            Get Full Access <ArrowRight className="h-4 w-4 ml-2" />
             <ArrowRight className="h-4 w-4 ml-2" />
           </Button>
         </a>
@@ -610,8 +610,7 @@ export default function GLP1PipelinePage() {
               <div className="text-xs text-muted-foreground">{data.pack.refreshCadence}</div>
               <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer" className="mt-3 block">
                 <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-6 py-5 text-sm cursor-pointer w-full">
-                  Get Access
-                  <ArrowRight className="h-4 w-4 ml-2" />
+                  Get Access <ArrowRight className="h-4 w-4 ml-2" />
                 </Button>
               </a>
             </div>
