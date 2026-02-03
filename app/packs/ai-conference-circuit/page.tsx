@@ -356,7 +356,7 @@ export default function AiConferenceCircuitPage() {
           </p>
           <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
             <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-8 py-6 text-base cursor-pointer">
-              Request Access — ${data.pack.price}/refresh
+              Request Access — ${data.pack.price}
               <ArrowRight className="h-4 w-4 ml-2" />
             </Button>
           </a>

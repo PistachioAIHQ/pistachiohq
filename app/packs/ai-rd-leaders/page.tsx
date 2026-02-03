@@ -325,7 +325,7 @@ function MidPageCTA({ price, leaderCount }: { price: number; leaderCount: number
         </p>
         <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
           <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-6 py-5 text-sm cursor-pointer">
-            Get Full Access — ${price}/month
+            Get Full Access — ${price}
             <ArrowRight className="h-4 w-4 ml-2" />
           </Button>
         </a>
@@ -432,7 +432,7 @@ export default function AIRDLeadersPage() {
             </div>
             <div className="text-right shrink-0">
               <div className="font-mono text-3xl font-bold">${data.pack.price}</div>
-              <div className="text-xs text-muted-foreground">per month · {data.pack.refreshCadence.toLowerCase()}</div>
+              <div className="text-xs text-muted-foreground">{data.pack.refreshCadence}</div>
               <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer" className="mt-3 block">
                 <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-6 py-5 text-sm cursor-pointer w-full">
                   Get Access
@@ -650,7 +650,7 @@ export default function AIRDLeadersPage() {
           </p>
           <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
             <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-8 py-6 text-base cursor-pointer">
-              Request Access — ${data.pack.price}/month
+              Request Access — ${data.pack.price}
               <ArrowRight className="h-4 w-4 ml-2" />
             </Button>
           </a>

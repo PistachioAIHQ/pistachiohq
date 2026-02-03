@@ -431,7 +431,7 @@ function MidPageCTA({ price, companyCount }: { price: number; companyCount: numb
         </p>
         <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
           <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-6 py-5 text-sm cursor-pointer">
-            Get Full Access — ${price}/refresh
+            Get Full Access — ${price}
             <ArrowRight className="h-4 w-4 ml-2" />
           </Button>
         </a>
@@ -782,7 +782,7 @@ export default function SubmissionSprintPage() {
           </p>
           <a href="https://forms.gle/N5MYpSt1p5kiYUUZ9" target="_blank" rel="noopener noreferrer">
             <Button className="rounded-none font-mono bg-foreground text-background hover:bg-foreground/90 px-8 py-6 text-base cursor-pointer">
-              Request Access — ${data.pack.price}/refresh
+              Request Access — ${data.pack.price}
               <ArrowRight className="h-4 w-4 ml-2" />
             </Button>
           </a>
