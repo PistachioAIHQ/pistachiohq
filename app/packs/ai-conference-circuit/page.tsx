@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Lock, ArrowRight, FileText, Users, ChevronDown, Target, TrendingUp, Network, Shield } from "lucide-react"
+import { Lock, ArrowRight, FileText, Building2, Users, ChevronDown, Target, TrendingUp, Cpu, Sparkles } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { useState, useEffect, useMemo } from "react"
@@ -18,7 +18,8 @@ interface Company {
   company: string
   ticker?: string
   domain?: string
-  consortium?: string
+  conference?: string
+  talkTitle?: string
   role?: string
   signalDetail: string
   stakeholders: {
@@ -126,16 +127,17 @@ function PersonNode({ person }: { person: StakeholderPerson }) {
   )
 }
 
-function ConsortiumBadge({ consortium }: { consortium: string }) {
+function ConferenceBadge({ conference }: { conference: string }) {
   const colors: Record<string, string> = {
-    "AISB/OpenFold3": "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-    "Pistoia Alliance": "bg-blue-500/10 text-blue-400 border-blue-500/20",
-    "MELLODDY": "bg-purple-500/10 text-purple-400 border-purple-500/20",
+    "AWS re:Invent": "bg-orange-500/10 text-orange-400 border-orange-500/20",
+    "NVIDIA GTC": "bg-green-500/10 text-green-400 border-green-500/20",
+    "Google Cloud Next": "bg-blue-500/10 text-blue-400 border-blue-500/20",
+    "Microsoft Build": "bg-cyan-500/10 text-cyan-400 border-cyan-500/20",
+    "Bio-IT World": "bg-purple-500/10 text-purple-400 border-purple-500/20",
   }
   return (
-    <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-mono uppercase tracking-wider ${colors[consortium] || "bg-muted text-muted-foreground border-border"}`}>
-      <Network className="h-2.5 w-2.5" />
-      {consortium}
+    <span className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-mono uppercase tracking-wider ${colors[conference] || "bg-muted text-muted-foreground border-border"}`}>
+      {conference}
     </span>
   )
 }
@@ -151,18 +153,24 @@ function CompanyCard({ company }: { company: Company }) {
               <span className="font-serif text-sm font-semibold leading-tight">{company.company}</span>
               {company.ticker && <span className="font-mono text-[11px] text-muted-foreground bg-muted/50 px-1.5 py-0.5 rounded">{company.ticker}</span>}
             </div>
-            {company.consortium && (
+            {company.conference && (
               <div className="mt-1.5">
-                <ConsortiumBadge consortium={company.consortium} />
+                <ConferenceBadge conference={company.conference} />
               </div>
             )}
           </div>
         </div>
         
+        {company.talkTitle && (
+          <p className="mt-2 text-xs text-foreground/90 leading-relaxed line-clamp-2 font-medium">
+            "{company.talkTitle}"
+          </p>
+        )}
+        
         {company.role && (
           <div className="mt-2">
-            <span className="inline-flex items-center gap-1 text-[11px] text-foreground/80 font-medium">
-              <Shield className="h-3 w-3 text-primary" /> {company.role}
+            <span className="inline-flex items-center gap-1 text-[10px] text-muted-foreground">
+              <Sparkles className="h-2.5 w-2.5" /> {company.role}
             </span>
           </div>
         )}
@@ -209,12 +217,12 @@ function CompanyCard({ company }: { company: Company }) {
   )
 }
 
-export default function AiConsortiumLeadersPage() {
+export default function AiConferenceCircuitPage() {
   const [data, setData] = useState<PackData | null>(null)
   const [showAll, setShowAll] = useState(false)
 
   useEffect(() => {
-    fetch("/data/pack-ai-consortium-leaders.json")
+    fetch("/data/pack-ai-conference-circuit.json")
       .then(r => r.json())
       .then(setData)
       .catch(console.error)
@@ -253,14 +261,14 @@ export default function AiConsortiumLeadersPage() {
           <div className="flex items-start justify-between flex-wrap gap-4">
             <div className="max-w-2xl">
               <div className="flex items-center gap-2 mb-3">
-                <span className="font-mono text-xs uppercase tracking-wider text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded-full">Premium Pack</span>
+                <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Conference Pack</span>
                 <span className="font-mono text-xs text-muted-foreground">Updated {data.pack.lastUpdated}</span>
               </div>
               <h1 className="font-serif text-2xl md:text-4xl font-semibold mb-3">
                 {data.pack.name}
               </h1>
               <p className="text-base md:text-lg text-foreground/90 leading-relaxed">
-                <strong>{data.pack.totalCompanies} major pharma companies</strong> actively shaping AI standards through OpenFold3/AISB, Pistoia Alliance, and other leading consortia.
+                <strong>{data.pack.totalCompanies} pharma & biotech companies</strong> with leaders who presented at AWS re:Invent, NVIDIA GTC, Google Cloud Next, Microsoft Build, and Bio-IT World in 2025.
               </p>
               <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
                 {data.pack.description}
@@ -291,8 +299,8 @@ export default function AiConsortiumLeadersPage() {
               <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Per Company</div>
             </div>
             <div className="rounded-lg border border-border p-3 text-center">
-              <Network className="h-5 w-5 mx-auto text-emerald-400" />
-              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">Consortium Verified</div>
+              <Cpu className="h-5 w-5 mx-auto text-cyan-400" />
+              <div className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">AI-Forward</div>
             </div>
           </div>
         </div>
@@ -301,10 +309,7 @@ export default function AiConsortiumLeadersPage() {
           <TrendingUp className="h-5 w-5 text-primary shrink-0 mt-0.5" />
           <div>
             <p className="text-sm text-foreground font-medium">
-              These leaders are actively shaping industry AI standards — they have both the vision AND budget authority for AI tools.
-            </p>
-            <p className="text-xs text-muted-foreground mt-1">
-              Includes participants in OpenFold3/AISB (protein structure AI) and Pistoia Alliance Agentic AI Initiative.
+              These leaders are driving AI adoption at their companies — they're the decision-makers for AI/ML tools and have budget authority.
             </p>
           </div>
         </div>

@@ -1046,7 +1046,7 @@ export default function Page() {
               <Link href="/packs/submission-sprint" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
-                  <span className="font-mono text-xs text-muted-foreground/60">$750/refresh</span>
+                  <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">Submission Sprint</h3>
                 <p className="text-sm text-muted-foreground mt-1">
@@ -1087,16 +1087,48 @@ export default function Page() {
                 </div>
               </Link>
 
+              {/* ASCO GI 2026 Pack */}
+              <Link href="/packs/asco-gi-2026" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="font-mono text-xs uppercase tracking-wider text-cyan-400 bg-cyan-400/10 px-2 py-0.5 rounded-full">Conference Pack</span>
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
+                  <span className="font-mono text-xs text-muted-foreground/60">$500/refresh</span>
+                </div>
+                <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">ASCO GI 2026</h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  52 pharma companies who presented at ASCO GI 2026 — with 156 oncology decision-makers and verified conference signals.
+                </p>
+                <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
+                  View pack <ArrowRight className="h-3 w-3" />
+                </div>
+              </Link>
+
+              {/* AI Conference Circuit Pack */}
+              <Link href="/packs/ai-conference-circuit" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="font-mono text-xs uppercase tracking-wider text-cyan-400 bg-cyan-400/10 px-2 py-0.5 rounded-full">Conference Pack</span>
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
+                  <span className="font-mono text-xs text-muted-foreground/60">$500/refresh</span>
+                </div>
+                <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">AI Conference Circuit</h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  55 pharma AI leaders who presented at AWS re:Invent, NVIDIA GTC, Google Cloud Next, Bio-IT World in 2025.
+                </p>
+                <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
+                  View pack <ArrowRight className="h-3 w-3" />
+                </div>
+              </Link>
+
               {/* AI Consortium Leaders Pack */}
               <Link href="/packs/ai-consortium-leaders" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
+                  <span className="font-mono text-xs uppercase tracking-wider text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded-full">Premium Pack</span>
                   <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
                   <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">AI Consortium Leaders</h3>
                 <p className="text-sm text-muted-foreground mt-1">
-                  24 pharma leaders shaping AI standards in OpenFold3/AISB, Pistoia Alliance, and MELLODDY — with budget authority for AI tools.
+                  12 major pharmas shaping AI standards in OpenFold3/AISB & Pistoia Alliance — the decision-makers buying AI tools.
                 </p>
                 <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
                   View pack <ArrowRight className="h-3 w-3" />
