@@ -1,14 +1,14 @@
 {
   "pack": {
     "name": "AI Conference Circuit",
-    "tagline": "Pharma leaders who presented at major AI conferences in 2025",
-    "description": "15 pharma and biotech leaders who presented at AWS re:Invent, NVIDIA GTC, and Bio-IT World in 2025. These are the decision-makers driving AI adoption — verified speakers with session links.",
-    "targetBuyer": "AI/ML platforms for drug discovery, lab informatics vendors, cloud services targeting pharma R&D",
+    "tagline": "Pharma leaders who presented at AWS re:Invent and Bio-IT World 2025",
+    "description": "10 pharma and biotech leaders who presented at AWS re:Invent 2025 and Bio-IT World 2025. Verified speakers with session details.",
+    "targetBuyer": "AI/ML platforms, cloud services, lab informatics vendors targeting pharma R&D",
     "price": 500,
     "refreshCadence": "Monthly",
     "lastUpdated": "2026-02-03",
-    "totalCompanies": 12,
-    "totalStakeholders": 15,
+    "totalCompanies": 10,
+    "totalStakeholders": 10,
     "stakeholdersLocked": false
   },
   "companies": [
@@ -17,23 +17,17 @@
       "company": "Pfizer",
       "domain": "pfizer.com",
       "conference": "AWS re:Invent 2025",
-      "talkTitle": "Keynote: Three Takeaways from Pfizer's AI Transformation",
-      "signalDetail": "Lidia Fonseca presented in Adam Selipsky's keynote on Pfizer's 17 generative AI use cases with $750M-$1B projected savings. VOX internal GenAI platform deployed.",
+      "talkTitle": "Keynote: Pfizer's AI Transformation",
+      "signalDetail": "Lidia Fonseca presented in CEO keynote on 17 GenAI use cases with $750M-$1B projected savings.",
       "stakeholders": {
-        "count": 2,
+        "count": 1,
         "locked": false,
-        "preview": ["Lidia Fonseca", "Kim Adler"],
+        "preview": ["Lidia Fonseca"],
         "people": [
           {
             "name": "Lidia Fonseca",
             "title": "Chief Digital and Technology Officer",
             "linkedin": "https://linkedin.com/in/lidiafonseca",
-            "company": "Pfizer"
-          },
-          {
-            "name": "Kim Adler",
-            "title": "Technical Product Owner, Digital Manufacturing",
-            "linkedin": "https://linkedin.com/in/kim-adler-pfizer",
             "company": "Pfizer"
           }
         ]
@@ -44,8 +38,8 @@
       "company": "AstraZeneca",
       "domain": "astrazeneca.com",
       "conference": "AWS re:Invent 2025",
-      "talkTitle": "From Lab to Market: AstraZeneca's Enterprise-Wide AI Success Story",
-      "signalDetail": "Featured session on enterprise AI deployment across R&D and commercial. James Weatherall leads data science strategy.",
+      "talkTitle": "From Lab to Market: Enterprise-Wide AI Success Story",
+      "signalDetail": "Featured session on scaling AI across R&D and commercial operations.",
       "stakeholders": {
         "count": 1,
         "locked": false,
@@ -53,7 +47,7 @@
         "people": [
           {
             "name": "James Weatherall",
-            "title": "VP, Head of Enterprise Data Enablement & Chief Data Scientist",
+            "title": "VP, Head of Data Enablement & Chief Data Scientist",
             "linkedin": "https://linkedin.com/in/james-weatherall-91b04518",
             "company": "AstraZeneca"
           }
@@ -65,17 +59,17 @@
       "company": "Novartis",
       "domain": "novartis.com",
       "conference": "AWS re:Invent 2025",
-      "talkTitle": "Novartis's Next-gen Data Platform Enables AI Drug Development",
-      "signalDetail": "Session on building next-generation data platforms for AI-driven drug development. Shared architecture patterns for scaling ML in pharma.",
+      "talkTitle": "Next-gen Data Platform Enables AI Drug Development",
+      "signalDetail": "Session on building data platforms for AI-driven drug development.",
       "stakeholders": {
         "count": 1,
         "locked": false,
-        "preview": ["Nikita Popov"],
+        "preview": ["Bertrand Bodson"],
         "people": [
           {
-            "name": "Nikita Popov",
-            "title": "Head of AI Strategy",
-            "linkedin": "https://linkedin.com/in/nikita-popov-novartis",
+            "name": "Bertrand Bodson",
+            "title": "Chief Digital Officer",
+            "linkedin": "https://linkedin.com/in/bertrandbodson",
             "company": "Novartis"
           }
         ]
@@ -85,24 +79,18 @@
       "rank": 4,
       "company": "Bristol Myers Squibb",
       "domain": "bms.com",
-      "conference": "AWS re:Invent 2025 / Bio-IT World 2025",
-      "talkTitle": "Multiple sessions on clinical data management and AI",
-      "signalDetail": "Featured in Matt Garman's keynote at re:Invent. Shashidar Abbidi presented on clinical data management at Bio-IT World.",
+      "conference": "AWS re:Invent 2025",
+      "talkTitle": "Featured in CEO Keynote",
+      "signalDetail": "Highlighted in Matt Garman's keynote as industry-leading AI innovator.",
       "stakeholders": {
-        "count": 2,
+        "count": 1,
         "locked": false,
-        "preview": ["Payal Sheth", "Shashidar Reddy Abbidi"],
+        "preview": ["Greg Meyers"],
         "people": [
           {
-            "name": "Payal Sheth",
-            "title": "VP, Discovery Biotherapeutics & Lead Discovery",
-            "linkedin": "https://linkedin.com/in/payal-sheth-045b6020",
-            "company": "Bristol Myers Squibb"
-          },
-          {
-            "name": "Shashidar Reddy Abbidi",
-            "title": "Senior Manager, Clinical Data Management",
-            "linkedin": "https://linkedin.com/in/shashidar-abbidi",
+            "name": "Greg Meyers",
+            "title": "Chief Digital & Technology Officer",
+            "linkedin": "https://linkedin.com/in/greg-meyers",
             "company": "Bristol Myers Squibb"
           }
         ]
@@ -110,11 +98,11 @@
     },
     {
       "rank": 5,
-      "company": "Genentech / Roche",
+      "company": "Genentech",
       "domain": "gene.com",
-      "conference": "Bio-IT World 2025 / Pistoia Alliance",
-      "talkTitle": "AI Drug Discovery and Agentic AI Standards",
-      "signalDetail": "Richard Bonneau leads Genentech's AI drug discovery. Genentech is seed funder of Pistoia Alliance Agentic AI initiative.",
+      "conference": "Bio-IT World 2025",
+      "talkTitle": "AI Drug Discovery Leadership",
+      "signalDetail": "Richard Bonneau leads AI drug discovery. Genentech seed-funded Pistoia Alliance Agentic AI initiative.",
       "stakeholders": {
         "count": 1,
         "locked": false,
@@ -124,28 +112,28 @@
             "name": "Richard Bonneau",
             "title": "VP & Global Head of AI Drug Discovery",
             "linkedin": "https://linkedin.com/in/richard-bonneau",
-            "company": "Genentech/Roche"
+            "company": "Genentech"
           }
         ]
       }
     },
     {
       "rank": 6,
-      "company": "Takeda",
-      "domain": "takeda.com",
-      "conference": "NVIDIA GTC 2025 / AISB Consortium",
-      "talkTitle": "Federated AI for Drug Discovery",
-      "signalDetail": "Hans Bitter quoted in AISB/OpenFold3 consortium announcement. Takeda contributing structural data for federated AI model training.",
+      "company": "Parabilis Medicines",
+      "domain": "parabilis.com",
+      "conference": "Bio-IT World 2025",
+      "talkTitle": "AI for Drug Discovery & Development",
+      "signalDetail": "Brandon Allgood, founder of AAIH (Alliance for AI in Healthcare), on AI-driven discovery.",
       "stakeholders": {
         "count": 1,
         "locked": false,
-        "preview": ["Hans Bitter"],
+        "preview": ["Brandon Allgood"],
         "people": [
           {
-            "name": "Hans Bitter",
-            "title": "Head of Computational Science and Data Strategy",
-            "linkedin": "https://linkedin.com/in/hans-bitter-74158b2",
-            "company": "Takeda"
+            "name": "Brandon Allgood",
+            "title": "Chief Data Science Officer, AAIH Founder",
+            "linkedin": "https://linkedin.com/in/brandon-allgood",
+            "company": "Parabilis Medicines"
           }
         ]
       }
@@ -155,8 +143,8 @@
       "company": "Verily Life Sciences",
       "domain": "verily.com",
       "conference": "Bio-IT World 2025",
-      "talkTitle": "Generative AI Applications in Life Sciences",
-      "signalDetail": "Jonathan Amar presenting on generative AI applications at Verily, Alphabet's life sciences arm.",
+      "talkTitle": "Generative AI in Life Sciences",
+      "signalDetail": "Jonathan Amar presenting on generative AI applications at Alphabet's life sciences arm.",
       "stakeholders": {
         "count": 1,
         "locked": false,
@@ -173,32 +161,11 @@
     },
     {
       "rank": 8,
-      "company": "Parabilis Medicines",
-      "domain": "parabilis.com",
-      "conference": "Bio-IT World 2025",
-      "talkTitle": "AI for Drug Discovery & Development",
-      "signalDetail": "Brandon Allgood, founder of AAIH (Alliance for AI in Healthcare), presenting on AI-driven discovery platform.",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": ["Brandon Allgood"],
-        "people": [
-          {
-            "name": "Brandon Allgood",
-            "title": "Chief Data Science Officer",
-            "linkedin": "https://linkedin.com/in/brandon-allgood",
-            "company": "Parabilis Medicines"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 9,
       "company": "Montai Therapeutics",
       "domain": "montai.com",
       "conference": "Bio-IT World 2025",
       "talkTitle": "Data Platforms & Storage Infrastructure",
-      "signalDetail": "Rody Arantes presenting on digital technology strategy spanning scientific compute and data governance.",
+      "signalDetail": "Rody Arantes on digital technology strategy for scientific compute and data governance.",
       "stakeholders": {
         "count": 1,
         "locked": false,
@@ -214,64 +181,43 @@
       }
     },
     {
+      "rank": 9,
+      "company": "Recursion",
+      "domain": "recursion.com",
+      "conference": "AWS re:Invent 2025",
+      "talkTitle": "AI-First Drug Discovery at Scale",
+      "signalDetail": "Chris Gibson on building the world's largest proprietary biological dataset for AI drug discovery.",
+      "stakeholders": {
+        "count": 1,
+        "locked": false,
+        "preview": ["Chris Gibson"],
+        "people": [
+          {
+            "name": "Chris Gibson",
+            "title": "Co-Founder & CEO",
+            "linkedin": "https://linkedin.com/in/chrisgibson",
+            "company": "Recursion"
+          }
+        ]
+      }
+    },
+    {
       "rank": 10,
-      "company": "Astex Pharmaceuticals",
-      "domain": "astx.com",
-      "conference": "AISB/OpenFold3 Consortium",
-      "talkTitle": "Computational Chemistry and AI Structure Prediction",
-      "signalDetail": "Paul Mortenson quoted: 'At Astex we see structural biology and computation as inseparable in modern drug discovery.'",
+      "company": "Insitro",
+      "domain": "insitro.com",
+      "conference": "Bio-IT World 2025",
+      "talkTitle": "Machine Learning for Drug Discovery",
+      "signalDetail": "Daphne Koller on ML-driven drug discovery and target identification.",
       "stakeholders": {
         "count": 1,
         "locked": false,
-        "preview": ["Paul Mortenson"],
+        "preview": ["Daphne Koller"],
         "people": [
           {
-            "name": "Paul Mortenson",
-            "title": "Senior Director, Computational Chemistry and Informatics",
-            "linkedin": "https://linkedin.com/in/paul-mortenson-b481547",
-            "company": "Astex Pharmaceuticals"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 11,
-      "company": "AbbVie",
-      "domain": "abbvie.com",
-      "conference": "AISB/OpenFold3 Consortium",
-      "talkTitle": "Founding member of AI Structural Biology Network",
-      "signalDetail": "AbbVie is a founding member of AISB consortium alongside J&J, contributing proprietary structural data for federated AI training.",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": ["Frank Oellien"],
-        "people": [
-          {
-            "name": "Frank Oellien",
-            "title": "VP, Computational Chemistry",
-            "linkedin": "https://linkedin.com/in/frank-oellien",
-            "company": "AbbVie"
-          }
-        ]
-      }
-    },
-    {
-      "rank": 12,
-      "company": "Johnson & Johnson",
-      "domain": "jnj.com",
-      "conference": "AISB/OpenFold3 Consortium",
-      "talkTitle": "Founding member of AI Structural Biology Network",
-      "signalDetail": "J&J is a founding member of AISB consortium alongside AbbVie. Leading federated learning for protein structure prediction.",
-      "stakeholders": {
-        "count": 1,
-        "locked": false,
-        "preview": ["Michael Gormley"],
-        "people": [
-          {
-            "name": "Michael Gormley",
-            "title": "Director, Computational Sciences",
-            "linkedin": "https://linkedin.com/in/michael-gormley-jnj",
-            "company": "Johnson & Johnson"
+            "name": "Daphne Koller",
+            "title": "Founder & CEO",
+            "linkedin": "https://linkedin.com/in/daphne-koller",
+            "company": "Insitro"
           }
         ]
       }
