@@ -322,6 +322,39 @@ export default function Page() {
             </Button>
           </div>
 
+          {/* Company Logo Avatar Group */}
+          <div className="mt-8 flex items-center gap-4">
+            <span className="text-xs text-muted-foreground font-mono uppercase tracking-wider">Tracking signals from</span>
+            <div className="flex items-center -space-x-2">
+              {[
+                { name: "Pfizer", domain: "pfizer.com" },
+                { name: "Roche", domain: "roche.com" },
+                { name: "Novartis", domain: "novartis.com" },
+                { name: "AstraZeneca", domain: "astrazeneca.com" },
+                { name: "Merck", domain: "merck.com" },
+                { name: "Johnson & Johnson", domain: "jnj.com" },
+                { name: "Sanofi", domain: "sanofi.com" },
+                { name: "GSK", domain: "gsk.com" },
+              ].map((company, i) => (
+                <div 
+                  key={company.domain}
+                  className="h-9 w-9 rounded-full border-2 border-background bg-white shadow-sm flex items-center justify-center overflow-hidden transition-transform hover:scale-110 hover:z-10"
+                  style={{ zIndex: 8 - i }}
+                  title={company.name}
+                >
+                  <img
+                    src={`https://img.logo.dev/${company.domain}?token=pk_bUM9Jb7fRFSsD3V1KHoDxg`}
+                    alt={company.name}
+                    className="h-5 w-5 object-contain"
+                  />
+                </div>
+              ))}
+              <div className="h-9 w-9 rounded-full border-2 border-background bg-neutral-100 shadow-sm flex items-center justify-center text-xs font-mono text-neutral-500 font-semibold">
+                +200
+              </div>
+            </div>
+          </div>
+
           {/* Priority Stakeholders Showcase - App Frame */}
           <div ref={cardsRef} className="mt-16 relative">
             {/* Background container with image */}
@@ -1046,7 +1079,6 @@ export default function Page() {
               <Link href="/packs/submission-sprint" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
-                  <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">Submission Sprint</h3>
                 <p className="text-sm text-muted-foreground mt-1">
@@ -1061,7 +1093,6 @@ export default function Page() {
               <Link href="/packs/ai-rd-leaders" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
-                  <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">AI R&D Leaders</h3>
                 <p className="text-sm text-muted-foreground mt-1">
@@ -1076,7 +1107,6 @@ export default function Page() {
               <Link href="/packs/glp1-pipeline" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
-                  <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">GLP-1 Pipeline Radar</h3>
                 <p className="text-sm text-muted-foreground mt-1">
@@ -1092,7 +1122,6 @@ export default function Page() {
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-xs uppercase tracking-wider text-cyan-400 bg-cyan-400/10 px-2 py-0.5 rounded-full">Conference Pack</span>
                   <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
-                  <span className="font-mono text-xs text-muted-foreground/60">$500/refresh</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">ASCO GI 2026</h3>
                 <p className="text-sm text-muted-foreground mt-1">
@@ -1108,7 +1137,6 @@ export default function Page() {
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-xs uppercase tracking-wider text-cyan-400 bg-cyan-400/10 px-2 py-0.5 rounded-full">Conference Pack</span>
                   <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
-                  <span className="font-mono text-xs text-muted-foreground/60">$500/refresh</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">AI Conference Circuit</h3>
                 <p className="text-sm text-muted-foreground mt-1">
@@ -1124,7 +1152,6 @@ export default function Page() {
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-xs uppercase tracking-wider text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded-full">Premium Pack</span>
                   <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
-                  <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">AI Consortium Leaders</h3>
                 <p className="text-sm text-muted-foreground mt-1">
