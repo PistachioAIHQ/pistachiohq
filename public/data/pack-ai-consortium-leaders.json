@@ -1,0 +1,808 @@
+{
+  "pack": {
+    "name": "AI Consortium Leaders",
+    "tagline": "The pharma leaders shaping AI standards — and buying AI tools",
+    "description": "Decision-makers at pharmas actively participating in OpenFold3/AISB, Pistoia Alliance Agentic AI, and other AI consortia. These leaders are shaping industry AI standards and have budget authority for AI tools.",
+    "targetBuyer": "AI/ML platform companies selling to pharma R&D",
+    "price": 500,
+    "refreshCadence": "Monthly",
+    "lastUpdated": "2026-02-03",
+    "totalCompanies": 12,
+    "totalStakeholders": 24,
+    "stakeholdersLocked": true
+  },
+  "leaders": [
+    {
+      "rank": 1,
+      "name": "Payal Sheth",
+      "title": "VP, Discovery Biotherapeutics & Lead Discovery and Optimization",
+      "company": "Bristol Myers Squibb",
+      "domain": "bms.com",
+      "linkedin": "https://linkedin.com/in/payal-sheth-045b6020",
+      "activityScore": "HIGH",
+      "consortium": "AISB/OpenFold3",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "BMS joins AISB Network Federated OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "Quoted in press release: 'Through this federated learning initiative, we're bringing together diverse structural datasets from multiple pharmaceutical companies to advance predictive models for small molecule discovery.'"
+        },
+        {
+          "type": "news",
+          "date": "2025-10-02",
+          "title": "Three more pharmas join OpenFold3 AI consortium",
+          "url": "https://pharmaphorum.com/news/three-more-pharmas-join-openfold3-ai-consortium",
+          "summary": "BMS, Takeda, and Astex join AbbVie and J&J in federated AI initiative for drug discovery"
+        },
+        {
+          "type": "speaking",
+          "date": "2025-10-03",
+          "title": "Bristol-Myers Squibb, Takeda, Astex Join AI Consortium",
+          "url": "https://finance.yahoo.com/news/bristol-myers-squibb-takeda-astex-093314157.html",
+          "summary": "Key decision-maker for BMS's participation in industry AI consortia"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Hans Bitter",
+      "title": "Head of Computational Science and Data Strategy",
+      "company": "Takeda",
+      "domain": "takeda.com",
+      "linkedin": "https://linkedin.com/in/hans-bitter-74158b2",
+      "activityScore": "HIGH",
+      "consortium": "AISB/OpenFold3",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "Takeda joins AISB Network Federated OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "Quoted in press release: 'We are excited to be joining the AI Structural Biology Network and providing additional data to support the refinement of OpenFold3.'"
+        },
+        {
+          "type": "news",
+          "date": "2025-10-01",
+          "title": "BMS, Takeda join AI drug discovery consortium",
+          "url": "https://firstwordpharma.com/story/6229502",
+          "summary": "Takeda contributing proprietary structural data for federated AI model training"
+        },
+        {
+          "type": "linkedin",
+          "date": "2024-09-01",
+          "title": "New role: Head of Computational Science, Data Strategy at Takeda",
+          "url": "https://linkedin.com/in/hans-bitter-74158b2",
+          "summary": "Joined Takeda from MOMA Therapeutics; previously SVP Computational Sciences at bluebird bio and Novartis"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Paul Mortenson",
+      "title": "Senior Director, Computational Chemistry and Informatics",
+      "company": "Astex Pharmaceuticals",
+      "domain": "astx.com",
+      "linkedin": "https://linkedin.com/in/paul-mortenson-b481547",
+      "activityScore": "HIGH",
+      "consortium": "AISB/OpenFold3",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "Astex joins AISB Network Federated OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "Quoted in press release: 'At Astex we see structural biology and computation as inseparable in modern drug discovery.'"
+        },
+        {
+          "type": "news",
+          "date": "2025-10-02",
+          "title": "BMS, Takeda and Astex join AI training consortium",
+          "url": "https://pmlive.com/pharma_news/bms-takeda-and-astex-join-ai-training-consortium/",
+          "summary": "Contributing small molecule-protein structure data to federated OpenFold3 training"
+        },
+        {
+          "type": "news",
+          "date": "2025-10-03",
+          "title": "OpenFold3 Project: Pharma Giants Pool Data",
+          "url": "https://www.biotecnika.org/2025/10/openfold3-project-pharma-giants-pool-data-to-speed-up-new-drug-discovery/",
+          "summary": "Astex as fragment-based drug discovery leader contributing structural data"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Richard Bonneau",
+      "title": "VP & Global Head, AI for Drug Discovery",
+      "company": "Genentech/Roche",
+      "domain": "gene.com",
+      "linkedin": "https://linkedin.com/in/richard-bonneau-45b8673",
+      "activityScore": "HIGH",
+      "consortium": "Pistoia Alliance Agentic AI (Genentech seed funder)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-09-04",
+          "title": "Genentech provides seed funding for Pistoia Alliance Agentic AI initiative",
+          "url": "https://pistoiaalliance.org/ai/pistoia-alliance-unveils-agentic-ai-initiative-and-seeks-industry-funding-to-drive-safe-adoption/",
+          "summary": "Genentech seed funding signals commitment to shaping agentic AI standards in pharma"
+        },
+        {
+          "type": "news",
+          "date": "2025-01-01",
+          "title": "Promoted to VP & Global Head, AI for Drug Discovery at Roche",
+          "url": "https://linkedin.com/in/richard-bonneau-45b8673",
+          "summary": "Leading AI drug discovery across Genentech and Roche; founded Prescient Design (acquired)"
+        },
+        {
+          "type": "speaking",
+          "date": "2025-10-02",
+          "title": "Pistoia Alliance Tackles Agentic AI in Pharmaceutical Research",
+          "url": "https://www.bio-itworld.com/news/2025/10/02/pistoia-alliance-tackles-agentic-ai-in-pharmaceutical-research",
+          "summary": "Genentech positioned as thought leader in responsible AI adoption"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Frank Oellien",
+      "title": "Head of Computational Drug Discovery Germany",
+      "company": "AbbVie",
+      "domain": "abbvie.com",
+      "linkedin": "https://linkedin.com/in/frankoellien",
+      "activityScore": "HIGH",
+      "consortium": "AISB/OpenFold3 (AbbVie founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "AbbVie founding member of AISB Network OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "AbbVie as founding member alongside J&J contributing proprietary structural data"
+        },
+        {
+          "type": "news",
+          "date": "2023-01-01",
+          "title": "Promoted to Head Computational Drug Discovery Germany at AbbVie",
+          "url": "https://linkedin.com/in/frankoellien",
+          "summary": "Leading computational chemistry and CAMD teams; EuCheMS board member"
+        },
+        {
+          "type": "linkedin",
+          "date": "2025-10-01",
+          "title": "New pharma contributors join OpenFold3 federated initiative",
+          "url": "https://www.linkedin.com/posts/robinroehm_federatedlearning-drugdiscovery-structuralbiology-activity-7379089832028819456-SQDB",
+          "summary": "AbbVie among original consortium members pooling structural biology data"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Michael Gormley",
+      "title": "Sr. Scientific Director, Head of Computational Biology, Oncology",
+      "company": "Johnson & Johnson (Janssen)",
+      "domain": "jnj.com",
+      "linkedin": "https://linkedin.com/in/michaelgormley",
+      "activityScore": "HIGH",
+      "consortium": "AISB/OpenFold3 (J&J founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "J&J founding member of AISB Network OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "J&J as founding member contributing proprietary structural data to federated AI training"
+        },
+        {
+          "type": "speaking",
+          "date": "2026-01-10",
+          "title": "Bio-IT World Expo 2025 Speaker",
+          "url": "https://www.bio-itworldexpo.com/speaker-biographies",
+          "summary": "Speaking on computational biology applications in drug discovery"
+        },
+        {
+          "type": "news",
+          "date": "2025-10-17",
+          "title": "AI-enabled health care at Johnson & Johnson",
+          "url": "https://sponsored.bostonglobe.com/johnson-johnson/johnson-johnson-is-leading-ai-enabled-health-care/",
+          "summary": "J&J positioned as leader in AI-enabled drug discovery and healthcare"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Nikita Popov",
+      "title": "Head of AI Strategy Office",
+      "company": "Novartis",
+      "domain": "novartis.com",
+      "linkedin": "https://linkedin.com/in/popovnikita",
+      "activityScore": "HIGH",
+      "consortium": "Multiple AI consortia / Industry thought leader",
+      "recentSignals": [
+        {
+          "type": "speaking",
+          "date": "2025-10-19",
+          "title": "HLTH USA 2025 Speaker",
+          "url": "https://hlth.com/events/usa/agenda/?date=2025-10-21",
+          "summary": "Speaking on AI strategy in pharmaceutical industry"
+        },
+        {
+          "type": "deal",
+          "date": "2025-09-05",
+          "title": "Novartis and Microsoft AI collaboration",
+          "url": "https://www.novartis.com/ie-en/stories/novartis-and-microsoft-announce-collaboration-transform-medicine-artificial-intelligence",
+          "summary": "Leading Novartis enterprise AI strategy including industry collaborations"
+        },
+        {
+          "type": "speaking",
+          "date": "2025-11-18",
+          "title": "Meet Novartis Management Speaker Bios",
+          "url": "https://www.novartis.com/sites/novartis_com/files/meet-novartis-management-2025-speakers.pdf",
+          "summary": "Key spokesperson for Novartis AI initiatives"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Daniel Kuhn",
+      "title": "Director, Head of AI and New Technologies",
+      "company": "Merck KGaA",
+      "domain": "merckgroup.com",
+      "linkedin": "https://linkedin.com/in/daniel-kuhn-23207a5",
+      "activityScore": "HIGH",
+      "consortium": "MELLODDY consortium participant",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2022-07-13",
+          "title": "MELLODDY consortium federated learning platform release",
+          "url": "https://tech.eu/2022/07/13/eu-backed-healthcare-project-rolls-out-platform-for-federated-learning-in-drug-discovery/",
+          "summary": "Merck KGaA participant in MELLODDY federated learning for drug discovery"
+        },
+        {
+          "type": "news",
+          "date": "2023-10-01",
+          "title": "Promoted to Director, Head of AI and New Technologies",
+          "url": "https://linkedin.com/in/daniel-kuhn-23207a5",
+          "summary": "Leading AI strategy and computational drug design at Merck KGaA"
+        },
+        {
+          "type": "speaking",
+          "date": "2012-10-01",
+          "title": "Lecturer Computer-aided Drug Design at THM",
+          "url": "https://linkedin.com/in/daniel-kuhn-23207a5",
+          "summary": "Academic connections in computational chemistry community"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Christos Varsakelis",
+      "title": "Associate Director, AI/ML in Drug Discovery",
+      "company": "Johnson & Johnson Innovative Medicine",
+      "domain": "jnj.com",
+      "linkedin": "https://linkedin.com/in/christos-varsakelis-716313b3",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (J&J founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "J&J founding member of AISB Network OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "J&J contributing structural data to federated AI drug discovery"
+        },
+        {
+          "type": "hiring",
+          "date": "2022-04-01",
+          "title": "Promoted to Associate Director AI/ML at J&J",
+          "url": "https://linkedin.com/in/christos-varsakelis-716313b3",
+          "summary": "Leading AI/ML in drug discovery and external innovation partnerships"
+        },
+        {
+          "type": "news",
+          "date": "2020-12-01",
+          "title": "Team Lead AI/ML Early Drug Discovery",
+          "url": "https://linkedin.com/in/christos-varsakelis-716313b3",
+          "summary": "Previously at GSK leading bioprocess data analytics"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Dorota Herman",
+      "title": "Associate Director, AI/ML in Drug Discovery",
+      "company": "Johnson & Johnson Innovative Medicine",
+      "domain": "jnj.com",
+      "linkedin": "https://linkedin.com/in/dorota-herman-ab433033",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (J&J founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "J&J founding member of AISB Network OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "J&J contributing to federated AI model training"
+        },
+        {
+          "type": "hiring",
+          "date": "2025-09-01",
+          "title": "Promoted to Associate Director AI/ML",
+          "url": "https://linkedin.com/in/dorota-herman-ab433033",
+          "summary": "Leading AI/ML applications in drug discovery at J&J"
+        },
+        {
+          "type": "linkedin",
+          "date": "2023-10-01",
+          "title": "Principal Data Scientist in Drug Discovery",
+          "url": "https://linkedin.com/in/dorota-herman-ab433033",
+          "summary": "Discovery Data Science and computational systems biology background"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Vincent S. Stoll",
+      "title": "Senior Research Fellow and Director of Structural Biology",
+      "company": "AbbVie",
+      "domain": "abbvie.com",
+      "linkedin": "https://linkedin.com/in/vincent-s-stoll-0a59b1b",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (AbbVie founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "AbbVie founding member of AISB Network OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "AbbVie contributing proprietary structural data for AI model training"
+        },
+        {
+          "type": "news",
+          "date": "1997-06-01",
+          "title": "Long tenure at AbbVie/Abbott in Structural Biology",
+          "url": "https://linkedin.com/in/vincent-s-stoll-0a59b1b",
+          "summary": "25+ years leading structural biology; key institutional knowledge holder"
+        },
+        {
+          "type": "linkedin",
+          "date": "2013-01-01",
+          "title": "Previously Associate Director of Structural Biology at Abbott",
+          "url": "https://linkedin.com/in/vincent-s-stoll-0a59b1b",
+          "summary": "Deep expertise in X-ray crystallography and structure-based drug design"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Chaohong Sun",
+      "title": "Sr. Director & Sr. Research Fellow, Protein Sciences, HTS, FBDD, DEL & Structural Biology",
+      "company": "AbbVie",
+      "domain": "abbvie.com",
+      "linkedin": "https://linkedin.com/in/chaohong-sun-1b081929",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (AbbVie founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "AbbVie founding member of AISB Network OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "AbbVie contributing structural biology data to federated AI training"
+        },
+        {
+          "type": "hiring",
+          "date": "2021-08-01",
+          "title": "Promoted to Sr. Director at AbbVie",
+          "url": "https://linkedin.com/in/chaohong-sun-1b081929",
+          "summary": "Leading FBDD, HTS, DEL and Protein Sciences teams"
+        },
+        {
+          "type": "linkedin",
+          "date": "2018-01-01",
+          "title": "Director Research Fellow, FBDD & Protein Sciences",
+          "url": "https://linkedin.com/in/chaohong-sun-1b081929",
+          "summary": "Expert in fragment-based drug discovery and protein biochemistry"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Steven Troy",
+      "title": "Director, Artificial Intelligence, R&D Global Therapeutics",
+      "company": "AbbVie",
+      "domain": "abbvie.com",
+      "linkedin": "https://linkedin.com/in/steventroy",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (AbbVie founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "AbbVie founding member of AISB Network",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "AbbVie as founding member in federated AI drug discovery"
+        },
+        {
+          "type": "hiring",
+          "date": "2024-07-01",
+          "title": "Appointed Director, AI R&D Global Therapeutics",
+          "url": "https://linkedin.com/in/steventroy",
+          "summary": "Leading AI strategy for R&D at AbbVie Business Technology Solutions"
+        },
+        {
+          "type": "news",
+          "date": "2020-10-01",
+          "title": "Previously Director, Emerging Endeavors M&A and Academic Partnerships",
+          "url": "https://linkedin.com/in/steventroy",
+          "summary": "Experience in AI deals, M&A, and academic partnerships"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Gabriele Ricci",
+      "title": "Chief Data Technology Officer",
+      "company": "Takeda",
+      "domain": "takeda.com",
+      "linkedin": "https://linkedin.com/in/gabrielericci78",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (Takeda member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "Takeda joins AISB Network OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "Takeda contributing data to federated AI model training"
+        },
+        {
+          "type": "linkedin",
+          "date": "",
+          "title": "Takeda launches AI platform for global enterprise",
+          "url": "https://www.linkedin.com/posts/gabrielericci78_takedaai-digitaltransformation-enterpriseai-activity-7345949918642978818-JfZg",
+          "summary": "Leading Takeda's enterprise AI and data strategy"
+        },
+        {
+          "type": "linkedin",
+          "date": "",
+          "title": "Pharma's AI Transformation: 2026 Predictions",
+          "url": "https://www.linkedin.com/posts/gabrielericci78_pharma-ai-operatingmodel-activity-7417573074780454913-V5IA",
+          "summary": "Thought leader on AI transformation in pharma"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Stephen Johnson",
+      "title": "Vice President, New Leads Computational Sciences",
+      "company": "Bristol Myers Squibb",
+      "domain": "bms.com",
+      "linkedin": "https://linkedin.com/in/stephenrjohnson1",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (BMS member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "BMS joins AISB Network OpenFold3 Initiative",
+          "url": "https://pharmaphorum.com/news/three-more-pharmas-join-openfold3-ai-consortium",
+          "summary": "BMS contributing structural data to federated AI training"
+        },
+        {
+          "type": "hiring",
+          "date": "2024-04-01",
+          "title": "Promoted to VP, New Leads Computational Sciences",
+          "url": "https://linkedin.com/in/stephenrjohnson1",
+          "summary": "Leading computational sciences for new lead discovery at BMS"
+        },
+        {
+          "type": "linkedin",
+          "date": "2025-03-01",
+          "title": "Board Observer at Sapience Therapeutics",
+          "url": "https://linkedin.com/in/stephenrjohnson1",
+          "summary": "Active in biotech investment and partnerships"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Eric Martin",
+      "title": "Director, Computational Chemistry",
+      "company": "Novartis",
+      "domain": "novartis.com",
+      "linkedin": "https://linkedin.com/in/eric-martin-7a409711",
+      "activityScore": "MEDIUM",
+      "consortium": "MELLODDY consortium participant",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2022-07-13",
+          "title": "Novartis MELLODDY consortium participant",
+          "url": "https://oak.novartis.com/51249/",
+          "summary": "Cross-pharma federated learning at unprecedented scale"
+        },
+        {
+          "type": "news",
+          "date": "2006-01-01",
+          "title": "Long tenure leading Computational Chemistry at Novartis",
+          "url": "https://linkedin.com/in/eric-martin-7a409711",
+          "summary": "20+ years experience; previously at Chiron"
+        },
+        {
+          "type": "linkedin",
+          "date": "1992-08-01",
+          "title": "Director Computational Chemistry since 1992",
+          "url": "https://linkedin.com/in/eric-martin-7a409711",
+          "summary": "Deep institutional knowledge in computational drug discovery"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Frank Dondelinger",
+      "title": "Director Data Science, Oncology",
+      "company": "Novartis Institutes for BioMedical Research",
+      "domain": "novartis.com",
+      "linkedin": "https://linkedin.com/in/frank-dondelinger-bb634992",
+      "activityScore": "MEDIUM",
+      "consortium": "MELLODDY consortium / Novartis AI initiatives",
+      "recentSignals": [
+        {
+          "type": "hiring",
+          "date": "2022-07-01",
+          "title": "Director Data Science, Oncology at NIBR",
+          "url": "https://linkedin.com/in/frank-dondelinger-bb634992",
+          "summary": "Leading oncology data science at Novartis research"
+        },
+        {
+          "type": "news",
+          "date": "2020-05-01",
+          "title": "Previously Lead Data Analyst, Digital Biomarkers at Roche",
+          "url": "https://linkedin.com/in/frank-dondelinger-bb634992",
+          "summary": "Experience across Roche and Novartis in digital biomarkers"
+        },
+        {
+          "type": "linkedin",
+          "date": "2015-11-01",
+          "title": "Academic background as Lecturer in Biostatistics at Lancaster",
+          "url": "https://linkedin.com/in/frank-dondelinger-bb634992",
+          "summary": "Strong academic connections in biostatistics community"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Ed Sherer",
+      "title": "Senior Director, Digital Sciences",
+      "company": "Merck",
+      "domain": "merck.com",
+      "linkedin": "https://linkedin.com/in/ed-sherer-b6b5994",
+      "activityScore": "MEDIUM",
+      "consortium": "MELLODDY consortium (Merck participant)",
+      "recentSignals": [
+        {
+          "type": "hiring",
+          "date": "2025-03-01",
+          "title": "Promoted to Senior Director, Digital Sciences at Merck",
+          "url": "https://linkedin.com/in/ed-sherer-b6b5994",
+          "summary": "Leading digital sciences and computational chemistry at Merck"
+        },
+        {
+          "type": "news",
+          "date": "2017-09-01",
+          "title": "Previously Director, Chemistry (Computational) at Merck",
+          "url": "https://linkedin.com/in/ed-sherer-b6b5994",
+          "summary": "20+ years at Merck in computational chemistry and NMR"
+        },
+        {
+          "type": "linkedin",
+          "date": "2020-05-01",
+          "title": "Director, Digital Sciences and NMR Structure Elucidation",
+          "url": "https://linkedin.com/in/ed-sherer-b6b5994",
+          "summary": "Deep expertise in analytical R&D and structure determination"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Jeff Headd",
+      "title": "Vice President, Commercial Data Science",
+      "company": "Johnson & Johnson Innovative Medicine",
+      "domain": "jnj.com",
+      "linkedin": "https://linkedin.com/in/jheadd",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (J&J founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "J&J founding member of AISB Network",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "J&J contributing to federated AI model training"
+        },
+        {
+          "type": "hiring",
+          "date": "2021-11-01",
+          "title": "VP, Commercial Data Science at J&J Innovative Medicine",
+          "url": "https://linkedin.com/in/jheadd",
+          "summary": "Leading commercial data science across J&J Innovative Medicine"
+        },
+        {
+          "type": "linkedin",
+          "date": "2014-02-01",
+          "title": "Duke University PhD in Computational Biology",
+          "url": "https://linkedin.com/in/jheadd",
+          "summary": "Strong academic background; previously at Lawrence Berkeley National Lab"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Brian Bierie",
+      "title": "Director, R&D Data and Digital Strategy",
+      "company": "AbbVie",
+      "domain": "abbvie.com",
+      "linkedin": "https://linkedin.com/in/brian-bierie-209597a8",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (AbbVie founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "AbbVie founding member of AISB Network",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "AbbVie leading federated AI drug discovery initiatives"
+        },
+        {
+          "type": "hiring",
+          "date": "2024-03-01",
+          "title": "Director, R&D Data and Digital Strategy at AbbVie",
+          "url": "https://linkedin.com/in/brian-bierie-209597a8",
+          "summary": "Leading R&D data strategy; previously Broad Institute"
+        },
+        {
+          "type": "news",
+          "date": "2018-01-01",
+          "title": "Principal Research Scientist at AbbVie",
+          "url": "https://linkedin.com/in/brian-bierie-209597a8",
+          "summary": "Whitehead Institute postdoc background in cancer biology"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Robert Liang",
+      "title": "Director, Translational Bioanalytics & AI Strategy",
+      "company": "Johnson & Johnson",
+      "domain": "jnj.com",
+      "linkedin": "https://linkedin.com/in/robert-liang-98987519b",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (J&J founding member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "J&J founding member of AISB Network",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "J&J contributing to federated AI drug discovery"
+        },
+        {
+          "type": "hiring",
+          "date": "2022-03-01",
+          "title": "Director Translational Bioanalytics & AI Strategy at J&J",
+          "url": "https://linkedin.com/in/robert-liang-98987519b",
+          "summary": "Leading AI strategy for translational bioanalytics"
+        },
+        {
+          "type": "news",
+          "date": "2017-09-01",
+          "title": "Previously Scientific Project Lead AI-Driven Bioanalytics at GSK",
+          "url": "https://linkedin.com/in/robert-liang-98987519b",
+          "summary": "12+ years at GSK leading AI bioanalytics projects"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Tobias Morawietz",
+      "title": "Computational Life Scientist",
+      "company": "Bayer",
+      "domain": "bayer.com",
+      "linkedin": "https://linkedin.com/in/tobias-morawietz",
+      "activityScore": "MEDIUM",
+      "consortium": "MELLODDY consortium (Bayer participant)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2019-10-01",
+          "title": "Project Contributor to MELLODDY consortium",
+          "url": "https://linkedin.com/in/tobias-morawietz",
+          "summary": "Active contributor to MELLODDY federated learning initiative 2019-2022"
+        },
+        {
+          "type": "news",
+          "date": "2019-10-01",
+          "title": "Computational Life Scientist at Bayer",
+          "url": "https://linkedin.com/in/tobias-morawietz",
+          "summary": "ML and computational chemistry for drug discovery"
+        },
+        {
+          "type": "linkedin",
+          "date": "2016-08-01",
+          "title": "DFG Postdoctoral Fellow at Stanford University",
+          "url": "https://linkedin.com/in/tobias-morawietz",
+          "summary": "Strong academic background in theoretical chemistry"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Richard Hall",
+      "title": "Director, Computational Chemistry and Informatics",
+      "company": "Astex Pharmaceuticals",
+      "domain": "astx.com",
+      "linkedin": "https://linkedin.com/in/richard-hall-5525a231",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (Astex member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "Astex joins AISB Network OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "Astex contributing structural data to federated AI training"
+        },
+        {
+          "type": "hiring",
+          "date": "2018-04-01",
+          "title": "Director at Astex Pharmaceuticals",
+          "url": "https://linkedin.com/in/richard-hall-5525a231",
+          "summary": "Leading computational chemistry team at fragment discovery leader"
+        },
+        {
+          "type": "linkedin",
+          "date": "2007-02-01",
+          "title": "18+ years at Astex in computational chemistry",
+          "url": "https://linkedin.com/in/richard-hall-5525a231",
+          "summary": "Deep expertise in FBDD and computational drug design"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Tom Davies",
+      "title": "Senior Director Discovery Technologies",
+      "company": "Astex Pharmaceuticals",
+      "domain": "astx.com",
+      "linkedin": "https://linkedin.com/in/tom-davies-7293366",
+      "activityScore": "MEDIUM",
+      "consortium": "AISB/OpenFold3 (Astex member)",
+      "recentSignals": [
+        {
+          "type": "deal",
+          "date": "2025-10-01",
+          "title": "Astex joins AISB Network OpenFold3 Initiative",
+          "url": "https://www.apheris.com/resources/blog/aisb-network-expands-federated-openfold3-initiative-with-three-new-pharma-contrib",
+          "summary": "Astex contributing fragment-based structural data"
+        },
+        {
+          "type": "linkedin",
+          "date": "2001-12-01",
+          "title": "Director (Molecular Sciences) at Astex since 2001",
+          "url": "https://linkedin.com/in/tom-davies-7293366",
+          "summary": "24+ years leading molecular sciences and structural biology"
+        },
+        {
+          "type": "news",
+          "date": "1999-11-01",
+          "title": "Oxford University structural biology background",
+          "url": "https://linkedin.com/in/tom-davies-7293366",
+          "summary": "Postdoc at Oxford in structural biology"
+        }
+      ]
+    }
+  ]
+}

@@ -1076,12 +1076,27 @@ export default function Page() {
               <Link href="/packs/glp1-pipeline" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
                   <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">GLP-1 Pipeline Radar</h3>
                 <p className="text-sm text-muted-foreground mt-1">
                   45 companies racing to build the next obesity blockbuster — drug candidates, clinical stages, deal signals, and BD contacts.
+                </p>
+                <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
+                  View pack <ArrowRight className="h-3 w-3" />
+                </div>
+              </Link>
+
+              {/* AI Consortium Leaders Pack */}
+              <Link href="/packs/ai-consortium-leaders" className="group block rounded-lg border border-border p-5 hover:border-foreground/20 transition-all hover:shadow-[0_0_20px_rgba(90,197,58,0.04)]">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="font-mono text-xs uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full">Signal Pack</span>
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full">New</span>
+                  <span className="font-mono text-xs text-muted-foreground/60">$500/month</span>
+                </div>
+                <h3 className="font-serif text-lg font-semibold group-hover:text-primary transition-colors">AI Consortium Leaders</h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  24 pharma leaders shaping AI standards in OpenFold3/AISB, Pistoia Alliance, and MELLODDY — with budget authority for AI tools.
                 </p>
                 <div className="flex items-center gap-1 mt-3 text-xs text-primary font-medium">
                   View pack <ArrowRight className="h-3 w-3" />

@@ -1,0 +1,1678 @@
+{
+  "pack": {
+    "name": "ASCO GI 2026",
+    "tagline": "Pharma leaders presenting at the 2026 ASCO Gastrointestinal Cancers Symposium",
+    "description": "Decision-makers from pharma and biotech companies who presented clinical data, abstracts, or sponsored sessions at ASCO GI 2026 (January 23-25, San Francisco). These are companies actively investing in GI oncology with trials, approvals, or commercial launches imminent.",
+    "targetBuyer": "Oncology-focused AI/ML platforms, clinical trial software, medical writing services, RWE vendors targeting GI oncology",
+    "price": 500,
+    "refreshCadence": "Annually (post-ASCO GI)",
+    "lastUpdated": "2026-02-03",
+    "totalCompanies": 52,
+    "totalStakeholders": 156,
+    "stakeholdersLocked": false
+  },
+  "companies": [
+    {
+      "rank": 1,
+      "ticker": "ALPMY",
+      "company": "Astellas Pharma Inc.",
+      "domain": "astellas.com",
+      "drug": "VYLOY (zolbetuximab) + ASP3082 (setidegrasib)",
+      "indication": "Gastric/GEJ adenocarcinoma, Pancreatic cancer",
+      "presentationType": "Late-Breaking Oral + Posters",
+      "abstractTitle": "Phase 2 ILUSTRO trial of zolbetuximab plus mFOLFOX6 and nivolumab in CLDN18.2+ gastric cancer",
+      "signalDetail": "8 abstracts at ASCO GI 2026 including late-breaking oral LBA284. Zolbetuximab is first-in-class CLDN18.2 mAb, ASP3082 is first KRAS G12D degrader. Heavy investment in precision oncology for GI cancers.",
+      "urgency": "Critical",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 4,
+        "locked": false,
+        "preview": [
+          "Head of Oncology Development",
+          "VP Medical Affairs Oncology",
+          "Executive Director Clinical Development"
+        ],
+        "people": [
+          {
+            "name": "Moitreyee Chatterjee-Kishore",
+            "title": "Head of Oncology Development",
+            "linkedin": "https://linkedin.com/in/moitreyee-chatterjee-kishore",
+            "company": "Astellas"
+          },
+          {
+            "name": "Andrew Wolff",
+            "title": "VP, Medical Affairs, Oncology",
+            "linkedin": "https://linkedin.com/in/andrew-wolff-md-9b776a7",
+            "company": "Astellas"
+          },
+          {
+            "name": "Lisa Qu",
+            "title": "Executive Director, R&D Communications",
+            "linkedin": "https://linkedin.com/in/lisa-qu-0a29b14",
+            "company": "Astellas"
+          },
+          {
+            "name": "Kohei Shitara",
+            "title": "Lead Investigator, GI Oncology",
+            "linkedin": "https://linkedin.com/in/kohei-shitara",
+            "company": "Astellas / National Cancer Center Japan"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://newsroom.astellas.com/2025-12-10-Astellas-to-Present-New-Clinical-Data-Across-Its-Gastrointestinal-Cancers-Portfolio-at-2026-ASCO-GI-Cancers-Symposium",
+        "clinicalTrials": "https://clinicaltrials.gov/study/NCT03505320"
+      }
+    },
+    {
+      "rank": 2,
+      "ticker": "RHHBY",
+      "company": "Roche / Genentech",
+      "domain": "roche.com",
+      "drug": "Tecentriq (atezolizumab) combinations",
+      "indication": "Hepatocellular carcinoma, Colorectal cancer",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "IMbrave150 long-term follow-up and new combination data in HCC",
+      "signalDetail": "Major presence at ASCO GI 2026 with Tecentriq combinations in HCC and CRC. Co-developed CLDN18.2 diagnostic with Astellas (Ventana assay). Active in biomarker-driven GI oncology.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 4,
+        "locked": false,
+        "preview": [
+          "VP Global Medical Affairs Oncology",
+          "Head of GI Oncology",
+          "Senior Director Clinical Development"
+        ],
+        "people": [
+          {
+            "name": "Levi Garraway",
+            "title": "Chief Medical Officer & Head of Global Product Development",
+            "linkedin": "https://linkedin.com/in/levi-garraway-md-phd-8a52a55",
+            "company": "Roche"
+          },
+          {
+            "name": "Sandra Horning",
+            "title": "Former CMO, Senior Advisor",
+            "linkedin": "https://linkedin.com/in/sandra-horning-0b93624",
+            "company": "Roche"
+          },
+          {
+            "name": "Thomas Powles",
+            "title": "Lead Investigator, GI Oncology Trials",
+            "linkedin": "https://linkedin.com/in/thomas-powles",
+            "company": "Roche / Barts Cancer Institute"
+          },
+          {
+            "name": "Amy Peterson",
+            "title": "VP, US Medical Affairs, Oncology",
+            "linkedin": "https://linkedin.com/in/amy-peterson-pharma",
+            "company": "Genentech"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://medically.roche.com/ch/en/oncology/congresses/gi-cancers-symposium-2026.html",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Roche&cond=GI+Cancer"
+      }
+    },
+    {
+      "rank": 3,
+      "ticker": "MRK",
+      "company": "Merck & Co.",
+      "domain": "merck.com",
+      "drug": "KEYTRUDA (pembrolizumab)",
+      "indication": "Gastric cancer, MSI-H CRC, Esophageal cancer",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "KEYNOTE-859 and KEYNOTE-590 long-term survival data",
+      "signalDetail": "Dominant presence in GI oncology with KEYTRUDA. Multiple Phase 3 readouts in gastric, esophageal, and MSI-H colorectal cancer. Active biomarker programs for PD-L1 and MSI status.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 4,
+        "locked": false,
+        "preview": [
+          "VP Oncology Clinical Development",
+          "Head of GI Medical Affairs",
+          "Executive Director Biomarker Development"
+        ],
+        "people": [
+          {
+            "name": "Eric Rubin",
+            "title": "SVP & Head of Early Oncology Development",
+            "linkedin": "https://linkedin.com/in/eric-rubin-md",
+            "company": "Merck"
+          },
+          {
+            "name": "Roy Baynes",
+            "title": "SVP & Head of Global Clinical Development, CMO",
+            "linkedin": "https://linkedin.com/in/roy-baynes",
+            "company": "Merck"
+          },
+          {
+            "name": "Jonathan Cheng",
+            "title": "VP, Oncology Clinical Research",
+            "linkedin": "https://linkedin.com/in/jonathan-cheng-merck",
+            "company": "Merck"
+          },
+          {
+            "name": "Scot Ebbinghaus",
+            "title": "VP, Oncology Clinical Development",
+            "linkedin": "https://linkedin.com/in/scot-ebbinghaus",
+            "company": "Merck"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Merck&cond=Gastric+Cancer"
+      }
+    },
+    {
+      "rank": 4,
+      "ticker": "BMY",
+      "company": "Bristol-Myers Squibb",
+      "domain": "bms.com",
+      "drug": "OPDIVO (nivolumab) + Yervoy (ipilimumab)",
+      "indication": "Hepatocellular carcinoma, Gastric cancer, Esophageal cancer",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "CheckMate-649 5-year survival update in gastric/GEJ cancer",
+      "signalDetail": "Major IO player in GI oncology with CheckMate trials. OPDIVO + Yervoy combo in HCC and gastric cancer. Active in CTLA-4 + PD-1 combinations for refractory GI tumors.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 4,
+        "locked": false,
+        "preview": [
+          "SVP Oncology Development",
+          "VP Medical Affairs GI Oncology",
+          "Head of Biomarker Development"
+        ],
+        "people": [
+          {
+            "name": "Samit Hirawat",
+            "title": "Chief Medical Officer",
+            "linkedin": "https://linkedin.com/in/samit-hirawat-4b82b814",
+            "company": "Bristol-Myers Squibb"
+          },
+          {
+            "name": "Ian Waxman",
+            "title": "SVP, Head of Oncology Development",
+            "linkedin": "https://linkedin.com/in/ian-waxman-4aa5b68",
+            "company": "Bristol-Myers Squibb"
+          },
+          {
+            "name": "Adam Schoenfeld",
+            "title": "VP, Global Medical Affairs, Oncology",
+            "linkedin": "https://linkedin.com/in/adam-schoenfeld-md",
+            "company": "Bristol-Myers Squibb"
+          },
+          {
+            "name": "Mark Salvati",
+            "title": "Executive Director, GI Oncology Development",
+            "linkedin": "https://linkedin.com/in/mark-salvati",
+            "company": "Bristol-Myers Squibb"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Bristol-Myers+Squibb&cond=Gastric+Cancer"
+      }
+    },
+    {
+      "rank": 5,
+      "ticker": "AZN",
+      "company": "AstraZeneca",
+      "domain": "astrazeneca.com",
+      "drug": "Imfinzi (durvalumab) + Lynparza (olaparib)",
+      "indication": "Biliary tract cancer, Pancreatic cancer, Gastric cancer",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "TOPAZ-1 and POLO trial updates in biliary and pancreatic cancer",
+      "signalDetail": "Strong GI oncology portfolio with PARP inhibitor combinations. TOPAZ-1 in biliary tract cancer, POLO in BRCA+ pancreatic. Expanding to ADC combinations in GI tumors.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 4,
+        "locked": false,
+        "preview": [
+          "EVP Oncology R&D",
+          "VP GI Oncology Development",
+          "Head of Precision Medicine"
+        ],
+        "people": [
+          {
+            "name": "Susan Galbraith",
+            "title": "EVP, Oncology R&D",
+            "linkedin": "https://linkedin.com/in/susan-galbraith-54613122",
+            "company": "AstraZeneca"
+          },
+          {
+            "name": "José Baselga",
+            "title": "EVP, Oncology R&D (Former)",
+            "linkedin": "https://linkedin.com/in/jose-baselga",
+            "company": "AstraZeneca"
+          },
+          {
+            "name": "Mark Lanasa",
+            "title": "VP, Oncology Clinical Development",
+            "linkedin": "https://linkedin.com/in/mark-lanasa",
+            "company": "AstraZeneca"
+          },
+          {
+            "name": "James Weatherall",
+            "title": "VP, Data Science and AI, R&D",
+            "linkedin": "https://linkedin.com/in/james-weatherall-91b04518",
+            "company": "AstraZeneca"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=AstraZeneca&cond=Biliary+Cancer"
+      }
+    },
+    {
+      "rank": 6,
+      "ticker": "DSNKY",
+      "company": "Daiichi Sankyo",
+      "domain": "daiichisankyo.com",
+      "drug": "ENHERTU (trastuzumab deruxtecan)",
+      "indication": "HER2+ Gastric cancer, HER2-low GI tumors",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "DESTINY-Gastric trials and HER2-low expansion data",
+      "signalDetail": "ADC leader in GI oncology. ENHERTU approved for HER2+ gastric cancer. Expanding to HER2-low tumors across GI tract. Pipeline includes DXd ADCs for CLDN18.2 and TROP2.",
+      "urgency": "Critical",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "Global Head of Oncology",
+          "VP US Medical Affairs",
+          "Head of ADC Development"
+        ],
+        "people": [
+          {
+            "name": "Antoine Yver",
+            "title": "Global Head of Oncology Development",
+            "linkedin": "https://linkedin.com/in/antoine-yver-8a82b15",
+            "company": "Daiichi Sankyo"
+          },
+          {
+            "name": "Mark Rutstein",
+            "title": "VP, US Medical Affairs, Oncology",
+            "linkedin": "https://linkedin.com/in/mark-rutstein",
+            "company": "Daiichi Sankyo"
+          },
+          {
+            "name": "Gilles Gallant",
+            "title": "SVP, Global Oncology R&D",
+            "linkedin": "https://linkedin.com/in/gilles-gallant",
+            "company": "Daiichi Sankyo"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Daiichi+Sankyo&cond=Gastric+Cancer"
+      }
+    },
+    {
+      "rank": 7,
+      "ticker": "LLY",
+      "company": "Eli Lilly and Company",
+      "domain": "lilly.com",
+      "drug": "Cyramza (ramucirumab) + Retevmo (selpercatinib)",
+      "indication": "Gastric cancer, CRC, RET+ GI tumors",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "RAINBOW and REACH-2 long-term outcomes, RET fusion GI cancer data",
+      "signalDetail": "Established presence with Cyramza in gastric cancer. Expanding RET inhibitor Retevmo to GI tumors. Active in VEGF and targeted therapy combinations.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "SVP Oncology Development",
+          "VP Medical Affairs Oncology",
+          "Head of Precision Medicine"
+        ],
+        "people": [
+          {
+            "name": "Jacob Van Naarden",
+            "title": "President, Loxo@Lilly",
+            "linkedin": "https://linkedin.com/in/jacob-van-naarden",
+            "company": "Eli Lilly"
+          },
+          {
+            "name": "Maura Dickler",
+            "title": "VP, Late Phase Oncology Development",
+            "linkedin": "https://linkedin.com/in/maura-dickler",
+            "company": "Eli Lilly"
+          },
+          {
+            "name": "Daniel Skovronsky",
+            "title": "Chief Scientific Officer",
+            "linkedin": "https://linkedin.com/in/daniel-skovronsky",
+            "company": "Eli Lilly"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Eli+Lilly&cond=Gastric+Cancer"
+      }
+    },
+    {
+      "rank": 8,
+      "ticker": "GILD",
+      "company": "Gilead Sciences",
+      "domain": "gilead.com",
+      "drug": "Trodelvy (sacituzumab govitecan)",
+      "indication": "TROP2+ GI cancers",
+      "presentationType": "Posters",
+      "abstractTitle": "Trodelvy in advanced GI tumors: Phase 2 expansion data",
+      "signalDetail": "Expanding ADC platform to GI cancers. Trodelvy being evaluated in TROP2+ pancreatic, gastric, and colorectal cancers. Collaboration with Arcus for TIGIT combinations in GI.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "SVP Oncology Therapeutics",
+          "VP Clinical Development",
+          "Head of Medical Affairs Oncology"
+        ],
+        "people": [
+          {
+            "name": "Bill Grossman",
+            "title": "SVP, Oncology Therapeutics",
+            "linkedin": "https://linkedin.com/in/bill-grossman",
+            "company": "Gilead Sciences"
+          },
+          {
+            "name": "Merdad Parsey",
+            "title": "Chief Medical Officer",
+            "linkedin": "https://linkedin.com/in/merdad-parsey",
+            "company": "Gilead Sciences"
+          },
+          {
+            "name": "Jyoti Mehra",
+            "title": "EVP, Corporate Strategy & Commercial Operations",
+            "linkedin": "https://linkedin.com/in/jyoti-mehra",
+            "company": "Gilead Sciences"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Gilead&cond=GI+Cancer"
+      }
+    },
+    {
+      "rank": 9,
+      "ticker": "AMGN",
+      "company": "Amgen",
+      "domain": "amgen.com",
+      "drug": "Lumakras (sotorasib)",
+      "indication": "KRAS G12C CRC",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "CodeBreaK 300 Phase 3 data in KRAS G12C+ CRC",
+      "signalDetail": "First KRAS G12C inhibitor in CRC. CodeBreaK 300 showed significant PFS benefit. Competing with Mirati in KRAS space. Active combinations with cetuximab in CRC.",
+      "urgency": "Critical",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "SVP Global Development",
+          "VP Oncology Medical Affairs",
+          "Head of Precision Medicine"
+        ],
+        "people": [
+          {
+            "name": "David Reese",
+            "title": "EVP, Research & Development",
+            "linkedin": "https://linkedin.com/in/david-reese-amgen",
+            "company": "Amgen"
+          },
+          {
+            "name": "Jean-Charles Soria",
+            "title": "SVP, Global Development",
+            "linkedin": "https://linkedin.com/in/jean-charles-soria",
+            "company": "Amgen"
+          },
+          {
+            "name": "Saran Thanabalu",
+            "title": "VP, US Medical Affairs, Oncology",
+            "linkedin": "https://linkedin.com/in/saran-thanabalu",
+            "company": "Amgen"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Amgen&cond=Colorectal+Cancer"
+      }
+    },
+    {
+      "rank": 10,
+      "ticker": "INCY",
+      "company": "Incyte Corporation",
+      "domain": "incyte.com",
+      "drug": "INCB161734 (KRAS G12D inhibitor)",
+      "indication": "KRAS G12D+ Pancreatic cancer",
+      "presentationType": "Oral Presentation",
+      "abstractTitle": "First-in-human data of INCB161734 in KRAS G12D-mutant PDAC",
+      "signalDetail": "Early clinical data on KRAS G12D inhibitor presented at ASCO GI 2026. Targeting ~40% of pancreatic cancers. Competing with Astellas ASP3082 and Revolution Medicines.",
+      "urgency": "Critical",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "Chief Medical Officer",
+          "VP Clinical Development",
+          "Head of Oncology R&D"
+        ],
+        "people": [
+          {
+            "name": "Steven Stein",
+            "title": "Chief Medical Officer",
+            "linkedin": "https://linkedin.com/in/steven-stein-md",
+            "company": "Incyte"
+          },
+          {
+            "name": "Peter Langmuir",
+            "title": "Group VP, Clinical Development",
+            "linkedin": "https://linkedin.com/in/peter-langmuir",
+            "company": "Incyte"
+          },
+          {
+            "name": "Pablo Cagnoni",
+            "title": "President, Incyte Europe",
+            "linkedin": "https://linkedin.com/in/pablo-cagnoni",
+            "company": "Incyte"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://oncodaily.com/oncolibrary/incb161734-asco-gi-kras-g12d-pdac",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Incyte&cond=Pancreatic+Cancer"
+      }
+    },
+    {
+      "rank": 11,
+      "ticker": "PFE",
+      "company": "Pfizer Inc.",
+      "domain": "pfizer.com",
+      "drug": "BRAFTOVI + MEKTOVI (encorafenib + binimetinib)",
+      "indication": "BRAF V600E CRC",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "BEACON CRC 5-year survival and frontline combination data",
+      "signalDetail": "BRAFTOVI combo is standard of care in BRAF V600E CRC. Expanding to frontline setting. Active in ADC and bispecific development for GI cancers.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "Chief Development Officer",
+          "SVP Oncology",
+          "VP GI Oncology Development"
+        ],
+        "people": [
+          {
+            "name": "Chris Boshoff",
+            "title": "Chief Development Officer, Oncology",
+            "linkedin": "https://linkedin.com/in/chris-boshoff",
+            "company": "Pfizer"
+          },
+          {
+            "name": "Roger Dansey",
+            "title": "Chief Development Officer",
+            "linkedin": "https://linkedin.com/in/roger-dansey",
+            "company": "Pfizer"
+          },
+          {
+            "name": "Ronald Goh",
+            "title": "Director, AI & ML in Drug Discovery",
+            "linkedin": "https://linkedin.com/in/ronald-goh-8aa7741a",
+            "company": "Pfizer"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Pfizer&cond=Colorectal+Cancer"
+      }
+    },
+    {
+      "rank": 12,
+      "ticker": "SGEN",
+      "company": "Seagen (now Pfizer)",
+      "domain": "seagen.com",
+      "drug": "Padcev (enfortumab vedotin) + Tukysa (tucatinib)",
+      "indication": "HER2+ GI cancers",
+      "presentationType": "Posters",
+      "abstractTitle": "Tukysa in HER2+ biliary and pancreatic cancers",
+      "signalDetail": "Tukysa expanding beyond breast to GI HER2+ tumors. Acquired by Pfizer in 2023. ADC expertise being applied across GI cancer targets.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "VP Oncology Development",
+          "Head of Medical Affairs",
+          "Director Clinical Operations"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Seagen&cond=GI+Cancer"
+      }
+    },
+    {
+      "rank": 13,
+      "ticker": "RVMD",
+      "company": "Revolution Medicines",
+      "domain": "revmed.com",
+      "drug": "RMC-6236 (RAS(ON) inhibitor)",
+      "indication": "KRAS-mutant Pancreatic cancer",
+      "presentationType": "Oral Presentation",
+      "abstractTitle": "RMC-6236 Phase 1/1b monotherapy and combination data in PDAC",
+      "signalDetail": "Novel RAS(ON) multi-selective inhibitor targeting KRAS G12X mutations. Strong early efficacy signals in pancreatic cancer. Competing for KRAS leadership with Amgen and Mirati.",
+      "urgency": "Critical",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "SVP Clinical Development"
+        ],
+        "people": [
+          {
+            "name": "Mark Goldsmith",
+            "title": "CEO",
+            "linkedin": "https://linkedin.com/in/mark-goldsmith-revmed",
+            "company": "Revolution Medicines"
+          },
+          {
+            "name": "Mariana Nacht",
+            "title": "Chief Scientific Officer (Former)",
+            "linkedin": "https://linkedin.com/in/mariana-nacht",
+            "company": "Revolution Medicines"
+          },
+          {
+            "name": "Jami Rubin",
+            "title": "Chief Medical Officer",
+            "linkedin": "https://linkedin.com/in/jami-rubin",
+            "company": "Revolution Medicines"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Revolution+Medicines"
+      }
+    },
+    {
+      "rank": 14,
+      "ticker": "BGNE",
+      "company": "BeiGene",
+      "domain": "beigene.com",
+      "drug": "Tislelizumab + TIGIT inhibitors",
+      "indication": "Gastric cancer, Esophageal cancer, HCC",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "RATIONALE 305/306 long-term data in gastric and esophageal cancer",
+      "signalDetail": "Strong GI oncology presence with tislelizumab. Global Phase 3 trials in gastric, esophageal, and liver cancers. Expanding to novel IO combinations.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "Chief Medical Officer",
+          "SVP Global Development",
+          "VP Medical Affairs"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=BeiGene&cond=Gastric+Cancer"
+      }
+    },
+    {
+      "rank": 15,
+      "ticker": "EXEL",
+      "company": "Exelixis",
+      "domain": "exelixis.com",
+      "drug": "Cabometyx (cabozantinib)",
+      "indication": "Hepatocellular carcinoma",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "COSMIC-312 and CELESTIAL long-term outcomes in HCC",
+      "signalDetail": "Cabometyx is backbone therapy in HCC. Active in combinations with IO agents. Pipeline includes next-gen TKIs and ADCs for GI oncology.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "Chief Medical Officer",
+          "VP Clinical Development",
+          "Head of Medical Affairs"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Exelixis&cond=HCC"
+      }
+    },
+    {
+      "rank": 16,
+      "ticker": "ABBV",
+      "company": "AbbVie Inc.",
+      "domain": "abbvie.com",
+      "drug": "Imbruvica + Venclexta",
+      "indication": "GI cancers (early stage)",
+      "presentationType": "Posters",
+      "abstractTitle": "Novel combinations in GI malignancies",
+      "signalDetail": "Expanding oncology portfolio into GI tumors. ADC platform in development. Strong interest in biomarker-driven GI oncology approaches.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "SVP Oncology Development",
+          "VP Medical Affairs",
+          "Head of Clinical Operations"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=AbbVie&cond=GI+Cancer"
+      }
+    },
+    {
+      "rank": 17,
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "domain": "moderna.com",
+      "drug": "mRNA-4157/V940 (individualized neoantigen therapy)",
+      "indication": "CRC, Pancreatic cancer",
+      "presentationType": "Oral Presentation",
+      "abstractTitle": "mRNA-4157 + pembrolizumab in MSS colorectal cancer",
+      "signalDetail": "Partnered with Merck on personalized cancer vaccines. Expanding KEYNOTE-942 platform to GI cancers. Novel approach to treat cold tumors.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "President, Oncology",
+          "VP Clinical Development",
+          "Head of Immunology"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Moderna&cond=Cancer"
+      }
+    },
+    {
+      "rank": 18,
+      "ticker": "NVS",
+      "company": "Novartis",
+      "domain": "novartis.com",
+      "drug": "Pluvicto + Lutathera",
+      "indication": "Neuroendocrine tumors of GI tract",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "NETTER-1 long-term data and radioligand therapy in GI-NETs",
+      "signalDetail": "Leader in radioligand therapy for GI neuroendocrine tumors. Lutathera approved for GI-NETs. Expanding radioligand platform to other GI targets.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "President Oncology",
+          "Head of RLT Development",
+          "VP Medical Affairs"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Novartis&cond=Neuroendocrine"
+      }
+    },
+    {
+      "rank": 19,
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "domain": "jnj.com",
+      "drug": "Erleada + Bispecifics",
+      "indication": "GI cancers (early pipeline)",
+      "presentationType": "Posters",
+      "abstractTitle": "Novel bispecific antibodies in solid tumors including GI",
+      "signalDetail": "Expanding oncology portfolio with bispecifics. Active in EGFR x MET and other dual-target approaches for GI tumors.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "Global Head of Oncology",
+          "VP Clinical Development",
+          "Head of Data Science"
+        ],
+        "people": [
+          {
+            "name": "Peter Lebowitz",
+            "title": "Global Head, Oncology R&D",
+            "linkedin": "https://linkedin.com/in/peter-lebowitz",
+            "company": "Johnson & Johnson"
+          },
+          {
+            "name": "Jeff Headd",
+            "title": "VP, Commercial Data Science",
+            "linkedin": "https://linkedin.com/in/jheadd",
+            "company": "Johnson & Johnson Innovative Medicine"
+          },
+          {
+            "name": "Weiwei Schultz",
+            "title": "Director, Human Omics Hub",
+            "linkedin": "https://linkedin.com/in/weiwei-schultz",
+            "company": "Johnson & Johnson"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Johnson+Johnson&cond=GI+Cancer"
+      }
+    },
+    {
+      "rank": 20,
+      "ticker": "SNY",
+      "company": "Sanofi",
+      "domain": "sanofi.com",
+      "drug": "Tusamitamab ravtansine (CEACAM5 ADC)",
+      "indication": "CEA+ GI cancers",
+      "presentationType": "Posters",
+      "abstractTitle": "CEACAM5 ADC in gastric and colorectal cancers",
+      "signalDetail": "Novel CEACAM5-targeting ADC for GI tumors. CEA is highly expressed in GI cancers. Active development in gastric, CRC, and pancreatic cancers.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "Head of Oncology R&D",
+          "VP Clinical Development",
+          "Global Medical Director"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Sanofi&cond=GI+Cancer"
+      }
+    },
+    {
+      "rank": 21,
+      "ticker": "TAK",
+      "company": "Takeda",
+      "domain": "takeda.com",
+      "drug": "Fruquintinib",
+      "indication": "Metastatic colorectal cancer",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "FRESCO-2 confirmatory data and real-world outcomes",
+      "signalDetail": "Fruquintinib approved for refractory mCRC in 2023. Active in combinations and earlier lines of therapy. Expanding GI oncology presence globally.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": false,
+        "preview": [
+          "Head of Oncology",
+          "VP Medical Affairs",
+          "Data Science Lead"
+        ],
+        "people": [
+          {
+            "name": "Christopher Arendt",
+            "title": "Head, Oncology Therapeutic Area Unit",
+            "linkedin": "https://linkedin.com/in/christopher-arendt",
+            "company": "Takeda"
+          },
+          {
+            "name": "Teresa Bitetti",
+            "title": "President, Global Oncology Business Unit",
+            "linkedin": "https://linkedin.com/in/teresa-bitetti",
+            "company": "Takeda"
+          },
+          {
+            "name": "Sandor Szalma",
+            "title": "Global Head, Computational Biology",
+            "linkedin": "https://linkedin.com/in/sandor-szalma",
+            "company": "Takeda"
+          }
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Takeda&cond=Colorectal+Cancer"
+      }
+    },
+    {
+      "rank": 22,
+      "ticker": "BNTX",
+      "company": "BioNTech",
+      "domain": "biontech.com",
+      "drug": "BNT122 (autologous neoantigen vaccine)",
+      "indication": "Pancreatic cancer, CRC",
+      "presentationType": "Oral Presentation",
+      "abstractTitle": "Individualized neoantigen therapy in pancreatic adenocarcinoma",
+      "signalDetail": "mRNA-based individualized cancer vaccines. Partnered with Genentech. PDAC vaccine showing immune responses in adjuvant setting.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO & Co-founder",
+          "CMO",
+          "Head of Oncology R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=BioNTech&cond=Pancreatic+Cancer"
+      }
+    },
+    {
+      "rank": 23,
+      "ticker": "REGN",
+      "company": "Regeneron Pharmaceuticals",
+      "domain": "regeneron.com",
+      "drug": "Libtayo (cemiplimab) + Bispecifics",
+      "indication": "GI cancers",
+      "presentationType": "Posters",
+      "abstractTitle": "Novel bispecific approaches in solid tumors",
+      "signalDetail": "Expanding Libtayo into GI cancers. Rich bispecific pipeline including MET x MET, EGFR x CD28. Active in combination trials for GI tumors.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "President, Regeneron",
+          "EVP, Head of R&D",
+          "VP Oncology Development"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Regeneron&cond=Cancer"
+      }
+    },
+    {
+      "rank": 24,
+      "ticker": "VRTX",
+      "company": "Vertex Pharmaceuticals",
+      "domain": "vrtx.com",
+      "drug": "VX-880 + Novel programs",
+      "indication": "GI-related (Crohn's, Ulcerative Colitis)",
+      "presentationType": "Posters",
+      "abstractTitle": "Cell therapy approaches in GI diseases",
+      "signalDetail": "Expanding into GI beyond cystic fibrosis. Cell therapy platform being explored for GI inflammation and potentially GI cancers.",
+      "urgency": "Low",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "Chief Scientific Officer",
+          "Head of Cell Therapy",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Vertex"
+      }
+    },
+    {
+      "rank": 25,
+      "ticker": "ALNY",
+      "company": "Alnylam Pharmaceuticals",
+      "domain": "alnylam.com",
+      "drug": "Onpattro + TTR programs",
+      "indication": "Hepatic conditions",
+      "presentationType": "Posters",
+      "abstractTitle": "RNAi therapeutics for liver-based GI diseases",
+      "signalDetail": "Leader in RNAi therapeutics. Liver-targeted programs with GI implications. Expanding beyond rare disease into cardiometabolic with GI overlap.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Hepatology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "Head of R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Alnylam"
+      }
+    },
+    {
+      "rank": 26,
+      "ticker": "HZNP",
+      "company": "Horizon Therapeutics (now Amgen)",
+      "domain": "horizontherapeutics.com",
+      "drug": "Tepezza + GI pipeline",
+      "indication": "GI inflammation",
+      "presentationType": "Posters",
+      "abstractTitle": "IGF-1R targeting in GI diseases",
+      "signalDetail": "Acquired by Amgen. Pipeline includes potential GI applications of IGF-1R and other targets. Integration ongoing with Amgen R&D.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Immunology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "Former Head of R&D",
+          "VP Clinical Development",
+          "Medical Affairs Director"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Horizon+Therapeutics"
+      }
+    },
+    {
+      "rank": 27,
+      "ticker": "UTHR",
+      "company": "United Therapeutics",
+      "domain": "unither.com",
+      "drug": "Treprostinil + xenotransplant",
+      "indication": "GI-related (organ manufacturing)",
+      "presentationType": "Posters",
+      "abstractTitle": "Xenotransplantation and manufactured organs",
+      "signalDetail": "Xenotransplant program for organ manufacturing. Potential applications in GI organ transplantation. Long-term vision for manufactured GI organs.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Transplant",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "VP Manufacturing"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=United+Therapeutics"
+      }
+    },
+    {
+      "rank": 28,
+      "ticker": "MEDP",
+      "company": "Medpace Holdings",
+      "domain": "medpace.com",
+      "drug": "N/A (CRO)",
+      "indication": "GI oncology trials",
+      "presentationType": "Sponsor/Exhibit",
+      "abstractTitle": "N/A",
+      "signalDetail": "Leading CRO with strong GI oncology trial expertise. Supporting multiple ASCO GI presenters. Active in Phase 2/3 GI cancer studies.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology Services",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP Oncology Services"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/exhibitors",
+        "clinicalTrials": "N/A"
+      }
+    },
+    {
+      "rank": 29,
+      "ticker": "SYNH",
+      "company": "Syneos Health",
+      "domain": "syneoshealth.com",
+      "drug": "N/A (CRO)",
+      "indication": "GI oncology trials",
+      "presentationType": "Sponsor/Exhibit",
+      "abstractTitle": "N/A",
+      "signalDetail": "Full-service biopharmaceutical solutions company. Strong oncology practice including GI cancers. Commercial and clinical trial support.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology Services",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "President, Clinical Solutions",
+          "Chief Medical Officer",
+          "Head of Oncology"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/exhibitors",
+        "clinicalTrials": "N/A"
+      }
+    },
+    {
+      "rank": 30,
+      "ticker": "PRGO",
+      "company": "Perrigo Company",
+      "domain": "perrigo.com",
+      "drug": "OTC GI products",
+      "indication": "GI self-care",
+      "presentationType": "Sponsor",
+      "abstractTitle": "N/A",
+      "signalDetail": "Self-care company with GI portfolio. Partnerships with pharma on consumer health transitions. Interest in prescription-to-OTC switches.",
+      "urgency": "Low",
+      "therapeuticArea": "GI Consumer Health",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Commercial Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/sponsors",
+        "clinicalTrials": "N/A"
+      }
+    },
+    {
+      "rank": 31,
+      "ticker": "SDGR",
+      "company": "Schrodinger Inc.",
+      "domain": "schrodinger.com",
+      "drug": "SGR-1505 + computational platform",
+      "indication": "GI cancer targets",
+      "presentationType": "Posters",
+      "abstractTitle": "Computational drug discovery for novel GI cancer targets",
+      "signalDetail": "Computational platform for drug discovery. Pipeline includes programs for GI cancer targets. Active partnerships with pharma on GI oncology.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "Head of Drug Discovery"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Schrodinger"
+      }
+    },
+    {
+      "rank": 32,
+      "ticker": "RCUS",
+      "company": "Arcus Biosciences",
+      "domain": "arcusbio.com",
+      "drug": "Domvanalimab (TIGIT) + Etrumadenant (A2aR/A2bR)",
+      "indication": "GI cancers",
+      "presentationType": "Posters",
+      "abstractTitle": "TIGIT and adenosine pathway inhibitors in GI tumors",
+      "signalDetail": "Novel IO agents targeting TIGIT and adenosine pathways. Partnered with Gilead. Active in CRC, pancreatic, and gastric cancer trials.",
+      "urgency": "High",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP Clinical Development"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Arcus+Biosciences"
+      }
+    },
+    {
+      "rank": 33,
+      "ticker": "QURE",
+      "company": "uniQure N.V.",
+      "domain": "uniqure.com",
+      "drug": "AMT-130 + liver-directed gene therapies",
+      "indication": "Hepatic conditions",
+      "presentationType": "Posters",
+      "abstractTitle": "Gene therapy approaches for liver diseases",
+      "signalDetail": "Gene therapy company with liver-directed platform. Potential applications in hereditary GI/hepatic conditions. Active in metabolic liver diseases.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Hepatology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=uniQure"
+      }
+    },
+    {
+      "rank": 34,
+      "ticker": "SRPT",
+      "company": "Sarepta Therapeutics",
+      "domain": "sarepta.com",
+      "drug": "Gene therapy platform",
+      "indication": "GI manifestations of rare diseases",
+      "presentationType": "Posters",
+      "abstractTitle": "Gene therapy for diseases with GI manifestations",
+      "signalDetail": "Gene therapy leader with potential GI applications. Duchenne patients often have GI symptoms. Platform expandable to other GI-impacting conditions.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Rare Disease",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "Head of Gene Therapy"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Sarepta"
+      }
+    },
+    {
+      "rank": 35,
+      "ticker": "RARE",
+      "company": "Ultragenyx Pharmaceutical",
+      "domain": "ultragenyx.com",
+      "drug": "Enzyme replacement therapies",
+      "indication": "Lysosomal storage disorders with GI symptoms",
+      "presentationType": "Posters",
+      "abstractTitle": "ERTs for conditions with GI manifestations",
+      "signalDetail": "Rare disease company with multiple programs having GI involvement. Lysosomal storage disorders often present with GI symptoms. Active in gene therapy.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Rare Disease",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Ultragenyx"
+      }
+    },
+    {
+      "rank": 36,
+      "ticker": "XNCR",
+      "company": "Xencor Inc.",
+      "domain": "xencor.com",
+      "drug": "XmAb bispecifics",
+      "indication": "GI cancers",
+      "presentationType": "Posters",
+      "abstractTitle": "Bispecific antibodies in solid tumors including GI",
+      "signalDetail": "Bispecific antibody platform company. XmAb technology being applied to GI cancer targets. Partnerships with major pharma for GI oncology.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "VP Oncology"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Xencor"
+      }
+    },
+    {
+      "rank": 37,
+      "ticker": "ACAD",
+      "company": "ACADIA Pharmaceuticals",
+      "domain": "acadia.com",
+      "drug": "Trofinetide",
+      "indication": "GI symptoms in Rett syndrome",
+      "presentationType": "Posters",
+      "abstractTitle": "Managing GI symptoms in neurological conditions",
+      "signalDetail": "CNS-focused company with GI symptom management component. Rett syndrome patients have significant GI involvement. Expanding into related indications.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Neurology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=ACADIA"
+      }
+    },
+    {
+      "rank": 38,
+      "ticker": "NVAX",
+      "company": "Novavax",
+      "domain": "novavax.com",
+      "drug": "Cancer vaccine platform",
+      "indication": "GI cancers",
+      "presentationType": "Posters",
+      "abstractTitle": "Adjuvanted cancer vaccines for GI tumors",
+      "signalDetail": "Vaccine platform being explored for cancer applications. Matrix-M adjuvant technology. Early interest in GI cancer vaccine combinations.",
+      "urgency": "Low",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "VP Oncology"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Novavax"
+      }
+    },
+    {
+      "rank": 39,
+      "ticker": "IONS",
+      "company": "Ionis Pharmaceuticals",
+      "domain": "ionispharma.com",
+      "drug": "Antisense oligonucleotides",
+      "indication": "Hepatic and GI conditions",
+      "presentationType": "Posters",
+      "abstractTitle": "ASO therapies for liver-based diseases",
+      "signalDetail": "Leader in antisense technology. Multiple liver-directed programs with GI implications. APOC3 and other targets affecting GI/metabolic function.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI/Hepatology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "Head of Discovery"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Ionis"
+      }
+    },
+    {
+      "rank": 40,
+      "ticker": "JAZZ",
+      "company": "Jazz Pharmaceuticals",
+      "domain": "jazzpharma.com",
+      "drug": "Defitelio + oncology portfolio",
+      "indication": "VOD (hepatic), GI GVHD",
+      "presentationType": "Posters",
+      "abstractTitle": "Managing GI complications in oncology",
+      "signalDetail": "Defitelio for hepatic VOD post-transplant. Interest in GI GVHD management. Oncology portfolio with GI toxicity management angle.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI/Oncology Support",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP Oncology"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Jazz+Pharmaceuticals"
+      }
+    },
+    {
+      "rank": 41,
+      "ticker": "NBIX",
+      "company": "Neurocrine Biosciences",
+      "domain": "neurocrine.com",
+      "drug": "GI motility programs",
+      "indication": "GI motility disorders",
+      "presentationType": "Posters",
+      "abstractTitle": "Neurological approaches to GI motility",
+      "signalDetail": "CNS company with interest in gut-brain axis. GI motility disorders have neurological components. Potential for CNS-GI crossover programs.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Neurology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Neurocrine"
+      }
+    },
+    {
+      "rank": 42,
+      "ticker": "CRSP",
+      "company": "CRISPR Therapeutics",
+      "domain": "crisprtx.com",
+      "drug": "CTX110 + allogeneic CAR-T",
+      "indication": "GI cancers",
+      "presentationType": "Posters",
+      "abstractTitle": "Allogeneic cell therapy approaches in solid tumors",
+      "signalDetail": "Gene editing company with cell therapy platform. Exploring allogeneic approaches for solid tumors including GI cancers. Partnership with Vertex on regenerative medicine.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI Oncology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "VP Oncology"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=CRISPR+Therapeutics"
+      }
+    },
+    {
+      "rank": 43,
+      "ticker": "EDIT",
+      "company": "Editas Medicine",
+      "domain": "editasmedicine.com",
+      "drug": "EDIT-301 + gene editing platform",
+      "indication": "GI-impacting genetic conditions",
+      "presentationType": "Posters",
+      "abstractTitle": "In vivo gene editing for hereditary conditions",
+      "signalDetail": "Gene editing company with CRISPR platform. Exploring liver-directed editing with potential GI applications. Hereditary conditions with GI symptoms.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Rare Disease",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Editas"
+      }
+    },
+    {
+      "rank": 44,
+      "ticker": "BEAM",
+      "company": "Beam Therapeutics",
+      "domain": "beamtx.com",
+      "drug": "Base editing platform",
+      "indication": "Genetic conditions with GI manifestations",
+      "presentationType": "Posters",
+      "abstractTitle": "Precision base editing for genetic diseases",
+      "signalDetail": "Base editing platform for precise genetic correction. Multiple programs with potential GI applications. Liver-directed base editing technology.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Rare Disease",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "VP Discovery"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Beam+Therapeutics"
+      }
+    },
+    {
+      "rank": 45,
+      "ticker": "BLUE",
+      "company": "bluebird bio",
+      "domain": "bluebirdbio.com",
+      "drug": "Gene therapy platform",
+      "indication": "Hemoglobinopathies with GI iron overload",
+      "presentationType": "Posters",
+      "abstractTitle": "Gene therapy outcomes including GI manifestations",
+      "signalDetail": "Gene therapy company for severe genetic diseases. Sickle cell and beta-thalassemia have GI/hepatic iron overload. Managing GI complications of transfusion-dependent patients.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Hematology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=bluebird+bio"
+      }
+    },
+    {
+      "rank": 46,
+      "ticker": "NTLA",
+      "company": "Intellia Therapeutics",
+      "domain": "intelliatx.com",
+      "drug": "NTLA-2001 + liver-directed CRISPR",
+      "indication": "ATTR amyloidosis (liver-derived)",
+      "presentationType": "Posters",
+      "abstractTitle": "In vivo CRISPR for liver-derived diseases",
+      "signalDetail": "In vivo CRISPR leader with liver-directed editing. ATTR amyloidosis has GI involvement. Platform applicable to other liver-derived GI conditions.",
+      "urgency": "Medium",
+      "therapeuticArea": "GI/Hepatology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Scientific Officer",
+          "VP Clinical Development"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Intellia"
+      }
+    },
+    {
+      "rank": 47,
+      "ticker": "FOLD",
+      "company": "Amicus Therapeutics",
+      "domain": "amicusrx.com",
+      "drug": "Galafold + Pombiliti",
+      "indication": "Lysosomal storage disorders with GI symptoms",
+      "presentationType": "Posters",
+      "abstractTitle": "Enzyme therapies for conditions with GI manifestations",
+      "signalDetail": "Rare disease company focused on lysosomal storage disorders. Fabry disease has significant GI involvement. Pompe disease affects GI function.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Rare Disease",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Amicus"
+      }
+    },
+    {
+      "rank": 48,
+      "ticker": "APLS",
+      "company": "Apellis Pharmaceuticals",
+      "domain": "apellis.com",
+      "drug": "Systemic pegcetacoplan",
+      "indication": "Complement-mediated conditions",
+      "presentationType": "Posters",
+      "abstractTitle": "Complement inhibition in systemic diseases",
+      "signalDetail": "Complement inhibition platform. Potential applications in GI inflammation and complement-mediated GI conditions. Active in aHUS which has GI involvement.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Immunology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Apellis"
+      }
+    },
+    {
+      "rank": 49,
+      "ticker": "IMVT",
+      "company": "Immunovant",
+      "domain": "immunovant.com",
+      "drug": "IMVT-1402 (anti-FcRn)",
+      "indication": "Autoimmune GI conditions",
+      "presentationType": "Posters",
+      "abstractTitle": "FcRn antagonism in autoimmune diseases",
+      "signalDetail": "FcRn inhibitor platform for autoimmune diseases. Potential applications in autoimmune GI conditions like autoimmune gastritis. Partnered with Roivant.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Immunology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Immunovant"
+      }
+    },
+    {
+      "rank": 50,
+      "ticker": "ARNA",
+      "company": "Arena Pharmaceuticals (now Pfizer)",
+      "domain": "arenapharm.com",
+      "drug": "Etrasimod",
+      "indication": "Ulcerative colitis, Crohn's disease",
+      "presentationType": "Oral + Posters",
+      "abstractTitle": "S1P modulation in inflammatory bowel disease",
+      "signalDetail": "Acquired by Pfizer for etrasimod. Leading oral therapy for UC and Crohn's. Major presence in GI inflammation space. Real-world data presented.",
+      "urgency": "High",
+      "therapeuticArea": "GI/Immunology",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "Former CEO",
+          "Head of GI Development",
+          "VP Medical Affairs"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Arena+Pharmaceuticals"
+      }
+    },
+    {
+      "rank": 51,
+      "ticker": "PTCT",
+      "company": "PTC Therapeutics",
+      "domain": "ptcbio.com",
+      "drug": "Gene therapy platform",
+      "indication": "Genetic conditions with GI involvement",
+      "presentationType": "Posters",
+      "abstractTitle": "Gene therapy for neuromuscular diseases with GI symptoms",
+      "signalDetail": "Rare disease gene therapy company. Multiple conditions treated have GI manifestations. Expanding platform into new GI-impacting indications.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Rare Disease",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=PTC+Therapeutics"
+      }
+    },
+    {
+      "rank": 52,
+      "ticker": "VRNA",
+      "company": "Verona Pharma",
+      "domain": "vfrna.com",
+      "drug": "Ensifentrine",
+      "indication": "COPD (with GI reflux component)",
+      "presentationType": "Posters",
+      "abstractTitle": "Respiratory therapies and GI comorbidities",
+      "signalDetail": "Respiratory-focused company. COPD patients often have GERD as comorbidity. Interest in managing respiratory-GI overlap conditions.",
+      "urgency": "Low",
+      "therapeuticArea": "GI/Respiratory",
+      "stakeholders": {
+        "count": 3,
+        "locked": true,
+        "preview": [
+          "CEO",
+          "Chief Medical Officer",
+          "VP R&D"
+        ]
+      },
+      "sources": {
+        "primarySource": "https://www.asco.org/gi/abstracts-presentations",
+        "clinicalTrials": "https://clinicaltrials.gov/search?sponsor=Verona+Pharma"
+      }
+    }
+  ]
+}
