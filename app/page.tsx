@@ -349,8 +349,8 @@ export default function Page() {
                   />
                 </div>
               ))}
-              <div className="h-9 w-9 rounded-full border-2 border-background bg-neutral-100 shadow-sm flex items-center justify-center text-xs font-mono text-neutral-500 font-semibold">
-                +200
+              <div className="h-9 w-9 rounded-full border-2 border-background bg-neutral-100 shadow-sm flex items-center justify-center text-[10px] font-mono text-neutral-500 font-semibold">
+                10k+
               </div>
             </div>
           </div>
@@ -1072,6 +1072,39 @@ export default function Page() {
               <p className="text-sm text-muted-foreground mt-2 max-w-2xl">
                 Pre-built, research-backed lists of companies and decision-makers — with verified activity signals, sources, and contact info. Updated on a schedule so you always have fresh leads.
               </p>
+              
+              {/* Company Logo Avatar Group */}
+              <div className="mt-4 flex items-center gap-4">
+                <div className="flex items-center -space-x-2">
+                  {[
+                    { name: "Pfizer", domain: "pfizer.com" },
+                    { name: "Roche", domain: "roche.com" },
+                    { name: "Novartis", domain: "novartis.com" },
+                    { name: "AstraZeneca", domain: "astrazeneca.com" },
+                    { name: "Merck", domain: "merck.com" },
+                    { name: "Johnson & Johnson", domain: "jnj.com" },
+                    { name: "Sanofi", domain: "sanofi.com" },
+                    { name: "GSK", domain: "gsk.com" },
+                  ].map((company, i) => (
+                    <div 
+                      key={company.domain}
+                      className="h-8 w-8 rounded-full border-2 border-background bg-white shadow-sm flex items-center justify-center overflow-hidden transition-transform hover:scale-110 hover:z-10"
+                      style={{ zIndex: 8 - i }}
+                      title={company.name}
+                    >
+                      <img
+                        src={`https://img.logo.dev/${company.domain}?token=pk_bUM9Jb7fRFSsD3V1KHoDxg`}
+                        alt={company.name}
+                        className="h-4 w-4 object-contain"
+                      />
+                    </div>
+                  ))}
+                  <div className="h-8 w-8 rounded-full border-2 border-background bg-neutral-100 shadow-sm flex items-center justify-center text-[9px] font-mono text-neutral-500 font-semibold">
+                    10k+
+                  </div>
+                </div>
+                <span className="text-xs text-muted-foreground">pharma & biotech companies</span>
+              </div>
             </div>
 
             <div className="grid gap-4 md:grid-cols-3">
